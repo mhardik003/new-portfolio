@@ -2,70 +2,97 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import SadatTransport from '@/images/logos/sadattransport.svg'
-import SmartEnergy from '@/images/logos/smartenergy.svg'
-import HouseToPic from '@/images/logos/housetopic.svg'
-import AudioAesthetics from '@/images/logos/audioAesthetics.svg'
-import SaviCandle from '@/images/logos/savicandle.svg'
-import EVC from '@/images/logos/evc.svg'
+import CodeSVG from '@/images/logos/code.svg'
+import RedditSVG from '@/images/logos/reddit.svg'
+import nlpng from '@/images/logos/nlp.png'
+import CyberSecSVG from '@/images/logos/cybersec.svg'
+import LockPNG from '@/images/logos/lock.png'
+import EyesPNG from '@/images/logos/eyes.svg'
+import DFSPNG from '@/images/logos/dfs.png'
+import BashPNG from '@/images/logos/bash.png'
+
+
+
 
 const projects = [
   {
-    name: 'SadatTransport',
+    name: `Improving 'The Change You Want to See'`,
     description:
-      'Crane and Bus Rental Services in Abu Dhabi, UAE, offer dependable mobile crane and bus rental solutions, ensuring precision, safety, and efficiency for all clients lifting needs.',
+      'Improvements tried to make the original paper called The Change You Want To See as part of Computer Vision course project',
     link: {
-      href: 'https://sadattransport.com/',
-      label: 'sadattransport.com',
-    },
-    logo: SadatTransport,
-  },
-  {
-    name: 'SmartEnergy',
-    description:
-      'Horizon Energy Solution is leading the way in smart, innovative, and sustainable solar solutions with advanced solar technology. We provide efficient, cost-effective, and sustainable power.',
-    link: {
-      href: 'https://horizonenergysolution.com/',
-      label: 'horizonenergysolution.com',
-    },
-    logo: SmartEnergy,
-  },
-  {
-    name: 'HouseTopic',
-    description:
-      'Housetopic is a collection of luxury properties that epitomize elegance and sophistication. Each home is crafted with exceptional detail, offering unparalleled comfort and style.',
-    link: { href: 'https://housetopic.com.au/', label: 'housetopic.com.au' },
-    logo: HouseToPic,
-  },
-  {
-    name: 'AudioAesthetics',
-    description:
-      'Audio Aesthetics is dedicated to designing sound and composing music that ignite engagement, elevate performance, and foster connections between people and organizations.',
-    link: {
-      href: 'https://audioaesthetics.co.uk/',
-      label: 'audioaesthetics.co.uk',
-    },
-    logo: AudioAesthetics,
-  },
-  {
-    name: 'SaviCandleSelections',
-    description:
-      'Savi Candle offers eco-friendly, non-toxic candles crafted from natural ingredients, promoting mindful living and a calming, sustainable ambiance.',
-    link: {
-      href: 'https://savicandleselections.com/',
-      label: 'savicandleselections.com',
-    },
-    logo: SaviCandle,
-  },
-  {
-    name: 'EmpoweredVoicesCollective',
-    description:
-      'Empowered Voices Collective, dedicated to bringing advocacy and empowerment to mental health through community support, resources, and raising awareness about mental wellness.',
-    link: {
-      href: 'https://empoweredvoicescollective.com/',
+      href: 'https://github.com/mhardik003/Improving-The-Change-You-Want-to-See',
       label: 'empoweredvoicescollective.com',
     },
-    logo: EVC,
+    logo: EyesPNG,
+  },
+  {
+    name: 'Lockness',
+    description:
+      'SMPC based protocol for secret sharing of ML models and data',
+    link: {
+      href: 'https://github.com/mhardik003/Lockness',
+      label: 'empoweredvoicescollective.com',
+    },
+    logo: LockPNG,
+  },
+  {
+    name: 'Distributed File System',
+    description:
+      `A C-based Distributed File System that spreads files over several servers but looks like one thanks to a smart naming server. Scalable, resilient, and user-friendly, it's a robust solution for modern data management needs.`,
+    link: {
+      href: 'https://github.com/mhardik003/Distributed-File-System',
+      label: 'FaSquareGithub',
+    },
+    logo: DFSPNG,
+  },
+  {
+    name: 'She-Sells-C-Shells',
+    description:
+      'Implementation of Bash Shell in C, designed to emulate the functionality of Bash in Linux environments with functions like ls, warp, history, system commands etc.',
+    link: {
+      href: 'https://github.com/mhardik003/She-sells-c-shells',
+      label: 'horizonenergysolution.com',
+    },
+    logo: BashPNG,
+  },
+  {
+    name: 'Finetuning GPT-2',
+    description:`Project made as part of iNLP course in which style based on Sheldon's persona was done using GPT-2 Medium model from hugging face`,
+    link: { 
+      href: 'https://github.com/mhardik003/Finetuning-GPT2',
+      label: 'housetopic.com.au' 
+    },
+    logo: CodeSVG,
+  },
+  {
+    name: 'GredIIIT',
+    description:
+      'GredIIT is a social media platform based on MERN stack with UI designed using MUI. It resembled to the original Reddit in a lot of aspects like subreddits, profile creation, upvoting, downvoting etc.',
+    link: {
+      href: 'https://github.com/mhardik003/greddIIT',
+      label: 'audioaesthetics.co.uk',
+    },
+    logo: RedditSVG,
+  },
+  {
+    name: 'NLP Projects',
+    description:
+      'Various projects I made while learning about Natural Language Processing',
+    link: {
+      href: 'https://github.com/mhardik003/Natural-Language-Processing',
+      label: 'savicandleselections.com',
+    },
+    logo: nlpng,
+  },
+  {
+    name: 'Custom CyberSec Tools',
+    description:
+      'Some basic cyber sec tools written in python like ARP Spoofer, Macchanger, Network Scanner, Packet Sniffer.',
+    link: {
+      href: 'https://github.com/mhardik003/Cyber-Sec-Tools',
+      label: 'empoweredvoicescollective.com',
+    },
+    logo: CyberSecSVG,
   },
 ]
 
@@ -89,7 +116,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Apps I've created in an effort to make my mark on the universe."
-      intro="I’ve worked on numerous front-end web apps over the years, but these are the ones I'm most proud of. Take a look at the designs, and feel free to email me with any suggestions on how I can improve."
+      intro="I’ve worked on numerous projects over the years, but these are the ones I'm most proud of. Take a look, and feel free to email me with any suggestions on how I can improve."
     >
       <ul
         role="list"
@@ -109,10 +136,6 @@ export default function Projects() {
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
-            <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-blue-500 dark:text-zinc-200">
-              <LinkIcon className="h-6 w-6 flex-none" />
-              <span className="ml-2">{project.link.label}</span>
-            </p>
           </Card>
         ))}
       </ul>

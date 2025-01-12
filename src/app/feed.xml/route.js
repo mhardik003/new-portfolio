@@ -10,8 +10,8 @@ export async function GET(req) {
   }
 
   let author = {
-    name: 'Muhammad Essa',
-    email: 'imuhammadessa@gmail.com',
+    name: 'Hardik Mittal',
+    email: 'hardik.mittal@research.iiit.ac.in',
   }
 
   let feed = new Feed({

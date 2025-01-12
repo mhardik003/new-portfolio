@@ -6,11 +6,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Muhammad Essa',
-    default: 'Muhammad Essa - Front-end developer.',
+    template: '%s - Hardik Mittal',
+    default: 'Hardik Mittal - CV/NLP Researcher.',
   },
   description:
-    'I’m Muhammad, a front-end developer from Pakistan. I focused on building fast, accessible, and scalable web apps.',
+    ' I’m a CV/NLP Undergraduate Researcher from India. I love learning and playing around with models. I always keep an eye on the ecosystem for what comes next and I’m excited to continue and contribute to it.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

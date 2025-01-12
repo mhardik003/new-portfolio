@@ -35,7 +35,7 @@ function MailIcon(props) {
 
 export const metadata = {
   title: 'About',
-  description: `I'm Muhammad, a front-end developer from Pakistan. Although I explored various fields like video editing and graphic design, none truly resonated with me. My journey into front-end development began in 2020 when I discovered HTML and CSS, and I haven't looked back since. I'm always staying up-to-date with the JavaScript ecosystem, excited to see what comes next.`,
+  description: `Hey! I'm Hardik`,
 }
 
 export default function About() {
@@ -54,70 +54,51 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Front-end developer dedicated to build apps that perfectly works.
+            ML researcher trying to see & speak like robots.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm Muhammad, a front-end developer from Pakistan. Although I explored various fields like video editing and graphic design, none truly sparked my interest. My journey into front-end
-              development began in 2020 when I discovered HTML and CSS, and I
-              haven't looked back since. I'm always staying up-to-date with the
-              JavaScript ecosystem, excited to see what comes next.
+            Hello! I'm Hardik, an undergraduate researcher at <b>CVIT, IIITH</b> pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
             </p>
             <p>
-              I started with basic HTML and CSS, built websites that no one
-              initially liked. Since then, I've worked tirelessly day and night
-              to enhance my front-end skills, always seeking new ways to
-              streamline development. My biggest motivation as a front-end
-              developer is creating websites that genuinely meet my clients'
-              needs.
+            Currently, I'm engaged in various projects in Natural Language Processing and Computer Vision. These projects are not only enhancing my Python skills but also laying a foundation in these fields. My goal is to apply this knowledge to contribute to Open Source Projects related to NLP and Computer Vision.
             </p>
             <p>
-              I spend most of my time searching for solutions to problems and
-              bugs on my own, often turning to Google and ChatGPT for answers. I
-              make mistakes, get frustrated, but I believe this is all part of
-              the process. Despite the challenges, I continue to build and grow
-              as a developer.
+            When I’m not coding, you’ll find me jogging, playing football, drumming, snapping photos, editing videos, or geeking out over emerging technologies and startups or lost in mountains. Oh, and I also serve as the <b>Vice-Coordinator at E-Cell, IIITH</b>, where I get to collaborate with founders and like-minded students on product ideation and marketing strategies.
             </p>
             <p>
-              I have worked with several tech-based companies as a developer,
-              built many projects that speedup companies performance and I mysef
-              satisfied many client's around the world.
-              Currently, I'm looking for work in a tech-based company
-              specializing in web application development that aims to
-              meet the growing demands of the tech industry. My go-to
-              stack includes React, Next.js, TailwindCSS, RestAPI, and Git for building modern
-              web apps.
+            <i>That’s a bit about me—now let’s hear about you! Feel free to drop me a message or email on any of my socials; I’d love to connect!</i>
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://www.linkedin.com/in/imuhammadessa/"
+              href="https://www.linkedin.com/in/mhardik003/"
               icon={LinkedInIcon}
             >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="https://github.com/imuhammadessa"
+              href="https://github.com/mhardik003"
               icon={GitHubIcon}
               className="mt-4"
             >
               Follow on GitHub
             </SocialLink>
             <SocialLink
-              href="https://twitter.com/imuhammadessa"
+              href="https://twitter.com/mhardik003"
               icon={XIcon}
               className="mt-4"
             >
               Follow on X (Twitter)
             </SocialLink>
             <SocialLink
-              href="mailto:imuhammadessa@gmail.com"
+              href="mailto:hardik.mittal@research.iiit.ac.in"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              imuhammadessa@gmail.com
+              hardik[dot]mittal[at]research.iiit.ac.in
             </SocialLink>
           </ul>
         </div>
