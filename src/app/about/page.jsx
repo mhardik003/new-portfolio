@@ -75,12 +75,14 @@ export default function About() {
           <ul role="list">
             <SocialLink
               href="https://www.linkedin.com/in/mhardik003/"
+              target="_blank" // Opens link in a new tab
               icon={LinkedInIcon}
             >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
               href="https://github.com/mhardik003"
+              target="_blank" // Opens link in a new tab
               icon={GitHubIcon}
               className="mt-4"
             >
@@ -88,6 +90,7 @@ export default function About() {
             </SocialLink>
             <SocialLink
               href="https://twitter.com/mhardik003"
+              target="_blank" // Opens link in a new tab
               icon={XIcon}
               className="mt-4"
             >

@@ -35,11 +35,13 @@ export default function Speaking() {
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://www.linkedin.com/in/mhardik003/"
+          target="_blank" // Opens link in a new tab
           aria-label="Follow on LinkedIn"
           icon={LinkedInIcon}
         />
         <SocialLink
           href="https://twitter.com/mhardik003"
+          target="_blank" // Opens link in a new tab
           aria-label="Follow on X"
           icon={XIcon}
         />
