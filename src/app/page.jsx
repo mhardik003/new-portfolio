@@ -357,7 +357,7 @@ export default async function Home() {
             className="group mt-6 ml-4"
             
           >
-            My Work
+            Experience
             <RightArrowIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
           </Button> 
           <Button
