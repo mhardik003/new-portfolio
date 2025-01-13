@@ -4,6 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import { PiDevToLogoLight } from "react-icons/pi";
+import { SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
+import { VscGithubAlt } from "react-icons/vsc";
+
 import { Container } from '@/components/Container'
 import { LinkedInIcon, GitHubIcon, XIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
@@ -13,6 +17,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target="_blank"
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-blue-500 dark:text-zinc-200 dark:hover:text-blue-500"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-blue-500" />
@@ -76,14 +81,16 @@ export default function About() {
             <SocialLink
               href="https://www.linkedin.com/in/mhardik003/"
               target="_blank" // Opens link in a new tab
-              icon={LinkedInIcon}
+              rel="noopener noreferrer" 
+              icon={SlSocialLinkedin}
             >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
               href="https://github.com/mhardik003"
               target="_blank" // Opens link in a new tab
-              icon={GitHubIcon}
+              rel="noopener noreferrer" 
+              icon={VscGithubAlt}
               className="mt-4"
             >
               Follow on GitHub
@@ -91,7 +98,8 @@ export default function About() {
             <SocialLink
               href="https://twitter.com/mhardik003"
               target="_blank" // Opens link in a new tab
-              icon={XIcon}
+              rel="noopener noreferrer" 
+              icon={SlSocialTwitter}
               className="mt-4"
             >
               Follow on X (Twitter)

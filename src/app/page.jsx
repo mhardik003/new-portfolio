@@ -16,7 +16,6 @@ import { VscGithubAlt } from "react-icons/vsc";
 // import { ReactComponent as DevTo} from '../images/logos/dev-to.svg';
 
 import CVIT from '@/images/logos/cvit.png'
-import PSYDUCK from '@/images/logos/psyduck.svg'
 import ECELL from '@/images/logos/ecell.png'
 import IIITH from '@/images/logos/iiith.png'
 import SpinLogics from '@/images/logos/SpinLogics.png'
