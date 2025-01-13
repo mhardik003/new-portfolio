@@ -82,7 +82,7 @@ export default function About() {
               href="https://www.linkedin.com/in/mhardik003/"
               target="_blank" // Opens link in a new tab
               rel="noopener noreferrer" 
-              icon={SlSocialLinkedin}
+              icon={LinkedInIcon}
             >
               Follow on LinkedIn
             </SocialLink>
@@ -90,7 +90,7 @@ export default function About() {
               href="https://github.com/mhardik003"
               target="_blank" // Opens link in a new tab
               rel="noopener noreferrer" 
-              icon={VscGithubAlt}
+              icon={GitHubIcon}
               className="mt-4"
             >
               Follow on GitHub
@@ -99,7 +99,7 @@ export default function About() {
               href="https://twitter.com/mhardik003"
               target="_blank" // Opens link in a new tab
               rel="noopener noreferrer" 
-              icon={SlSocialTwitter}
+              icon={XIcon}
               className="mt-4"
             >
               Follow on X (Twitter)

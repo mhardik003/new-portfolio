@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { LinkedInIcon, XIcon } from '@/components/SocialIcons'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import { PiDevToLogoLight } from "react-icons/pi";
+
 
 export const metadata = {
   title: 'Contact',
@@ -45,6 +47,12 @@ export default function Speaking() {
           aria-label="Follow on X"
           icon={XIcon}
         />
+        <SocialLink
+          href="https://dev.to/mhardik003"
+          target="_blank" // Opens link in a new tab
+          aria-label="Follow on Dev To"
+          icon={PiDevToLogoLight}
+          />
         <SocialLink
           href="mailto:hardik.mittal@research.iiit.ac.in"
           aria-label="Send an email at hardik[dot]mittal[at]research.iiit.ac.in"
