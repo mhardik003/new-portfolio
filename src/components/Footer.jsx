@@ -26,7 +26,7 @@ export function Footer() {
                 &copy; {new Date().getFullYear()} Hardik Mittal. All rights reserved.
               </p>
               <p className="text-sm text-zinc-400 dark:text-zinc-500 sm:text-right">
-                Last updated on {lastUpdated}.
+                Last updated in {lastUpdated}.
               </p>
             </div>
           </ContainerInner>
