@@ -342,7 +342,6 @@ export default async function Home() {
         <div className="mt-3 flex gap-3">
           <Button
             href="/about"
-            target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
             variant="secondary"
             className="group mt-6"
@@ -352,7 +351,6 @@ export default async function Home() {
           </Button> 
           <Button
             href="/work"
-            target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
             variant="secondary"
             className="group mt-6 ml-4"
