@@ -338,8 +338,7 @@ export default async function Home() {
           I’m a CV/NLP undergraduate researcher from India with a knack for exploring models and a curiosity for what’s next in AI. Learning, experimenting, and contributing—one breakthrough at a time!
           </p>
           <div className="mt-4 mb-9">
-        
-        <div className="mt-3 flex gap-3">
+            
           <Button
             href="/about"
             target="_blank" // Opens link in a new tab
@@ -349,8 +348,8 @@ export default async function Home() {
           >
             About Me
             <RightArrowIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-          </Button> 
-          <Button
+        </Button> 
+        <Button
             href="/work"
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
@@ -360,8 +359,8 @@ export default async function Home() {
           >
             My Work
             <RightArrowIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-          </Button> 
-          <Button
+        </Button> 
+        <Button
             href="https://drive.google.com/file/d/1LVl97NKSGx9gHV56uqH-xJkPhMAiEEhD/view"
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
@@ -370,8 +369,7 @@ export default async function Home() {
           >
             Download CV
             <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-          </Button>            
-          </div>
+        </Button>            
           </div>
           {/* <h3 className="mt-8 text-2xl font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">  
               Contact  
@@ -403,7 +401,10 @@ export default async function Home() {
         </div>
 
         <hr className="my-6 border-t border-zinc-100 dark:border-zinc-700/40" />
+        <div className="mt-5 sm:mt-5">
 
+          <p><br></br></p>
+        </div>
       </Container>
 
 
