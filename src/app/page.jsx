@@ -319,7 +319,7 @@ export default async function Home() {
         <span style={{ display: 'inline-flex', alignItems: 'stretch', marginBottom: -50 }}>
 
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">  
-              Hi there, I'm Hardik  &nbsp;  
+              Hi there, I'm हार्दिक  &nbsp;  
           </h1>
 
               <svg xmlns="http://www.w3.org/2000/svg"
