@@ -10,18 +10,40 @@ import LockPNG from '@/images/logos/lock.png'
 import EyesPNG from '@/images/logos/eyes.svg'
 import DFSPNG from '@/images/logos/dfs.png'
 import BashPNG from '@/images/logos/bash.png'
+import Brain from '@/images/logos/brain.jpg'
+import JSON from '@/images/logos/json.png'
 
 
 
 
 const projects = [
   {
+    name: `Modelling video fMRI data`,
+    description:
+      'This project explores the neural representation of complex naturalistic stimuli by developing encoding and decoding models that link video content with brain activity captured using functional magnetic resonance imaging (fMRI).',
+    link: {
+      href: 'https://github.com/mhardik003/modelling_video_fMRI_data',
+      label: 'hardik-mittal.in',
+    },
+    logo: Brain,
+  },
+  {
+    name: `Structured output evaluation of LLMs`,
+    description:
+      'Evaluation of structured outputs, focusing primarily on JSON, and proposes a set of techniques and metrics that better capture the fidelity, accuracy, and usefulness of generated structured data.',
+    link: {
+      href: 'https://github.com/mhardik003/structured_output_evaluation_of_LLMs',
+      label: 'hardik-mittal.in',
+    },
+    logo: JSON,
+  },
+  {
     name: `Improving 'The Change You Want to See'`,
     description:
       'Improvements tried to make the original paper called The Change You Want To See as part of Computer Vision course project',
     link: {
       href: 'https://github.com/mhardik003/Improving-The-Change-You-Want-to-See',
-      label: 'empoweredvoicescollective.com',
+      label: 'hardik-mittal.in',
     },
     logo: EyesPNG,
   },
@@ -31,7 +53,7 @@ const projects = [
       'SMPC based protocol for secret sharing of ML models and data',
     link: {
       href: 'https://github.com/mhardik003/Lockness',
-      label: 'empoweredvoicescollective.com',
+      label: 'hardik-mittal.in',
     },
     logo: LockPNG,
   },
@@ -90,7 +112,7 @@ const projects = [
       'Some basic cyber sec tools written in python like ARP Spoofer, Macchanger, Network Scanner, Packet Sniffer.',
     link: {
       href: 'https://github.com/mhardik003/Cyber-Sec-Tools',
-      label: 'empoweredvoicescollective.com',
+      label: 'hardik-mittal.in',
     },
     logo: CyberSecSVG,
   },
