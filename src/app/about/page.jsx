@@ -62,12 +62,23 @@ export default function About() {
             ML researcher trying to see & speak like robots.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-            Hello! I'm Hardik, an undergraduate researcher at <b>CVIT, IIITH</b> pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
-            </p>
-            <p>
-            Currently, I'm engaged in various projects in Natural Language Processing and Computer Vision. These projects are not only enhancing my Python skills but also laying a foundation in these fields. My goal is to apply this knowledge to contribute to Open Source Projects related to NLP and Computer Vision.
-            </p>
+          <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
+          Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
+<br></br>
+<br></br>
+          Currently, I'm engaged in projects related to multimodal video summarisation and their applications of helping content creators in making reels/shorts in a much faster pipeline with     <p>
+                <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Dr. Makarand Tapaswi
+                </a>,{' '}
+                <a href="https://faculty.iiit.ac.in/~vgandhi/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Dr. Vineet Gandhi
+                </a>{' '}
+                and{' '}
+                <a href="https://www.linkedin.com/in/niranjanpedanekar/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Niranjan Pedanekar
+                </a>
+              </p>
+          </p>
             <p>
             When I’m not coding, you’ll find me jogging, playing football, drumming, snapping photos, editing videos, or geeking out over emerging technologies and startups or lost in mountains. Oh, and I also serve as the <b>Vice-Coordinator at E-Cell, IIITH</b>, where I get to collaborate with founders and like-minded students on product ideation and marketing strategies.
             </p>

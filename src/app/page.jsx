@@ -334,7 +334,21 @@ export default async function Home() {
         </span>
             
           <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
-          I’m a CV/NLP undergraduate researcher from India with a knack for exploring models and a curiosity for what’s next in AI. Learning, experimenting, and contributing—one breakthrough at a time!
+          Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
+<br></br>
+<br></br>
+          Currently, I'm engaged in projects related to multimodal video summarisation and their applications of helping content creators in making reels/shorts in a much faster pipeline with     <p>
+                <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Dr. Makarand Tapaswi
+                </a>,{' '}
+                <a href="https://faculty.iiit.ac.in/~vgandhi/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Dr. Vineet Gandhi
+                </a>{' '}
+                and{' '}
+                <a href="https://www.linkedin.com/in/niranjanpedanekar/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+                  Niranjan Pedanekar
+                </a>
+              </p>
           </p>
           <div className="mt-4 mb-9">
         
