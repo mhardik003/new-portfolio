@@ -64,10 +64,13 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
           <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
           Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
-<br></br>
-<br></br>
+          <br></br>
+          <br></br>
+
+          
           Currently, I am doing a part time internship with <b>Trexquant</b> as a Global Alpha Researcher, where I am developing sophisticated machine learning and stats based models to beat the market and generate alpha.
-          <p></p>
+          
+          <br></br>
           <br></br>
            Along with the I'm engaged in projects related to multimodal video summarisation and their applications of helping content creators in making reels/shorts in a much faster pipeline with     <p>
                 <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">

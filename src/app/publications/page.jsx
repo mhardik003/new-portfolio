@@ -18,6 +18,7 @@ export const metadata = {
   title: 'Publications',
   description: 'Manuscripts, I wrote those.',
 }
+
 function CertificationsIcon(props) {
   return (
     <svg
@@ -49,6 +50,33 @@ function CertificationsIcon(props) {
         className="stroke-zinc-400 dark:stroke-zinc-500"
       />{' '}
       {/* Ribbon or banner at the bottom */}
+    </svg>
+  )
+}
+
+function MicrophoneIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path
+        d="M12 4v12m0 0a4 4 0 0 0 4-4V8a4 4 0 0 0-8 0v4a4 4 0 0 0 4 4z" // Microphone body
+        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+      />
+      <path
+        d="M16 12v1a4 4 0 0 1-8 0v-1" // Sound waves or mic base
+        className="stroke-zinc-400 dark:stroke-zinc-500"
+      />
+      <path
+        d="M8 20h8M12 16v4" // Mic stand and connection
+        className="stroke-zinc-400 dark:stroke-zinc-500"
+      />
     </svg>
   )
 }
@@ -89,7 +117,7 @@ function Talks() {
   return (
     <div className="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <CertificationsIcon className="h-6 w-6 flex-none" />
+        <MicrophoneIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Talks</span>
       </h2>
       <ol className="mt-6 space-y-4">

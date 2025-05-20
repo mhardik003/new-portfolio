@@ -20,6 +20,48 @@ export const metadata = {
   description: 'Thats my daily chore',
 }
 
+function AchievementMedalIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      {/* Medal circle */}
+      <circle
+        cx="12"
+        cy="9"
+        r="5"
+        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+      />
+      
+      {/* Inner circle detail */}
+      <circle
+        cx="12"
+        cy="9"
+        r="2"
+        className="stroke-zinc-400 dark:stroke-zinc-500"
+      />
+      
+      {/* Left ribbon */}
+      <path
+        d="M8 14l-1 8 5-3"
+        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+      />
+      
+      {/* Right ribbon */}
+      <path
+        d="M16 14l1 8-5-3"
+        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+      />
+    </svg>
+  )
+}
+
 function BriefcaseIcon(props) {
   return (
     <svg
@@ -207,7 +249,6 @@ function Resume() {
   )
 }
 
-
 function Achievements() {
   let achievements = [
     {
@@ -245,7 +286,7 @@ function Achievements() {
   return (
     <div className="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <CertificationsIcon className="h-6 w-6 flex-none" />
+        <AchievementMedalIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Achievements</span>
       </h2>
       <ol className="mt-6 space-y-4">
