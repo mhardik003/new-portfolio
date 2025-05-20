@@ -374,6 +374,16 @@ export default async function Home() {
             <RightArrowIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
           </Button> 
           <Button
+            href="/publications"
+            rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
+            variant="secondary"
+            className="group mt-6 ml-4"
+            
+          >
+            Publications & Talks
+            <RightArrowIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+          </Button> 
+          <Button
             href="https://drive.google.com/file/d/1LVl97NKSGx9gHV56uqH-xJkPhMAiEEhD/view"
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent potential vulnerabilities
