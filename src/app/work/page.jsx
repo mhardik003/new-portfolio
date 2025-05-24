@@ -173,17 +173,6 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Trexquant',
-      title: 'Global Alpha Researcher',
-      logo: TrexQuant,
-      start: 'May 2025',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
-
-    {
       company: 'CVIT, IIITH',
       title: 'Undergraduate Researcher',
       logo: CVIT,
