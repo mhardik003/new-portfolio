@@ -98,10 +98,17 @@ function ArrowDownIcon(props) {
 function Talks() {
   let talks = [
     {
+      title: `RNNs, LSTMs, Attention`,
+      conf: 'CVIT, IIITH',
+      logo: CVIT,
+      talk_date: 'May, 2025',
+      link:'https://docs.google.com/presentation/d/1btx_0Ps8cdr6XT04fEjKqbNG-NZw2f7mysGU_EKeZkY/edit?usp=sharing'
+    },
+    {
       title: `WandB & Ada`,
       conf: 'CVIT, IIITH',
       logo: CVIT,
-      talk_date: '2024',
+      talk_date: 'May, 2024',
       link:'https://docs.google.com/presentation/d/1ycP_7qe255JJ7ODp3iPiWvlkPVwGgYn1SWvGOcI_KKY/edit?slide=id.p#slide=id.p'
     },
     {
