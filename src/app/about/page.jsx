@@ -72,8 +72,8 @@ export default function About() {
           
           <br></br>
           <br></br>
-           Along with the I'm engaged in projects related to multimodal video summarisation and their applications of helping content creators in making reels/shorts in a much faster pipeline with     <p>
-                <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+           Along with the I'm engaged in projects related to multimodal video summarisation and their applications of helping content creators in making reels/shorts in a much faster pipeline with   
+               {' '} <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Makarand Tapaswi
                 </a>,{' '}
                 <a href="https://faculty.iiit.ac.in/~vgandhi/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
@@ -84,13 +84,20 @@ export default function About() {
                   Niranjan Pedanekar
                 </a>
               </p>
-          </p>
+          
+
             <p>
-            When I’m not coding, you’ll find me jogging, playing football, drumming, snapping photos, editing videos, or geeking out over emerging technologies and startups or lost in mountains. Oh, and I also used to serve as the <b>Vice-Coordinator at E-Cell, IIITH</b>, where I get to collaborate with founders and like-minded students on product ideation and marketing strategies.
+            When I’m not coding, you’ll find me jogging, playing football, drumming,{' '}
+             <a href="/photography" style={{ textDecoration: 'underline' }}>
+                  snapping photos
+            </a>
+            , editing videos, or geeking out over emerging technologies and startups or lost in mountains. Oh, and I also used to serve as the <b>Vice-Coordinator at E-Cell, IIITH</b>, where I get to collaborate with founders and like-minded students on product ideation and marketing strategies.
             </p>
             <p>
             <i>That’s a bit about me—now let’s hear about you! Feel free to drop me a message or email on any of my socials; I’d love to connect!</i>
             </p>
+
+            
           </div>
         </div>
         <div className="lg:pl-20">

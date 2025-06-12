@@ -14,7 +14,7 @@ function NavLink({ href, children }) {
 }
 
 export function Footer() {
-  const lastUpdated = "May 2025"; // Replace with the appropriate month and year
+  const lastUpdated = "June 2025"; // Replace with the appropriate month and year
 
   return (
     <footer className="mt-32 flex-none">
