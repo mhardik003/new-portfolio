@@ -68,7 +68,7 @@ export default function About() {
           <br></br>
 
           
-          Currently, I am doing a part time internship with <b>Trexquant</b> as a Global Alpha Researcher, where I am developing sophisticated machine learning and stats based models to beat the market and generate alpha.
+          In the summer of '25, I was also doing a part time internship with <b>Trexquant</b> as a Global Alpha Researcher, where I was developing machine learning and stats based models to beat the market and generate alpha.
           
           <br></br>
           <br></br>
