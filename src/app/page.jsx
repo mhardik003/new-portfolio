@@ -347,7 +347,7 @@ export default async function Home() {
                 </a>,{' '}
                 <a href="https://faculty.iiit.ac.in/~vgandhi/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Vineet Gandhi
-                </a>
+                </a> {' '}
                 and {' '}
                 <a href="https://www.linkedin.com/in/niranjanpedanekar/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Niranjan Pedanekar
