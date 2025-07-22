@@ -337,8 +337,8 @@ export default async function Home() {
           Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
 <br></br>
 <br></br>
-          Currently, I'm engaged in projects related to improving video language models by trying to incorporate reasoning in them, multimodal video summarisation and their applications of helping content creators with     <p>
-                <a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+          Currently, I'm engaged in projects related to improving video language models by trying to incorporate reasoning in them, multimodal video summarisation and their applications of helping content creators with    
+                {' '}<a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Makarand Tapaswi
                 </a>,{' '}
                 {' '}
@@ -347,13 +347,13 @@ export default async function Home() {
                 </a>,{' '}
                 <a href="https://faculty.iiit.ac.in/~vgandhi/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Vineet Gandhi
-                </a>{' '}
+                </a>
                 and {' '}
                 <a href="https://www.linkedin.com/in/niranjanpedanekar/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Niranjan Pedanekar
                 </a>
                 .
-              </p>
+              
           </p>
           <div className="mt-4 mb-9">
         
