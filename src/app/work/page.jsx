@@ -12,6 +12,7 @@ import TrexQuant from '@/images/logos/trexquant.jpeg'
 import AIC from '@/images/logos/AIC.png'
 import LG from '@/images/logos/lg.png'
 import INDIAAI from '@/images/logos/indiaai.png'
+import SONY from '@/images/logos/sony.png'
 
 import SERC from '@/images/logos/SERC.png'
 
@@ -181,6 +182,16 @@ function Resume() {
         label: 'June 2025',
         dateTime: new Date().getFullYear().toString(),
       }
+    },
+    {
+      company: 'Sony Research India',
+      title: 'Affiliate Researcher',
+      logo: SONY,
+      start: 'June 2024',
+      end: {
+        label: 'May 2025',
+        dateTime: new Date().getFullYear().toString(),
+      },
     },
     {
       company: 'CVIT, IIITH',

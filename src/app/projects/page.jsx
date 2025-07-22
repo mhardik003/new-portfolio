@@ -12,6 +12,7 @@ import DFSPNG from '@/images/logos/dfs.png'
 import BashPNG from '@/images/logos/bash.png'
 import Brain from '@/images/logos/brain.jpg'
 import JSON from '@/images/logos/json.png'
+import { FaGithub } from 'react-icons/fa';
 
 
 
@@ -138,12 +139,30 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Apps I've created in an effort to make my mark on the universe."
-      intro="I’ve worked on numerous projects over the years, but these are the ones I'm most proud of. Take a look, and feel free to email me with any suggestions on how I can improve."
-    >
+      intro={
+        <>
+          Some of the projects I'm most proud of. Many more at my {' '}
+          <span className="inline-flex items-center space-x-1">
+            <a
+              href="https://github.com/mhardik003"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+            <FaGithub className="w-4 h-4" />
+              
+            </a>
+          </span>.
+          <hr className="my-6 border-t border-gray-300" />
+        </>
+      }
+      >
       <ul
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
       >
+
+
         {projects.map((project) => (
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
