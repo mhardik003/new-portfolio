@@ -3,29 +3,9 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 const photos = [
   {
-    src: '/images/photography/aunty.jpg',
-    alt: 'woman in the mountains carrying logs on her shoulder',
-    caption: 'woman in the mountains carrying logs on her shoulder',
-  },
-  {
-    src: '/images/photography/vodarevu.png',
-    alt: 'first time seeing the sea at vodarevu',
-    caption: 'first time seeing the sea at vodarevu',
-  },
-  {
-    src: '/images/photography/chirala.jpg',
-    alt: 'a pretty scene while walking down the chirala beach',
-    caption: 'a pretty scene while walking down the chirala beach',
-  },
-  {
-    src: '/images/photography/hampta_pass.png',
-    alt: 'pretty horse around one of the camps on my hampta pass trek',
-    caption: 'pretty horse around one of the camps on my hampta pass trek',
-  },
-  {
-    src: '/images/photography/jharipani.jpg',
-    alt: 'a mossy waterfall in jharipani, mussoorie',
-    caption: 'a mossy waterfall in jharipani, mussoorie',
+    src: '/images/photography/boxing.jpeg',
+    alt: 'boxing in NBH at night',
+    caption: 'boxing in NBH at night',
   },
   {
     src: '/images/photography/gokarna.png',
@@ -33,9 +13,34 @@ const photos = [
     caption: 'an old shore in gokarna',
   },
   {
+    src: '/images/photography/vodarevu.png',
+    alt: 'first time seeing the sea at vodarevu',
+    caption: 'first time seeing the sea at vodarevu',
+  },
+  {
+    src: '/images/photography/hampta_pass.png',
+    alt: 'pretty horse around one of the camps on my hampta pass trek',
+    caption: 'pretty horse around one of the camps on my hampta pass trek',
+  },
+  {
+    src: '/images/photography/chirala.jpg',
+    alt: 'a pretty scene while walking down the chirala beach',
+    caption: 'a pretty scene while walking down the chirala beach',
+  },
+  {
+    src: '/images/photography/jharipani.jpg',
+    alt: 'a mossy waterfall in jharipani, mussoorie',
+    caption: 'a mossy waterfall in jharipani, mussoorie',
+  },
+  {
     src: '/images/photography/monki.png',
     alt: 'monkey enjoying sunrise',
     caption: 'monkey enjoying sunrise',
+  },
+  {
+    src: '/images/photography/aunty.jpg',
+    alt: 'woman in the mountains carrying logs on her shoulder',
+    caption: 'woman in the mountains carrying logs on her shoulder',
   },
   {
     src: '/images/photography/piggo.jpg',
