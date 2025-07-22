@@ -141,7 +141,7 @@ export default function Projects() {
       title="Apps I've created in an effort to make my mark on the universe."
       intro={
         <>
-          Some of the projects I'm most proud of. Many more at my {' '}
+          Some of the projects I am most proud of. Many more at my {' '}
           <span className="inline-flex items-center space-x-1">
             <a
               href="https://github.com/mhardik003"
