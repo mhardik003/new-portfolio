@@ -3,9 +3,44 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 const photos = [
   {
-    src: '/images/photography/boxing.jpeg',
-    alt: 'boxing in NBH at night',
-    caption: 'boxing in NBH at night',
+    src: '/images/photography/akshit.jpeg',
+    alt: "akshit's room and akshit",
+    caption: "akshit's room and akshit",
+  },
+    {
+    src: '/images/photography/album_cover.jpeg',
+    alt: 'gave album cover vibes',
+    caption: 'gave album cover vibes',
+  },
+    {
+    src: '/images/photography/auto.jpeg',
+    alt: 'an auto in the rain in iiit campus',
+    caption: 'an auto in the rain in iiit campus',
+  },
+    {
+    src: '/images/photography/bags.jpeg',
+    alt: 'bags outside the library',
+    caption: 'bags outside the library',
+  },
+    {
+    src: '/images/photography/guest_house.jpeg',
+    alt: 'guest house and way to devids after rain ',
+    caption: 'guest house and way to devids after rain ',
+  },
+    {
+    src: '/images/photography/nilgiri.jpeg',
+    alt: 'nilgiri building new cover pic?',
+    caption: 'nilgiri building new cover pic?',
+  },
+    {
+    src: '/images/photography/random.jpeg',
+    alt: 'reckless and full of wrecks',
+    caption: 'reckless and full of wrecks',
+  },
+  {
+    src: '/images/photography/worker_1.jpeg',
+    alt: 'construction of the new acad block',
+    caption: 'construction of the new acad block',
   },
   {
     src: '/images/photography/gokarna.png',
