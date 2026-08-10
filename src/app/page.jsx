@@ -334,10 +334,10 @@ export default async function Home() {
         </span>
             
           <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
-          Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
+          Hello! I'm Hardik. For three years I tried to make video models actually understand what they were watching. In August 2026 I traded the GPU queue for production traffic and joined <b>Stripe</b> in Bengaluru as a Software Engineer.
 <br></br>
 <br></br>
-          Currently, I'm engaged in projects related to improving video language models by trying to incorporate reasoning in them, multimodal video summarisation and their applications of helping content creators with    
+          Most of that happened at CVIT, IIITH: teaching video models to reason, working out where they actually point their attention, and summarising video alongside    
                 {' '}<a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Makarand Tapaswi
                 </a>,{' '}
@@ -352,7 +352,7 @@ export default async function Home() {
                 <a href="https://www.linkedin.com/in/niranjanpedanekar/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Niranjan Pedanekar
                 </a>
-                .
+                . Two SemEval papers and a dual degree later, the habit hasn't gone anywhere. I still pick up research-shaped side projects whenever an idea refuses to leave me alone.
               
           </p>
           <div className="mt-4 mb-9">

@@ -12,12 +12,62 @@ import DFSPNG from '@/images/logos/dfs.png'
 import BashPNG from '@/images/logos/bash.png'
 import Brain from '@/images/logos/brain.jpg'
 import JSON from '@/images/logos/json.png'
+import ScholarSVG from '@/images/logos/scholar.svg'
+import WhatsAppSVG from '@/images/logos/whatsapp.svg'
+import CareerTreeSVG from '@/images/logos/careertree.svg'
+import ParalegalSVG from '@/images/logos/paralegal.svg'
+import DeepSeekSVG from '@/images/logos/deepseek.svg'
 import { FaGithub } from 'react-icons/fa';
 
 
 
 
 const projects = [
+  {
+    name: `Scholar Search`,
+    description: `A RAG system that reads Google Scholar so you don't have to. It scrapes the papers, works out what a lab actually researches, and ranks people by how well they match the problem you're stuck on.`,
+    link: {
+      href: 'https://scholarsearch.duckdns.org/',
+      label: 'scholarsearch.duckdns.org',
+    },
+    logo: ScholarSVG,
+  },
+  {
+    name: `Snookie`,
+    description: `A WhatsApp-native habit coach that refuses to become another app you forget to open. Tell it what you're trying to get better at and it infers the goals, habits and nudges straight out of the conversation.`,
+    link: {
+      href: 'https://getsnookie.vercel.app/',
+      label: 'getsnookie.vercel.app',
+    },
+    logo: WhatsAppSVG,
+  },
+  {
+    name: `Career Tree`,
+    description: `An open-source map of the Indian education system: 677 nodes and 1,505 typed edges of "what can I actually become from here", drawn as a branching tree instead of yet another aptitude quiz.`,
+    link: {
+      href: 'https://github.com/mhardik003/career-tree',
+      label: 'careerstree.in',
+    },
+    logo: CareerTreeSVG,
+  },
+  {
+    name: `Paralegal and Attorney`,
+    description: `A re-ranking RAG system over 15,000+ court orders, statutes and contracts, with agents that search the web, draft case studies and write the contracts themselves. The repo is called bitter-lesson, which should tell you how it went.`,
+    link: {
+      href: 'https://github.com/mhardik003/bitter-lesson',
+      label: 'hardik-mittal.in',
+    },
+    logo: ParalegalSVG,
+  },
+  {
+    name: `Multilingual Math DeepSeek`,
+    description: `A 150M-parameter multilingual model pretrained from scratch on a 3B-token corpus, then finetuned until it could follow instructions and do arithmetic in more than one language.`,
+    link: {
+      href: 'https://github.com/mhardik003/multilingual-math-deepseek',
+      label: 'hardik-mittal.in',
+    },
+    logo: DeepSeekSVG,
+  },
   {
     name: `Modelling video fMRI data`,
     description:
@@ -153,10 +203,10 @@ export default function Projects() {
               
             </a>
           </span>.
-          <hr className="my-6 border-t border-gray-300" />
         </>
       }
       >
+      <hr className="mb-12 border-t border-gray-300" />
       <ul
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"

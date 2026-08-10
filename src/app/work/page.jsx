@@ -13,6 +13,8 @@ import AIC from '@/images/logos/AIC.png'
 import LG from '@/images/logos/lg.png'
 import INDIAAI from '@/images/logos/indiaai.png'
 import SONY from '@/images/logos/sony.png'
+import STRIPE from '@/images/logos/stripe.svg'
+import BLS from '@/images/logos/bls.png'
 
 import SERC from '@/images/logos/SERC.png'
 
@@ -174,6 +176,26 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
+      company: 'Stripe',
+      title: 'Software Engineer',
+      logo: STRIPE,
+      start: 'August 2026',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
+      company: 'Big Language Solutions',
+      title: 'ML Engineer',
+      logo: BLS,
+      start: 'June 2026',
+      end: {
+        label: 'July 2026',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'Trexquant',
       title: 'Global Alpha Researcher',
       logo: TrexQuant,
@@ -185,7 +207,7 @@ function Resume() {
     },
     {
       company: 'Sony Research India',
-      title: 'Affiliate Researcher',
+      title: 'Affiliate ML Researcher',
       logo: SONY,
       start: 'June 2024',
       end: {
@@ -195,7 +217,7 @@ function Resume() {
     },
     {
       company: 'CVIT, IIITH',
-      title: 'Undergraduate Researcher',
+      title: 'Undergraduate ML Researcher',
       logo: CVIT,
       start: 'May 2023',
       end: {
@@ -265,8 +287,8 @@ function Achievements() {
       company: `IndiaAI Fellowship`,
       title: 'IndiaAI',
       logo: INDIAAI,
-      start: '2025',
-    },    
+      start: '2024',
+    },
     {
       company: `'LIFE'S GOOD' Scholarship`,
       title: 'LG',
@@ -343,7 +365,7 @@ function Educations() {
       company: `International Institute of Information Technology, Hyderabad`,
       title: 'B.Tech in Computer Science and Master of Science in Computational Linguistics by Research',
       logo: IIITH,
-      start: '2021-2026',
+      start: 'Sep 2021 - Nov 2026',
     },
     {
       company: 'Ann Mary School',
@@ -402,7 +424,7 @@ export default function Speaking() {
   return (
     <SimpleLayout1
       title="Experience."
-      intro="I am just getting started so nothing much to show here, oops."
+      intro="A running list of everyone who has let me near their GPUs, their codebases and, more recently, their production traffic."
       style
     >
     <Button

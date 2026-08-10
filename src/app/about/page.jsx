@@ -59,16 +59,17 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            ML researcher trying to see & speak like robots.
+            Taught robots to see. Now I ship the boring stuff that makes money
+            move.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
           <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
-            Hello! I'm Hardik, an undergraduate researcher at CVIT, IIITH pursuing a dual degree program, combining a B.Tech in Computer Science with an MS by Research in Computational Linguistics, with an anticipated graduation in 2026.
+            Hello! I'm Hardik. For three years I tried to make video models actually understand what they were watching. In August 2026 I traded the GPU queue for production traffic and joined <b>Stripe</b> in Bengaluru as a Software Engineer, building the systems and tooling that make sellers and internal revenue teams dramatically more effective.
             <br></br>
             <br></br>
 
-          
-          Currently, I'm engaged in projects related to <b>improving video language models by trying to incorporate reasoning</b> in them, multimodal video summarisation and their applications of helping content creators with    
+
+          Most of that happened at <b>CVIT, IIITH</b>: <b>improving video comprehension</b> in video encoders, devising an Optical Grounding Score to work out where video MLLMs actually point their attention, and multimodal video summarisation, all alongside
                 {' '}<a href="https://makarandtapaswi.github.io/" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
                   Dr. Makarand Tapaswi
                 </a>,{' '}
@@ -88,9 +89,16 @@ export default function About() {
        
           </p>
           
-          <br></br>
-
-          In the summer of '25, I was also doing a part time internship with <b>Trexquant</b> as a Global Alpha Researcher, where I was developing machine learning and stats based models to beat the market and generate alpha.
+          <p>
+            Two SemEval 2024 papers came out of that stretch, along with a dual degree, B.Tech in Computer Science and an MS by Research in Computational Linguistics, that wraps up this November. The habit never really left, though. I still pick up research-shaped side projects whenever an idea refuses to leave me alone: a re-ranking RAG system over 15,000 legal documents, a 150M-parameter multilingual math model trained from scratch, a career graph for the entire Indian education system. Nobody asked for any of it.
+          </p>
+          <p>
+            Before Stripe there were detours worth keeping: <b>Big Language Solutions</b>, where I worked with{' '}
+            <a href="https://www.linkedin.com/in/maciejmodrzejewski" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+              Maciej Modrzejewski
+            </a>{' '}
+            to build a digital PDF translation MVP from scratch and scale it to 10,000+ documents an hour; <b>Trexquant</b>, where I spent a summer as a Global Alpha Researcher writing ML and stats models to beat the market; and <b>Sony Research India</b>, where an AI tool I built cut manual video editing time by 70%.
+          </p>
             <p>
             When I’m not coding, you’ll find me jogging, playing football, drumming,{' '}
              <a href="/photography" style={{ textDecoration: 'underline' }}>
