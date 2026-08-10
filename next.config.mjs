@@ -25,8 +25,11 @@ const nextConfig = {
       },
       {
         source: '/resume',
-        destination: 'https://drive.google.com/file/d/1m3oXrEpFwdDaTj1w0uONXwGs5C-9dFaw/view?usp=sharing', // or a Google Drive/Notion link
-        permanent: true,
+        destination:
+          'https://drive.google.com/file/d/1m3oXrEpFwdDaTj1w0uONXwGs5C-9dFaw/view?usp=sharing',
+        // Not permanent: a 308 is cached by browsers indefinitely and cannot be
+        // invalidated server-side, so the CV link could never be changed again.
+        permanent: false,
       },
     ]
   },
