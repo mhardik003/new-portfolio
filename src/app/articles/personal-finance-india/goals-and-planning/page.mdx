@@ -1,0 +1,137 @@
+export const metadata = {
+  title: `14. Goals and Planning`,
+  description: `Who is allowed to advise you, and the arithmetic that turns a goal into a monthly number.`,
+}
+
+# 14. Goals and Planning
+
+*Who is allowed to advise you, and the arithmetic that turns a goal into a monthly number.*
+
+---
+
+A financial plan is, in the CFP Board's formulation, *"the process of determining whether and how an individual can meet life goals through the proper management of financial resources."* Its components are net worth, cash flow, retirement strategy, risk and insurance, investment strategy, tax strategy and an estate plan. Each is treated somewhere in this document. What this chapter adds is the step that joins them: turning a stated goal into a target amount, a date and a monthly contribution.
+
+**The plan has to be explicit to do anything.** People spend more than they need to when they lack a specific reason to save, because short-term rewards compete against long-term payoffs and the long-term payoff needs time to build. Writing it down measurably increases the likelihood of following it, and it becomes essential the moment more than one person is involved.
+
+---
+
+<ChapterIndex slug="goals-and-planning" />
+
+## 14.1 Financial advice in India
+
+The standard warning (*the term "financial advisor" can be used by anyone; be extremely wary*) applies with force in India, where the regulatory categories are distinct and the incentives differ sharply.
+
+| Category | Regulator | How they are paid | Duty owed |
+|---|---|---|---|
+| **SEBI Registered Investment Adviser (RIA)** | SEBI | **Fee-only**, paid by you. Prohibited from earning commission on products they advise on | **Fiduciary** |
+| **SEBI Registered Portfolio Manager** | SEBI | Fee on assets managed; minimum investment of ₹50 lakh | Fiduciary within the mandate |
+| **Mutual Fund Distributor (ARN holder)** | AMFI / SEBI | **Commission from the AMC**, embedded in the regular-plan expense ratio | Suitability, not fiduciary |
+| **Insurance agent / broker** | IRDAI | **Commission from the insurer**, which is highest on the most expensive products | Suitability |
+| **Bank "relationship manager" / "wealth manager"** | Bank's own | Salary plus internal sales targets on the bank's distributed products | To the employer |
+
+**Two things follow directly from that table:**
+
+1. **A "free" advisor is paid by someone.** If not by you, then by the product manufacturer, and the commission is highest on the products that cost you most, which is why endowment policies and ULIPs are sold far more often than term insurance.
+2. **Only a SEBI RIA is legally required to act in your interest**, and only a fee-only RIA has no product-linked incentive. **CFP** and **CFA** are credentials, not regulatory registrations; a CFP may or may not be an RIA.
+
+There is countervailing evidence: advisors demonstrably help people avoid behavioural errors, with Vanguard estimating that value at around 150 basis points a year. That value is real. It is also entirely separable from product commission.
+
+**Verify an RIA registration** on the SEBI website before engaging one.
+
+---
+
+## 14.2 Projecting a goal
+
+The mechanics are the same regardless of the goal:
+
+```
+1.  Define the target amount, in today's rupees
+2.  Inflate it to the target date
+3.  Choose a realistic return for that time horizon
+4.  Solve for the required monthly contribution
+```
+
+### Inflation assumptions for India
+
+| Category | Approximate long-run inflation |
+|---|---|
+| General (CPI) | RBI projects **5.0% for FY 2026-27** |
+| Education | Generally cited as running above general inflation |
+| Healthcare | Consistently cited as running well above general inflation |
+| Property, metro | Highly variable by city and micro-market |
+
+Use general CPI for undifferentiated spending, and higher figures for education and healthcare specifically.
+
+### Return assumptions by horizon
+
+The horizon should determine the asset, not the reverse:
+
+| Horizon | Character of the goal | Where the money can sit |
+|---|---|---|
+| **Under 1 year** | Emergency fund, insurance premiums, a planned trip | Savings, sweep-in FD, liquid fund |
+| **1–3 years** | Car, wedding, house down payment near-term | FD, short-duration debt, arbitrage funds |
+| **3–7 years** | House down payment, higher education | Hybrid; a modest equity component |
+| **7+ years** | Children's education, retirement | Equity-dominated |
+
+**The rule underlying this:** money you will need on a fixed date within three years should not be exposed to equity, because the historical record shows multi-year negative periods. Money you will not need for a decade should not sit in cash, because inflation is a certainty and volatility is not a loss until you sell.
+
+### The formula
+
+```
+                    FV × i
+Monthly SIP  =  ─────────────
+                ((1+i)^n − 1)
+```
+where `i` is the monthly return and `n` the number of months. `PMT()` in a spreadsheet.
+
+**Worked:** a ₹40 lakh target in 10 years at 12% requires roughly **₹17,400 a month**. The same target in 5 years requires roughly **₹49,000 a month**, because compounding has had less time to do the work, so contributions must do more of it.
+
+---
+
+## 14.3 The common goals
+
+### Emergency fund
+Covered in [§1.5](/articles/personal-finance-india/first-principles#15-the-emergency-fund). 3–6 months of expenses, liquid and safe, first to fill and first to refill.
+
+### Wedding
+Frequently the largest discretionary outflow in an Indian engineer's twenties or thirties, often part-funded by family, and almost always on a known date. That makes it a **short-to-medium-term goal with a hard deadline**, which rules out equity in the final couple of years. The most common error is running the wedding fund in equity until three months before.
+
+### Car
+A **depreciating asset**. It belongs on the balance sheet at falling value, and the total cost of ownership (insurance, fuel, maintenance, parking) typically exceeds the EMI over the holding period.
+
+### Supporting parents
+Recurring transfers to parents are a standard feature of Indian household finance and are absent from Western templates. They belong in the budget as a **fixed line**, and their likely growth (particularly healthcare) belongs in long-term projections. Health insurance for parents is addressed in [§9.5](/articles/personal-finance-india/insurance#95-health-insurance).
+
+### Children's education
+The pattern is consistent across countries: education costs have risen faster than general inflation, and **the time frame is short**. You have 40–50 years to fund retirement; you have 18 for a child's undergraduate degree, which is not long enough for compounding to do most of the work.
+
+India has no equivalent of the US 529 plan. The available vehicles are the ordinary ones: equity mutual funds for the long horizon, plus **SSY at 8.2% EEE** for a girl child, which is the only education-linked instrument with a tax advantage.
+
+### Retirement
+
+It decomposes into four interrelated problems: projecting income over 40+ years, replacing income for 30+ years, tax efficiency, and planning for more than one person.
+
+**The 4% rule** (withdrawing 4% of the initial corpus in year one and adjusting for inflation thereafter) is the standard first approximation. It derives from US historical data on a US portfolio with US inflation. Applying it to India requires stating the differences:
+
+- **Inflation has been structurally higher in India** than in the US over the relevant history.
+- **The Indian equity data series is much shorter**, so the statistical confidence is correspondingly lower.
+- **There is no universal state pension.** EPS pays a few thousand rupees a month (see [§7.9](/articles/personal-finance-india/epf-eps-form-11#79-eps-the-pension)). There is no Social Security equivalent.
+- **Healthcare costs in retirement are borne privately**, and health insurance premiums rise steeply with age.
+
+The 4% rule is therefore a starting point for the arithmetic, not a conclusion. The underlying identity is unchanged and is worth stating plainly:
+
+```
+Corpus required  =  annual expenses in retirement  ÷  safe withdrawal rate
+```
+
+At 4%, that is 25× annual expenses. At 3.5%, roughly 29×. **The single largest lever is not the withdrawal rate; it is the annual expense figure**, which is why savings rate helps twice (see [§1.3](/articles/personal-finance-india/first-principles#13-savings-rate)).
+
+**Asset location** matters alongside asset allocation: which instruments to hold in tax-exempt wrappers (EPF, PPF), which in tax-deferred ones (NPS), and which in taxable accounts.
+
+---
+
+## 14.4 Checklist
+
+- [ ] Write down each goal with a **target amount and a date**
+- [ ] Match the **asset to the horizon**: nothing needed within three years should sit in equity
+- [ ] Verify any advisor's **SEBI RIA registration**, and establish who pays them

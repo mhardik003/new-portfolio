@@ -1,0 +1,225 @@
+export const metadata = {
+  title: `8. NPS: National Pension System`,
+  description: `Regulated by the Pension Fund Regulatory and Development Authority (PFRDA). The only meaningful tax deduction still available in the new regime, and the least liquid instrument most engineers will own.`,
+}
+
+# 8. NPS: National Pension System
+
+*Regulated by the Pension Fund Regulatory and Development Authority (PFRDA). The only meaningful tax deduction still available in the new regime, and the least liquid instrument most engineers will own.*
+
+---
+
+NPS is usually described as a pension scheme, and behaves only partly like one. **During accumulation, it is a low-cost, tax-advantaged, equity-capped mutual fund with a hard lock-in to age 60.** **At exit, a mandatory portion is converted into an annuity**: an insurance product paying a fixed monthly amount for life, taxed at your slab rate, generally not inflation-indexed, and priced by the annuity provider at prevailing rates.
+
+That second half is the part people underweight. Annuity rates in India have historically been in the region of 6%–7% for a life annuity without return of purchase price, and the payment does not rise with inflation. A ₹40 lakh annuity purchase yielding ₹2.4 lakh a year buys materially less in year 25 than in year 1.
+
+---
+
+<ChapterIndex slug="nps" />
+
+## 8.1 Structure
+
+| | **Tier I** | **Tier II** |
+|---|---|---|
+| Purpose | Retirement account | Voluntary investment account |
+| Lock-in | Until **age 60** | **None** (withdraw any time) |
+| Tax deduction on contribution | Yes (see [§8.3](#83-tax-deductions-the-three-sections)) | **None** for private-sector employees |
+| Minimum to open | ₹500 | ₹1,000 |
+| Minimum per year | ₹1,000 | Nil |
+| Requires Tier I? | n/a | **Yes** |
+| Exit taxation | Partly exempt, partly annuitised | Gains taxed (see [§8.6](#86-tier-ii)) |
+
+You are issued a **PRAN** (Permanent Retirement Account Number), which follows you across employers, like a UAN.
+
+**Tier II is, functionally, a mutual fund with unusually low fees and slightly awkward tax treatment.** It carries no lock-in and no deduction. Government employees get a Section 123 (80C) deduction on Tier II with a 3-year lock-in; private-sector employees do not.
+
+---
+
+## 8.2 Asset classes
+
+Your Tier I money is allocated across four asset classes:
+
+| Class | What it holds | Cap |
+|---|---|---|
+| **E**: Equity | Index and large-cap equity | **75%** maximum |
+| **C**: Corporate debt | Corporate bonds, fixed deposits | 100% |
+| **G**: Government securities | Central and state government bonds | 100% |
+| **A**: Alternative investments | Real estate investment trusts (REITs), infrastructure investment trusts (InvITs), alternative investment funds (AIFs), mortgage-backed securities (MBS) | **5%** maximum |
+
+**Equity is capped at 75%.** You cannot run a 100%-equity NPS account. This is a structural feature of the scheme, not a setting.
+
+### Choosing the allocation
+
+**Active Choice**: you set the percentages yourself, subject to the caps. Equity may be held at 75% up to age 50, after which it tapers down by regulation.
+
+**Auto Choice (Lifecycle funds)**: allocation is set by your age and glides toward debt automatically:
+
+| Fund | Equity at age ≤35 | Behaviour |
+|---|---:|---|
+| **LC75**: Aggressive | 75% | Equity held at 75% until 35, then reduced annually until 55 |
+| **LC50**: Moderate | 50% | The default if you express no preference |
+| **LC25**: Conservative | 25% | Tapers from a low base |
+
+Under LC75, from your 36th birthday the allocation is automatically rebalanced out of equity each year until age 55.
+
+### Fund managers
+
+Eleven PFRDA-registered pension fund managers, including SBI, LIC, UTI, HDFC, ICICI Prudential, Kotak Mahindra, Aditya Birla, Axis, Tata, Max and DSP. You may change your fund manager and your investment choice (historically limited in frequency); check the current limit on the portal of your **Central Recordkeeping Agency (CRA)**, which is where both changes are made.
+
+### Costs
+
+NPS is among the cheapest managed products available in India. Pension fund management fees are regulated on a slab basis and sit in the range of roughly **0.03%–0.09%** of assets, against **0.5%–2.0%** for actively-managed equity mutual funds and **0.05%–0.20%** for index funds. Central recordkeeping and transaction charges apply separately and are small in absolute terms but proportionally significant on very small accounts.
+
+### Returns
+
+Indicative long-run figures as reported by fund managers and the NPS Trust:
+
+| Scheme | Approximate 10-year annualised return |
+|---|---:|
+| Equity (E) | ~10%–14% |
+| Corporate debt (C) | ~7%–9% |
+| Government securities (G) | ~6%–8% |
+
+Past returns; not a projection. The E schemes are largely index-tracking, so their long-run behaviour resembles that of the broad Indian equity market.
+
+---
+
+## 8.3 Tax deductions: the three sections
+
+Under the Income-tax Act, 2025, all NPS deductions live in **Section 124** (formerly Section 80CCD).
+
+| Provision | Old number | What it covers | Limit | Old regime | **New regime** |
+|---|---|---|---|---|---|
+| **124(1)** | 80CCD(1) | **Your own** contribution | Within the ₹1.5 lakh Section 123 (80C) ceiling | ✅ | ❌ |
+| **124(1B)** | 80CCD(1B) | **Your own** contribution, additional | ₹50,000 **over and above** ₹1.5 lakh | ✅ | ❌ |
+| **124(2)** | 80CCD(2) | **Employer's** contribution | **14% of Basic + DA** | ✅ | ✅ |
+
+### Section 124(2) is the important one
+
+It is **the only significant investment-linked deduction that survives in the new regime.** Since the new regime is the default and wins for most early-career engineers, this is, for many people, the entire remaining tax-planning surface.
+
+It is also not a deduction you can arrange yourself. The employer must actually *contribute*: NPS has to exist as a payroll component and the money has to reach your PRAN. Declaring your own contribution as the employer's does not convert it. One question to payroll settles both halves of that:
+
+> *"Does the company offer NPS as a payroll component under Section 124(2), and is the contribution on top of my CTC or carved out of it?"*
+
+**At a ₹9,00,000 Basic, the answers are worth:**
+
+| Employer NPS rate | Annual contribution | Tax saved at 30% + 4% cess |
+|---:|---:|---:|
+| 0% | ₹0 | ₹0 |
+| 10% | ₹90,000 | ₹28,080 |
+| **14% (maximum)** | **₹1,26,000** | **₹39,312** |
+
+Most Indian employers that offer NPS restructure it **within** existing CTC; the special allowance shrinks by the NPS amount. So the real trade is: **cash today, minus tax, versus a locked contribution until 60.** See [§6, Step 6](/articles/personal-finance-india/worked-example#step-6-variant-what-employer-nps-does) for the full arithmetic.
+
+**Note the ₹7.5 lakh cap:** employer contributions to EPF + NPS + superannuation combined, above ₹7,50,000 a year, become a taxable perquisite in both regimes.
+
+---
+
+## 8.4 Exit at 60: and the rule mismatch
+
+This is the most confusing area in NPS as of August 2026, because **the regulator and the tax law currently disagree.**
+
+### What PFRDA permits (from 16 December 2025)
+
+The **NPS Exit and Withdrawal (Amendment) Regulations, 2025**, notified on 16 December 2025, significantly relaxed exit rules for non-government subscribers:
+
+| Corpus at exit | Lump sum permitted | Annuity required |
+|---|---|---|
+| Up to **₹8 lakh** | **100%** | None |
+| Above **₹12 lakh**, with **15+ years** in NPS | **Up to 80%** | 20% |
+| Otherwise | Up to 60% | 40% |
+
+Lump sums may also be taken through **Systematic Lump Sum Withdrawal (SLW)** or **Systematic Unit Redemption (SUR)** rather than as a single payment.
+
+**Previously**, non-government subscribers could withdraw at most 60%, with 40% mandatorily annuitised.
+
+### What the tax law exempts
+
+The income-tax exemption for the NPS lump sum (formerly Section 10(12A)) covers **60% of the corpus**.
+
+> **The mismatch, as at August 2026:** PFRDA permits an 80% lump sum in specified cases; the tax exemption still covers 60%. On the face of the current provisions, **withdrawing the additional 20% would be taxable at your slab rate.** The two frameworks have not been reconciled, and no clarifying amendment had been notified as at August 2026.
+>
+> This is a live issue. If you are approaching exit, verify the position against the then-current tax provisions and PFRDA circulars rather than relying on either rule in isolation.
+
+### Annuity taxation
+
+The annuity purchase itself is not taxed. The **monthly pension you subsequently receive is fully taxable at your slab rate** as income. There is no exemption on annuity income.
+
+So NPS is **EET**, not EEE: Exempt on contribution, Exempt on accumulation, **partly Taxed** on exit (60% of the lump sum exempt, the annuity stream fully taxed).
+
+---
+
+## 8.5 Exit before 60, and partial withdrawal
+
+### Premature exit
+
+If you exit before 60, the ratio inverts: **only 20% may be taken as a lump sum, and 80% must be annuitised.** A full withdrawal is permitted where the corpus is below a specified small-value threshold.
+
+This is a severe constraint and is the principal reason to treat NPS Tier I contributions as genuinely irreversible.
+
+### Partial withdrawal (Tier I, while still invested)
+
+Permitted subject to:
+- **3 years** of membership
+- Maximum **25% of your own contributions**, not the employer's, and not the accumulated returns
+- Maximum **three times** over the life of the account
+- Only for specified purposes: higher education or marriage of children, purchase or construction of a first house, treatment of specified critical illnesses, disability, skill development, or establishing a venture
+
+Partial withdrawals within these limits are tax-exempt.
+
+### On death
+
+The entire accumulated corpus is paid to the nominee or legal heir, and is **exempt from tax**. There is no compulsory annuitisation on death before 60.
+
+---
+
+## 8.6 Tier II
+
+- **No lock-in, no exit load, no deduction** for private-sector employees.
+- Same four asset classes, same fund managers, same low fees.
+- **Taxation is the practical problem:** there is no explicit statutory provision defining the capital gains treatment of Tier II withdrawals for private-sector subscribers, and practice varies between treating gains as capital gains and treating them as income from other sources at slab rate. The conservative reading is slab rate.
+- Because of this ambiguity, Tier II is generally used by people who specifically want NPS's cost structure and are content with the uncertainty, rather than as a default alternative to mutual funds.
+
+---
+
+## 8.7 NPS versus EPF versus mutual funds
+
+Stated as a comparison of mechanics, not a ranking.
+
+| | **EPF** | **NPS Tier I** | **Equity mutual fund** |
+|---|---|---|---|
+| Who contributes | You + employer, mandatory | You and/or employer, voluntary | You |
+| Return | **Declared**: 8.25% for FY 2025-26 | **Market-linked**, equity capped at 75% | Market-linked, no cap |
+| Cost | No explicit fee to you | ~0.03%–0.09% PFM fee + CRA charges | 0.05%–0.20% index; 0.5%–2.0% active |
+| Liquidity | Advances on specified grounds; full exit on 2 months' unemployment | Age 60; 25% of own contributions after 3 years on specified grounds | T+2 to T+3, any time |
+| Deduction: old regime | Section 123, within ₹1.5 lakh | Sections 124(1), 124(1B), 124(2) | ELSS only, within ₹1.5 lakh |
+| Deduction: **new regime** | Employer share not taxable | **Section 124(2): 14% of Basic+DA** | **None** |
+| Tax at exit | **Fully exempt** after 5 years | 60% of lump sum exempt; annuity fully taxed | 12.5% LTCG above ₹1.25 lakh/yr |
+| Forced annuity | No | **Yes** | No |
+| Nominal risk of loss | None | Yes | Yes |
+
+### The trade-offs, stated
+
+- **NPS has the best contribution-stage tax treatment in the new regime and the worst exit-stage treatment** of the three, because of the mandatory annuity and its full taxability.
+- **EPF has the cleanest tax profile**: genuinely exempt at exit after five years, but a fixed, administratively-declared return with no equity participation beyond EPFO's own limited ETF allocation.
+- **Equity mutual funds have the worst contribution-stage treatment** in the new regime (none at all) and by far the best liquidity, with a 12.5% long-term rate that compares favourably to slab-rate annuity income.
+
+There is no dominant option. The choice turns on your marginal rate, whether your employer offers NPS, and how much you value liquidity, none of which a document can determine for you.
+
+---
+
+## 8.8 Related schemes
+
+**NPS Vatsalya** is an NPS account for a minor, opened and operated by a parent or guardian, converting into a standard Tier I account when the child turns 18. The **Unified Pension Scheme (UPS)** is an assured-payout alternative to NPS available only to central government employees, and the **Atal Pension Yojana (APY)** is a small guaranteed-pension scheme (₹1,000–₹5,000/month) for the unorganised sector whose eligibility rules exclude income-tax payers.
+
+---
+
+## 8.9 Checklist
+
+- [ ] Find out whether your employer offers **NPS under Section 124(2)**; many do not, and many that do make it opt-in and do not advertise it
+- [ ] If it is offered, establish whether the contribution is **added to** or **carved out of** your CTC
+- [ ] Open a PRAN and confirm your **investment choice**; the default is LC50 (Moderate), which may not be what you would pick
+- [ ] Note that Tier I money is **inaccessible until 60**, with narrow exceptions
+- [ ] File a **nomination** on the PRAN
+- [ ] Understand before contributing that a portion of the exit corpus is **compulsorily annuitised** and that annuity income is fully taxable

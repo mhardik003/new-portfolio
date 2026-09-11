@@ -1,0 +1,234 @@
+export const metadata = {
+  title: `11. Loans and Getting Out of Debt`,
+  description: `Indian instruments, Indian rates, and where the money actually goes.`,
+}
+
+# 11. Loans and Getting Out of Debt
+
+*Indian instruments, Indian rates, and where the money actually goes.*
+
+---
+
+<ChapterIndex slug="loans-and-debt" />
+
+## 11.1 Secured versus unsecured
+
+| | **Secured** | **Unsecured** |
+|---|---|---|
+| Backed by | An asset the lender can seize | Nothing |
+| Examples | Home loan, auto loan, loan against property, gold loan, loan against securities | Personal loan, credit card, most education loans below ₹7.5 lakh |
+| Rate | Lower | Higher |
+| If you default | The asset is repossessed or auctioned | Recovery action, credit record damage, legal proceedings |
+
+The rate difference is the price of the lender's risk. It is the reason a home loan costs around 8% and a personal loan around 14%.
+
+---
+
+## 11.2 The Indian debt landscape, August 2026
+
+Indicative rates for a salaried borrower with a strong credit record. Actual pricing depends on your bureau score, employer category, loan amount and tenure.
+
+| Instrument | Typical rate | Tenure | Secured? |
+|---|---:|---|---|
+| **Home loan** | 7.25%–8.50% | 15–30 years | Yes, the property |
+| **Loan against property** | 9.5%–11% | 10–15 years | Yes |
+| **Loan against securities / mutual funds** | 9%–12% | Revolving | Yes |
+| **Gold loan** | 9%–18% | 6–36 months | Yes |
+| **Education loan** | 8.5%–13% | 5–15 years | Above ₹7.5 lakh, usually |
+| **Auto loan: new car** | 8.5%–10% | 3–7 years | Yes, the vehicle |
+| **Auto loan: used car** | 12%–16% | 3–5 years | Yes |
+| **Personal loan** | 11%–20% | 1–5 years | No |
+| **Loan against EPF** | n/a | n/a | Not a loan; an advance from your own balance |
+| **Credit card revolving** | **30%–48%** | Revolving | No |
+| **Buy-now-pay-later** | 0% headline, 18%–36% on default | 3–12 months | No |
+
+Home loans and most other retail loans are priced off an **External Benchmark Lending Rate (EBLR)** linked to the RBI repo rate, plus a spread that varies with your credit score and the loan-to-value ratio. Since these are floating, your EMI or tenure changes when the repo rate moves.
+
+---
+
+## 11.3 Amortisation: where the money actually goes
+
+An EMI is constant, but its composition is not. Early payments are almost entirely interest; late payments are almost entirely principal.
+
+```
+              P × i × (1+i)^n
+EMI  =      ───────────────────
+               (1+i)^n − 1
+
+P = principal   i = monthly rate (annual ÷ 12)   n = number of months
+```
+
+Spreadsheet functions: `PMT()` for the instalment, `IPMT()` for the interest component of a given period, `PPMT()` for the principal component.
+
+### Home loan: ₹50,00,000 at 8.0%
+
+| Tenure | EMI | Total paid | **Total interest** |
+|---:|---:|---:|---:|
+| 15 years | ₹47,784 | ₹86,01,120 | **₹36,01,120** |
+| **20 years** | **₹41,822** | **₹1,00,37,280** | **₹50,37,280** |
+| 30 years | ₹36,687 | ₹1,32,07,320 | **₹82,07,320** |
+
+**At 20 years, you repay almost exactly twice what you borrowed.** At 30 years, the interest alone exceeds the loan by 64%.
+
+Extending from 15 to 20 years reduces the EMI by ₹5,962 a month and increases total interest by **₹14,36,160**. That is the price of the lower monthly payment, stated explicitly.
+
+### The composition of the first EMI
+
+On the 20-year loan above:
+
+```
+EMI                                          ₹41,822
+   of which interest (₹50,00,000 × 8%/12)  = ₹33,333   ← 80%
+   of which principal                      = ₹ 8,489   ← 20%
+```
+
+Roughly 80% of your first year's payments extinguish no debt at all. The crossover (where principal exceeds interest) occurs around year 11 on a 20-year loan at this rate.
+
+### Other worked examples
+
+| Loan | Amount | Rate | Tenure | EMI | Total interest |
+|---|---:|---:|---:|---:|---:|
+| New car | ₹10,00,000 | 9% | 5 years | ₹20,758 | ₹2,45,480 |
+| Personal loan | ₹5,00,000 | 14% | 3 years | ₹17,088 | ₹1,15,168 |
+
+---
+
+## 11.4 Education loans
+
+The most common first debt for an Indian engineer.
+
+| Feature | Detail |
+|---|---|
+| **Rate** | 8.5%–13%, floating, linked to the lender's benchmark |
+| **Moratorium** | Course duration **plus 6–12 months**. No EMI during this period |
+| **Interest during moratorium** | **Continues to accrue**, and is usually capitalised (added to the principal at the end of the moratorium). Servicing interest during study materially reduces the eventual outstanding |
+| **Collateral** | Generally not required up to ₹7.5 lakh; required above it. A co-applicant (usually a parent) is almost always required |
+| **Credit guarantee** | The Credit Guarantee Fund Scheme for Education Loans (CGFSEL) backs eligible loans up to ₹7.5 lakh, which is why collateral is waived below that threshold |
+| **Concessions** | 0.5%–1% rate reduction is common for women borrowers and for servicing interest during the moratorium |
+| **Foreign study** | Larger amounts, collateral almost always required; forex rate risk is borne by you |
+
+### Section 129 (formerly 80E)
+
+| Feature | Detail |
+|---|---|
+| What is deductible | **Interest only**, not principal |
+| Limit | **No cap** |
+| Duration | **8 years** from the year repayment begins, or until the interest is fully paid, whichever is earlier |
+| Whose education | Self, spouse, children, or a student for whom you are legal guardian |
+| Lender | A bank or a notified financial institution or approved charitable institution, not a loan from a relative |
+| **Regime** | **Old regime only** |
+
+**Note the asymmetry:** because Section 129 has no cap, a large education loan is one of the few things that can plausibly push a young engineer past the old-regime break-even point (see [§4.5](/articles/personal-finance-india/tax-regimes#45-the-break-even-calculation)) without a home loan.
+
+---
+
+## 11.5 Home loans and tax
+
+| Component | Section | Limit | Old regime | **New regime** |
+|---|---|---|---|---|
+| **Interest: self-occupied** | 22 (formerly 24(b)) | ₹2,00,000/yr | ✅ | ❌ |
+| **Interest: let-out property** | 22 (formerly 24(b)) | **No limit**, but house-property loss set-off against other income capped at ₹2,00,000/yr | ✅ | ✅ |
+| **Principal repayment** | 123 (formerly 80C) | Within ₹1,50,000 | ✅ | ❌ |
+| **Stamp duty and registration** | 123 (formerly 80C) | Within ₹1,50,000, year of purchase only | ✅ | ❌ |
+
+**Joint ownership:** where two people are **both co-owners and co-borrowers**, each may claim the full limits independently (₹2 lakh each under Section 22 and ₹1.5 lakh each under Section 123). Co-ownership and co-borrowing must both be satisfied; being only a co-borrower does not qualify.
+
+**Under construction:** interest paid during construction is not deductible in the year paid. It is aggregated and claimed in **five equal instalments** starting from the year construction is completed, within the ₹2 lakh annual ceiling.
+
+**The regime interaction is significant.** A home loan is one of the largest deductions available to a salaried individual, and it exists **only in the old regime** for a self-occupied property. If you are on the new regime, a home loan on the flat you live in carries no tax benefit at all.
+
+---
+
+## 11.6 Prepayment
+
+| Loan type | Prepayment charge |
+|---|---|
+| **Home loan: floating rate, individual borrower** | **Prohibited.** The RBI does not permit foreclosure or prepayment penalties on floating-rate home loans to individual borrowers |
+| Home loan: fixed rate | Charges permitted; typically 2%–3% |
+| **Personal loan** | Typically 2%–5%, often with a lock-in of 6–12 months |
+| **Auto loan** | Typically 3%–6% |
+| Education loan | Usually nil |
+
+### What prepayment does
+
+Two options exist when you prepay a home loan; lenders default to one and it is usually the less valuable one:
+
+| Option | Effect |
+|---|---|
+| **Reduce tenure**, keep EMI constant | Saves substantially more interest |
+| **Reduce EMI**, keep tenure constant | Improves monthly cash flow, saves much less interest |
+
+Ask explicitly. Many lenders reduce the EMI by default.
+
+**When prepayment is arithmetically strongest:** early in the loan, because that is when the outstanding principal (and therefore the interest accruing on it) is largest. A prepayment in year 2 of a 20-year loan removes far more total interest than the same sum in year 15.
+
+---
+
+## 11.7 Paying off debt efficiently
+
+Applied to a realistic Indian position.
+
+**Assume ₹40,000 a month is available for debt repayment.**
+
+| | Education loan | Credit card | Personal loan | Auto loan |
+|---|---:|---:|---:|---:|
+| Outstanding | ₹4,00,000 | ₹1,20,000 | ₹3,00,000 | ₹6,00,000 |
+| **Rate** | **9.0%** | **42.0%** | **14.0%** | **9.5%** |
+| Minimum / EMI | ₹5,000 | ₹6,000 | ₹10,300 | ₹12,600 |
+
+Total minimums: ₹33,900. Surplus available: **₹6,100.**
+
+### Three approaches
+
+| Strategy | How it allocates the surplus | Rationale |
+|---|---|---|
+| **Peanut butter** | Spread evenly across all four | Feels balanced; achieves least |
+| **Snowball** | All surplus to the **smallest balance** first (credit card, ₹1.2 lakh) | Emotional: clearing a whole loan is motivating and frees its minimum payment |
+| **Avalanche** | All surplus to the **highest rate** first (credit card, 42%) | Mathematically optimal: minimises total interest |
+
+**In this case snowball and avalanche agree**, because the credit card is both the smallest and the most expensive. That is common, because high-rate debt is usually revolving consumer debt and therefore small.
+
+Where they diverge, the trade-off is explicit: **avalanche minimises rupees; snowball maximises the probability of persisting.** The specific drawback of avalanche is that you get no cash-flow relief until a loan is fully cleared, whereas snowball frees up a minimum payment sooner.
+
+### The order that follows from the arithmetic
+
+1. **Make every minimum payment.** Missing one damages your credit record for years and costs more than any optimisation gains.
+2. **Clear revolving credit card debt.** Nothing else returns 42% risk-free.
+3. **Build the emergency fund**: this can reasonably precede debt payoff, because absence of liquidity is what creates card debt in the first place.
+4. **Then attack remaining debt by rate**, highest first.
+5. **Exclude the home loan from this calculation.** It is long-term, secured, tax-advantaged in the old regime, and priced close to what diversified investments have historically returned.
+
+### Consolidation
+
+Replacing several expensive loans with one cheaper loan reduces the rate and simplifies administration. Two cautions:
+
+- **Extending the tenure lowers the EMI and raises total interest.** Check the total outflow, not just the monthly figure.
+- **A balance transfer on a credit card** typically carries a processing fee and a promotional period. Read what the rate becomes after the promotional window ends.
+
+---
+
+## 11.8 Is debt bad?
+
+The theoretical answer comes from **Modigliani–Miller**: in a frictionless world with no taxes, transaction costs or bankruptcy costs, market value is determined by the earning power and risk of the underlying assets, not by how they are financed. The real world has all three frictions, which is why the **trade-off theory of leverage** posits an optimal capital structure rather than zero debt.
+
+Applied to a personal balance sheet:
+
+- **More debt is more risk.** You cannot go bankrupt without debt.
+- **Not all debt is the same.** An 8% home loan against an appreciating asset and a 42% card balance against last month's dinners are different objects.
+- **Compounding works in reverse.** At 42%, a balance doubles in about 20 months.
+- **Some debt is subsidised**: education loans through interest concessions and the uncapped Section 129 deduction; home loans through Section 22 and Section 123 in the old regime.
+- **Paying off cheap debt can be emotionally satisfying but financially suboptimal**, if the same money could earn more elsewhere at comparable risk. The comparison must be after-tax and risk-adjusted.
+- **But paying off debt reliably improves savings rate over time**, because the freed EMI becomes available and the psychological effect is real.
+
+---
+
+## 11.9 Checklist
+
+- [ ] List every debt: balance, **rate**, minimum payment, tenure
+- [ ] Confirm you are never missing a minimum
+- [ ] Clear any **revolving credit card balance** before any other optimisation
+- [ ] Check whether **prepayment charges** apply; they are prohibited on floating-rate home loans to individuals
+- [ ] When prepaying, ask the lender to **reduce tenure, not EMI**
+- [ ] If you have an education loan, confirm you are claiming **Section 129**, and note it works only in the old regime
+- [ ] Before extending any tenure to reduce an EMI, compute the **additional total interest**
+- [ ] Understand that on a 20-year home loan, roughly **80% of your first year's payments are interest**

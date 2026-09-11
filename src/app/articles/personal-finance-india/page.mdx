@@ -1,0 +1,262 @@
+import { Callout } from '@/components/Callout';
+import { InteractiveCompoundChart } from '@/components/InteractiveCompoundChart';
+import { TaxRegimeSlider } from '@/components/TaxRegimeSlider';
+
+export const article = {
+  author: 'Hardik Mittal',
+  date: '2026-08-12',
+  title: `Personal Finance for Engineers in India`,
+  description: `A structured reference, current as of 12 August 2026 (Financial Year 2026-27, the first year under the new Income-tax Act, 2025).`,
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+# Personal Finance for Engineers in India
+
+*A structured reference, current as of **12 August 2026** (Financial Year 2026-27, the first year under the new **Income-tax Act, 2025**).*
+
+---
+
+## What this is, and why it exists
+
+A structured reference on money for salaried engineers in India: how compensation, tax, provident fund, pension, insurance, credit and investing actually work, stated as rules and numbers rather than opinions.
+
+It exists because Indian engineering education produces excellent engineers and says nothing about what happens after the offer letter. At 21 or 22 you are handed the largest sum of money you have ever controlled, along with a payslip carrying a dozen line items nobody explains. The first real decisions (tax regime, PF, insurance, where the monthly investment goes) all fall due inside your first ninety days, which is precisely when you know least about them.
+
+None of this is secret. It is badly *distributed*. It sits in EPFO circulars, gazette notifications, SEBI regulations and PFRDA amendments, and everywhere else it has been rewritten into blog posts that contradict one another and mostly predate the current statute. Nobody in the chain has the job of telling you, either. HR administers policy rather than advising on it; banks, distributors and agents are sellers and are paid as sellers; your parents' instincts were formed around different instruments, a different inflation rate and a different tax code.
+
+So the aim is narrow. Collect the actual rules in one place, in the order an engineer meets them, with the arithmetic worked rather than asserted, and keep it short enough to read in an afternoon.
+
+The *principles* of personal finance are universal; compounding does not care which passport you hold. The *instruments* are not. A 401(k) is not an EPF account. A Roth IRA has no Indian equivalent at all. FICO is not CIBIL. The US mortgage-interest deduction works nothing like Section 24(b), which was itself renumbered to Section 22 four months ago. This book keeps the universal skeleton and rebuilds every organ around Indian law.
+
+**Who it is for:** salaried engineers in India. It is most valuable in the first few years, when the decisions are cheapest to get right, though the reference chapters apply at any stage. If you are self-employed, on a foreign payroll, or an NRI, the principles hold but several of the specific rules do not.
+
+**Attribution:** the conceptual framing, topic ordering and several analytical devices derive from *Personal Finance for Engineers* (CS 007) by Adam Nash & Stanford University, published for non-commercial use at [cs007.blog](http://cs007.blog).
+
+---
+
+## Contents
+
+Eighteen chapters, a calculator and two reference pages, ordered the way an Indian engineer actually encounters these things, not the way a textbook organises them.
+
+### Part I: The ground rules
+
+**[1. First principles](/articles/personal-finance-india/first-principles)**
+Compounding, the Rule of 72, APR versus APY, savings rate, liquidity, the personal balance sheet and income statement, and the cognitive biases that reliably defeat all of the above.
+
+### Part II: Getting paid
+
+**[2. Decoding an Indian offer letter](/articles/personal-finance-india/offer-letter)**
+CTC versus gross versus in-hand. Every component and which ones are real cash. The Labour Codes' 50%-basic rule and what it did to your take-home. Joining bonuses, clawbacks, notice periods, and what is actually negotiable.
+
+**[3. Equity compensation](/articles/personal-finance-india/equity-compensation)**
+ESOPs, RSUs, ESPPs. The two-point taxation model. Foreign parent shares and Schedule FA. The deferral available to employees of eligible DPIIT-recognised start-ups. What happens to unvested equity when you leave.
+
+### Part III: Tax
+
+**[4. Old regime vs new regime, FY 2026-27](/articles/personal-finance-india/tax-regimes)**
+Both slab tables, the ₹60,000 rebate, marginal relief, surcharge, cess. The break-even calculation done from first principles. The Income-tax Act 2025 renumbering map.
+
+**[5. Salary structuring, allowances and perquisites](/articles/personal-finance-india/salary-structuring)**
+HRA, LTA, relocation, company cab, meal cards, telephone and internet, children's education and hostel allowance, gift vouchers, uniform, books. The raised FY 2026-27 limits. Which of these survive in the new regime, and which do not.
+
+**[6. Worked example: ₹18 lakh CTC, end to end](/articles/personal-finance-india/worked-example)**
+One salary, structured under the Labour Codes, taxed under both regimes, reduced to a monthly in-hand figure with every deduction shown.
+
+**[Salary calculators](/articles/personal-finance-india/calculator)**
+The same arithmetic, run on your numbers: CTC to in-hand under both regimes, the break-even deduction total, an EPF projection and gratuity.
+
+<TaxRegimeSlider />
+
+### Part IV: The mandatory savings layer
+
+**[7. EPF, EPS, Form 11, VPF and gratuity](/articles/personal-finance-india/epf-eps-form-11)**
+The full mechanics of provident fund. What Form 11 actually does, and what it does not. The Para 26(6) joint declaration: the real mechanism for contributing above the wage ceiling. Why VPF is never matched. Taxation of PF interest above ₹2.5 lakh. The five-year rule. EPS pension arithmetic.
+
+**[8. NPS](/articles/personal-finance-india/nps)**
+Tier I and Tier II. Asset classes E, C, G and A. Auto versus active choice. The three deduction sections and which survive in the new regime. The December 2025 exit amendment and the tax mismatch it created.
+
+### Part V: Protection
+
+**[9. Insurance](/articles/personal-finance-india/insurance)**
+What your offer letter's group cover actually gives you and where it stops. Term life mechanics and sizing. Health insurance mechanics: sum insured, room rent limits, waiting periods, co-pay, restoration, super top-up, portability. Personal accident cover. The GST change of September 2025. Section 126 (formerly 80D).
+
+### Part VI: Debt and credit
+
+**[10. Credit cards and CIBIL](/articles/personal-finance-india/credit-cards-cibil)**
+Billing cycle and grace period, why revolving is arithmetically brutal, the RBI rules that changed in 2026, how a CIBIL score is constructed, and the rewards-versus-interest arithmetic.
+
+**[11. Loans and getting out of debt](/articles/personal-finance-india/loans-and-debt)**
+Education, personal, auto and home loans. Amortisation shown with real numbers. Secured versus unsecured. Avalanche versus snowball. Prepayment mechanics and when banks charge for it.
+
+### Part VII: Investing
+
+**[12. Investing](/articles/personal-finance-india/investing)**
+Asset classes and their historical behaviour. Mutual fund categories. Direct versus regular plans and what the difference costs over twenty years. Index funds and ETFs. SIP mechanics. Complete FY 2026-27 taxation. Diversification and rebalancing.
+
+**[13. Fixed income, small savings and gold](/articles/personal-finance-india/fixed-income-and-gold)**
+Fixed and recurring deposits, DICGC cover, TDS thresholds. PPF, NSC, SSY, SCSS and current rates. Bonds. Gold after the discontinuation of Sovereign Gold Bonds. Crypto and other Virtual Digital Assets.
+
+### Part VIII: Goals and life
+
+**[14. Goals and planning](/articles/personal-finance-india/goals-and-planning)**
+Who is allowed to give financial advice in India, and how each category is paid. Inflation and return assumptions by horizon. Turning a target and a date into a monthly SIP. Weddings, cars, supporting parents, children's education, and the 4% rule applied to a country with no state pension.
+
+**[15. Real estate](/articles/personal-finance-india/real-estate)**
+Every cost of buying, including the 6%–8% that is not the down payment. LTV limits and FOIR. Property and home loan tax treatment under both regimes, and the reinvestment exemptions on sale. Rent versus buy against Q2 2026 rental yields. Rental property as an investment, and REITs.
+
+**[16. Family, joint finances and succession](/articles/personal-finance-india/family-and-succession)**
+What can be held jointly and what cannot. Joint and several liability. Clubbing of income. Why a nominee is a trustee and not an owner, what happens if you die intestate, and what a valid will requires.
+
+### Reference
+
+**[17. The numbers page](/articles/personal-finance-india/numbers)**
+Every limit, rate, threshold and deadline referenced anywhere in this document, in one table, with the date each was last verified. Plus a glossary and full source list.
+
+**[18. Forms, schemes and official links](/articles/personal-finance-india/forms-and-links)**
+Every portal and form in one place: where to activate your UAN, file EPF e-nomination, open NPS, pull all four credit reports, check a RERA registration, verify an advisor, and complain to the right regulator. Plus the old → new form number map and a one-time setup checklist.
+
+If you would rather have the argument for spending an afternoon on this before you start reading it, the rest of this page is that argument.
+
+---
+
+## One question, ₹86,400 a year
+
+<Callout type="warning" title="The Overlooked ₹86,400 Gap">
+There is a question you can put to your employer's payroll team that takes about fifteen seconds to ask:
+
+> *"Does the company contribute PF on my full Basic, or does it restrict to the ₹15,000 statutory ceiling?"*
+
+At a Basic of ₹75,000 a month, the two possible answers are **₹7,750** and **₹550** of employer contribution. The gap is **₹86,400 a year** — employer money, in your name, in an account that has paid 8.25% for four consecutive years. Both answers are perfectly legal. Neither appears anywhere on your CTC breakup, so nothing in your offer letter tells you which one you are getting.
+
+Most engineers never ask. Not out of carelessness — the question is only obvious once you know the ceiling exists, and nobody is paid to tell you.
+</Callout>
+
+That is the shape of almost everything in this document.
+
+---
+
+## The same shape, a dozen times over
+
+Every row below is a single moment. None takes more than a few minutes. Each has a default that is chosen for you if you say nothing, and the default is rarely the branch that favours you.
+
+| The moment | The wrong branch costs |
+|---|---|
+| Ticking **regular** instead of **direct** on a mutual fund form | **~₹17 lakh** over 20 years on a ₹20,000 SIP: identical fund, identical manager, identical holdings ([§12.4](/articles/personal-finance-india/investing#124-direct-versus-regular-plans-the-single-largest-controllable-cost)) |
+| Not asking about PF on full Basic before signing | **₹86,400 a year** of employer contribution at a ₹75,000 Basic ([§7.2](/articles/personal-finance-india/epf-eps-form-11#72-how-the-contributions-split)) |
+| Parking a 20-year goal at 8.25% instead of a long-horizon 12% | **₹78 lakh** on the same ₹48 lakh contributed: ₹2.00 crore against ₹1.22 crore ([§1.1](/articles/personal-finance-india/first-principles#11-compounding)) |
+| Paying the *minimum due* on a card instead of the full amount | ₹1,00,000 revolved becomes **₹1,40,800 paid and ₹54,400 still owing** after three years ([§10.4](/articles/personal-finance-india/credit-cards-cibil#104-the-arithmetic)) |
+| Resigning at 4 years 11 months | The **entire gratuity**, forfeited: ₹43,290 a year of accrued CTC at a ₹9 lakh Basic ([§7.10](/articles/personal-finance-india/epf-eps-form-11#710-gratuity)) |
+| Withdrawing PF between jobs instead of transferring it | Resets the 5-year clock, making the withdrawal **taxable**, and resets the 10-year EPS clock ([§7.7](/articles/personal-finance-india/epf-eps-form-11#77-tax-treatment-of-pf)) |
+| Letting the bank apply a home-loan prepayment to the **EMI** | Reducing the **tenure** instead saves substantially more interest. Most lenders default to the other one ([§11.6](/articles/personal-finance-india/loans-and-debt#116-prepayment)) |
+| Choosing a 20-year tenure over 15 on a ₹50 lakh home loan | **₹14,36,160** of additional interest, for ₹5,962 a month of relief ([§11.3](/articles/personal-finance-india/loans-and-debt#113-amortisation-where-the-money-actually-goes)) |
+| Never asking whether your employer offers **NPS as a payroll component** | Up to **₹39,312 a year** in tax at a ₹9 lakh Basic, and it is the only significant deduction that survives in the new regime ([§8.3](/articles/personal-finance-india/nps#83-tax-deductions-the-three-sections)) |
+
+None of this is about earning more, picking better stocks, or working harder. Not one row rewards effort. Each rewards **knowing that a second branch exists**, at the one moment the branch is available.
+
+<div className="mt-8">
+  <InteractiveCompoundChart />
+</div>
+
+### Why the timing carries most of the value
+
+The rows above are not evenly valuable across a career. Almost every one of them has a window, and the window closes.
+
+- Compounding is an exponential in *time*, so money saved between 25 and 35 produces more terminal wealth in most retirement models than everything saved between 35 and 65.
+- A prepayment in year 2 of a 20-year loan removes far more total interest than the same rupee in year 15, because that is when the outstanding principal is largest.
+- Health insurance waiting periods run from the date you buy the policy, not the date you need it.
+- The excluded-employee route out of EPF is available at your **first** job and never again; membership is sticky ([§7.5](/articles/personal-finance-india/epf-eps-form-11#75-form-11-what-it-actually-is)).
+- ELSS locks each instalment for three years; the ₹1.25 lakh long-term capital gains exemption resets annually and does not carry forward. Both are clocks, not amounts.
+
+None of that is recoverable later by trying harder. Which is the awkward argument for reading this at 23 rather than 33: the material is worth the most precisely when it feels least urgent.
+
+---
+
+## None of this is a loophole
+
+Nothing in this document is aggressive, grey-area, or dependent on an advisor. Every mechanism in it is a published rule that has usually been sitting there for years.
+
+Paragraph 26(6) of the EPF Scheme has permitted contributions above the wage ceiling since **1952**. Direct plans have existed since **2013**. The ₹1.25 lakh annual exemption on long-term equity gains has an annual-reset structure that makes harvesting mechanical arithmetic rather than a strategy. Employer NPS under Section 124(2) is simply a payroll component your company either offers or does not.
+
+The reason so little of it gets used is not secrecy. It is that the Indian financial system documents itself in circulars, gazette notifications and FAQ pages, and every default inside it is set to whichever branch requires no action from your employer, your bank, or your fund house.
+
+| What you get by default | What is also there, if you go and get it |
+|---|---|
+| Employer PF on the ₹15,000 ceiling | PF on your full Basic, via a **Para 26(6) joint declaration** ([§7.6](/articles/personal-finance-india/epf-eps-form-11#76-the-two-real-ways-to-contribute-more)) |
+| Regular mutual fund plans, sold to you by a distributor | **Direct plans**: same portfolio, roughly 0.65% a year cheaper ([§12.4](/articles/personal-finance-india/investing#124-direct-versus-regular-plans-the-single-largest-controllable-cost)) |
+| Meal cards structured at the old ₹50-per-meal ceiling | **₹200 per meal** from FY 2026-27: around ₹79,000 a year of newly exempt value ([§5.7](/articles/personal-finance-india/salary-structuring#57-meal-cards-and-food)) |
+| A relocation **allowance**, fully taxable | A relocation **reimbursement** against bills, not taxable: the same rupee, a different word ([§5.5](/articles/personal-finance-india/salary-structuring#55-relocation)) |
+| No nomination on your EPF, demat account or fund folios | Ten minutes of forms that spare your family succession proceedings ([§7.4](/articles/personal-finance-india/epf-eps-form-11#74-uan-your-permanent-identifier)) |
+| Whichever tax regime payroll assumes for you | The one that actually wins at *your* deduction level, computed rather than guessed ([§4.5](/articles/personal-finance-india/tax-regimes#45-the-break-even-calculation)) |
+| Old PF sitting dormant under a previous Member ID | A transfer that keeps the 5-year and 10-year clocks running ([§7.4](/articles/personal-finance-india/epf-eps-form-11#74-uan-your-permanent-identifier)) |
+
+The one-time setup checklist (every portal, form and account worth opening once) is at [§18](/articles/personal-finance-india/forms-and-links).
+
+---
+
+## What this is not
+
+This document states **how things work**. It does not tell you what to do.
+
+There are no recommended allocations here, no "best" funds, no verdict on whether you should rent or buy. Those answers depend on facts a document cannot know: what you pay in rent, whether your parents depend on your income, how secure your team is, whether there is a wedding in two years, whether you have the stomach to keep a SIP running through a 30% drawdown.
+
+What it gives you instead is the raw material for that judgement: the thresholds, the formulas, the section numbers, the deadlines, and the trade-offs stated in **both** directions, so you can weigh them against circumstances only you know. The ₹86,400 above is a real number; whether the locked-until-retirement account it lands in is the right place for your next ₹86,400 is a question about you, not about the EPF Act. This supplies the constraints. You supply the circumstances.
+
+Where a widely-repeated belief is factually wrong, this document says so and states the actual rule. There are several such cases, and two of them concern your provident fund.
+
+---
+
+## Why this year is different
+
+If you have read anything about Indian personal finance written before April 2026, a meaningful fraction of it is now citing dead law.
+
+| What changed | When | Effect |
+|---|---|---|
+| **Income-tax Act, 2025** replaced the Income-tax Act, 1961 | 1 April 2026 | 819 sections became 536. Section numbers changed throughout. |
+| **"Tax Year"** replaced "Previous Year" and "Assessment Year" | 1 April 2026 | One term instead of two. FY 2026-27 is simply Tax Year 2026-27. |
+| **Form numbers changed** | FY 2026-27 onward | Form 16 → **Form 130**. Form 26AS → **Form 168**. Form 12BB → **Form 124**. Form 15G/15H → **Form 121**. |
+| **Four Labour Codes came into force** | 21 November 2025 | Basic + DA must be ≥ 50% of remuneration. This changes your payslip. |
+| **Perquisite limits raised** after decades frozen | FY 2026-27 | Meal vouchers ₹50 → ₹200/meal. Gift vouchers ₹5,000 → ₹15,000/yr. |
+| **GST on individual life & health insurance** cut to zero | 22 September 2025 | Individual policies 18% → 0%. Group policies still 18%. |
+| **NPS exit rules amended** | 16 December 2025 | Lump sum at exit raised from 60% to 80%, but the tax law has not caught up. |
+
+Section numbers in this document are given in the form **"Section 123 (formerly 80C)"** so that you can match both the new law and any older material you encounter. Note that your Form 16 for FY 2025-26 (the one you used to file in July 2026) still carries the *old* numbers. The new numbering first appears on Form 130 for FY 2026-27.
+
+---
+
+## Where you actually stand
+
+Before any of the mechanics, one piece of context, because engineers systematically misjudge it.
+
+According to the **World Inequality Report 2026**, published by the World Inequality Lab:
+
+- India's **top 1%** holds roughly **40%** of national wealth.
+- The **top 10%** holds roughly **65%** of national wealth, and receives about **58%** of national income.
+- The **bottom 50%** receives about **15%** of national income.
+- Average income per adult is roughly **₹6.5 lakh per year** and average wealth roughly **₹29.4 lakh**, both measured at purchasing power parity, and both are *averages*, which in a distribution this skewed sit far above the median.
+
+Set against that, entry-level engineering compensation in India in 2026 spans roughly **₹3.5–6 lakh** at large IT services firms, **₹8–15 lakh** at mid-tier product companies, and **₹15–35 lakh** at global capability centres and top-tier product companies. The spread between the bottom quartile and top quartile of campus offers is close to eightfold.
+
+Two consequences follow, and they pull in opposite directions:
+
+1. **A salaried engineering job in India places you far up the national income distribution very early.** The decisions you make in your twenties therefore involve real sums, and errors compound for forty years.
+2. **Your peer group is not the population.** If you calibrate spending against colleagues, you are calibrating against roughly the top 1–2% of the country. That is a legitimate choice; it is not a neutral one, and it is worth knowing you are making it.
+
+This point is sharper in India than almost anywhere else, because the Indian distribution is considerably more unequal than the ones such comparisons are usually drawn from.
+
+---
+
+## A note on accuracy and expiry
+
+Every figure here was verified against public sources in **August 2026**. Indian tax and pension rules change at least annually: Union Budget in February, small-savings rates quarterly, EPF interest rate around March, and, this year, an entirely new tax statute.
+
+Three things are **actively in flux** as of August 2026 and are flagged wherever they appear:
+
+- The **EPF wage ceiling** (₹15,000 since 2014) is under revision. The Supreme Court directed a decision within four months in January 2026; reporting suggests ₹25,000 with an effective date around April 2027. Not yet notified.
+- **EPS-95 higher pension** implementation continues to generate litigation and administrative revision following the Supreme Court judgment of 4 November 2022.
+- **NPS exit** now permits an 80% lump sum under PFRDA regulations, while the income-tax exemption still covers only 60%. The two have not been reconciled.
+
+Do not treat any number here as current beyond the next Union Budget without re-checking it.

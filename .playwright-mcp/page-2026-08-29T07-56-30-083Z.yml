@@ -1,0 +1,724 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e10]:
+      - link "Home" [ref=e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e14]:
+        - button "Menu" [ref=e16]
+        - navigation [ref=e19]:
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "About" [ref=e22] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e23]:
+              - link "Experience" [ref=e24] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=e25]:
+              - link "Publications" [ref=e26] [cursor=pointer]:
+                - /url: /publications
+            - listitem [ref=e27]:
+              - link "Projects" [ref=e28] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e29]:
+              - link "Blog" [ref=e30] [cursor=pointer]:
+                - /url: /articles
+            - listitem [ref=e31]:
+              - link "Contact" [ref=e32] [cursor=pointer]:
+                - /url: /contact
+      - button "Toggle theme" [ref=e35]
+  - main [ref=e39]:
+    - generic [ref=e44]:
+      - group [ref=e45]:
+        - generic "Contents (16 chapters)" [ref=e46]
+      - navigation "Chapters" [ref=e47]:
+        - paragraph [ref=e48]: Personal Finance for Engineers in India
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - paragraph [ref=e51]: Overview
+            - link "Start here" [ref=e52] [cursor=pointer]:
+              - /url: /articles/personal-finance-india
+              - text: 00Start here
+          - listitem [ref=e53]:
+            - paragraph [ref=e54]: The ground rules
+            - link "First principles" [ref=e55] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+              - text: 01First principles
+          - listitem [ref=e56]:
+            - paragraph [ref=e57]: Getting paid
+            - link "Decoding an offer letter" [ref=e58] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/offer-letter
+              - text: 02Decoding an offer letter
+          - listitem [ref=e59]:
+            - link "Equity compensation" [ref=e60] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/equity-compensation
+              - text: 03Equity compensation
+          - listitem [ref=e61]:
+            - paragraph [ref=e62]: Tax
+            - link "Old regime vs new regime" [ref=e63] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/tax-regimes
+              - text: 04Old regime vs new regime
+          - listitem [ref=e64]:
+            - link "Allowances & perquisites" [ref=e65] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/salary-structuring
+              - text: 05Allowances & perquisites
+          - listitem [ref=e66]:
+            - 'link "Worked example: ₹18L CTC" [ref=e67] [cursor=pointer]':
+              - /url: /articles/personal-finance-india/worked-example
+              - text: "06Worked example: ₹18L CTC"
+          - listitem [ref=e68]:
+            - link "Salary calculators" [ref=e69] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/calculator
+              - text: ·Salary calculators
+          - listitem [ref=e70]:
+            - paragraph [ref=e71]: Mandatory savings
+            - link "EPF, EPS, Form 11, gratuity" [ref=e72] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/epf-eps-form-11
+              - text: 07EPF, EPS, Form 11, gratuity
+          - listitem [ref=e73]:
+            - link "NPS" [ref=e74] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/nps
+              - text: 08NPS
+          - listitem [ref=e75]:
+            - paragraph [ref=e76]: Protection
+            - link "Insurance" [ref=e77] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/insurance
+              - text: 09Insurance
+          - listitem [ref=e78]:
+            - paragraph [ref=e79]: Debt & credit
+            - link "Credit cards & CIBIL" [ref=e80] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/credit-cards-cibil
+              - text: 10Credit cards & CIBIL
+          - listitem [ref=e81]:
+            - link "Loans & getting out of debt" [ref=e82] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/loans-and-debt
+              - text: 11Loans & getting out of debt
+          - listitem [ref=e83]:
+            - paragraph [ref=e84]: Investing
+            - link "Investing" [ref=e85] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/investing
+              - text: 12Investing
+          - listitem [ref=e86]:
+            - link "Fixed income, gold & crypto" [ref=e87] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/fixed-income-and-gold
+              - text: 13Fixed income, gold & crypto
+          - listitem [ref=e88]:
+            - paragraph [ref=e89]: Goals
+            - link "Goals, real estate & family" [ref=e90] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/goals-and-real-estate
+              - text: 14Goals, real estate & family
+          - listitem [ref=e91]:
+            - paragraph [ref=e92]: Reference
+            - link "The numbers page" [ref=e93] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/numbers
+              - text: 15The numbers page
+          - listitem [ref=e94]:
+            - link "Forms, schemes & links" [ref=e95] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/forms-and-links
+              - text: 16Forms, schemes & links
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - 'heading "6. Worked Example: ₹18 Lakh CTC, End to End" [level=1] [ref=e98]'
+          - paragraph [ref=e99]:
+            - emphasis [ref=e100]: One offer letter, structured under the Labour Codes, taxed under both regimes, reduced to a monthly bank credit.
+          - separator [ref=e101]
+          - navigation "Sections in this chapter" [ref=e102]:
+            - paragraph [ref=e103]: In this chapter
+            - list [ref=e104]:
+              - listitem [ref=e105]:
+                - link "The setup" [ref=e106] [cursor=pointer]:
+                  - /url: "#the-setup"
+                  - text: ·The setup
+              - listitem [ref=e107]:
+                - 'link "Step 1: CTC breakdown" [ref=e108] [cursor=pointer]':
+                  - /url: "#step-1-ctc-breakdown"
+                  - text: "·Step 1: CTC breakdown"
+              - listitem [ref=e109]:
+                - 'link "Step 2: New regime tax" [ref=e110] [cursor=pointer]':
+                  - /url: "#step-2-new-regime-tax"
+                  - text: "·Step 2: New regime tax"
+              - listitem [ref=e111]:
+                - 'link "Step 3: Old regime tax" [ref=e112] [cursor=pointer]':
+                  - /url: "#step-3-old-regime-tax"
+                  - text: "·Step 3: Old regime tax"
+              - listitem [ref=e113]:
+                - 'link "Step 4: The comparison" [ref=e114] [cursor=pointer]':
+                  - /url: "#step-4-the-comparison"
+                  - text: "·Step 4: The comparison"
+              - listitem [ref=e115]:
+                - 'link "Step 5: Monthly in-hand (new regime)" [ref=e116] [cursor=pointer]':
+                  - /url: "#step-5-monthly-in-hand-new-regime"
+                  - text: "·Step 5: Monthly in-hand (new regime)"
+              - listitem [ref=e117]:
+                - 'link "Step 6: Variant: what employer NPS does" [ref=e118] [cursor=pointer]':
+                  - /url: "#step-6-variant-what-employer-nps-does"
+                  - text: "·Step 6: Variant: what employer NPS does"
+              - listitem [ref=e119]:
+                - 'link "Step 7: The same CTC, structured badly" [ref=e120] [cursor=pointer]':
+                  - /url: "#step-7-the-same-ctc-structured-badly"
+                  - text: "·Step 7: The same CTC, structured badly"
+              - listitem [ref=e121]:
+                - link "What to take from this" [ref=e122] [cursor=pointer]:
+                  - /url: "#what-to-take-from-this"
+                  - text: ·What to take from this
+          - heading "The setup" [level=2] [ref=e123]
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - strong [ref=e126]: "CTC:"
+              - text: ₹18,00,000
+            - listitem [ref=e127]:
+              - strong [ref=e128]: "Location:"
+              - text: Bengaluru
+            - listitem [ref=e129]:
+              - strong [ref=e130]: "Rent paid:"
+              - text: ₹30,000/month
+            - listitem [ref=e131]:
+              - strong [ref=e132]: "Regime:"
+              - text: computed both ways
+            - listitem [ref=e133]:
+              - strong [ref=e134]: "Year:"
+              - text: FY 2026-27 (Tax Year 2026-27)
+            - listitem [ref=e135]:
+              - strong [ref=e136]: Employer pays PF on full Basic
+              - text: (not restricted to the ₹15,000 ceiling)
+            - listitem [ref=e137]:
+              - strong [ref=e138]: No employer NPS
+              - text: in the base case; a variant with NPS follows
+          - paragraph [ref=e139]: All figures are annual unless stated.
+          - separator [ref=e140]
+          - 'heading "Step 1: CTC breakdown" [level=2] [ref=e141]'
+          - paragraph [ref=e142]:
+            - text: Under the Code on Wages,
+            - strong [ref=e143]: Basic + DA must be at least 50% of remuneration
+            - text: . So Basic is set at ₹9,00,000.
+          - table [ref=e145]:
+            - rowgroup [ref=e146]:
+              - row [ref=e147]:
+                - columnheader "Component" [ref=e148]
+                - columnheader "Amount" [ref=e149]
+                - columnheader "Cash to you?" [ref=e150]
+            - rowgroup [ref=e151]:
+              - row [ref=e152]:
+                - cell "Basic salary" [ref=e153]
+                - cell "₹9,00,000" [ref=e154]
+                - cell "Yes" [ref=e155]
+              - row [ref=e156]:
+                - cell "House Rent Allowance (40% of Basic)" [ref=e157]
+                - cell "₹3,60,000" [ref=e158]
+                - cell "Yes" [ref=e159]
+              - row [ref=e160]:
+                - cell "Special allowance (residual)" [ref=e161]
+                - cell "₹3,76,710" [ref=e162]
+                - cell "Yes" [ref=e163]
+              - row [ref=e164]:
+                - cell [ref=e165]:
+                  - strong [ref=e166]: Gross salary
+                - cell [ref=e167]:
+                  - strong [ref=e168]: ₹16,36,710
+                - cell [ref=e169]
+              - row [ref=e170]:
+                - cell "Employer PF contribution (12% of Basic)" [ref=e171]
+                - cell "₹1,08,000" [ref=e172]
+                - 'cell "No: goes to EPF" [ref=e173]'
+              - row [ref=e174]:
+                - cell "Gratuity provision (4.81% of Basic)" [ref=e175]
+                - cell "₹43,290" [ref=e176]
+                - 'cell "No: payable at 5 years" [ref=e177]'
+              - row [ref=e178]:
+                - cell "Group health + term life + accident premium" [ref=e179]
+                - cell "₹12,000" [ref=e180]
+                - 'cell "No: buys cover" [ref=e181]'
+              - row [ref=e182]:
+                - cell [ref=e183]:
+                  - strong [ref=e184]: Total CTC
+                - cell [ref=e185]:
+                  - strong [ref=e186]: ₹18,00,000
+                - cell [ref=e187]
+          - paragraph [ref=e188]:
+            - strong [ref=e189]: "First observation: ₹1,63,290 of the ₹18,00,000 (just over 9%) never appears as cash in any month."
+            - text: It is real value, but it is not spendable.
+          - separator [ref=e190]
+          - 'heading "Step 2: New regime tax" [level=2] [ref=e191]'
+          - paragraph [ref=e192]: Under the new regime, HRA is fully taxable and there are no Chapter VI-A deductions to claim. The employer's PF contribution is not taxable (well within the ₹7.5 lakh aggregate cap); the gratuity provision is not taxable now; the insurance premium is not a perquisite.
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - text: Gross salary
+              - generic [ref=e196]: ₹16,36,710
+            - generic [ref=e197]:
+              - text: Standard deduction
+              - generic [ref=e198]: −₹75,000
+            - generic [ref=e199]:
+              - text: Total income
+              - generic [ref=e200]: ₹15,61,710
+            - paragraph [ref=e201]: Tax computation
+            - generic [ref=e202]:
+              - text: ₹0 – ₹4,00,000 @ 0%
+              - generic [ref=e203]: ₹0
+            - generic [ref=e204]:
+              - text: ₹4,00,000 – ₹8,00,000 @ 5%
+              - generic [ref=e205]: ₹20,000
+            - generic [ref=e206]:
+              - text: ₹8,00,000 – ₹12,00,000 @ 10%
+              - generic [ref=e207]: ₹40,000
+            - generic [ref=e208]:
+              - text: ₹12,00,000 – ₹15,61,710 @ 15%
+              - generic [ref=e209]: ₹54,257
+            - generic [ref=e210]:
+              - text: Tax before cess
+              - generic [ref=e211]: ₹1,14,257
+            - generic [ref=e212]:
+              - text: "Rebate u/s 156: not available (income > ₹12L)"
+              - generic [ref=e213]: ₹0
+            - generic [ref=e214]:
+              - text: Health & education cess @ 4%
+              - generic [ref=e215]: ₹4,570
+            - generic [ref=e216]:
+              - text: Total tax
+              - generic [ref=e217]: ₹1,18,827
+          - paragraph [ref=e218]:
+            - text: Monthly TDS ≈
+            - strong [ref=e219]: ₹9,902
+          - separator [ref=e220]
+          - 'heading "Step 3: Old regime tax" [level=2] [ref=e221]'
+          - paragraph [ref=e222]: "To make the comparison fair, assume this person actually uses the old regime's deductions:"
+          - paragraph [ref=e223]:
+            - strong [ref=e224]: HRA exemption
+            - text: ": Bengaluru, at 50% of salary for FY 2026-27:"
+          - generic [ref=e225]:
+            - paragraph [ref=e226]: Least of three
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - text: Actual HRA received
+                - generic [ref=e229]: ₹3,60,000
+              - generic [ref=e230]:
+                - text: Rent paid − 10% of Basic = ₹3,60,000 − ₹90,000
+                - generic [ref=e231]: ₹2,70,000least
+              - generic [ref=e232]:
+                - text: 50% of Basic
+                - generic [ref=e233]: ₹4,50,000
+              - generic [ref=e234]:
+                - text: HRA exemption
+                - generic [ref=e235]: ₹2,70,000
+          - paragraph [ref=e236]:
+            - strong [ref=e237]: "Full deduction stack:"
+          - table [ref=e239]:
+            - rowgroup [ref=e240]:
+              - row [ref=e241]:
+                - columnheader "Deduction" [ref=e242]
+                - columnheader "Amount" [ref=e243]
+            - rowgroup [ref=e244]:
+              - row [ref=e245]:
+                - cell "Standard deduction" [ref=e246]
+                - cell "₹50,000" [ref=e247]
+              - row [ref=e248]:
+                - cell "HRA exemption" [ref=e249]
+                - cell "₹2,70,000" [ref=e250]
+              - row [ref=e251]:
+                - 'cell "Section 123 (80C): EPF ₹1,08,000 + ELSS ₹42,000" [ref=e252]'
+                - cell "₹1,50,000" [ref=e253]
+              - row [ref=e254]:
+                - 'cell "Section 124(1B) (80CCD(1B)): NPS" [ref=e255]'
+                - cell "₹50,000" [ref=e256]
+              - row [ref=e257]:
+                - 'cell "Section 126 (80D): health insurance" [ref=e258]'
+                - cell "₹25,000" [ref=e259]
+              - row [ref=e260]:
+                - cell "Professional tax paid" [ref=e261]
+                - cell "₹2,400" [ref=e262]
+              - row [ref=e263]:
+                - cell [ref=e264]:
+                  - strong [ref=e265]: Total
+                - cell [ref=e266]:
+                  - strong [ref=e267]: ₹5,47,400
+          - generic [ref=e268]:
+            - paragraph [ref=e269]: Old regime
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - text: Gross salary
+                - generic [ref=e272]: ₹16,36,710
+              - generic [ref=e273]:
+                - text: Deductions
+                - generic [ref=e274]: −₹5,47,400
+              - generic [ref=e275]:
+                - text: Total income
+                - generic [ref=e276]: ₹10,89,310
+              - paragraph [ref=e277]: Tax computation
+              - generic [ref=e278]:
+                - text: ₹0 – ₹2,50,000 @ 0%
+                - generic [ref=e279]: ₹0
+              - generic [ref=e280]:
+                - text: ₹2,50,000 – ₹5,00,000 @ 5%
+                - generic [ref=e281]: ₹12,500
+              - generic [ref=e282]:
+                - text: ₹5,00,000 – ₹10,00,000 @ 20%
+                - generic [ref=e283]: ₹1,00,000
+              - generic [ref=e284]:
+                - text: ₹10,00,000 – ₹10,89,310 @ 30%
+                - generic [ref=e285]: ₹26,793
+              - generic [ref=e286]:
+                - text: Tax before cess
+                - generic [ref=e287]: ₹1,39,293
+              - generic [ref=e288]:
+                - text: Cess @ 4%
+                - generic [ref=e289]: ₹5,572
+              - generic [ref=e290]:
+                - text: Total tax
+                - generic [ref=e291]: ₹1,44,865
+          - separator [ref=e292]
+          - 'heading "Step 4: The comparison" [level=2] [ref=e293]'
+          - table [ref=e295]:
+            - rowgroup [ref=e296]:
+              - row [ref=e297]:
+                - columnheader [ref=e298]
+                - columnheader "New regime" [ref=e299]
+                - columnheader "Old regime" [ref=e300]
+            - rowgroup [ref=e301]:
+              - row [ref=e302]:
+                - cell "Total income" [ref=e303]
+                - cell "₹15,61,710" [ref=e304]
+                - cell "₹10,89,310" [ref=e305]
+              - row [ref=e306]:
+                - cell "Tax payable" [ref=e307]
+                - cell [ref=e308]:
+                  - strong [ref=e309]: ₹1,18,827
+                - cell [ref=e310]:
+                  - strong [ref=e311]: ₹1,44,865
+              - row [ref=e312]:
+                - cell "Extra cash you must lock away to get there" [ref=e313]
+                - cell "₹0" [ref=e314]
+                - cell "₹92,000 (ELSS ₹42,000 + NPS ₹50,000)" [ref=e315]
+          - paragraph [ref=e316]:
+            - strong [ref=e317]: The new regime is ₹26,038 cheaper
+            - text: ", and it does not require locking ₹92,000 into three-year and until-age-60 instruments."
+          - heading "The break-even, computed" [level=3] [ref=e318]
+          - paragraph [ref=e319]: How much would this person need in deductions for the old regime to draw level?
+          - generic [ref=e321]:
+            - generic [ref=e322]:
+              - text: Match new-regime tax before cess of
+              - generic [ref=e323]: ₹1,14,257
+            - generic [ref=e324]:
+              - text: Old-regime tax reaches ₹1,12,500 at total income of
+              - generic [ref=e325]: ₹10,00,000
+            - generic [ref=e326]:
+              - text: Remaining ₹1,757 at 30% → further income of
+              - generic [ref=e327]: ₹5,857
+            - generic [ref=e328]:
+              - text: Required total income
+              - generic [ref=e329]: ₹10,05,857
+            - generic [ref=e330]:
+              - text: Deductions required = ₹16,36,710 − ₹10,05,857
+              - generic [ref=e331]: ₹6,30,853
+          - paragraph [ref=e332]:
+            - strong [ref=e333]: ₹6.31 lakh of total deductions
+            - text: ", versus the ₹5.47 lakh actually available. The gap of ₹83,000 would need to come from somewhere: a home loan (up to ₹2 lakh of interest under Section 22), senior-citizen parents' health insurance (a further ₹50,000 under Section 126), or education loan interest under Section 129."
+          - paragraph [ref=e334]:
+            - strong [ref=e335]: "The general pattern for an early-career engineer:"
+            - text: without a home loan, the old regime rarely wins.
+          - separator [ref=e336]
+          - 'heading "Step 5: Monthly in-hand (new regime)" [level=2] [ref=e337]'
+          - table [ref=e339]:
+            - rowgroup [ref=e340]:
+              - row [ref=e341]:
+                - columnheader "Line" [ref=e342]
+                - columnheader "Monthly" [ref=e343]
+            - rowgroup [ref=e344]:
+              - row [ref=e345]:
+                - cell "Basic" [ref=e346]
+                - cell "₹75,000" [ref=e347]
+              - row [ref=e348]:
+                - cell "HRA" [ref=e349]
+                - cell "₹30,000" [ref=e350]
+              - row [ref=e351]:
+                - cell "Special allowance" [ref=e352]
+                - cell "₹31,393" [ref=e353]
+              - row [ref=e354]:
+                - cell [ref=e355]:
+                  - strong [ref=e356]: Gross monthly
+                - cell [ref=e357]:
+                  - strong [ref=e358]: ₹1,36,393
+              - row [ref=e359]:
+                - 'cell "Less: Employee PF (12% of Basic)" [ref=e360]'
+                - cell "−₹9,000" [ref=e361]
+              - row [ref=e362]:
+                - 'cell "Less: TDS" [ref=e363]'
+                - cell "−₹9,902" [ref=e364]
+              - row [ref=e365]:
+                - 'cell "Less: Professional tax (Karnataka)" [ref=e366]'
+                - cell "−₹200" [ref=e367]
+              - row [ref=e368]:
+                - cell [ref=e369]:
+                  - strong [ref=e370]: NET CREDIT TO BANK
+                - cell [ref=e371]:
+                  - strong [ref=e372]: ₹1,17,291
+          - paragraph [ref=e373]:
+            - strong [ref=e374]: "Annual in-hand: ₹14,07,483"
+            - text: — gross ₹16,36,710 less employee PF, tax and professional tax.
+            - strong [ref=e375]: That is 78.2% of the ₹18,00,000 CTC.
+          - heading "Where the other 21.8% went" [level=3] [ref=e376]
+          - table [ref=e378]:
+            - rowgroup [ref=e379]:
+              - row [ref=e380]:
+                - columnheader "Destination" [ref=e381]
+                - columnheader "Annual" [ref=e382]
+                - columnheader "Is it lost?" [ref=e383]
+            - rowgroup [ref=e384]:
+              - row [ref=e385]:
+                - cell "Income tax + cess" [ref=e386]
+                - cell "₹1,18,827" [ref=e387]
+                - cell "Yes" [ref=e388]
+              - row [ref=e389]:
+                - cell "Professional tax" [ref=e390]
+                - cell "₹2,400" [ref=e391]
+                - cell "Yes" [ref=e392]
+              - row [ref=e393]:
+                - cell "Employee PF" [ref=e394]
+                - cell "₹1,08,000" [ref=e395]
+                - 'cell "No: your money, in EPF at 8.25%" [ref=e396]'
+              - row [ref=e397]:
+                - cell "Employer PF" [ref=e398]
+                - cell "₹1,08,000" [ref=e399]
+                - 'cell "No: your money, in EPF at 8.25%" [ref=e400]'
+              - row [ref=e401]:
+                - cell "Gratuity provision" [ref=e402]
+                - cell "₹43,290" [ref=e403]
+                - cell "Only if you leave before 5 years" [ref=e404]
+              - row [ref=e405]:
+                - cell "Insurance premium" [ref=e406]
+                - cell "₹12,000" [ref=e407]
+                - 'cell "No: buys cover worth far more" [ref=e408]'
+              - row [ref=e409]:
+                - cell [ref=e410]:
+                  - strong [ref=e411]: Total
+                - cell [ref=e412]:
+                  - strong [ref=e413]: ₹3,92,517
+                - cell [ref=e414]
+          - paragraph [ref=e415]:
+            - strong [ref=e416]: ₹2,71,290 of that ₹3,92,517 (69% of it) is still yours.
+            - text: It is simply illiquid. The genuinely lost portion is the ₹1,21,227 of tax.
+          - paragraph [ref=e417]:
+            - text: "This is the number to compare across offers: not CTC, and not even in-hand alone, but"
+            - strong [ref=e418]: in-hand + employer statutory contributions + realistic equity value
+            - text: .
+          - separator [ref=e419]
+          - 'heading "Step 6: Variant: what employer NPS does" [level=2] [ref=e420]'
+          - paragraph [ref=e421]:
+            - text: Suppose the employer offers NPS under Section 124(2) at 10% of Basic, restructured
+            - emphasis [ref=e422]: within
+            - text: "the same ₹18 lakh CTC (which is how most Indian employers implement it: the special allowance shrinks)."
+          - table [ref=e424]:
+            - rowgroup [ref=e425]:
+              - row [ref=e426]:
+                - columnheader "Component" [ref=e427]
+                - columnheader "Base case" [ref=e428]
+                - columnheader "With employer NPS" [ref=e429]
+            - rowgroup [ref=e430]:
+              - row [ref=e431]:
+                - cell "Basic" [ref=e432]
+                - cell "₹9,00,000" [ref=e433]
+                - cell "₹9,00,000" [ref=e434]
+              - row [ref=e435]:
+                - cell "HRA" [ref=e436]
+                - cell "₹3,60,000" [ref=e437]
+                - cell "₹3,60,000" [ref=e438]
+              - row [ref=e439]:
+                - cell "Special allowance" [ref=e440]
+                - cell "₹3,76,710" [ref=e441]
+                - cell "₹2,86,710" [ref=e442]
+              - row [ref=e443]:
+                - cell [ref=e444]:
+                  - strong [ref=e445]: Gross taxable salary
+                - cell [ref=e446]:
+                  - strong [ref=e447]: ₹16,36,710
+                - cell [ref=e448]:
+                  - strong [ref=e449]: ₹15,46,710
+              - row [ref=e450]:
+                - cell "Employer NPS (10% of Basic)" [ref=e451]
+                - cell "n/a" [ref=e452]
+                - cell "₹90,000" [ref=e453]
+              - row [ref=e454]:
+                - cell "Employer PF" [ref=e455]
+                - cell "₹1,08,000" [ref=e456]
+                - cell "₹1,08,000" [ref=e457]
+              - row [ref=e458]:
+                - cell "Gratuity + insurance" [ref=e459]
+                - cell "₹55,290" [ref=e460]
+                - cell "₹55,290" [ref=e461]
+              - row [ref=e462]:
+                - cell [ref=e463]:
+                  - strong [ref=e464]: CTC
+                - cell [ref=e465]:
+                  - strong [ref=e466]: ₹18,00,000
+                - cell [ref=e467]:
+                  - strong [ref=e468]: ₹18,00,000
+          - generic [ref=e469]:
+            - paragraph [ref=e470]: With employer NPS
+            - generic [ref=e471]:
+              - generic [ref=e472]:
+                - text: Gross taxable salary
+                - generic [ref=e473]: ₹15,46,710
+              - generic [ref=e474]:
+                - text: Standard deduction
+                - generic [ref=e475]: −₹75,000
+              - generic [ref=e476]:
+                - text: Total income
+                - generic [ref=e477]: ₹14,71,710
+              - paragraph [ref=e478]: Tax computation
+              - generic [ref=e479]:
+                - text: ₹4L–8L @ 5%
+                - generic [ref=e480]: ₹20,000
+              - generic [ref=e481]:
+                - text: ₹8L–12L @ 10%
+                - generic [ref=e482]: ₹40,000
+              - generic [ref=e483]:
+                - text: ₹12L–14.72L @ 15%
+                - generic [ref=e484]: ₹40,757
+              - generic [ref=e485]:
+                - text: Tax before cess
+                - generic [ref=e486]: ₹1,00,757
+              - generic [ref=e487]:
+                - text: Cess @ 4%
+                - generic [ref=e488]: ₹4,030
+              - generic [ref=e489]:
+                - text: Total tax
+                - generic [ref=e490]: ₹1,04,787
+          - table [ref=e492]:
+            - rowgroup [ref=e493]:
+              - row [ref=e494]:
+                - columnheader [ref=e495]
+                - columnheader "Without NPS" [ref=e496]
+                - columnheader "With employer NPS" [ref=e497]
+            - rowgroup [ref=e498]:
+              - row [ref=e499]:
+                - cell "Tax" [ref=e500]
+                - cell "₹1,18,827" [ref=e501]
+                - cell [ref=e502]:
+                  - strong [ref=e503]: ₹1,04,787
+              - row [ref=e504]:
+                - cell [ref=e505]:
+                  - strong [ref=e506]: Tax saved
+                - cell [ref=e507]
+                - cell [ref=e508]:
+                  - strong [ref=e509]: ₹14,040
+              - row [ref=e510]:
+                - cell "Monthly in-hand" [ref=e511]
+                - cell "₹1,17,291" [ref=e512]
+                - cell "₹1,10,961" [ref=e513]
+              - row [ref=e514]:
+                - cell "Cash diverted to NPS" [ref=e515]
+                - cell "₹0" [ref=e516]
+                - cell "₹90,000" [ref=e517]
+          - paragraph [ref=e518]:
+            - strong [ref=e519]: Section 124(2) is the only significant deduction still available in the new regime.
+            - text: It is capped at 14% of Basic + DA; at this Basic, that would be ₹1,26,000, saving roughly ₹19,600 in tax.
+          - paragraph [ref=e520]:
+            - text: "The trade-off is stated plainly:"
+            - strong [ref=e521]: ₹90,000 of spendable cash becomes ₹90,000 locked until age 60, and you save ₹14,040 in tax for making the swap.
+            - text: Whether that is worthwhile depends on whether you would have saved that ₹90,000 anyway, and on how much you value liquidity, not on the tax figure alone.
+          - separator [ref=e522]
+          - 'heading "Step 7: The same CTC, structured badly" [level=2] [ref=e523]'
+          - paragraph [ref=e524]:
+            - text: "For contrast: the same ₹18,00,000 under a"
+            - strong [ref=e525]: pre-Labour-Code structure
+            - text: with Basic at 35% of CTC.
+          - table [ref=e527]:
+            - rowgroup [ref=e528]:
+              - row [ref=e529]:
+                - columnheader "Component" [ref=e530]
+                - columnheader "35% Basic (old style)" [ref=e531]
+                - columnheader "50% Basic (Labour Codes)" [ref=e532]
+            - rowgroup [ref=e533]:
+              - row [ref=e534]:
+                - cell "Basic" [ref=e535]
+                - cell "₹6,30,000" [ref=e536]
+                - cell "₹9,00,000" [ref=e537]
+              - row [ref=e538]:
+                - cell "HRA (40% of Basic)" [ref=e539]
+                - cell "₹2,52,000" [ref=e540]
+                - cell "₹3,60,000" [ref=e541]
+              - row [ref=e542]:
+                - cell "Special allowance" [ref=e543]
+                - cell "₹8,00,097" [ref=e544]
+                - cell "₹3,76,710" [ref=e545]
+              - row [ref=e546]:
+                - cell "Gross salary" [ref=e547]
+                - cell "₹16,82,097" [ref=e548]
+                - cell "₹16,36,710" [ref=e549]
+              - row [ref=e550]:
+                - cell "Employer PF" [ref=e551]
+                - cell "₹75,600" [ref=e552]
+                - cell "₹1,08,000" [ref=e553]
+              - row [ref=e554]:
+                - cell "Gratuity provision" [ref=e555]
+                - cell "₹30,303" [ref=e556]
+                - cell "₹43,290" [ref=e557]
+              - row [ref=e558]:
+                - cell "Insurance" [ref=e559]
+                - cell "₹12,000" [ref=e560]
+                - cell "₹12,000" [ref=e561]
+              - row [ref=e562]:
+                - cell [ref=e563]:
+                  - strong [ref=e564]: CTC
+                - cell [ref=e565]:
+                  - strong [ref=e566]: ₹18,00,000
+                - cell [ref=e567]:
+                  - strong [ref=e568]: ₹18,00,000
+              - row [ref=e569]:
+                - cell "Employee PF (monthly)" [ref=e570]
+                - cell "₹6,300" [ref=e571]
+                - cell "₹9,000" [ref=e572]
+              - row [ref=e573]:
+                - cell [ref=e574]:
+                  - strong [ref=e575]: Monthly in-hand (new regime, approx.)
+                - cell [ref=e576]:
+                  - strong [ref=e577]: ₹1,23,152
+                - cell [ref=e578]:
+                  - strong [ref=e579]: ₹1,17,291
+              - row [ref=e580]:
+                - cell [ref=e581]:
+                  - strong [ref=e582]: Annual to EPF (both sides)
+                - cell [ref=e583]:
+                  - strong [ref=e584]: ₹1,51,200
+                - cell [ref=e585]:
+                  - strong [ref=e586]: ₹2,16,000
+          - paragraph [ref=e587]:
+            - text: Monthly cash falls by
+            - strong [ref=e588]: ₹5,861
+            - text: . Annual EPF accumulation rises by
+            - strong [ref=e589]: ₹64,800
+            - text: . Gratuity entitlement rises by about 43%.
+          - paragraph [ref=e590]:
+            - text: "That is the Labour Codes in one table:"
+            - strong [ref=e591]: same CTC, less cash now, materially more deferred savings.
+            - text: It is not optional, and it is worth understanding before concluding that your take-home "went down for no reason."
+          - separator [ref=e592]
+          - heading "What to take from this" [level=2] [ref=e593]
+          - list [ref=e594]:
+            - listitem [ref=e595]:
+              - strong [ref=e596]: CTC overstates your income by roughly 17–22%
+              - text: "at this level, before tax: 17.9% under the 35%-Basic structure of Step 7, 21.8% under the 50%-Basic structure of Steps 1–5."
+            - listitem [ref=e597]:
+              - strong [ref=e598]: Most of the gap is not lost
+              - text: ": about two-thirds of it is your own money sitting in EPF and gratuity."
+            - listitem [ref=e599]:
+              - strong [ref=e600]: The new regime wins for the default early-career case
+              - text: ": renting, no home loan, ordinary deductions."
+            - listitem [ref=e601]:
+              - strong [ref=e602]: Employer NPS is the one lever that still works
+              - text: under the new regime, and it converts cash into a locked retirement asset rather than creating value from nothing.
+            - listitem [ref=e603]:
+              - strong [ref=e604]: Structure matters as much as quantum.
+              - text: The same ₹18 lakh produces different cash, different EPF, and different gratuity depending on how it is split.
+          - separator [ref=e605]
+          - paragraph [ref=e606]:
+            - text: This example uses one set of assumptions. To run it on your own CTC, basic percentage, rent and deductions, use the
+            - link "salary calculators" [ref=e607] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/calculator
+            - text: .
+        - navigation "Chapter navigation" [ref=e608]:
+          - link "PreviousAllowances & perquisites" [ref=e609] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/salary-structuring
+          - link "NextSalary calculators" [ref=e610] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/calculator
+  - contentinfo [ref=e611]:
+    - generic [ref=e617]:
+      - paragraph [ref=e618]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=e619]: Last updated in August 2026.

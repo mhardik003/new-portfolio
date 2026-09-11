@@ -1,0 +1,569 @@
+- generic [ref=f3e6]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Home" [ref=f3e7] [cursor=pointer]:
+                  - /url: /
+                - navigation [ref=f3e8]:
+                  - list [ref=f3e9]:
+                    - listitem [ref=f3e10]:
+                      - link "About" [ref=f3e11] [cursor=pointer]:
+                        - /url: /about
+                    - listitem [ref=f3e12]:
+                      - link "Experience" [ref=f3e13] [cursor=pointer]:
+                        - /url: /work
+                    - listitem [ref=f3e14]:
+                      - link "Publications" [ref=f3e15] [cursor=pointer]:
+                        - /url: /publications
+                    - listitem [ref=f3e16]:
+                      - link "Projects" [ref=f3e17] [cursor=pointer]:
+                        - /url: /projects
+                    - listitem [ref=f3e18]:
+                      - link "Blog" [ref=f3e19] [cursor=pointer]:
+                        - /url: /articles
+                    - listitem [ref=f3e20]:
+                      - link "Contact" [ref=f3e21] [cursor=pointer]:
+                        - /url: /contact
+                - button "Toggle theme" [ref=f3e23] [cursor=pointer]
+  - main [ref=f3e27]:
+    - generic [ref=f3e33]:
+      - navigation "Chapters" [ref=f3e34]:
+        - paragraph [ref=f3e35]: Personal Finance for Engineers in India
+        - list [ref=f3e36]:
+          - listitem [ref=f3e37]:
+            - paragraph [ref=f3e38]: Overview
+            - link "Start here" [ref=f3e39] [cursor=pointer]:
+              - /url: /articles/personal-finance-india
+              - generic [ref=f3e40]: "00"
+          - listitem [ref=f3e42]:
+            - paragraph [ref=f3e43]: The ground rules
+            - link "First principles" [ref=f3e44] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+              - generic [ref=f3e45]: "01"
+          - listitem [ref=f3e47]:
+            - paragraph [ref=f3e48]: Getting paid
+            - link "Decoding an offer letter" [ref=f3e49] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/offer-letter
+              - generic [ref=f3e50]: "02"
+          - listitem [ref=f3e52]:
+            - link "Equity compensation" [ref=f3e53] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/equity-compensation
+              - generic [ref=f3e54]: "03"
+          - listitem [ref=f3e56]:
+            - paragraph [ref=f3e57]: Tax
+            - link "Old regime vs new regime" [ref=f3e58] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/tax-regimes
+              - generic [ref=f3e59]: "04"
+          - listitem [ref=f3e61]:
+            - link "Allowances & perquisites" [ref=f3e62] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/salary-structuring
+              - generic [ref=f3e63]: "05"
+          - listitem [ref=f3e65]:
+            - 'link "Worked example: ₹18L CTC" [ref=f3e66] [cursor=pointer]':
+              - /url: /articles/personal-finance-india/worked-example
+              - generic [ref=f3e67]: "06"
+          - listitem [ref=f3e69]:
+            - link "Salary calculators" [ref=f3e70] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/calculator
+              - generic [ref=f3e71]: ·
+          - listitem [ref=f3e73]:
+            - paragraph [ref=f3e74]: Mandatory savings
+            - link "EPF, EPS, Form 11, gratuity" [ref=f3e75] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/epf-eps-form-11
+              - generic [ref=f3e76]: "07"
+          - listitem [ref=f3e78]:
+            - link "NPS" [ref=f3e79] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/nps
+              - generic [ref=f3e80]: "08"
+          - listitem [ref=f3e82]:
+            - paragraph [ref=f3e83]: Protection
+            - link "Insurance" [ref=f3e84] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/insurance
+              - generic [ref=f3e85]: "09"
+          - listitem [ref=f3e87]:
+            - paragraph [ref=f3e88]: Debt & credit
+            - link "Credit cards & CIBIL" [ref=f3e89] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/credit-cards-cibil
+              - generic [ref=f3e90]: "10"
+          - listitem [ref=f3e92]:
+            - link "Loans & getting out of debt" [ref=f3e93] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/loans-and-debt
+              - generic [ref=f3e94]: "11"
+          - listitem [ref=f3e96]:
+            - paragraph [ref=f3e97]: Investing
+            - link "Investing" [ref=f3e98] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/investing
+              - generic [ref=f3e99]: "12"
+          - listitem [ref=f3e101]:
+            - link "Fixed income, gold & crypto" [ref=f3e102] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/fixed-income-and-gold
+              - generic [ref=f3e103]: "13"
+          - listitem [ref=f3e105]:
+            - paragraph [ref=f3e106]: Goals & life
+            - link "Goals & planning" [ref=f3e107] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/goals-and-planning
+              - generic [ref=f3e108]: "14"
+          - listitem [ref=f3e110]:
+            - link "Real estate" [ref=f3e111] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/real-estate
+              - generic [ref=f3e112]: "15"
+          - listitem [ref=f3e114]:
+            - link "Family & succession" [ref=f3e115] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/family-and-succession
+              - generic [ref=f3e116]: "16"
+          - listitem [ref=f3e118]:
+            - paragraph [ref=f3e119]: Reference
+            - link "The numbers page" [ref=f3e120] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/numbers
+              - generic [ref=f3e121]: "17"
+          - listitem [ref=f3e123]:
+            - link "Forms, schemes & links" [ref=f3e124] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/forms-and-links
+              - generic [ref=f3e125]: "18"
+      - generic [ref=f3e127]:
+        - generic [ref=f3e128]:
+          - heading "2. Decoding an Indian Offer Letter" [level=1] [ref=f3e129]
+          - paragraph [ref=f3e130]:
+            - emphasis [ref=f3e131]: Why the number in your offer letter is not the number in your bank account.
+          - separator [ref=f3e132]
+          - paragraph [ref=f3e133]:
+            - strong [ref=f3e134]: A ₹18 lakh CTC offer typically produces around ₹14 lakh of annual in-hand pay, roughly 78%.
+            - text: The missing ₹4 lakh is not one deduction. Part of it is the employer's own contributions, premiums and provisions — real cost to the company, never cash to you. Part of it reaches you, but into an account you cannot draw on for decades. The rest is tax.
+          - paragraph [ref=f3e135]:
+            - text: "The practical rule:"
+            - strong [ref=f3e136]: compare offers on in-hand plus vested-equity value, never on CTC.
+            - text: Two ₹20 lakh CTC offers can differ by well over ₹1 lakh a year in cash, purely through structuring.
+          - separator [ref=f3e137]
+          - navigation "Sections in this chapter" [ref=f3e138]:
+            - paragraph [ref=f3e139]: In this chapter
+            - list [ref=f3e140]:
+              - listitem [ref=f3e141]:
+                - 'link "The central confusion: CTC" [ref=f3e142] [cursor=pointer]':
+                  - /url: "#21-the-central-confusion-ctc"
+                  - generic [ref=f3e143]: "2.1"
+              - listitem [ref=f3e145]:
+                - link "Every component, and what it really is" [ref=f3e146] [cursor=pointer]:
+                  - /url: "#22-every-component-and-what-it-really-is"
+                  - generic [ref=f3e147]: "2.2"
+              - listitem [ref=f3e149]:
+                - link "The Labour Codes changed your payslip" [ref=f3e150] [cursor=pointer]:
+                  - /url: "#23-the-labour-codes-changed-your-payslip"
+                  - generic [ref=f3e151]: "2.3"
+              - listitem [ref=f3e153]:
+                - link "Offer archetypes in Indian tech" [ref=f3e154] [cursor=pointer]:
+                  - /url: "#24-offer-archetypes-in-indian-tech"
+                  - generic [ref=f3e155]: "2.4"
+              - listitem [ref=f3e157]:
+                - link "Clauses that cost money" [ref=f3e158] [cursor=pointer]:
+                  - /url: "#25-clauses-that-cost-money"
+                  - generic [ref=f3e159]: "2.5"
+              - listitem [ref=f3e161]:
+                - link "Negotiation" [ref=f3e162] [cursor=pointer]:
+                  - /url: "#26-negotiation"
+                  - generic [ref=f3e163]: "2.6"
+              - listitem [ref=f3e165]:
+                - link "What the number does not settle" [ref=f3e166] [cursor=pointer]:
+                  - /url: "#27-what-the-number-does-not-settle"
+                  - generic [ref=f3e167]: "2.7"
+          - 'heading "2.1 The central confusion: CTC" [level=2] [ref=f3e169]'
+          - paragraph [ref=f3e170]:
+            - text: Indian offer letters quote
+            - strong [ref=f3e171]: CTC (Cost To Company)
+            - text: . This is the employer's total annual cost of employing you. It is not your salary, and a meaningful portion of it is money you will never receive as cash.
+          - code [ref=f3e173]: CTC ≥ Gross salary ≥ Taxable salary ≥ In-hand pay
+          - paragraph [ref=f3e174]: "Each arrow drops a different set of items:"
+          - table [ref=f3e176]:
+            - rowgroup [ref=f3e177]:
+              - row [ref=f3e178]:
+                - columnheader "Step" [ref=f3e179]
+                - columnheader "What is removed" [ref=f3e180]
+            - rowgroup [ref=f3e181]:
+              - row [ref=f3e182]:
+                - cell "CTC → Gross" [ref=f3e183]
+                - cell "Employer PF, gratuity provision, insurance premiums, meal-card loading, sometimes notional perquisite values" [ref=f3e184]
+              - row [ref=f3e185]:
+                - cell "Gross → Taxable" [ref=f3e186]
+                - 'cell "Exempt allowances and reimbursements (old regime: HRA, LTA and more; new regime: a much shorter list)" [ref=f3e187]'
+              - row [ref=f3e188]:
+                - cell "Taxable → In-hand" [ref=f3e189]
+                - cell "Employee PF, income tax (TDS), professional tax, any voluntary deductions" [ref=f3e190]
+          - paragraph [ref=f3e191]:
+            - text: A worked line-by-line derivation is in
+            - strong [ref=f3e192]:
+              - link "§6" [ref=f3e193] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/worked-example
+            - text: .
+          - separator [ref=f3e194]
+          - heading "2.2 Every component, and what it really is" [level=2] [ref=f3e195]
+          - heading "Cash components" [level=3] [ref=f3e196]
+          - table [ref=f3e198]:
+            - rowgroup [ref=f3e199]:
+              - row [ref=f3e200]:
+                - columnheader "Component" [ref=f3e201]
+                - columnheader "What it's for" [ref=f3e202]
+                - columnheader "Tax treatment" [ref=f3e203]
+                - columnheader "Notes" [ref=f3e204]
+            - rowgroup [ref=f3e205]:
+              - row [ref=f3e206]:
+                - cell [ref=f3e207]:
+                  - strong [ref=f3e208]: Basic salary
+                - cell "Your base wage — the fixed core of the package" [ref=f3e209]
+                - cell "Fully taxable" [ref=f3e210]
+                - cell "The anchor. PF, gratuity, HRA and most other components are computed as a percentage of it. Under the Labour Codes, Basic + DA must be ≥ 50% of total remuneration." [ref=f3e211]
+              - row [ref=f3e212]:
+                - cell [ref=f3e213]:
+                  - strong [ref=f3e214]: Dearness Allowance (DA)
+                - cell "Compensating cost-of-living inflation" [ref=f3e215]
+                - cell "Fully taxable" [ref=f3e216]
+                - cell "Common in PSUs and government; rare in private tech. Where present, it is grouped with Basic for PF and gratuity." [ref=f3e217]
+              - row [ref=f3e218]:
+                - cell [ref=f3e219]:
+                  - strong [ref=f3e220]: House Rent Allowance (HRA)
+                - cell "Covering your rent" [ref=f3e221]
+                - cell "Partly exempt" [ref=f3e222]
+                - cell [ref=f3e223]:
+                  - text: Partially exempt in the
+                  - strong [ref=f3e224]: old regime
+                  - text: if you actually pay rent.
+                  - strong [ref=f3e225]: Fully taxable in the new regime.
+                  - text: Typically set at 40%–50% of Basic.
+              - row [ref=f3e226]:
+                - cell [ref=f3e227]:
+                  - strong [ref=f3e228]: Special allowance
+                - cell "Nothing — it is the plug that makes CTC add up" [ref=f3e229]
+                - cell "Fully taxable" [ref=f3e230]
+                - cell "The residual bucket. Whatever is left after every other component is assigned lands here." [ref=f3e231]
+              - row [ref=f3e232]:
+                - cell [ref=f3e233]:
+                  - strong [ref=f3e234]: Leave Travel Allowance (LTA)
+                - cell "Covering domestic holiday travel" [ref=f3e235]
+                - cell "Conditionally exempt" [ref=f3e236]
+                - cell "Old regime only; exempt against actual domestic travel tickets, twice in a block of four calendar years." [ref=f3e237]
+              - row [ref=f3e238]:
+                - cell [ref=f3e239]:
+                  - strong [ref=f3e240]: Conveyance / transport allowance
+                - cell "Covering your daily commute" [ref=f3e241]
+                - cell "Taxable" [ref=f3e242]
+                - cell "The old blanket ₹1,600/month exemption was folded into the standard deduction. Still exempt for employees with specified disabilities." [ref=f3e243]
+              - row [ref=f3e244]:
+                - cell [ref=f3e245]:
+                  - strong [ref=f3e246]: Variable pay / performance bonus
+                - cell "Tying part of your pay to performance" [ref=f3e247]
+                - cell "Fully taxable" [ref=f3e248]
+                - cell [ref=f3e249]:
+                  - text: Stated as a percentage of fixed pay or a rupee figure.
+                  - strong [ref=f3e250]: Read the payout history, not the target.
+                  - text: Frequently paid at 70–90% of target, sometimes at 0%.
+              - row [ref=f3e251]:
+                - cell [ref=f3e252]:
+                  - strong [ref=f3e253]: Joining / signing bonus
+                - cell "Compensating what you give up by leaving your last job" [ref=f3e254]
+                - cell "Fully taxable" [ref=f3e255]
+                - cell [ref=f3e256]:
+                  - text: Almost always carries a clawback; see
+                  - link "§2.5" [ref=f3e257] [cursor=pointer]:
+                    - /url: "#25-clauses-that-cost-money"
+                  - text: .
+              - row [ref=f3e258]:
+                - cell [ref=f3e259]:
+                  - strong [ref=f3e260]: Retention bonus
+                - cell "Paying you to still be there on a set date" [ref=f3e261]
+                - cell "Fully taxable" [ref=f3e262]
+                - cell "Paid at a future date conditional on still being employed." [ref=f3e263]
+              - row [ref=f3e264]:
+                - cell [ref=f3e265]:
+                  - strong [ref=f3e266]: Shift / on-call allowance
+                - cell "Compensating unsocial hours and off-shift availability" [ref=f3e267]
+                - cell "Fully taxable" [ref=f3e268]
+                - cell "Common in support and SRE roles." [ref=f3e269]
+          - heading "Benefits and contributions inside CTC" [level=3] [ref=f3e270]
+          - table [ref=f3e272]:
+            - rowgroup [ref=f3e273]:
+              - row [ref=f3e274]:
+                - columnheader "Component" [ref=f3e275]
+                - columnheader "What it is" [ref=f3e276]
+                - columnheader "Do you ever see cash?" [ref=f3e277]
+                - columnheader "What to ask" [ref=f3e278]
+            - rowgroup [ref=f3e279]:
+              - row [ref=f3e280]:
+                - cell [ref=f3e281]:
+                  - strong [ref=f3e282]: Employer PF contribution
+                - cell "12% of Basic, or 12% of ₹15,000 where the employer applies the statutory ceiling" [ref=f3e283]
+                - cell "In your EPF account, not your bank account" [ref=f3e284]
+                - cell "Which of the two it is — ask explicitly. At ₹75,000 Basic the difference is ₹7,200/month of employer contribution." [ref=f3e285]
+              - row [ref=f3e286]:
+                - cell [ref=f3e287]:
+                  - strong [ref=f3e288]: Gratuity provision
+                - cell "4.81% of Basic" [ref=f3e289]
+                - cell [ref=f3e290]:
+                  - text: Only if you complete 5 years (see
+                  - link "§7.8" [ref=f3e291] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11#78-withdrawals-and-advances
+                  - text: )
+                - cell "—" [ref=f3e292]
+              - row [ref=f3e293]:
+                - cell [ref=f3e294]:
+                  - strong [ref=f3e295]: Group health insurance premium
+                - cell "₹8,000–₹25,000/yr" [ref=f3e296]
+                - cell "No; it buys cover, not cash" [ref=f3e297]
+                - cell "Sum insured per family; whether parents are covered and the top-up cost; whether pre-existing disease is covered from day one; room-rent limits" [ref=f3e298]
+              - row [ref=f3e299]:
+                - cell [ref=f3e300]:
+                  - strong [ref=f3e301]: Group term life / accident premium
+                - cell "₹2,000–₹10,000/yr, buying a multiple of salary at zero cost to you" [ref=f3e302]
+                - cell "No" [ref=f3e303]
+                - cell "Cover multiple; whether it continues during the notice period" [ref=f3e304]
+              - row [ref=f3e305]:
+                - cell [ref=f3e306]:
+                  - strong [ref=f3e307]: Employer NPS contribution
+                - cell [ref=f3e308]:
+                  - text: Up to 14% of Basic+DA, if offered. Deductible in
+                  - strong [ref=f3e309]: both regimes
+                  - text: under Section 124(2) (formerly 80CCD(2)) — the single largest deduction still available in the new regime
+                - cell "In your NPS account, at age 60" [ref=f3e310]
+                - cell [ref=f3e311]:
+                  - text: Whether it is offered; whether it is opt-in; whether it
+                  - emphasis [ref=f3e312]: reduces
+                  - text: other components or is added to CTC
+              - row [ref=f3e313]:
+                - cell [ref=f3e314]:
+                  - strong [ref=f3e315]: Meal card loading
+                - cell "Exempt up to ₹200/meal from FY 2026-27" [ref=f3e316]
+                - cell "Yes, as restricted-purpose spending" [ref=f3e317]
+                - cell [ref=f3e318]:
+                  - text: Whether it is
+                  - emphasis [ref=f3e319]: added
+                  - text: to CTC or
+                  - emphasis [ref=f3e320]: carved out
+                  - text: of it
+              - row [ref=f3e321]:
+                - cell [ref=f3e322]:
+                  - strong [ref=f3e323]: Relocation
+                - cell "Reimbursement against bills is not a taxable perquisite; a lump-sum \"relocation allowance\" is fully taxable" [ref=f3e324]
+                - cell "Only against bills, and only up to what you spend" [ref=f3e325]
+                - cell [ref=f3e326]:
+                  - text: Whether the letter says reimbursement or allowance. The word decides the tax (see
+                  - link "§5" [ref=f3e327] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/salary-structuring
+                  - text: )
+              - row [ref=f3e328]:
+                - cell [ref=f3e329]:
+                  - strong [ref=f3e330]: "\"Perks\" valued in CTC"
+                - 'cell "Cab, food, gym, laptop. Frequently inflated: a ₹50,000 \"food and transport\" line is real cost to the company and near-zero optionality for you" [ref=f3e331]'
+                - cell "No" [ref=f3e332]
+                - cell "—" [ref=f3e333]
+          - paragraph [ref=f3e334]:
+            - strong [ref=f3e335]: "The thing to check:"
+            - text: ask for the CTC broken into
+            - emphasis [ref=f3e336]: fixed cash
+            - text: ","
+            - emphasis [ref=f3e337]: variable cash
+            - text: ","
+            - emphasis [ref=f3e338]: employer statutory contributions
+            - text: ", and"
+            - emphasis [ref=f3e339]: benefits-in-kind
+            - text: . A recruiter who will not provide this breakdown is quoting a number designed to be compared favourably rather than accurately.
+          - separator [ref=f3e340]
+          - heading "2.3 The Labour Codes changed your payslip" [level=2] [ref=f3e341]
+          - paragraph [ref=f3e342]:
+            - strong [ref=f3e343]: In force since 21 November 2025.
+            - text: Four codes (the Code on Wages 2019, the Industrial Relations Code 2020, the Code on Social Security 2020, and the Occupational Safety, Health and Working Conditions Code 2020) consolidating 29 earlier laws.
+          - paragraph [ref=f3e344]:
+            - text: The provision that matters most for a salaried engineer is the
+            - strong [ref=f3e345]: definition of "wages"
+            - text: in the Code on Wages.
+          - heading "The 50% rule" [level=3] [ref=f3e346]
+          - paragraph [ref=f3e347]:
+            - strong [ref=f3e348]: Basic + DA + retaining allowance must together constitute at least 50% of total remuneration.
+            - text: If excluded allowances exceed 50%, the excess is
+            - emphasis [ref=f3e349]: deemed
+            - text: to be wages for statutory purposes.
+          - paragraph [ref=f3e350]: For decades, Indian employers minimised Basic (often 30–35% of CTC) and inflated "special allowance", because PF, gratuity and bonus are all computed on Basic. The Codes closed that.
+          - heading "What it does, mechanically" [level=3] [ref=f3e351]
+          - paragraph [ref=f3e352]: "Take a ₹18 lakh CTC restructured from a 35% Basic to a 50% Basic:"
+          - table [ref=f3e354]:
+            - rowgroup [ref=f3e355]:
+              - row [ref=f3e356]:
+                - columnheader [ref=f3e357]
+                - columnheader "Old structure" [ref=f3e358]
+                - columnheader "New structure" [ref=f3e359]
+            - rowgroup [ref=f3e360]:
+              - row [ref=f3e361]:
+                - cell "Basic (annual)" [ref=f3e362]
+                - cell "₹6,30,000" [ref=f3e363]
+                - cell "₹9,00,000" [ref=f3e364]
+              - row [ref=f3e365]:
+                - cell "Employee PF @ 12% of Basic" [ref=f3e366]
+                - cell "₹75,600" [ref=f3e367]
+                - cell "₹1,08,000" [ref=f3e368]
+              - row [ref=f3e369]:
+                - cell "Employer PF @ 12% of Basic" [ref=f3e370]
+                - cell "₹75,600" [ref=f3e371]
+                - cell "₹1,08,000" [ref=f3e372]
+              - row [ref=f3e373]:
+                - cell "Gratuity accrual @ 4.81%" [ref=f3e374]
+                - cell "₹30,303" [ref=f3e375]
+                - cell "₹43,290" [ref=f3e376]
+              - row [ref=f3e377]:
+                - cell [ref=f3e378]:
+                  - strong [ref=f3e379]: Monthly take-home effect
+                - cell "n/a" [ref=f3e380]
+                - cell [ref=f3e381]:
+                  - strong [ref=f3e382]: falls by ~₹2,700
+          - paragraph [ref=f3e383]: CTC is unchanged. Take-home falls. Retirement balances and gratuity entitlement rise.
+          - paragraph [ref=f3e384]:
+            - strong [ref=f3e385]: This is not a pay cut, and it is not a benefit; it is a transfer from present cash to deferred, tax-favoured savings that you cannot access until specified events.
+            - text: Whether that suits you depends entirely on your liquidity position. It is not optional.
+          - blockquote [ref=f3e386]:
+            - paragraph [ref=f3e387]:
+              - strong [ref=f3e388]: "Status, August 2026:"
+              - text: the Codes are in force; central rules and state-level rules continue to be notified, and employers have implemented the wage definition on differing timelines. If your Basic is still below 50% of CTC, your employer's restructuring is pending, not exempt.
+          - separator [ref=f3e389]
+          - heading "2.4 Offer archetypes in Indian tech" [level=2] [ref=f3e390]
+          - paragraph [ref=f3e391]: Four archetypes cover most of the Indian market.
+          - table [ref=f3e393]:
+            - rowgroup [ref=f3e394]:
+              - row [ref=f3e395]:
+                - columnheader [ref=f3e396]
+                - columnheader [ref=f3e397]:
+                  - strong [ref=f3e398]: A. Large IT services
+                - columnheader [ref=f3e399]:
+                  - strong [ref=f3e400]: B. GCC of a foreign firm
+                - columnheader [ref=f3e401]:
+                  - strong [ref=f3e402]: C. Indian product / late-stage startup
+                - columnheader [ref=f3e403]:
+                  - strong [ref=f3e404]: D. Early-stage startup
+            - rowgroup [ref=f3e405]:
+              - row [ref=f3e406]:
+                - cell [ref=f3e407]:
+                  - strong [ref=f3e408]: Scale
+                - cell "100,000+ employees" [ref=f3e409]
+                - cell "1,000–20,000 in India; parent listed abroad" [ref=f3e410]
+                - cell "200–5,000" [ref=f3e411]
+                - cell "Under 50" [ref=f3e412]
+              - row [ref=f3e413]:
+                - cell [ref=f3e414]:
+                  - strong [ref=f3e415]: Fixed
+                - cell "₹3.5–6 lakh at entry; structured progression bands" [ref=f3e416]
+                - cell "₹15–35 lakh at entry for competitive teams" [ref=f3e417]
+                - cell "₹12–30 lakh" [ref=f3e418]
+                - cell "₹8–25 lakh, generally below market" [ref=f3e419]
+              - row [ref=f3e420]:
+                - cell [ref=f3e421]:
+                  - strong [ref=f3e422]: Variable
+                - cell "5–10%, generally paid" [ref=f3e423]
+                - cell "10–20%" [ref=f3e424]
+                - cell "0–15%" [ref=f3e425]
+                - cell "None" [ref=f3e426]
+              - row [ref=f3e427]:
+                - cell [ref=f3e428]:
+                  - strong [ref=f3e429]: Equity
+                - cell "Rare below senior grades; occasionally listed-company RSUs" [ref=f3e430]
+                - cell [ref=f3e431]:
+                  - strong [ref=f3e432]: RSUs in the foreign listed parent.
+                  - text: The dominant equity form in Indian tech, and it carries specific tax and compliance consequences (see
+                  - link "§3" [ref=f3e433] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/equity-compensation
+                  - text: )
+                - cell [ref=f3e434]:
+                  - strong [ref=f3e435]: ESOPs in an unlisted Indian company
+                  - text: ": illiquid, may require cash to exercise, may never convert"
+                - cell "A stated percentage; frequently the entire thesis of the offer" [ref=f3e436]
+              - row [ref=f3e437]:
+                - cell [ref=f3e438]:
+                  - strong [ref=f3e439]: Benefits
+                - cell "EPF, gratuity, group health, sometimes a transport fleet" [ref=f3e440]
+                - cell "Strong; frequently includes employer NPS, larger group health cover, parental cover" [ref=f3e441]
+                - cell "Variable; group health usually present, employer NPS uncommon" [ref=f3e442]
+                - cell "Minimal; group health may be absent" [ref=f3e443]
+              - row [ref=f3e444]:
+                - cell [ref=f3e445]:
+                  - strong [ref=f3e446]: Watch for
+                - cell "Service agreements and training bonds are more common here than elsewhere; notice periods of 90 days are standard" [ref=f3e447]
+                - cell "Foreign shares require Schedule FA disclosure in your return regardless of value" [ref=f3e448]
+                - cell "The equity is a genuine bet. Ask for total shares outstanding on a fully diluted basis, the last round's valuation and preference terms, the exercise window after leaving, and whether the company has ever conducted a secondary sale or buyback" [ref=f3e449]
+                - cell "You cannot evaluate the equity without knowing capital raised and at what terms. Dilution from future rounds will reduce your percentage" [ref=f3e450]
+          - separator [ref=f3e451]
+          - heading "2.5 Clauses that cost money" [level=2] [ref=f3e452]
+          - paragraph [ref=f3e453]: These clauses are largely an Indian phenomenon, and they are where offers quietly differ from one another.
+          - heading "Joining bonus clawback" [level=3] [ref=f3e454]
+          - paragraph [ref=f3e455]:
+            - text: "Nearly universal. Typically: leave within 12–24 months and repay the"
+            - strong [ref=f3e456]: gross
+            - text: amount, including the tax already deducted, which you must then recover from the tax department yourself. Check the period, the repayment basis (gross or net), and whether it is pro-rated.
+          - heading "Notice period" [level=3] [ref=f3e457]
+          - paragraph [ref=f3e458]: "30, 60 or 90 days. Ninety is standard at large firms. Check:"
+          - list [ref=f3e459]:
+            - listitem [ref=f3e460]:
+              - text: Whether the company permits
+              - strong [ref=f3e461]: buyout
+              - text: ", and at what rate (usually gross salary for the un-served period)"
+            - listitem [ref=f3e462]:
+              - text: Whether
+              - emphasis [ref=f3e463]: your
+              - text: next employer reimburses the buyout
+            - listitem [ref=f3e464]: Whether notice pay is calculated on Basic or on gross
+          - heading "Training bond / service agreement" [level=3] [ref=f3e465]
+          - paragraph [ref=f3e466]: "Common at large IT services firms for freshers: an obligation to serve a stated period (commonly 12–24 months) or pay a stipulated sum, sometimes backed by a signed bond or original certificates. Enforceability is contested and fact-specific; the practical friction is real regardless."
+          - heading "Retention bonus vesting" [level=3] [ref=f3e467]
+          - paragraph [ref=f3e468]: Paid on a future date conditional on employment. Understand whether it is forfeited entirely on resignation before the date; it usually is.
+          - heading "Non-compete and non-solicit" [level=3] [ref=f3e469]
+          - paragraph [ref=f3e470]: Post-employment non-competes are generally unenforceable in India under Section 27 of the Indian Contract Act, 1872, which voids agreements in restraint of trade. Non-solicitation and confidentiality clauses are treated differently and are more readily enforced.
+          - heading "Variable pay definition" [level=3] [ref=f3e471]
+          - paragraph [ref=f3e472]: "Read whether variable pay is:"
+          - list [ref=f3e473]:
+            - listitem [ref=f3e474]:
+              - strong [ref=f3e475]: Guaranteed
+              - text: for year one (sometimes offered to bridge an offer gap)
+            - listitem [ref=f3e476]:
+              - strong [ref=f3e477]: Target
+              - text: with company and individual multipliers
+            - listitem [ref=f3e478]:
+              - text: Pro-rated on exit, or forfeited entirely if you are not on the rolls on payout date;
+              - strong [ref=f3e479]: the latter is common and is a real cost of resigning in the wrong month
+          - separator [ref=f3e480]
+          - heading "2.6 Negotiation" [level=2] [ref=f3e481]
+          - paragraph [ref=f3e482]: The general principles hold in India, with adjustments.
+          - list [ref=f3e483]:
+            - listitem [ref=f3e484]:
+              - strong [ref=f3e485]: The market is reasonably efficient but employers differ enormously in approach.
+              - text: Some reward negotiation; some publish bands and will not move. Lack of negotiation is a documented contributor to pay disparity.
+            - listitem [ref=f3e486]:
+              - strong [ref=f3e487]: Some terms move more easily than others.
+              - text: Base salary is usually the most constrained (it sets internal band consistency). Joining bonus, equity quantum, and joining date typically have more room. At a private company, the offer is largely a bet on equity in any case.
+            - listitem [ref=f3e488]:
+              - strong [ref=f3e489]: Know the market data.
+              - text: India-specific compensation data is available through Levels.fyi, Glassdoor India, AmbitionBox, and Blind, with the usual caveat that self-reported data skews high and skews toward the companies people brag about.
+            - listitem [ref=f3e490]:
+              - strong [ref=f3e491]: Understand the difference between a recruiter and a hiring manager.
+              - text: The recruiter administers a band; the manager can sometimes argue for an exception.
+            - listitem [ref=f3e492]:
+              - strong [ref=f3e493]: Be honest with yourself about deal-breakers before you state them.
+              - text: Lines in the sand are hard to erase.
+          - paragraph [ref=f3e494]:
+            - text: "One India-specific point:"
+            - strong [ref=f3e495]: your previous CTC is frequently requested and used to anchor the offer.
+            - text: You are not obliged to disclose it, though many firms make the offer conditional on documentary verification of the last drawn salary. Where verification is required, inflating it is a documented ground for revocation.
+          - separator [ref=f3e496]
+          - heading "2.7 What the number does not settle" [level=2] [ref=f3e497]
+          - paragraph [ref=f3e498]:
+            - text: Company success disproportionately affects your
+            - emphasis [ref=f3e499]: next
+            - text: offer, and success in technology is fleeting. Title, compensation and quality of work are three separate axes, and they are frequently traded against each other.
+        - navigation "Chapter navigation" [ref=f3e500]:
+          - link "Previous First principles" [ref=f3e501] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/first-principles
+            - generic [ref=f3e502]: Previous
+            - generic [ref=f3e503]: First principles
+          - link "Next Equity compensation" [ref=f3e504] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/equity-compensation
+            - generic [ref=f3e505]: Next
+            - generic [ref=f3e506]: Equity compensation
+  - contentinfo [ref=f3e507]:
+    - generic [ref=f3e513]:
+      - paragraph [ref=f3e514]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=f3e515]: Last updated in August 2026.

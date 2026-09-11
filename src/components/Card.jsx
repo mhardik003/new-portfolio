@@ -40,10 +40,18 @@ Card.Link = function CardLink({ children, ...props }) {
 
 Card.Title = function CardTitle({ as, href, children }) {
   let Component = as ?? 'h2'
+  // Only send off-site links to a new tab; in-site articles navigate in place.
+  let isExternal = typeof href === 'string' && /^https?:\/\//.test(href)
 
   return (
     <Component className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      {href ? <Card.Link href={href} target="_blank">{children}</Card.Link> : children}
+      {href ? (
+        <Card.Link href={href} target={isExternal ? '_blank' : undefined}>
+          {children}
+        </Card.Link>
+      ) : (
+        children
+      )}
     </Component>
   )
 }

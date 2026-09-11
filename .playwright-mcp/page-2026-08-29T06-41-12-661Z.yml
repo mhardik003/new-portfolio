@@ -1,0 +1,727 @@
+- generic [ref=f2e6]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Home" [ref=f2e7] [cursor=pointer]:
+                  - /url: /
+                - button "Menu" [ref=f2e9] [cursor=pointer]
+                - button "Toggle theme" [ref=f2e13] [cursor=pointer]
+  - main [ref=f2e16]:
+    - generic [ref=f2e22]:
+      - group [ref=f2e23]:
+        - generic "Contents (18 chapters)" [ref=f2e24] [cursor=pointer]
+      - generic [ref=f2e25]:
+        - generic [ref=f2e26]:
+          - 'heading "4. Old Regime vs New Regime: FY 2026-27" [level=1] [ref=f2e27]'
+          - paragraph [ref=f2e28]:
+            - emphasis [ref=f2e29]: Tax Year 2026-27. First year under the Income-tax Act, 2025.
+          - separator [ref=f2e30]
+          - navigation "Sections in this chapter" [ref=f2e31]:
+            - paragraph [ref=f2e32]: In this chapter
+            - list [ref=f2e33]:
+              - listitem [ref=f2e34]:
+                - link "What changed on 1 April 2026" [ref=f2e35] [cursor=pointer]:
+                  - /url: "#41-what-changed-on-1-april-2026"
+                  - generic [ref=f2e36]: "4.1"
+              - listitem [ref=f2e38]:
+                - 'link "The new regime: slabs for FY 2026-27" [ref=f2e39] [cursor=pointer]':
+                  - /url: "#42-the-new-regime-slabs-for-fy-2026-27"
+                  - generic [ref=f2e40]: "4.2"
+              - listitem [ref=f2e42]:
+                - 'link "The old regime: slabs for FY 2026-27" [ref=f2e43] [cursor=pointer]':
+                  - /url: "#43-the-old-regime-slabs-for-fy-2026-27"
+                  - generic [ref=f2e44]: "4.3"
+              - listitem [ref=f2e46]:
+                - link "Surcharge" [ref=f2e47] [cursor=pointer]:
+                  - /url: "#44-surcharge"
+                  - generic [ref=f2e48]: "4.4"
+              - listitem [ref=f2e50]:
+                - link "What survives in the new regime" [ref=f2e51] [cursor=pointer]:
+                  - /url: "#45-what-survives-in-the-new-regime"
+                  - generic [ref=f2e52]: "4.5"
+              - listitem [ref=f2e54]:
+                - link "The break-even calculation" [ref=f2e55] [cursor=pointer]:
+                  - /url: "#46-the-break-even-calculation"
+                  - generic [ref=f2e56]: "4.6"
+              - listitem [ref=f2e58]:
+                - link "Choosing and switching" [ref=f2e59] [cursor=pointer]:
+                  - /url: "#47-choosing-and-switching"
+                  - generic [ref=f2e60]: "4.7"
+              - listitem [ref=f2e62]:
+                - link "Other rates you will encounter" [ref=f2e63] [cursor=pointer]:
+                  - /url: "#48-other-rates-you-will-encounter"
+                  - generic [ref=f2e64]: "4.8"
+              - listitem [ref=f2e66]:
+                - link "Filing deadlines and compliance dates" [ref=f2e67] [cursor=pointer]:
+                  - /url: "#49-filing-deadlines-and-compliance-dates"
+                  - generic [ref=f2e68]: "4.9"
+          - heading "4.1 What changed on 1 April 2026" [level=2] [ref=f2e70]
+          - paragraph [ref=f2e71]:
+            - text: The
+            - strong [ref=f2e72]: Income-tax Act, 2025
+            - text: "replaced the Income-tax Act, 1961 with effect from 1 April 2026, after 65 years. It is a restatement rather than a rewrite of policy: 819 sections in 23 chapters became"
+            - strong [ref=f2e73]: 536 sections in 23 chapters
+            - text: ", with simplified drafting and redundant provisions removed. Rates, slabs and most substantive rules carried over."
+          - paragraph [ref=f2e74]: "What did change, and what will trip you up:"
+          - heading "\"Tax Year\" replaces two terms" [level=3] [ref=f2e75]
+          - paragraph [ref=f2e76]:
+            - text: The concepts of
+            - strong [ref=f2e77]: Previous Year
+            - text: and
+            - strong [ref=f2e78]: Assessment Year
+            - text: are gone. There is now a single
+            - strong [ref=f2e79]: Tax Year
+            - text: ", running April to March."
+          - list [ref=f2e80]:
+            - listitem [ref=f2e81]: "Old phrasing: \"FY 2026-27, AY 2027-28\""
+            - listitem [ref=f2e82]:
+              - text: "New phrasing:"
+              - strong [ref=f2e83]: "\"Tax Year 2026-27\""
+          - heading "Form numbers changed" [level=3] [ref=f2e84]
+          - table [ref=f2e86]:
+            - rowgroup [ref=f2e87]:
+              - row [ref=f2e88]:
+                - columnheader "Old" [ref=f2e89]
+                - columnheader "New" [ref=f2e90]
+                - columnheader "What it is" [ref=f2e91]
+            - rowgroup [ref=f2e92]:
+              - row [ref=f2e93]:
+                - cell "Form 16" [ref=f2e94]
+                - cell [ref=f2e95]:
+                  - strong [ref=f2e96]: Form 130
+                - cell "Salary TDS certificate from your employer" [ref=f2e97]
+              - row [ref=f2e98]:
+                - cell "Form 16A" [ref=f2e99]
+                - cell [ref=f2e100]:
+                  - strong [ref=f2e101]: Form 131
+                - cell "TDS certificate for non-salary payments" [ref=f2e102]
+              - row [ref=f2e103]:
+                - cell "Form 12BB" [ref=f2e104]
+                - cell [ref=f2e105]:
+                  - strong [ref=f2e106]: Form 124
+                - cell "Declaration of investments to your employer" [ref=f2e107]
+              - row [ref=f2e108]:
+                - cell "Form 26AS" [ref=f2e109]
+                - cell [ref=f2e110]:
+                  - strong [ref=f2e111]: Form 168
+                - cell "Consolidated tax statement" [ref=f2e112]
+              - row [ref=f2e113]:
+                - cell "Form 15G / 15H" [ref=f2e114]
+                - cell [ref=f2e115]:
+                  - strong [ref=f2e116]: Form 121
+                - cell "Declaration for non-deduction of TDS" [ref=f2e117]
+          - heading "Section numbers changed" [level=3] [ref=f2e118]
+          - paragraph [ref=f2e119]: "The mapping you will need most often:"
+          - table [ref=f2e121]:
+            - rowgroup [ref=f2e122]:
+              - row [ref=f2e123]:
+                - columnheader "Provision" [ref=f2e124]
+                - columnheader "Old (1961 Act)" [ref=f2e125]
+                - columnheader "New (2025 Act)" [ref=f2e126]
+            - rowgroup [ref=f2e127]:
+              - row [ref=f2e128]:
+                - 'cell "Salary: chargeability" [ref=f2e129]'
+                - cell "15" [ref=f2e130]
+                - cell "15" [ref=f2e131]
+              - row [ref=f2e132]:
+                - 'cell "Salary: computation" [ref=f2e133]'
+                - cell "17" [ref=f2e134]
+                - cell "16" [ref=f2e135]
+              - row [ref=f2e136]:
+                - cell "Perquisites" [ref=f2e137]
+                - cell "17(2)" [ref=f2e138]
+                - cell "17" [ref=f2e139]
+              - row [ref=f2e140]:
+                - cell "Profits in lieu of salary" [ref=f2e141]
+                - cell "17(3)" [ref=f2e142]
+                - cell "18" [ref=f2e143]
+              - row [ref=f2e144]:
+                - cell "Exemptions on salary (gratuity, leave encashment, etc.)" [ref=f2e145]
+                - cell "10(10), 10(10A), 10(10AA)" [ref=f2e146]
+                - cell "19" [ref=f2e147]
+              - row [ref=f2e148]:
+                - 'cell "Income from house property: deductions (incl. home loan interest)" [ref=f2e149]'
+                - cell "24" [ref=f2e150]
+                - cell "22" [ref=f2e151]
+              - row [ref=f2e152]:
+                - 'cell "Life insurance, PF, ELSS, tuition: the ₹1.5 lakh basket" [ref=f2e153]'
+                - cell [ref=f2e154]:
+                  - strong [ref=f2e155]: 80C
+                  - text: / 80CCC / 80CCE
+                - cell [ref=f2e156]:
+                  - strong [ref=f2e157]: "123"
+              - row [ref=f2e158]:
+                - 'cell "NPS: employee and employer" [ref=f2e159]'
+                - cell [ref=f2e160]:
+                  - strong [ref=f2e161]: 80CCD
+                - cell [ref=f2e162]:
+                  - strong [ref=f2e163]: "124"
+              - row [ref=f2e164]:
+                - cell "Health insurance" [ref=f2e165]
+                - cell [ref=f2e166]:
+                  - strong [ref=f2e167]: 80D
+                - cell [ref=f2e168]:
+                  - strong [ref=f2e169]: "126"
+              - row [ref=f2e170]:
+                - cell "Education loan interest" [ref=f2e171]
+                - cell [ref=f2e172]:
+                  - strong [ref=f2e173]: 80E
+                - cell [ref=f2e174]:
+                  - strong [ref=f2e175]: "129"
+              - row [ref=f2e176]:
+                - 'cell "Home loan interest: additional" [ref=f2e177]'
+                - cell "80EE" [ref=f2e178]
+                - cell "130" [ref=f2e179]
+              - row [ref=f2e180]:
+                - 'cell "Home loan interest: affordable housing" [ref=f2e181]'
+                - cell "80EEA" [ref=f2e182]
+                - cell "131" [ref=f2e183]
+              - row [ref=f2e184]:
+                - cell "Donations" [ref=f2e185]
+                - cell [ref=f2e186]:
+                  - strong [ref=f2e187]: 80G
+                - cell [ref=f2e188]:
+                  - strong [ref=f2e189]: "133"
+              - row [ref=f2e190]:
+                - cell "Rent paid where no HRA received" [ref=f2e191]
+                - cell [ref=f2e192]:
+                  - strong [ref=f2e193]: 80GG
+                - cell [ref=f2e194]:
+                  - strong [ref=f2e195]: "134"
+              - row [ref=f2e196]:
+                - cell "Interest on deposits" [ref=f2e197]
+                - cell [ref=f2e198]:
+                  - strong [ref=f2e199]: 80TTA / 80TTB
+                - cell [ref=f2e200]:
+                  - strong [ref=f2e201]: "153"
+              - row [ref=f2e202]:
+                - cell "Deduction for disability" [ref=f2e203]
+                - cell "80U" [ref=f2e204]
+                - cell "154" [ref=f2e205]
+              - row [ref=f2e206]:
+                - cell "Rebate for individuals" [ref=f2e207]
+                - cell [ref=f2e208]:
+                  - strong [ref=f2e209]: 87A
+                - cell [ref=f2e210]:
+                  - strong [ref=f2e211]: "156"
+              - row [ref=f2e212]:
+                - cell "TDS (including on salary and PF withdrawal)" [ref=f2e213]
+                - cell "192 / 192A" [ref=f2e214]
+                - cell [ref=f2e215]:
+                  - strong [ref=f2e216]: "392"
+                  - text: / 392(7)
+              - row [ref=f2e217]:
+                - cell "Exemptions previously in Section 10" [ref=f2e218]
+                - cell "10" [ref=f2e219]
+                - cell [ref=f2e220]:
+                  - strong [ref=f2e221]: Schedule II
+          - paragraph [ref=f2e222]:
+            - text: Note that Section 10 as a body of text has been moved out of the main Act and into
+            - strong [ref=f2e223]: Schedule II
+            - text: .
+          - blockquote [ref=f2e224]:
+            - paragraph [ref=f2e225]:
+              - strong [ref=f2e226]: "Practical note:"
+              - text: your Form 16 for FY 2025-26 (the document you used to file in July 2026) still carries the
+              - emphasis [ref=f2e227]: old
+              - text: section numbers, because it reports a year governed by the old Act. The new numbering first appears on
+              - strong [ref=f2e228]: Form 130 for FY 2026-27
+              - text: ", which you will receive around June 2027. Both numbering systems will be in circulation for at least another year."
+          - separator [ref=f2e229]
+          - 'heading "4.2 The new regime: slabs for FY 2026-27" [level=2] [ref=f2e230]'
+          - paragraph [ref=f2e231]:
+            - text: The
+            - strong [ref=f2e232]: new regime is the default.
+            - text: If you do nothing, you are taxed under it. The old regime must be actively opted into.
+          - paragraph [ref=f2e233]:
+            - text: Budget 2026 made
+            - strong [ref=f2e234]: no changes
+            - text: to slabs or the basic exemption limit. FY 2026-27 rates are identical to FY 2025-26.
+          - table [ref=f2e236]:
+            - rowgroup [ref=f2e237]:
+              - row [ref=f2e238]:
+                - columnheader "Total income" [ref=f2e239]
+                - columnheader "Rate" [ref=f2e240]
+            - rowgroup [ref=f2e241]:
+              - row [ref=f2e242]:
+                - cell "Up to ₹4,00,000" [ref=f2e243]
+                - cell "Nil" [ref=f2e244]
+              - row [ref=f2e245]:
+                - cell "₹4,00,001 – ₹8,00,000" [ref=f2e246]
+                - cell "5%" [ref=f2e247]
+              - row [ref=f2e248]:
+                - cell "₹8,00,001 – ₹12,00,000" [ref=f2e249]
+                - cell "10%" [ref=f2e250]
+              - row [ref=f2e251]:
+                - cell "₹12,00,001 – ₹16,00,000" [ref=f2e252]
+                - cell "15%" [ref=f2e253]
+              - row [ref=f2e254]:
+                - cell "₹16,00,001 – ₹20,00,000" [ref=f2e255]
+                - cell "20%" [ref=f2e256]
+              - row [ref=f2e257]:
+                - cell "₹20,00,001 – ₹24,00,000" [ref=f2e258]
+                - cell "25%" [ref=f2e259]
+              - row [ref=f2e260]:
+                - cell "Above ₹24,00,000" [ref=f2e261]
+                - cell "30%" [ref=f2e262]
+          - paragraph [ref=f2e263]:
+            - strong [ref=f2e264]: "Plus:"
+          - list [ref=f2e265]:
+            - listitem [ref=f2e266]:
+              - strong [ref=f2e267]: "Standard deduction for salaried:"
+              - text: ₹75,000
+            - listitem [ref=f2e268]:
+              - strong [ref=f2e269]: "Rebate under Section 156 (formerly 87A):"
+              - text: up to
+              - strong [ref=f2e270]: ₹60,000
+              - text: ", available where total income does not exceed ₹12,00,000"
+            - listitem [ref=f2e271]:
+              - strong [ref=f2e272]: "Health and education cess:"
+              - text: 4% on tax plus surcharge
+          - heading "The ₹12.75 lakh figure" [level=3] [ref=f2e273]
+          - paragraph [ref=f2e274]: "This is where \"salary up to ₹12.75 lakh is tax-free\" comes from:"
+          - code [ref=f2e276]: "Gross salary ₹12,75,000 Less standard deduction ₹ 75,000 Total income ₹12,00,000 Tax: ₹0–4L @ 0% = ₹ 0 ₹4L–8L @ 5% = ₹ 20,000 ₹8L–12L @ 10% = ₹ 40,000 ───────── ₹ 60,000 Less rebate u/s 156 ₹ 60,000 ───────── Tax payable ₹ 0"
+          - paragraph [ref=f2e277]:
+            - text: The rebate is a
+            - strong [ref=f2e278]: cliff
+            - text: ", not a taper: at ₹12,00,001 of total income it vanishes entirely."
+          - heading "Marginal relief" [level=3] [ref=f2e279]
+          - paragraph [ref=f2e280]:
+            - text: "Without a correction, earning ₹1 more than ₹12 lakh would cost ₹61,500 in tax. Marginal relief prevents that:"
+            - strong [ref=f2e281]: tax payable cannot exceed the amount by which total income exceeds ₹12,00,000.
+          - table [ref=f2e283]:
+            - rowgroup [ref=f2e284]:
+              - row [ref=f2e285]:
+                - columnheader "Total income" [ref=f2e286]
+                - columnheader "Tax before relief" [ref=f2e287]
+                - columnheader "Marginal relief" [ref=f2e288]
+                - columnheader "Tax after relief (+ 4% cess)" [ref=f2e289]
+            - rowgroup [ref=f2e290]:
+              - row [ref=f2e291]:
+                - cell "₹12,00,000" [ref=f2e292]
+                - cell "₹60,000" [ref=f2e293]
+                - cell "rebate → ₹0" [ref=f2e294]
+                - cell [ref=f2e295]:
+                  - strong [ref=f2e296]: ₹0
+              - row [ref=f2e297]:
+                - cell "₹12,10,000" [ref=f2e298]
+                - cell "₹61,500" [ref=f2e299]
+                - cell "capped at ₹10,000" [ref=f2e300]
+                - cell [ref=f2e301]:
+                  - strong [ref=f2e302]: ₹10,400
+              - row [ref=f2e303]:
+                - cell "₹12,50,000" [ref=f2e304]
+                - cell "₹67,500" [ref=f2e305]
+                - cell "capped at ₹50,000" [ref=f2e306]
+                - cell [ref=f2e307]:
+                  - strong [ref=f2e308]: ₹52,000
+              - row [ref=f2e309]:
+                - cell "₹12,70,588" [ref=f2e310]
+                - cell "₹70,588" [ref=f2e311]
+                - cell "capped at ₹70,588" [ref=f2e312]
+                - cell [ref=f2e313]:
+                  - strong [ref=f2e314]: ₹73,412
+              - row [ref=f2e315]:
+                - cell "₹12,80,000" [ref=f2e316]
+                - cell "₹72,000" [ref=f2e317]
+                - cell "none" [ref=f2e318]
+                - cell [ref=f2e319]:
+                  - strong [ref=f2e320]: ₹74,880
+          - paragraph [ref=f2e321]:
+            - text: Relief applies from ₹12,00,001 up to about
+            - strong [ref=f2e322]: ₹12,70,588
+            - text: of total income, where the ordinary tax and the relief cap converge. Above that, normal slab tax applies.
+          - separator [ref=f2e323]
+          - 'heading "4.3 The old regime: slabs for FY 2026-27" [level=2] [ref=f2e324]'
+          - table [ref=f2e326]:
+            - rowgroup [ref=f2e327]:
+              - row [ref=f2e328]:
+                - columnheader "Total income" [ref=f2e329]
+                - columnheader "Rate" [ref=f2e330]
+            - rowgroup [ref=f2e331]:
+              - row [ref=f2e332]:
+                - cell "Up to ₹2,50,000" [ref=f2e333]
+                - cell "Nil" [ref=f2e334]
+              - row [ref=f2e335]:
+                - cell "₹2,50,001 – ₹5,00,000" [ref=f2e336]
+                - cell "5%" [ref=f2e337]
+              - row [ref=f2e338]:
+                - cell "₹5,00,001 – ₹10,00,000" [ref=f2e339]
+                - cell "20%" [ref=f2e340]
+              - row [ref=f2e341]:
+                - cell "Above ₹10,00,000" [ref=f2e342]
+                - cell "30%" [ref=f2e343]
+          - paragraph [ref=f2e344]:
+            - strong [ref=f2e345]: "Plus:"
+          - list [ref=f2e346]:
+            - listitem [ref=f2e347]:
+              - strong [ref=f2e348]: "Standard deduction for salaried:"
+              - text: ₹50,000
+            - listitem [ref=f2e349]:
+              - strong [ref=f2e350]: "Rebate under Section 156 (formerly 87A):"
+              - text: ₹12,500, where total income does not exceed ₹5,00,000
+            - listitem [ref=f2e351]:
+              - strong [ref=f2e352]: "Cess:"
+              - text: 4%
+          - paragraph [ref=f2e353]: Higher basic exemption thresholds apply for senior citizens (₹3,00,000, age 60–79) and super senior citizens (₹5,00,000, age 80+) under this regime.
+          - separator [ref=f2e354]
+          - heading "4.4 Surcharge" [level=2] [ref=f2e355]
+          - paragraph [ref=f2e356]: Applies to both regimes on tax, before cess.
+          - table [ref=f2e358]:
+            - rowgroup [ref=f2e359]:
+              - row [ref=f2e360]:
+                - columnheader "Total income" [ref=f2e361]
+                - columnheader "Old regime" [ref=f2e362]
+                - columnheader "New regime" [ref=f2e363]
+            - rowgroup [ref=f2e364]:
+              - row [ref=f2e365]:
+                - cell "Up to ₹50 lakh" [ref=f2e366]
+                - cell "Nil" [ref=f2e367]
+                - cell "Nil" [ref=f2e368]
+              - row [ref=f2e369]:
+                - cell "₹50 lakh – ₹1 crore" [ref=f2e370]
+                - cell "10%" [ref=f2e371]
+                - cell "10%" [ref=f2e372]
+              - row [ref=f2e373]:
+                - cell "₹1 crore – ₹2 crore" [ref=f2e374]
+                - cell "15%" [ref=f2e375]
+                - cell "15%" [ref=f2e376]
+              - row [ref=f2e377]:
+                - cell "₹2 crore – ₹5 crore" [ref=f2e378]
+                - cell "25%" [ref=f2e379]
+                - cell "25%" [ref=f2e380]
+              - row [ref=f2e381]:
+                - cell "Above ₹5 crore" [ref=f2e382]
+                - cell [ref=f2e383]:
+                  - strong [ref=f2e384]: 37%
+                - cell [ref=f2e385]:
+                  - strong [ref=f2e386]: 25%
+          - paragraph [ref=f2e387]:
+            - text: The new regime
+            - strong [ref=f2e388]: caps surcharge at 25%
+            - text: ", taking the maximum marginal rate from 42.744% (old) to"
+            - strong [ref=f2e389]: 39%
+            - text: (new) at the top. Marginal relief also applies at each surcharge threshold, so crossing ₹50 lakh by ₹1,000 does not trigger the full surcharge.
+          - separator [ref=f2e390]
+          - heading "4.5 What survives in the new regime" [level=2] [ref=f2e391]
+          - paragraph [ref=f2e392]: This is the operative question for most salaried engineers. The new regime is not "no deductions"; it is "a short, specific list."
+          - heading "Available in the new regime" [level=3] [ref=f2e393]
+          - table [ref=f2e395]:
+            - rowgroup [ref=f2e396]:
+              - row [ref=f2e397]:
+                - columnheader "Item" [ref=f2e398]
+                - columnheader "Provision" [ref=f2e399]
+                - columnheader "Limit" [ref=f2e400]
+            - rowgroup [ref=f2e401]:
+              - row [ref=f2e402]:
+                - cell [ref=f2e403]:
+                  - strong [ref=f2e404]: Standard deduction
+                - cell "Section 19" [ref=f2e405]
+                - cell "₹75,000" [ref=f2e406]
+              - row [ref=f2e407]:
+                - cell [ref=f2e408]:
+                  - strong [ref=f2e409]: Employer's NPS contribution
+                - cell "Section 124(2) (formerly 80CCD(2))" [ref=f2e410]
+                - cell [ref=f2e411]:
+                  - strong [ref=f2e412]: 14% of Basic + DA
+              - row [ref=f2e413]:
+                - cell [ref=f2e414]:
+                  - strong [ref=f2e415]: Employer's EPF contribution
+                - cell "Schedule II" [ref=f2e416]
+                - cell "Up to 12% of salary; combined employer contributions to PF + NPS + superannuation above ₹7.5 lakh/yr are taxable" [ref=f2e417]
+              - row [ref=f2e418]:
+                - cell [ref=f2e419]:
+                  - strong [ref=f2e420]: Gratuity on exit
+                - cell "Section 19 (formerly 10(10))" [ref=f2e421]
+                - cell "₹20 lakh lifetime, non-government" [ref=f2e422]
+              - row [ref=f2e423]:
+                - cell [ref=f2e424]:
+                  - strong [ref=f2e425]: Leave encashment on retirement
+                - cell "Section 19 (formerly 10(10AA))" [ref=f2e426]
+                - cell "₹25 lakh lifetime, non-government" [ref=f2e427]
+              - row [ref=f2e428]:
+                - cell [ref=f2e429]:
+                  - strong [ref=f2e430]: "Home loan interest: let-out property"
+                - cell "Section 22 (formerly 24(b))" [ref=f2e431]
+                - cell [ref=f2e432]:
+                  - strong [ref=f2e433]: No limit
+                  - text: ", but set-off of house property loss against other income is capped at ₹2 lakh"
+              - row [ref=f2e434]:
+                - cell [ref=f2e435]:
+                  - strong [ref=f2e436]: Employer-provided perquisites and reimbursements
+                - cell "Section 17 and Rules" [ref=f2e437]
+                - cell [ref=f2e438]:
+                  - text: Meal cards, cab facility, telephone/internet against bills, relocation reimbursement, gift vouchers, children's education and hostel allowance; see
+                  - link "§5" [ref=f2e439] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/salary-structuring
+              - row [ref=f2e440]:
+                - cell [ref=f2e441]:
+                  - strong [ref=f2e442]: Retirement corpus exemptions
+                - cell "Schedule II" [ref=f2e443]
+                - cell "EPF maturity after 5 years, PPF, SSY" [ref=f2e444]
+              - row [ref=f2e445]:
+                - cell [ref=f2e446]:
+                  - strong [ref=f2e447]: Voluntary retirement compensation
+                - cell "formerly 10(10C)" [ref=f2e448]
+                - cell "₹5 lakh" [ref=f2e449]
+              - row [ref=f2e450]:
+                - cell [ref=f2e451]:
+                  - strong [ref=f2e452]: Agniveer Corpus Fund
+                - cell "formerly 80CCH" [ref=f2e453]
+                - cell "Full" [ref=f2e454]
+          - heading "Not available in the new regime" [level=3] [ref=f2e455]
+          - list [ref=f2e456]:
+            - listitem [ref=f2e457]:
+              - strong [ref=f2e458]: Section 123 (80C)
+              - text: ": the ₹1.5 lakh basket: EPF employee contribution, PPF, ELSS, life insurance premium, tuition fees, 5-year tax-saver FD, NSC, home loan principal"
+            - listitem [ref=f2e459]:
+              - strong [ref=f2e460]: Section 124(1) and 124(1B)
+              - text: ": your"
+              - emphasis [ref=f2e461]: own
+              - text: NPS contributions, including the additional ₹50,000
+            - listitem [ref=f2e462]:
+              - strong [ref=f2e463]: Section 126 (80D)
+              - text: ": health insurance premium"
+            - listitem [ref=f2e464]:
+              - strong [ref=f2e465]: Section 129 (80E)
+              - text: ": education loan interest"
+            - listitem [ref=f2e466]:
+              - strong [ref=f2e467]: Section 133 (80G)
+              - text: ": donations"
+            - listitem [ref=f2e468]:
+              - strong [ref=f2e469]: Section 153 (80TTA/80TTB)
+              - text: ": savings account and deposit interest"
+            - listitem [ref=f2e470]:
+              - strong [ref=f2e471]: HRA exemption
+            - listitem [ref=f2e472]:
+              - strong [ref=f2e473]: LTA exemption
+            - listitem [ref=f2e474]:
+              - strong [ref=f2e475]: Home loan interest on self-occupied property
+              - text: (the ₹2 lakh under old Section 24(b))
+            - listitem [ref=f2e476]:
+              - strong [ref=f2e477]: Professional tax paid
+          - separator [ref=f2e478]
+          - heading "4.6 The break-even calculation" [level=2] [ref=f2e479]
+          - paragraph [ref=f2e480]: The question is not which regime is "better"; it is whether your deductions exceed the point at which the old regime's higher rates are offset.
+          - heading "Worked from first principles" [level=3] [ref=f2e481]
+          - paragraph [ref=f2e482]:
+            - text: Take a gross salary of
+            - strong [ref=f2e483]: ₹16,36,710
+            - text: .
+          - paragraph [ref=f2e484]:
+            - strong [ref=f2e485]: "Under the new regime:"
+          - code [ref=f2e487]: "Gross ₹16,36,710 Less standard deduction ₹ 75,000 Total income ₹15,61,710 Tax: ₹4L–8L @ 5% = ₹ 20,000 ₹8L–12L @ 10% = ₹ 40,000 ₹12L–15.62L @ 15% = ₹ 54,257 ────────── ₹ 1,14,257 Cess @ 4% ₹ 4,570 ────────── Tax payable ₹ 1,18,827"
+          - paragraph [ref=f2e488]:
+            - strong [ref=f2e489]: To match this under the old regime
+            - text: ", we need old-regime tax before cess of ₹1,14,257. Working backwards through the old slabs:"
+          - code [ref=f2e491]: Tax of ₹1,12,500 is reached at total income of ₹10,00,000 Remaining ₹1,757 at 30% → ₹5,857 of further income Required total income = ₹10,05,857
+          - paragraph [ref=f2e492]: "So total deductions must be:"
+          - code [ref=f2e494]: ₹16,36,710 − ₹10,05,857 = ₹6,30,853
+          - paragraph [ref=f2e495]:
+            - strong [ref=f2e496]: Break-even ≈ ₹6.31 lakh of total deductions
+            - text: ", of which ₹50,000 is the standard deduction, so"
+            - strong [ref=f2e497]:
+              - text: ₹5.81 lakh of
+              - emphasis [ref=f2e498]: other
+              - text: deductions
+            - text: are needed before the old regime wins at this income level.
+          - heading "Indicative break-even points" [level=3] [ref=f2e499]
+          - paragraph [ref=f2e500]: "Published break-even estimates for AY 2026-27 across income levels:"
+          - table [ref=f2e502]:
+            - rowgroup [ref=f2e503]:
+              - row [ref=f2e504]:
+                - columnheader "Total income" [ref=f2e505]
+                - columnheader "Deductions required for old regime to match" [ref=f2e506]
+            - rowgroup [ref=f2e507]:
+              - row [ref=f2e508]:
+                - cell "₹8,00,000" [ref=f2e509]
+                - cell "₹3,00,000" [ref=f2e510]
+              - row [ref=f2e511]:
+                - cell "₹9,00,000" [ref=f2e512]
+                - cell "₹4,00,000" [ref=f2e513]
+              - row [ref=f2e514]:
+                - cell "₹10,00,000" [ref=f2e515]
+                - cell "₹5,00,000" [ref=f2e516]
+              - row [ref=f2e517]:
+                - cell "₹12,50,000" [ref=f2e518]
+                - cell "₹4,75,000" [ref=f2e519]
+              - row [ref=f2e520]:
+                - cell "₹15,00,000" [ref=f2e521]
+                - cell "₹5,37,500" [ref=f2e522]
+              - row [ref=f2e523]:
+                - cell "₹20,00,000" [ref=f2e524]
+                - cell "₹7,08,333" [ref=f2e525]
+              - row [ref=f2e526]:
+                - cell "₹24,00,000" [ref=f2e527]
+                - cell "₹7,75,000" [ref=f2e528]
+              - row [ref=f2e529]:
+                - cell "₹30,00,000" [ref=f2e530]
+                - cell "₹7,75,000" [ref=f2e531]
+          - paragraph [ref=f2e532]:
+            - emphasis [ref=f2e533]: Sources differ on whether the standard deduction is counted inside these figures. Compute your own using the method above rather than relying on a published table.
+          - heading "What ₹5.8 lakh of deductions actually requires" [level=3] [ref=f2e534]
+          - paragraph [ref=f2e535]: "For a salaried engineer, the realistic maximum stack under the old regime:"
+          - table [ref=f2e537]:
+            - rowgroup [ref=f2e538]:
+              - row [ref=f2e539]:
+                - columnheader "Deduction" [ref=f2e540]
+                - columnheader "Maximum" [ref=f2e541]
+                - columnheader "Realistic for most" [ref=f2e542]
+            - rowgroup [ref=f2e543]:
+              - row [ref=f2e544]:
+                - cell "Section 123 (80C)" [ref=f2e545]
+                - cell "₹1,50,000" [ref=f2e546]
+                - cell "₹1,50,000, often filled by EPF alone" [ref=f2e547]
+              - row [ref=f2e548]:
+                - 'cell "Section 124(1B) (80CCD(1B)): NPS" [ref=f2e549]'
+                - cell "₹50,000" [ref=f2e550]
+                - cell "₹50,000 if you contribute" [ref=f2e551]
+              - row [ref=f2e552]:
+                - 'cell "Section 126 (80D): health insurance" [ref=f2e553]'
+                - cell "₹75,000 (self ₹25k + senior parents ₹50k)" [ref=f2e554]
+                - cell "₹25,000–₹75,000" [ref=f2e555]
+              - row [ref=f2e556]:
+                - cell "HRA exemption" [ref=f2e557]
+                - cell "Formula-driven" [ref=f2e558]
+                - cell "₹2,00,000–₹4,00,000 in a metro on real rent" [ref=f2e559]
+              - row [ref=f2e560]:
+                - 'cell "Section 22 (24(b)): home loan interest, self-occupied" [ref=f2e561]'
+                - cell "₹2,00,000" [ref=f2e562]
+                - cell "₹2,00,000 if you have a loan" [ref=f2e563]
+              - row [ref=f2e564]:
+                - 'cell "Section 129 (80E): education loan interest" [ref=f2e565]'
+                - cell "No cap" [ref=f2e566]
+                - cell "Varies" [ref=f2e567]
+              - row [ref=f2e568]:
+                - cell "Professional tax" [ref=f2e569]
+                - cell "₹2,400" [ref=f2e570]
+                - cell "₹2,400" [ref=f2e571]
+          - paragraph [ref=f2e572]:
+            - strong [ref=f2e573]: "The pattern that emerges:"
+            - text: the old regime generally wins only for people who simultaneously pay significant rent in a metro
+            - emphasis [ref=f2e574]: and
+            - text: have a home loan,
+            - emphasis [ref=f2e575]: or
+            - text: who carry large education loan interest. For an early-career engineer renting a flat with no home loan, the new regime usually wins, often by a wide margin.
+          - separator [ref=f2e576]
+          - heading "4.7 Choosing and switching" [level=2] [ref=f2e577]
+          - table [ref=f2e579]:
+            - rowgroup [ref=f2e580]:
+              - row [ref=f2e581]:
+                - columnheader [ref=f2e582]
+                - columnheader "Salaried, no business income" [ref=f2e583]
+                - columnheader "With business or professional income" [ref=f2e584]
+            - rowgroup [ref=f2e585]:
+              - row [ref=f2e586]:
+                - cell "Default" [ref=f2e587]
+                - cell "New regime" [ref=f2e588]
+                - cell "New regime" [ref=f2e589]
+              - row [ref=f2e590]:
+                - cell "Can you switch?" [ref=f2e591]
+                - cell [ref=f2e592]:
+                  - strong [ref=f2e593]: Yes, every year
+                  - text: ", at the time of filing"
+                - cell [ref=f2e594]:
+                  - strong [ref=f2e595]: Once only.
+                  - text: Having opted out of the new regime and returned to it, you cannot opt out again
+              - row [ref=f2e596]:
+                - cell "How" [ref=f2e597]
+                - cell "Simply file under the chosen regime by the due date" [ref=f2e598]
+                - cell "Form 10-IEA (under the old Act's numbering; the successor form under the 2025 Act)" [ref=f2e599]
+          - paragraph [ref=f2e600]:
+            - strong [ref=f2e601]: Your employer's declaration is not your final choice.
+            - text: In January or February your employer will ask you to declare a regime so it can compute TDS. If your circumstances change, you can still file under the other regime and claim a refund or pay the balance. The declaration determines cash flow during the year, not your legal position.
+          - paragraph [ref=f2e602]:
+            - strong [ref=f2e603]: "A practical consequence:"
+            - text: if you declare the new regime to your employer and later discover you had enough deductions for the old regime, you can still switch when filing. The reverse also holds. Excess TDS comes back as a refund.
+          - separator [ref=f2e604]
+          - heading "4.8 Other rates you will encounter" [level=2] [ref=f2e605]
+          - table [ref=f2e607]:
+            - rowgroup [ref=f2e608]:
+              - row [ref=f2e609]:
+                - columnheader "Income type" [ref=f2e610]
+                - columnheader "Rate, FY 2026-27" [ref=f2e611]
+            - rowgroup [ref=f2e612]:
+              - row [ref=f2e613]:
+                - 'cell "Listed equity shares / equity MF: short term (≤12 months)" [ref=f2e614]'
+                - cell "20%" [ref=f2e615]
+              - row [ref=f2e616]:
+                - 'cell "Listed equity shares / equity MF: long term (>12 months)" [ref=f2e617]'
+                - cell "12.5% above ₹1.25 lakh per year" [ref=f2e618]
+              - row [ref=f2e619]:
+                - 'cell "Unlisted or foreign shares: short term (≤24 months)" [ref=f2e620]'
+                - cell "Slab rate" [ref=f2e621]
+              - row [ref=f2e622]:
+                - 'cell "Unlisted or foreign shares: long term (>24 months)" [ref=f2e623]'
+                - cell "12.5%, no indexation" [ref=f2e624]
+              - row [ref=f2e625]:
+                - cell "Debt mutual funds bought on/after 1 April 2023" [ref=f2e626]
+                - cell "Slab rate, any holding period" [ref=f2e627]
+              - row [ref=f2e628]:
+                - cell "Bank / FD / RD interest" [ref=f2e629]
+                - cell "Slab rate" [ref=f2e630]
+              - row [ref=f2e631]:
+                - cell "Dividends (Indian and foreign)" [ref=f2e632]
+                - cell "Slab rate" [ref=f2e633]
+              - row [ref=f2e634]:
+                - cell "Virtual Digital Assets (crypto)" [ref=f2e635]
+                - cell [ref=f2e636]:
+                  - strong [ref=f2e637]: 30% flat
+                  - text: ", plus 1% TDS on transfer; no deductions except cost; no loss set-off or carry-forward"
+              - row [ref=f2e638]:
+                - 'cell "Gold: physical, digital, ETF, fund of funds (>24 months)" [ref=f2e639]'
+                - cell "12.5%" [ref=f2e640]
+              - row [ref=f2e641]:
+                - cell "Share buyback proceeds (from FY 2026-27)" [ref=f2e642]
+                - cell "Taxed as capital gains, 30% for individuals" [ref=f2e643]
+          - separator [ref=f2e644]
+          - heading "4.9 Filing deadlines and compliance dates" [level=2] [ref=f2e645]
+          - table [ref=f2e647]:
+            - rowgroup [ref=f2e648]:
+              - row [ref=f2e649]:
+                - columnheader "Item" [ref=f2e650]
+                - columnheader "Date" [ref=f2e651]
+            - rowgroup [ref=f2e652]:
+              - row [ref=f2e653]:
+                - cell "ITR-1, ITR-2 (individuals, non-audit)" [ref=f2e654]
+                - cell [ref=f2e655]:
+                  - strong [ref=f2e656]: 31 July
+              - row [ref=f2e657]:
+                - cell "ITR-3, ITR-4 (non-audit business/professional)" [ref=f2e658]
+                - cell [ref=f2e659]:
+                  - strong [ref=f2e660]: 31 August
+                  - text: ", changed for FY 2026-27"
+              - row [ref=f2e661]:
+                - cell "Audit cases" [ref=f2e662]
+                - cell "31 October" [ref=f2e663]
+              - row [ref=f2e664]:
+                - cell "Revised return" [ref=f2e665]
+                - cell [ref=f2e666]:
+                  - strong [ref=f2e667]: 31 March
+                  - text: following the tax year, extended from the earlier 9-month window
+              - row [ref=f2e668]:
+                - cell "Advance tax instalments" [ref=f2e669]
+                - cell "15 June (15%), 15 Sept (45%), 15 Dec (75%), 15 March (100%)" [ref=f2e670]
+              - row [ref=f2e671]:
+                - cell "Employer investment declaration" [ref=f2e672]
+                - cell "Typically January–February, employer-specific" [ref=f2e673]
+          - paragraph [ref=f2e674]:
+            - strong [ref=f2e675]: Advance tax matters for engineers with equity.
+            - text: If your total tax liability after TDS exceeds ₹10,000 in a year (which a single RSU sale or a large capital gain can trigger), advance tax is due, and interest under the successors to Sections 234B and 234C accrues if it is not paid. Salary TDS does not cover capital gains.
+        - navigation "Chapter navigation" [ref=f2e676]:
+          - link "Previous Equity compensation" [ref=f2e677] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/equity-compensation
+            - generic [ref=f2e678]: Previous
+            - generic [ref=f2e679]: Equity compensation
+          - link "Next Allowances & perquisites" [ref=f2e680] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/salary-structuring
+            - generic [ref=f2e681]: Next
+            - generic [ref=f2e682]: Allowances & perquisites
+  - contentinfo [ref=f2e683]:
+    - generic [ref=f2e689]:
+      - paragraph [ref=f2e690]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=f2e691]: Last updated in August 2026.

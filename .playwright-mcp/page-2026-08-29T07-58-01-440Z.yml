@@ -1,0 +1,640 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e10]:
+      - link "Home" [ref=f1e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f1e14]:
+        - button "Menu" [ref=f1e16]
+        - navigation [ref=f1e19]:
+          - list [ref=f1e20]:
+            - listitem [ref=f1e21]:
+              - link "About" [ref=f1e22] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f1e23]:
+              - link "Experience" [ref=f1e24] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f1e25]:
+              - link "Publications" [ref=f1e26] [cursor=pointer]:
+                - /url: /publications
+            - listitem [ref=f1e27]:
+              - link "Projects" [ref=f1e28] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=f1e29]:
+              - link "Blog" [ref=f1e30] [cursor=pointer]:
+                - /url: /articles
+            - listitem [ref=f1e31]:
+              - link "Contact" [ref=f1e32] [cursor=pointer]:
+                - /url: /contact
+      - button "Toggle theme" [ref=f1e35]
+  - main [ref=f1e39]:
+    - generic [ref=f1e44]:
+      - group [ref=f1e45]:
+        - generic "Contents (16 chapters)" [ref=f1e46]
+      - navigation "Chapters" [ref=f1e47]:
+        - paragraph [ref=f1e48]: Personal Finance for Engineers in India
+        - list [ref=f1e49]:
+          - listitem [ref=f1e50]:
+            - paragraph [ref=f1e51]: Overview
+            - link "Start here" [ref=f1e52] [cursor=pointer]:
+              - /url: /articles/personal-finance-india
+              - text: 00Start here
+          - listitem [ref=f1e53]:
+            - paragraph [ref=f1e54]: The ground rules
+            - link "First principles" [ref=f1e55] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+              - text: 01First principles
+          - listitem [ref=f1e56]:
+            - paragraph [ref=f1e57]: Getting paid
+            - link "Decoding an offer letter" [ref=f1e58] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/offer-letter
+              - text: 02Decoding an offer letter
+          - listitem [ref=f1e59]:
+            - link "Equity compensation" [ref=f1e60] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/equity-compensation
+              - text: 03Equity compensation
+          - listitem [ref=f1e61]:
+            - paragraph [ref=f1e62]: Tax
+            - link "Old regime vs new regime" [ref=f1e63] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/tax-regimes
+              - text: 04Old regime vs new regime
+          - listitem [ref=f1e64]:
+            - link "Allowances & perquisites" [ref=f1e65] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/salary-structuring
+              - text: 05Allowances & perquisites
+          - listitem [ref=f1e66]:
+            - 'link "Worked example: ₹18L CTC" [ref=f1e67] [cursor=pointer]':
+              - /url: /articles/personal-finance-india/worked-example
+              - text: "06Worked example: ₹18L CTC"
+          - listitem [ref=f1e68]:
+            - link "Salary calculators" [ref=f1e69] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/calculator
+              - text: ·Salary calculators
+          - listitem [ref=f1e70]:
+            - paragraph [ref=f1e71]: Mandatory savings
+            - link "EPF, EPS, Form 11, gratuity" [ref=f1e72] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/epf-eps-form-11
+              - text: 07EPF, EPS, Form 11, gratuity
+          - listitem [ref=f1e73]:
+            - link "NPS" [ref=f1e74] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/nps
+              - text: 08NPS
+          - listitem [ref=f1e75]:
+            - paragraph [ref=f1e76]: Protection
+            - link "Insurance" [ref=f1e77] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/insurance
+              - text: 09Insurance
+          - listitem [ref=f1e78]:
+            - paragraph [ref=f1e79]: Debt & credit
+            - link "Credit cards & CIBIL" [ref=f1e80] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/credit-cards-cibil
+              - text: 10Credit cards & CIBIL
+          - listitem [ref=f1e81]:
+            - link "Loans & getting out of debt" [ref=f1e82] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/loans-and-debt
+              - text: 11Loans & getting out of debt
+          - listitem [ref=f1e83]:
+            - paragraph [ref=f1e84]: Investing
+            - link "Investing" [ref=f1e85] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/investing
+              - text: 12Investing
+          - listitem [ref=f1e86]:
+            - link "Fixed income, gold & crypto" [ref=f1e87] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/fixed-income-and-gold
+              - text: 13Fixed income, gold & crypto
+          - listitem [ref=f1e88]:
+            - paragraph [ref=f1e89]: Goals
+            - link "Goals, real estate & family" [ref=f1e90] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/goals-and-real-estate
+              - text: 14Goals, real estate & family
+          - listitem [ref=f1e91]:
+            - paragraph [ref=f1e92]: Reference
+            - link "The numbers page" [ref=f1e93] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/numbers
+              - text: 15The numbers page
+          - listitem [ref=f1e94]:
+            - link "Forms, schemes & links" [ref=f1e95] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/forms-and-links
+              - text: 16Forms, schemes & links
+      - generic [ref=f1e96]:
+        - generic [ref=f1e97]:
+          - heading "5. Salary Structuring, Allowances and Perquisites" [level=1] [ref=f1e98]
+          - paragraph [ref=f1e99]:
+            - emphasis [ref=f1e100]: What is exempt, what is a taxable perquisite, and what changed for FY 2026-27.
+          - separator [ref=f1e101]
+          - paragraph [ref=f1e102]:
+            - strong [ref=f1e103]: The new regime did not remove employer-side benefits, only employee-side deductions.
+            - text: With two exceptions — the standard deduction, and interest on a let-out property — everything that survives in both regimes is something your employer provides or reimburses against a bill, and everything confined to the old regime is something you pay for yourself and then deduct. The Income-tax Rules, 2026 then raised several of the employer-side ceilings, the children's education and hostel allowances by a factor of thirty.
+          - paragraph [ref=f1e104]: The locus of tax efficiency has therefore moved from your investment choices to your salary structure. Under the old regime the decisions that reduced your tax bill were yours, and were taken during the year. Under the new regime they were taken before you signed, by whoever chose the components in your offer letter.
+          - paragraph [ref=f1e105]:
+            - text: The sections below state the treatment of each component.
+            - strong [ref=f1e106]:
+              - link "§5.11" [ref=f1e107] [cursor=pointer]:
+                - /url: "#511-which-of-these-survive-in-the-new-regime"
+            - text: has both lists in full.
+          - separator [ref=f1e108]
+          - navigation "Sections in this chapter" [ref=f1e109]:
+            - paragraph [ref=f1e110]: In this chapter
+            - list [ref=f1e111]:
+              - listitem [ref=f1e112]:
+                - link "The three categories" [ref=f1e113] [cursor=pointer]:
+                  - /url: "#51-the-three-categories"
+                  - text: 5.1The three categories
+              - listitem [ref=f1e114]:
+                - link "What changed for FY 2026-27" [ref=f1e115] [cursor=pointer]:
+                  - /url: "#52-what-changed-for-fy-2026-27"
+                  - text: 5.2What changed for FY 2026-27
+              - listitem [ref=f1e116]:
+                - link "House Rent Allowance (HRA)" [ref=f1e117] [cursor=pointer]:
+                  - /url: "#53-house-rent-allowance-hra"
+                  - text: 5.3House Rent Allowance (HRA)
+              - listitem [ref=f1e118]:
+                - link "Leave Travel Allowance (LTA)" [ref=f1e119] [cursor=pointer]:
+                  - /url: "#54-leave-travel-allowance-lta"
+                  - text: 5.4Leave Travel Allowance (LTA)
+              - listitem [ref=f1e120]:
+                - link "Relocation" [ref=f1e121] [cursor=pointer]:
+                  - /url: "#55-relocation"
+                  - text: 5.5Relocation
+              - listitem [ref=f1e122]:
+                - link "Transport, cab and conveyance" [ref=f1e123] [cursor=pointer]:
+                  - /url: "#56-transport-cab-and-conveyance"
+                  - text: 5.6Transport, cab and conveyance
+              - listitem [ref=f1e124]:
+                - link "Meal cards and food" [ref=f1e125] [cursor=pointer]:
+                  - /url: "#57-meal-cards-and-food"
+                  - text: 5.7Meal cards and food
+              - listitem [ref=f1e126]:
+                - link "Telephone and internet" [ref=f1e127] [cursor=pointer]:
+                  - /url: "#58-telephone-and-internet"
+                  - text: 5.8Telephone and internet
+              - listitem [ref=f1e128]:
+                - link "Children's education and hostel" [ref=f1e129] [cursor=pointer]:
+                  - /url: "#59-childrens-education-and-hostel"
+                  - text: 5.9Children's education and hostel
+              - listitem [ref=f1e130]:
+                - link "Gifts, vouchers and other items" [ref=f1e131] [cursor=pointer]:
+                  - /url: "#510-gifts-vouchers-and-other-items"
+                  - text: 5.10Gifts, vouchers and other items
+              - listitem [ref=f1e132]:
+                - link "Which of these survive in the new regime" [ref=f1e133] [cursor=pointer]:
+                  - /url: "#511-which-of-these-survive-in-the-new-regime"
+                  - text: 5.11Which of these survive in the new regime
+              - listitem [ref=f1e134]:
+                - link "What the increases are worth" [ref=f1e135] [cursor=pointer]:
+                  - /url: "#512-what-the-increases-are-worth"
+                  - text: 5.12What the increases are worth
+          - heading "5.1 The three categories" [level=2] [ref=f1e136]
+          - paragraph [ref=f1e137]: "Everything your employer gives you falls into one of three buckets, and the tax treatment differs sharply:"
+          - table [ref=f1e139]:
+            - rowgroup [ref=f1e140]:
+              - row [ref=f1e141]:
+                - columnheader "Category" [ref=f1e142]
+                - columnheader "Definition" [ref=f1e143]
+                - columnheader "Tax treatment" [ref=f1e144]
+            - rowgroup [ref=f1e145]:
+              - row [ref=f1e146]:
+                - cell [ref=f1e147]:
+                  - strong [ref=f1e148]: Allowance
+                - cell "A fixed cash sum paid to you, whether or not you spend it" [ref=f1e149]
+                - cell [ref=f1e150]:
+                  - text: Taxable unless a specific exemption applies. Most exemptions require
+                  - emphasis [ref=f1e151]: actual expenditure
+                  - text: .
+              - row [ref=f1e152]:
+                - cell [ref=f1e153]:
+                  - strong [ref=f1e154]: Reimbursement
+                - cell "Repayment of an expense you incurred, against a bill" [ref=f1e155]
+                - cell "Not taxable if genuinely incurred for the specified purpose and supported by documentation" [ref=f1e156]
+              - row [ref=f1e157]:
+                - cell [ref=f1e158]:
+                  - strong [ref=f1e159]: Perquisite
+                - 'cell "A benefit in kind: something provided, not paid" [ref=f1e160]'
+                - cell "Taxable at a value determined by the Rules, unless specifically excluded" [ref=f1e161]
+          - paragraph [ref=f1e162]:
+            - strong [ref=f1e163]: "The single most useful distinction in Indian salary structuring:"
+            - text: the same rupee is treated differently depending on whether it is called an
+            - emphasis [ref=f1e164]: allowance
+            - text: or a
+            - emphasis [ref=f1e165]: reimbursement
+            - text: .
+          - list [ref=f1e166]:
+            - listitem [ref=f1e167]:
+              - text: "\"Relocation"
+              - strong [ref=f1e168]: allowance
+              - text: of ₹1,00,000" → fully taxable at slab rate
+            - listitem [ref=f1e169]:
+              - text: "\"Relocation"
+              - strong [ref=f1e170]: reimbursement
+              - text: up to ₹1,00,000 against bills" → not taxable
+          - paragraph [ref=f1e171]: If your offer letter uses the word "allowance" for something you expected to be tax-free, that is worth raising before you sign.
+          - separator [ref=f1e172]
+          - heading "5.2 What changed for FY 2026-27" [level=2] [ref=f1e173]
+          - paragraph [ref=f1e174]: The Income-tax Act, 2025 and the Income-tax Rules, 2026 raised several perquisite limits that had been frozen since the 1990s.
+          - table [ref=f1e176]:
+            - rowgroup [ref=f1e177]:
+              - row [ref=f1e178]:
+                - columnheader "Item" [ref=f1e179]
+                - columnheader "Old limit" [ref=f1e180]
+                - columnheader [ref=f1e181]:
+                  - strong [ref=f1e182]: FY 2026-27
+            - rowgroup [ref=f1e183]:
+              - row [ref=f1e184]:
+                - cell "Free / subsidised meals at office or via meal vouchers" [ref=f1e185]
+                - cell "₹50 per meal" [ref=f1e186]
+                - cell [ref=f1e187]:
+                  - strong [ref=f1e188]: ₹200 per meal
+              - row [ref=f1e189]:
+                - cell "Non-cash gifts, vouchers, hampers" [ref=f1e190]
+                - cell "₹5,000 per year" [ref=f1e191]
+                - cell [ref=f1e192]:
+                  - strong [ref=f1e193]: ₹15,000 per year
+              - row [ref=f1e194]:
+                - cell "Children's education allowance" [ref=f1e195]
+                - cell "₹100 per month per child" [ref=f1e196]
+                - cell [ref=f1e197]:
+                  - strong [ref=f1e198]: ₹3,000 per month per child
+              - row [ref=f1e199]:
+                - cell "Children's hostel allowance" [ref=f1e200]
+                - cell "₹300 per month per child" [ref=f1e201]
+                - cell [ref=f1e202]:
+                  - strong [ref=f1e203]: ₹9,000 per month per child
+              - row [ref=f1e204]:
+                - 'cell "Employer medical loan: exemption ceiling" [ref=f1e205]'
+                - cell "₹20,000" [ref=f1e206]
+                - cell [ref=f1e207]:
+                  - strong [ref=f1e208]: ₹2,00,000
+              - row [ref=f1e209]:
+                - 'cell "Overseas medical treatment: income threshold for exemption" [ref=f1e210]'
+                - cell "₹2,00,000" [ref=f1e211]
+                - cell [ref=f1e212]:
+                  - strong [ref=f1e213]: ₹8,00,000
+              - row [ref=f1e214]:
+                - 'cell "HRA: cities at 50% of salary" [ref=f1e215]'
+                - cell "4 (Delhi, Mumbai, Kolkata, Chennai)" [ref=f1e216]
+                - cell [ref=f1e217]:
+                  - strong [ref=f1e218]: "8"
+                  - text: (adds Bengaluru, Hyderabad, Pune, Ahmedabad)
+          - blockquote [ref=f1e219]:
+            - paragraph [ref=f1e220]:
+              - strong [ref=f1e221]: Verify before relying on the HRA change.
+              - text: The expansion from four to eight cities is reported consistently across tax portals as being effected by the Income-tax Rules, 2026 with effect from FY 2026-27, but some references still list only the original four metros. Confirm against the notified Rules or with your employer's payroll before claiming 50% for Bengaluru, Hyderabad, Pune or Ahmedabad. For FY 2025-26 returns, the old four-metro rule applies.
+          - separator [ref=f1e222]
+          - heading "5.3 House Rent Allowance (HRA)" [level=2] [ref=f1e223]
+          - paragraph [ref=f1e224]:
+            - strong [ref=f1e225]: Old regime only. Fully taxable in the new regime.
+          - paragraph [ref=f1e226]:
+            - text: The exemption is the
+            - strong [ref=f1e227]: least of three
+            - text: ":"
+          - generic [ref=f1e229]:
+            - generic [ref=f1e230]: 1. Actual HRA received
+            - generic [ref=f1e231]: 2. Rent paid, less 10% of salary
+            - generic [ref=f1e232]: 3. 50% of salary in the eight metro cities, 40% of salary everywhere else
+            - generic [ref=f1e233]: Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, Pune, Ahmedabad
+          - paragraph [ref=f1e234]:
+            - text: "\"Salary\" here means"
+            - strong [ref=f1e235]: Basic + DA + any commission on turnover
+            - text: .
+          - heading "Worked example" [level=3] [ref=f1e236]
+          - paragraph [ref=f1e237]: Bengaluru. Basic ₹9,00,000/yr. HRA ₹3,60,000/yr. Rent paid ₹30,000/month = ₹3,60,000/yr.
+          - generic [ref=f1e239]:
+            - generic [ref=f1e240]:
+              - text: 1. Actual HRA received
+              - generic [ref=f1e241]: ₹3,60,000
+            - generic [ref=f1e242]:
+              - text: 2. Rent paid, less 10% of salary
+              - generic [ref=f1e243]: ₹2,70,000least
+            - generic [ref=f1e244]: ₹3,60,000 rent − ₹90,000, being 10% of salary
+            - generic [ref=f1e245]:
+              - text: 3. 50% of salary (Bengaluru, FY 2026-27)
+              - generic [ref=f1e246]: ₹4,50,000
+            - generic [ref=f1e247]:
+              - text: Exemption
+              - generic [ref=f1e248]: ₹2,70,000
+            - generic [ref=f1e249]:
+              - text: Taxable HRA
+              - generic [ref=f1e250]: ₹90,000
+          - paragraph [ref=f1e251]: "Note how the second condition binds: paying rent equal to your HRA does not make your HRA fully exempt, because 10% of salary is always subtracted."
+          - heading "Documentation" [level=3] [ref=f1e252]
+          - table [ref=f1e254]:
+            - rowgroup [ref=f1e255]:
+              - row [ref=f1e256]:
+                - columnheader "Annual rent" [ref=f1e257]
+                - columnheader "Requirement" [ref=f1e258]
+            - rowgroup [ref=f1e259]:
+              - row [ref=f1e260]:
+                - cell "Any amount" [ref=f1e261]
+                - cell "Rent receipts" [ref=f1e262]
+              - row [ref=f1e263]:
+                - cell "Above ₹1,00,000" [ref=f1e264]
+                - cell [ref=f1e265]:
+                  - strong [ref=f1e266]: Landlord's PAN
+                  - text: mandatory
+              - row [ref=f1e267]:
+                - cell "Above ₹1,00,000" [ref=f1e268]
+                - cell "Rent agreement generally required by employers" [ref=f1e269]
+              - row [ref=f1e270]:
+                - cell "From FY 2026-27" [ref=f1e271]
+                - cell [ref=f1e272]:
+                  - strong [ref=f1e273]: Form 124
+                  - text: (replacing Form 12BB) requires disclosure of your
+                  - strong [ref=f1e274]: relationship with the landlord
+          - paragraph [ref=f1e275]: That last point is a deliberate anti-abuse measure. Paying rent to a parent is legally permissible (the parent must actually own the property and must declare the rental income), but it is now explicitly disclosed and is a known audit trigger. Paying rent to a spouse is generally not accepted.
+          - heading "If you receive no HRA" [level=3] [ref=f1e276]
+          - paragraph [ref=f1e277]:
+            - strong [ref=f1e278]: Section 134 (formerly 80GG)
+            - text: "allows a deduction for rent paid where no HRA is received: the least of ₹5,000/month, 25% of total income, or rent paid minus 10% of total income. Old regime only. Not available if you, your spouse, or your minor child own residential property at the place of work."
+          - separator [ref=f1e279]
+          - heading "5.4 Leave Travel Allowance (LTA)" [level=2] [ref=f1e280]
+          - paragraph [ref=f1e281]:
+            - strong [ref=f1e282]: Old regime only.
+          - list [ref=f1e283]:
+            - listitem [ref=f1e284]:
+              - text: Exempt against
+              - strong [ref=f1e285]: actual travel expenditure
+              - text: on tickets for domestic travel only. International travel does not qualify.
+            - listitem [ref=f1e286]: Covers you, spouse, children, and dependent parents/siblings.
+            - listitem [ref=f1e287]:
+              - text: Covers
+              - strong [ref=f1e288]: travel fare only
+              - text: ", not hotels, food, local transport or sightseeing."
+            - listitem [ref=f1e289]:
+              - text: Claimable
+              - strong [ref=f1e290]: twice in a block of four calendar years
+              - text: . The current block is
+              - strong [ref=f1e291]: 2026–2029
+              - text: .
+            - listitem [ref=f1e292]: One unclaimed journey can be carried into the first year of the next block.
+            - listitem [ref=f1e293]: Air travel is restricted to economy class on the shortest route; rail to first-class AC.
+          - paragraph [ref=f1e294]: Unclaimed LTA is paid out as fully taxable salary.
+          - separator [ref=f1e295]
+          - heading "5.5 Relocation" [level=2] [ref=f1e296]
+          - paragraph [ref=f1e297]: This is the component most often mis-structured.
+          - table [ref=f1e299]:
+            - rowgroup [ref=f1e300]:
+              - row [ref=f1e301]:
+                - columnheader "Form" [ref=f1e302]
+                - columnheader "Taxable?" [ref=f1e303]
+            - rowgroup [ref=f1e304]:
+              - row [ref=f1e305]:
+                - cell [ref=f1e306]:
+                  - strong [ref=f1e307]: Reimbursement of actual relocation expenses against bills
+                - cell [ref=f1e308]:
+                  - strong [ref=f1e309]: Not taxable
+              - row [ref=f1e310]:
+                - cell [ref=f1e311]:
+                  - strong [ref=f1e312]: Lump-sum "relocation allowance"
+                  - text: with no bill requirement
+                - cell [ref=f1e313]:
+                  - strong [ref=f1e314]: Fully taxable
+                  - text: at slab rate
+          - paragraph [ref=f1e315]:
+            - strong [ref=f1e316]: "What is covered by a genuine reimbursement:"
+          - list [ref=f1e317]:
+            - listitem [ref=f1e318]: Packing, moving and transportation of household goods
+            - listitem [ref=f1e319]: Transit insurance on goods
+            - listitem [ref=f1e320]: Travel fare for you and your family to the new location
+            - listitem [ref=f1e321]: Temporary accommodation for a reasonable initial period (commonly 15–30 days)
+            - listitem [ref=f1e322]: Brokerage on securing new accommodation, where the employer's policy covers it
+            - listitem [ref=f1e323]: Car transportation
+          - paragraph [ref=f1e324]:
+            - strong [ref=f1e325]: "What is not:"
+          - list [ref=f1e326]:
+            - listitem [ref=f1e327]: Any surplus paid to you that you keep
+            - listitem [ref=f1e328]: Ongoing rent after the temporary period (that is HRA territory)
+            - listitem [ref=f1e329]: Loss on sale of assets at the old location
+          - paragraph [ref=f1e330]:
+            - strong [ref=f1e331]: Available in both regimes
+            - text: ", because this is a reimbursement of employer-directed expenditure, not a Chapter VI-A deduction."
+          - paragraph [ref=f1e332]:
+            - strong [ref=f1e333]: "Practical points:"
+            - text: keep every invoice; ask whether your employer's vendor bills the company directly (cleanest); and check whether the relocation carries its own clawback (many do).
+          - separator [ref=f1e334]
+          - heading "5.6 Transport, cab and conveyance" [level=2] [ref=f1e335]
+          - paragraph [ref=f1e336]: A frequently-confused set of three different things.
+          - table [ref=f1e338]:
+            - rowgroup [ref=f1e339]:
+              - row [ref=f1e340]:
+                - columnheader "Arrangement" [ref=f1e341]
+                - columnheader "Treatment" [ref=f1e342]
+            - rowgroup [ref=f1e343]:
+              - row [ref=f1e344]:
+                - cell [ref=f1e345]:
+                  - strong [ref=f1e346]: Employer-provided cab or bus between home and office
+                - cell [ref=f1e347]:
+                  - strong [ref=f1e348]: Not a taxable perquisite.
+                  - text: Employer-arranged transport for commuting is excluded from perquisite valuation. Available in both regimes.
+              - row [ref=f1e349]:
+                - cell [ref=f1e350]:
+                  - strong [ref=f1e351]: Transport / conveyance allowance in cash
+                - cell [ref=f1e352]:
+                  - strong [ref=f1e353]: Taxable.
+                  - text: The blanket ₹1,600/month exemption was withdrawn when the standard deduction was introduced.
+              - row [ref=f1e354]:
+                - cell [ref=f1e355]:
+                  - strong [ref=f1e356]: Conveyance reimbursement for official travel
+                - cell [ref=f1e357]:
+                  - strong [ref=f1e358]: Not taxable
+                  - text: against actual bills for travel in the performance of duties (client visits, official trips), not the daily commute.
+              - row [ref=f1e359]:
+                - cell [ref=f1e360]:
+                  - strong [ref=f1e361]: Transport allowance for employees with specified disabilities
+                - cell [ref=f1e362]:
+                  - text: Exempt up to
+                  - strong [ref=f1e363]: ₹3,200/month
+                  - text: ; this exemption survives in
+                  - strong [ref=f1e364]: both
+                  - text: regimes
+              - row [ref=f1e365]:
+                - cell [ref=f1e366]:
+                  - strong [ref=f1e367]: Employer-owned car provided to you
+                - cell "Taxable perquisite valued under the Rules; the value depends on engine capacity, whether a driver is provided, and whether use is official, personal or both" [ref=f1e368]
+          - paragraph [ref=f1e369]:
+            - text: "The upshot:"
+            - strong [ref=f1e370]: a company cab is worth more after tax than the equivalent cash.
+            - text: ₹8,000/month of cab facility costs you nothing; ₹8,000/month of transport allowance costs you ₹2,400–₹2,900 in tax at a 30% marginal rate.
+          - separator [ref=f1e371]
+          - heading "5.7 Meal cards and food" [level=2] [ref=f1e372]
+          - list [ref=f1e373]:
+            - listitem [ref=f1e374]:
+              - text: Free or subsidised meals provided at the workplace, or through
+              - strong [ref=f1e375]: non-transferable electronic meal vouchers
+              - text: usable only at eating establishments, are exempt up to
+              - strong [ref=f1e376]: ₹200 per meal
+              - text: from FY 2026-27 (previously ₹50).
+            - listitem [ref=f1e377]:
+              - text: Assuming two meals per working day over roughly 22 working days, that is around
+              - strong [ref=f1e378]: ₹8,800/month
+              - text: ", against roughly ₹2,200/month under the old limit."
+            - listitem [ref=f1e379]: Tea, coffee and non-alcoholic beverages during working hours are exempt without limit.
+            - listitem [ref=f1e380]: Cash paid in lieu of meals is fully taxable.
+            - listitem [ref=f1e381]:
+              - strong [ref=f1e382]: Available in both regimes.
+          - paragraph [ref=f1e383]: This is now a materially larger benefit than it was, and Indian employers are actively restructuring meal-card components upward in response.
+          - separator [ref=f1e384]
+          - heading "5.8 Telephone and internet" [level=2] [ref=f1e385]
+          - list [ref=f1e386]:
+            - listitem [ref=f1e387]:
+              - text: Reimbursement of
+              - strong [ref=f1e388]: telephone, mobile and broadband bills for official use
+              - text: is not a taxable perquisite, under the perquisite valuation rules.
+            - listitem [ref=f1e389]:
+              - text: The requirement is
+              - strong [ref=f1e390]: actual bills in your name
+              - text: submitted to the employer. A fixed monthly "telephone allowance" with no bill requirement is taxable.
+            - listitem [ref=f1e391]: There is no statutory rupee cap, but the amount must be reasonable relative to your role. Employers typically set internal limits of ₹1,000–₹3,000/month.
+            - listitem [ref=f1e392]:
+              - strong [ref=f1e393]: Available in both regimes.
+          - separator [ref=f1e394]
+          - heading "5.9 Children's education and hostel" [level=2] [ref=f1e395]
+          - table [ref=f1e397]:
+            - rowgroup [ref=f1e398]:
+              - row [ref=f1e399]:
+                - columnheader "Item" [ref=f1e400]
+                - columnheader "FY 2026-27 exemption" [ref=f1e401]
+            - rowgroup [ref=f1e402]:
+              - row [ref=f1e403]:
+                - cell "Children's education allowance" [ref=f1e404]
+                - cell [ref=f1e405]:
+                  - strong [ref=f1e406]: ₹3,000 per month per child
+                  - text: ", maximum 2 children"
+              - row [ref=f1e407]:
+                - cell "Children's hostel expenditure allowance" [ref=f1e408]
+                - cell [ref=f1e409]:
+                  - strong [ref=f1e410]: ₹9,000 per month per child
+                  - text: ", maximum 2 children"
+          - paragraph [ref=f1e411]:
+            - text: Combined, that is up to
+            - strong [ref=f1e412]: ₹2,88,000 per year
+            - text: for two children in hostels, against ₹9,600 under the old limits. This is one of the largest proportional increases in the new Rules.
+          - paragraph [ref=f1e413]:
+            - text: Separately, and only in the
+            - strong [ref=f1e414]: old regime
+            - text: ","
+            - strong [ref=f1e415]: tuition fees
+            - text: paid for up to two children qualify within the ₹1.5 lakh Section 123 (80C) basket.
+          - separator [ref=f1e416]
+          - heading "5.10 Gifts, vouchers and other items" [level=2] [ref=f1e417]
+          - table [ref=f1e419]:
+            - rowgroup [ref=f1e420]:
+              - row [ref=f1e421]:
+                - columnheader "Item" [ref=f1e422]
+                - columnheader "Treatment FY 2026-27" [ref=f1e423]
+            - rowgroup [ref=f1e424]:
+              - row [ref=f1e425]:
+                - cell [ref=f1e426]:
+                  - strong [ref=f1e427]: Non-cash gifts, vouchers, hampers
+                - cell [ref=f1e428]:
+                  - text: Exempt up to
+                  - strong [ref=f1e429]: ₹15,000 per year
+                  - text: (was ₹5,000). Cash gifts are fully taxable regardless of amount.
+              - row [ref=f1e430]:
+                - cell [ref=f1e431]:
+                  - strong [ref=f1e432]: Uniform allowance
+                - cell "Exempt against actual expenditure on a uniform required to be worn on duty" [ref=f1e433]
+              - row [ref=f1e434]:
+                - cell [ref=f1e435]:
+                  - strong [ref=f1e436]: Books and periodicals reimbursement
+                - cell "Not taxable against bills for professional books, journals, and (as employers commonly apply it) technical courses and certifications" [ref=f1e437]
+              - row [ref=f1e438]:
+                - cell [ref=f1e439]:
+                  - strong [ref=f1e440]: Professional development / certification
+                - cell "Not taxable where the employer pays or reimburses training directly connected to your duties" [ref=f1e441]
+              - row [ref=f1e442]:
+                - cell [ref=f1e443]:
+                  - strong [ref=f1e444]: Laptop, phone, equipment provided for use
+                - cell "Not a taxable perquisite while owned by the employer. If transferred to you, valued at written-down value under the Rules; computers depreciate at 50% per year on WDV for this purpose" [ref=f1e445]
+              - row [ref=f1e446]:
+                - cell [ref=f1e447]:
+                  - strong [ref=f1e448]: Employer-provided accommodation
+                - cell "Taxable perquisite, valued by population of the city and whether the property is owned or leased by the employer" [ref=f1e449]
+              - row [ref=f1e450]:
+                - cell [ref=f1e451]:
+                  - strong [ref=f1e452]: Interest-free or concessional employer loan
+                - cell [ref=f1e453]:
+                  - text: Taxable perquisite measured against SBI's lending rate. Exempt where the total of all such loans does not exceed ₹20,000, and for medical treatment of specified diseases up to
+                  - strong [ref=f1e454]: ₹2,00,000
+                  - text: from FY 2026-27
+              - row [ref=f1e455]:
+                - cell [ref=f1e456]:
+                  - strong [ref=f1e457]: Employer's contribution to EPF, NPS, superannuation
+                - cell [ref=f1e458]:
+                  - text: Exempt individually, but the
+                  - strong [ref=f1e459]: aggregate above ₹7,50,000 per year is a taxable perquisite
+                  - text: ", as is the annual accretion on the excess"
+              - row [ref=f1e460]:
+                - cell [ref=f1e461]:
+                  - strong [ref=f1e462]: Group health / term life / accident premium paid by employer
+                - cell "Not a taxable perquisite" [ref=f1e463]
+              - row [ref=f1e464]:
+                - cell [ref=f1e465]:
+                  - strong [ref=f1e466]: Leave encashment during service
+                - cell "Fully taxable" [ref=f1e467]
+              - row [ref=f1e468]:
+                - cell [ref=f1e469]:
+                  - strong [ref=f1e470]: Leave encashment at retirement or resignation
+                - cell [ref=f1e471]:
+                  - text: Exempt up to
+                  - strong [ref=f1e472]: ₹25,00,000
+                  - text: lifetime, non-government employees
+              - row [ref=f1e473]:
+                - cell [ref=f1e474]:
+                  - strong [ref=f1e475]: Gratuity
+                - cell [ref=f1e476]:
+                  - text: Exempt up to
+                  - strong [ref=f1e477]: ₹20,00,000
+                  - text: lifetime, non-government employees
+          - separator [ref=f1e478]
+          - heading "5.11 Which of these survive in the new regime" [level=2] [ref=f1e479]
+          - paragraph [ref=f1e480]: This is the practical summary most people want.
+          - heading [level=3] [ref=f1e481]:
+            - text: Survives in
+            - strong [ref=f1e482]: both
+            - text: regimes
+          - list [ref=f1e483]:
+            - listitem [ref=f1e484]: Standard deduction (₹75,000 new / ₹50,000 old)
+            - listitem [ref=f1e485]: "Employer's NPS contribution: up to 14% of Basic+DA"
+            - listitem [ref=f1e486]: Employer-provided cab / bus for commuting
+            - listitem [ref=f1e487]: Meal vouchers up to ₹200/meal
+            - listitem [ref=f1e488]: Telephone and internet reimbursement against bills
+            - listitem [ref=f1e489]: Relocation reimbursement against bills
+            - listitem [ref=f1e490]: Children's education (₹3,000/month/child) and hostel (₹9,000/month/child) allowance
+            - listitem [ref=f1e491]: Gift vouchers up to ₹15,000/year
+            - listitem [ref=f1e492]: Uniform, books and periodicals, professional development against bills
+            - listitem [ref=f1e493]: Transport allowance for employees with specified disabilities (₹3,200/month)
+            - listitem [ref=f1e494]: Gratuity (₹20 lakh) and leave encashment on exit (₹25 lakh)
+            - listitem [ref=f1e495]: Employer's EPF contribution, within the ₹7.5 lakh aggregate cap
+            - listitem [ref=f1e496]:
+              - text: Home loan interest on a
+              - strong [ref=f1e497]: let-out
+              - text: property
+          - heading [level=3] [ref=f1e498]:
+            - text: Old regime
+            - strong [ref=f1e499]: only
+          - list [ref=f1e500]:
+            - listitem [ref=f1e501]: HRA exemption
+            - listitem [ref=f1e502]: LTA exemption
+            - listitem [ref=f1e503]: "Section 123 (80C): ₹1.5 lakh basket"
+            - listitem [ref=f1e504]: "Section 124(1)/(1B): your own NPS contributions"
+            - listitem [ref=f1e505]: "Section 126 (80D): health insurance"
+            - listitem [ref=f1e506]: "Section 129 (80E): education loan interest"
+            - listitem [ref=f1e507]: "Section 133 (80G): donations"
+            - listitem [ref=f1e508]: "Section 153 (80TTA/80TTB): deposit interest"
+            - listitem [ref=f1e509]:
+              - text: Home loan interest on a
+              - strong [ref=f1e510]: self-occupied
+              - text: property (₹2 lakh)
+            - listitem [ref=f1e511]: Professional tax paid
+          - separator [ref=f1e512]
+          - heading "5.12 What the increases are worth" [level=2] [ref=f1e513]
+          - paragraph [ref=f1e514]: "Meal vouchers, gift vouchers, children's education and hostel allowance together moved from a combined ceiling of roughly ₹22,000 a year to roughly ₹4,00,000 a year for an employee with two children in hostels. For an engineer without children, the meaningful increase is meal vouchers: roughly ₹79,000 a year of newly-exempt value, worth about ₹24,000 in tax at a 30% marginal rate."
+          - paragraph [ref=f1e515]: None of it is claimable in your return. Every item in the "both regimes" list is a line someone in payroll has to put on your payslip, and headroom your employer has not used is worth nothing to you. Whether your employer restructures to use these headroom limits is a payroll decision, not a tax one. It is a reasonable thing to ask HR about.
+        - navigation "Chapter navigation" [ref=f1e516]:
+          - link "PreviousOld regime vs new regime" [ref=f1e517] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/tax-regimes
+          - 'link "NextWorked example: ₹18L CTC" [ref=f1e518] [cursor=pointer]':
+            - /url: /articles/personal-finance-india/worked-example
+  - contentinfo [ref=f1e519]:
+    - generic [ref=f1e525]:
+      - paragraph [ref=f1e526]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=f1e527]: Last updated in August 2026.

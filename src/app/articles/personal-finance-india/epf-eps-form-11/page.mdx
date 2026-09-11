@@ -1,0 +1,349 @@
+export const metadata = {
+  title: `7. EPF, EPS, Form 11, VPF and Gratuity`,
+  description: `The mandatory savings layer. This page contains the two most commonly-believed falsehoods in Indian salaried finance, and corrects both.`,
+}
+
+# 7. EPF, EPS, Form 11, VPF and Gratuity
+
+*The mandatory savings layer. This page contains the two most commonly-believed falsehoods in Indian salaried finance, and corrects both.*
+
+---
+
+<ChapterIndex slug="epf-eps-form-11" />
+
+## 7.1 The structure
+
+Three separate things sit inside what people call "PF":
+
+| Scheme | What it is | Who funds it |
+|---|---|---|
+| **EPF**: Employees' Provident Fund | A lump-sum retirement account earning a declared rate of interest | You (12%) + employer (part of its 12%) |
+| **EPS**: Employees' Pension Scheme, 1995 | A defined-benefit *pension*: a monthly payment for life, not a balance | Employer only (8.33%, capped) |
+| **EDLI**: Employees' Deposit Linked Insurance | A life insurance benefit to your nominee if you die in service | Employer (0.50% of wages) |
+
+All three operate under the **Employees' Provident Funds and Miscellaneous Provisions Act, 1952**, administered by the **EPFO**. The Act applies to establishments with **20 or more employees**.
+
+---
+
+## 7.2 How the contributions split
+
+**Statutory wages** for this purpose = **Basic + Dearness Allowance** (plus retaining allowance, where applicable). Under the Labour Codes, this must be at least 50% of total remuneration (see [§2.3](/articles/personal-finance-india/offer-letter#23-the-labour-codes-changed-your-payslip)).
+
+```
+YOU contribute       12% of Basic + DA          →  all of it to EPF
+
+EMPLOYER contributes 12% of Basic + DA, split:
+     8.33% of wages, capped at 8.33% of ₹15,000  →  EPS   (max ₹1,250/month)
+     the remainder                                →  EPF
+
+EMPLOYER also pays   0.50% of wages              →  EDLI
+                     0.50% of wages              →  EPFO administrative charges
+```
+
+### Worked example: Basic ₹75,000/month
+
+| | Monthly |
+|---|---:|
+| Your contribution (12% of ₹75,000) | ₹9,000 → EPF |
+| Employer contribution (12% of ₹75,000) | ₹9,000, split as: |
+| &nbsp;&nbsp;→ to EPS (8.33% of ₹15,000, capped) | ₹1,250 |
+| &nbsp;&nbsp;→ to EPF (₹9,000 − ₹1,250) | ₹7,750 |
+| **Total into EPF each month** | **₹16,750** |
+| **Total into EPS each month** | **₹1,250** |
+
+Annual: **₹2,01,000 into EPF, ₹15,000 into EPS.**
+
+### The ₹15,000 wage ceiling
+
+The ceiling of **₹15,000/month** has been unchanged since **1 September 2014**. It does two things:
+
+1. **It caps the EPS contribution absolutely.** Regardless of your salary, at most ₹1,250/month goes to your pension. This is why EPS pensions are small.
+2. **It defines the employer's *minimum* obligation for EPF.** An employer may lawfully contribute 12% of ₹15,000 (= ₹1,800/month) rather than 12% of your actual Basic.
+
+**This is the single most valuable thing to check in an offer.** At a ₹75,000 Basic:
+
+| Employer policy | Employer's monthly EPF contribution |
+|---|---:|
+| PF on **full Basic** | ₹7,750 |
+| PF **restricted to the ₹15,000 ceiling** | ₹550 |
+
+A difference of **₹7,200 a month (₹86,400 a year)** in employer-funded retirement savings, invisible on the CTC line. Ask explicitly: *"Does the company contribute PF on full Basic or restrict it to the statutory ceiling?"*
+
+> **Status, August 2026:** the ₹15,000 ceiling is under active revision. In **January 2026** the Supreme Court directed the Centre and EPFO to decide within four months, following a public interest litigation. Reporting indicates the Finance Ministry has cleared a revision to **₹25,000**, with a likely effective date around **1 April 2027**. **Not yet notified.** If implemented, it would raise both the minimum employer obligation and the EPS cap (to roughly ₹2,083/month).
+
+---
+
+## 7.3 Interest
+
+- **Declared annually** by the EPFO's Central Board of Trustees and ratified by the Ministry of Labour and Employment.
+- **FY 2025-26: 8.25% per annum**, notified after the 239th CBT meeting in March 2026. This was the fourth consecutive year at 8.25%.
+- Credited in bulk after declaration. For FY 2025-26, EPFO completed crediting roughly **₹1.44 lakh crore to about 34 crore accounts by 15 July 2026**, through the new centralised CITES system.
+- Interest is calculated on **monthly running balances** but credited annually.
+- **No interest accrues on EPS**: EPS is a defined-benefit pension, not an accumulating balance.
+- An account becomes **inoperative** after 36 months with no contribution and the member has reached 58; before that, dormant accounts continue to earn interest.
+
+> **The FY 2026-27 rate has not been declared as of August 2026.** It is typically announced between February and May of the following year.
+
+---
+
+## 7.4 UAN: your permanent identifier
+
+The **Universal Account Number** is a 12-digit number issued once and retained for life across every employer.
+
+- Every EPF account you hold links to it as a **Member ID**.
+- Activate it at the [EPFO Member Portal](https://unifiedportal-mem.epfindia.gov.in) using your Aadhaar-linked mobile number.
+- **Seed KYC**: Aadhaar, PAN and bank account. Before you need it, not when you need it. Unseeded KYC is the most common cause of stuck claims.
+- View the **passbook** at [passbook.epfindia.gov.in](https://passbook.epfindia.gov.in) to see employee share, employer share, EPS contributions and interest, per employer.
+- **File e-nomination.** Without a nomination, EDLI and EPF settlement to your family requires succession documentation. This takes ten minutes and is routinely skipped.
+
+### Transfer between jobs
+
+Since the introduction of the centralised system, **PF transfer on job change is largely automatic** where the UAN is correctly linked and KYC is seeded. Where it is not, file **Form 13** through the member portal.
+
+**Why transfer rather than withdraw:**
+- **Continuity of service** is what counts toward the 5-year rule for tax-free withdrawal ([§7.7](#77-tax-treatment-of-pf)) and the 10-year rule for EPS pension ([§7.9](#79-eps-the-pension)). Withdrawing resets the clock.
+- The balance keeps compounding at the declared rate.
+
+---
+
+## 7.5 Form 11: what it actually is
+
+**Form 11 is a self-declaration submitted when you join a new employer covered by the EPF Act.** That is its entire function.
+
+### What Form 11 does
+
+1. Declares whether you were **previously a member** of EPF or EPS.
+2. Provides your **UAN and previous Member ID**, enabling automatic transfer of your old balance.
+3. Captures KYC details: Aadhaar, PAN, bank account.
+4. Establishes whether you qualify as an **"excluded employee."**
+
+### The "excluded employee" provision
+
+You may opt **out** of EPF entirely if **all** of the following hold:
+
+- You were **never** an EPF or EPS member in any previous employment, **and**
+- Your **Basic + DA at the time of joining exceeds ₹15,000/month**, **and**
+- Both you and your employer agree.
+
+Also treated as excluded: someone already drawing an EPS pension, and someone who has fully withdrawn their EPF and settled out of the scheme.
+
+**Once you have been an EPF member, you cannot become an excluded employee again** by taking a higher-paying job. Membership is sticky. For most engineers, the excluded-employee route was available only at the very first job, and is gone thereafter.
+
+### What Form 11 does **not** do
+
+> **Form 11 does not increase your PF contribution, and it creates no obligation on your employer to contribute more.**
+
+This is worth stating flatly because the opposite is widely repeated. Form 11 is a *joining declaration*. It records history and identity. It contains no mechanism to elect a higher contribution rate, and nothing in it compels an employer to raise its own contribution.
+
+The two actual mechanisms for putting more into PF are described next, and they behave very differently from each other.
+
+---
+
+## 7.6 The two real ways to contribute more
+
+### Mechanism A: Joint declaration under Para 26(6)
+
+**Paragraph 26(6) of the EPF Scheme, 1952** permits contributions on wages **above** the ₹15,000 statutory ceiling.
+
+| | Detail |
+|---|---|
+| **What it does** | Both you *and* your employer contribute 12% of your **actual** Basic + DA, not 12% of ₹15,000 |
+| **Who must agree** | **Both parties.** The word "joint" is doing real work here: this is an agreement, not an election |
+| **How** | A joint declaration signed by employee and employer, submitted to the jurisdictional EPFO office, accompanied by a copy of Form 11 and the salary slip or statement for the joining month. Per EPFO's circular on the subject, new joiners contributing above the ceiling should have the Para 26(6) declaration as part of the joining kit |
+| **Effect on EPS** | **None.** The EPS contribution stays capped at ₹1,250/month regardless. The entire increase goes to EPF |
+| **Can you compel your employer?** | **No.** An employer's statutory obligation is 12% of ₹15,000. Contributing above that is voluntary on the employer's part |
+
+Most large Indian employers already contribute on full Basic as a matter of policy, in which case Para 26(6) has effectively been exercised for you. Check your passbook: if the employer's monthly EPF credit is around ₹550, you are on the ceiling; if it tracks 12% of your Basic, you are not.
+
+### Mechanism B: Voluntary Provident Fund (VPF)
+
+| | Detail |
+|---|---|
+| **What it does** | You contribute **more than 12%** of Basic + DA, up to **100%** of it |
+| **Who must agree** | You declare it to your employer's payroll; the employer deducts it and remits it to the same EPF account under your UAN |
+| **Employer matching** | **None. The employer is never obliged to match VPF, and in practice does not.** VPF is entirely employee-funded |
+| **Interest rate** | Same as EPF: 8.25% for FY 2025-26 |
+| **Lock-in** | Same as EPF: until retirement or a permitted exit |
+| **Changing it** | Usually only at the start of a financial year, and typically cannot be reduced mid-year. Employer policies vary |
+
+> **The second correction:** *"If I increase my contribution, my company has to increase theirs too"* is false. Under VPF, the employer contributes nothing extra. Under Para 26(6), the employer contributes more only because it has *agreed* to, and its agreement is what makes the declaration joint.
+
+### Side by side
+
+| | Para 26(6) | VPF |
+|---|---|---|
+| Raises **your** contribution | Yes, to 12% of actual Basic | Yes, up to 100% of Basic |
+| Raises **employer's** contribution | Yes, **if the employer agrees** | **No** |
+| Requires employer consent | **Yes** | Practically yes (payroll must process it), but it is not a joint statutory declaration |
+| Increases EPS | No | No |
+| Counts toward the ₹2.5 lakh interest-tax threshold | Yes | Yes |
+| Counts toward Section 123 (80C) | Yes | Yes, old regime only |
+
+---
+
+## 7.7 Tax treatment of PF
+
+EPF is nominally **EEE**: exempt on contribution, exempt on accrual, exempt on withdrawal. Three carve-outs matter.
+
+### (a) Interest on contributions above ₹2.5 lakh
+
+Introduced by the Finance Act 2021 and carried into the Income-tax Act, 2025.
+
+- Where **your own** contribution (EPF + VPF combined) exceeds **₹2,50,000** in a tax year, the interest on the excess is **taxable** as income from other sources.
+- Where the employer makes **no** contribution at all (relevant to government GPF, not to private-sector engineers), the threshold is **₹5,00,000**.
+- **Employer contributions are not counted** in this threshold.
+- Your **closing balance as at 31 March 2021 and all interest on it remain fully exempt.** The computation applies only to contributions from 1 April 2021 onward.
+- EPFO maintains **two sub-accounts** (taxable and non-taxable) and applies **TDS at 10%** where PAN is seeded, 20% where it is not.
+
+**What this means in practice:** ₹2.5 lakh of employee contribution corresponds to a Basic of about ₹1,73,600/month. Most engineers will not breach it through mandatory EPF alone. **You breach it through VPF.** In the ₹75,000-Basic example, mandatory contribution is ₹1,08,000 a year, so VPF above roughly ₹1,42,000 a year begins generating taxable interest.
+
+### (b) The five-year rule on withdrawal
+
+| Situation | Treatment |
+|---|---|
+| Withdrawal after **5 years of continuous service** | **Fully tax-free** |
+| Withdrawal before 5 years | **Taxable.** The employer's contribution and the interest are taxed as salary; your own contribution is taxed to the extent Section 123 (80C) was claimed on it; interest on your contribution is taxed as income from other sources |
+| Before 5 years, but employment ended due to **ill health, employer closing down, or reasons beyond your control** | Exempt |
+
+**Continuous service is cumulative across employers, provided you transferred rather than withdrew.** Three jobs of two years each, with balances transferred, count as six years. Withdraw between jobs and the clock restarts; this is the concrete cost of "closing the PF account" when changing jobs.
+
+**TDS on early withdrawal:** 10% under **Section 392(7)** (formerly Section 192A) where the amount is **₹50,000 or more** and service is under 5 years. Without PAN, at the maximum marginal rate. Submit **Form 121** (which replaced Forms 15G/15H from 1 April 2026) if your total income is below the taxable limit.
+
+### (c) The ₹7.5 lakh aggregate employer cap
+
+Employer contributions to **EPF + NPS + approved superannuation** combined, exceeding **₹7,50,000** in a year, are a **taxable perquisite**, as is the annual accretion (interest and returns) on the excess. Applies in **both** regimes. Relevant at very high Basic levels or where an employer offers all three.
+
+### Section 123 (80C)
+
+Your own EPF and VPF contributions qualify within the ₹1.5 lakh Section 123 (formerly 80C) basket: **old regime only.** For most engineers, mandatory EPF alone fills a large part of the ₹1.5 lakh.
+
+---
+
+## 7.8 Withdrawals and advances
+
+You cannot treat EPF as a savings account, but it is not fully locked either.
+
+### Full settlement (Form 19)
+
+Permitted on:
+- Retirement at 58 or later
+- **Two months of continuous unemployment** after leaving a job
+- Permanent migration abroad
+- Permanent total incapacity
+
+### Partial advances (Form 31)
+
+Available against specified grounds, each with its own eligibility period and limit:
+
+| Purpose | Broad eligibility | Limit (indicative) |
+|---|---|---|
+| Purchase or construction of a house | 5 years of service | Up to 36 months' wages (Basic+DA), subject to conditions |
+| Home loan repayment | 10 years of service | Up to 36 months' wages |
+| Marriage: self, children, siblings | 7 years of service | 50% of your own contribution + interest |
+| Post-matriculation education: self or children | 7 years of service | 50% of your own contribution + interest |
+| Medical treatment: self or family | No minimum service | 6 months' wages or your own share, whichever is less |
+| Natural calamity | n/a | As notified |
+| One year before retirement | Age 57+ | Up to 90% of the total balance |
+
+Limits and conditions are revised periodically by EPFO circular. Confirm the current position on the member portal before planning around any figure here.
+
+### EDLI
+
+If you die in service, your nominee receives an insurance benefit under EDLI, currently a **maximum of ₹7,00,000**, calculated from your recent wages. This is a genuine benefit and one more reason to complete e-nomination.
+
+---
+
+## 7.9 EPS: the pension
+
+The most misunderstood component, largely because people expect it to behave like EPF.
+
+### Key facts
+
+- **Only the employer contributes**: 8.33% of wages, **capped at 8.33% of ₹15,000 = ₹1,250/month.**
+- **You cannot contribute to EPS.** VPF does not increase it. Para 26(6) does not increase it.
+- **It is not a balance.** You do not accumulate ₹1,250 a month plus interest. You accrue an *entitlement* to a monthly pension.
+- **Minimum 10 years of eligible service** to qualify for a pension. Below 10 years, you may withdraw the EPS corpus (Form 10C) instead.
+- **Pension starts at age 58.** Early pension from 50 at a reduced rate; deferring to 60 increases it.
+- Contributions stop once you turn 58.
+
+### The formula
+
+```
+Monthly pension = (Pensionable Salary × Pensionable Service) / 70
+```
+
+- **Pensionable Salary** = average of the **last 60 months'** pensionable wages, capped at ₹15,000 unless you successfully opted for higher pension.
+- **Pensionable Service** = completed years of eligible service. Service of 20 years or more receives a **2-year bonus**.
+
+### What this produces
+
+| Pensionable salary | Service | Monthly pension |
+|---:|---:|---:|
+| ₹15,000 | 10 years | ₹2,143 |
+| ₹15,000 | 20 years (+2 bonus = 22) | ₹4,714 |
+| ₹15,000 | 30 years (+2 bonus = 32) | ₹6,857 |
+| ₹15,000 | 35 years (+2 bonus = 37) | ₹7,929 |
+
+**A full 35-year career produces a pension of roughly ₹7,900 per month, in nominal rupees, decades from now.** The minimum pension under EPS-95 is ₹1,000/month.
+
+The reason is entirely the ₹15,000 cap. If the ceiling rises to ₹25,000 as reported, the same 35-year career would produce roughly ₹13,200/month, still not a retirement plan on its own.
+
+**The correct way to hold this:** EPS is a small inflation-unprotected annuity, not a retirement solution. The retirement work is done by EPF, NPS and your own investing.
+
+### Higher pension
+
+The Supreme Court judgment of **4 November 2022** permitted certain employees to opt for pension computed on **actual salary** rather than the capped ₹15,000, subject to conditions on prior joint options and the payment of arrears. EPFO opened application windows in 2023.
+
+> **Status, August 2026:** implementation continues to be litigated and administratively revised, with disputes over eligibility, the treatment of past joint options, arrears computation, and which salary components count. If you applied, track your specific application; if you did not, the windows for most categories have closed. Treat any general statement about "higher pension" with caution and verify against EPFO's current circulars for your own case.
+
+---
+
+## 7.10 Gratuity
+
+Governed by the **Payment of Gratuity Act, 1972**, and now also engaged by the Code on Social Security, 2020.
+
+### The formula
+
+```
+Gratuity = (Last drawn Basic + DA) × 15/26 × completed years of service
+```
+
+The 15/26 represents 15 days' wages for each completed year, on the basis of a 26-day working month.
+
+**Eligibility:** 5 years of continuous service with the **same employer**. Unlike EPF, this does **not** carry across employers. Waived in the event of death or permanent disablement.
+
+**Rounding:** service beyond a completed year is rounded up if it exceeds 6 months. 5 years 7 months counts as 6 years; 5 years 5 months counts as 5.
+
+**Tax exemption:** up to **₹20,00,000** lifetime for non-government employees (₹25,00,000 for central government employees). The cap is cumulative across all employers over your career, not per employer. **Exempt in both regimes.**
+
+**Payment timeline:** within 30 days of becoming payable.
+
+### Worked example
+
+Basic ₹75,000/month at exit, 6 completed years:
+
+```
+₹75,000 × 15/26 × 6 = ₹2,59,615
+```
+
+Fully exempt, being well below ₹20 lakh.
+
+### The 4.81% in your CTC
+
+Employers show gratuity in CTC at **4.81% of Basic**; this is `15/26 ÷ 12`, the annual accrual rate. **You forfeit it entirely if you leave before 5 years.** For a ₹9,00,000 Basic that is ₹43,290 a year of CTC that you have a roughly-even chance of never receiving, given median tenure in Indian tech.
+
+> **Status, August 2026:** the Code on Social Security, 2020 reduces the qualifying period to **one year for fixed-term employees**. The five-year requirement continues to apply to permanent employees. State rules under the Codes continue to be notified.
+
+---
+
+## 7.11 Checklist
+
+Things that are quick, one-time, and routinely left undone:
+
+- [ ] **Activate your UAN** and seed Aadhaar, PAN and bank account
+- [ ] **File e-nomination**: for EPF, EPS and EDLI
+- [ ] **Check your passbook** and confirm whether the employer contributes on full Basic or on the ₹15,000 ceiling
+- [ ] **Confirm past PF has transferred** rather than sitting dormant under an old Member ID
+- [ ] **Never withdraw between jobs**: it resets the 5-year and 10-year clocks
+- [ ] **If considering VPF**, check whether your total employee contribution would cross ₹2.5 lakh
+- [ ] **Before resigning**, check whether you are near the 5-year gratuity mark

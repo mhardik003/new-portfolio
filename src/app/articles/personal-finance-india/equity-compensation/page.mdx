@@ -1,0 +1,196 @@
+export const metadata = {
+  title: `3. Equity Compensation`,
+  description: `ESOPs, RSUs and ESPPs, and how Indian tax law treats each of them.`,
+}
+
+# 3. Equity Compensation
+
+*ESOPs, RSUs and ESPPs, and how Indian tax law treats each of them.*
+
+---
+
+<ChapterIndex slug="equity-compensation" />
+
+## 3.1 What equity is
+
+A share is a unit of ownership. Your fraction of a company is:
+
+```
+(shares you own) / (total shares outstanding, fully diluted)
+```
+
+"Fully diluted" matters: it includes options and convertible instruments not yet exercised. A percentage quoted against issued shares only is a larger, and less honest, number.
+
+Private companies have **multiple share classes**. Employees receive *common* (or *equity*) shares; investors hold *preference* shares carrying liquidation preferences, anti-dilution rights and other terms that sit ahead of you in a payout waterfall. Two consequences:
+
+- Common stock is valued at a discount to preference stock while a company is private. That discount disappears at IPO.
+- You cannot evaluate private-company equity without knowing how much has been raised and on what terms. A ₹500 crore liquidation preference stack means the common shares are worth nothing below a ₹500 crore exit.
+
+**Dilution:** future financing rounds issue new shares, so your percentage falls. Your *value* may rise anyway if the price per share rises faster than the dilution. Both facts are true simultaneously and neither on its own tells you anything.
+
+---
+
+## 3.2 The three instruments
+
+| | **ESOP** (stock option) | **RSU** (restricted stock unit) | **ESPP** (share purchase plan) |
+|---|---|---|---|
+| What you get | The *right to buy* shares at a fixed price | A *promise to deliver* shares | The right to *buy at a discount* |
+| Exercise price | Yes, set at FMV on grant date | None | Usually 85% of the lower of two reference prices ("lookback") |
+| You pay cash? | Yes, to exercise | No | Yes, via payroll deduction |
+| Can be worthless | Yes, if share price falls below exercise price | Only if price reaches zero | Rarely, given the discount |
+| Typical issuer | Unlisted Indian companies and startups | Listed companies, especially foreign parents of GCCs | Listed companies, mostly US parents |
+| Typical ratio | You get ~3× as many options as RSUs for equivalent grant value | n/a | n/a |
+| Taxed when | **Exercise** | **Vesting / allotment** | **Purchase** |
+
+**Vesting** is standard across all three: typically **4 years with a 1-year cliff**, vesting monthly or quarterly thereafter. Nothing vests before the cliff.
+
+**Grant date** is when the board approves the grant. **Vesting start date** is usually your first day. The two differ, and the exercise price is set at fair market value on the *grant* date.
+
+**Expiration:** ESOPs typically expire 7–10 years from grant, but leaving the company triggers a much shorter window, commonly **90 days** to exercise or forfeit. This is the single most expensive clause in most Indian ESOP agreements, because it forces you to fund the exercise price *and* the perquisite tax in cash, on illiquid shares you cannot sell.
+
+---
+
+## 3.3 Taxation: the two-point model
+
+Indian law taxes equity compensation **twice, at two different points, under two different heads**.
+
+```
+POINT 1: at exercise (ESOP) or vesting/allotment (RSU)
+   Taxed as: SALARY PERQUISITE
+   Amount:   (FMV on that date − amount you paid) × number of shares
+   Rate:     your income tax slab
+   Collected via: TDS by your employer under Section 392 (formerly 192)
+
+POINT 2: at sale
+   Taxed as: CAPITAL GAINS
+   Amount:   Sale price − FMV on the date used at Point 1
+   Rate:     depends on listed/unlisted and holding period
+```
+
+The cost basis rule prevents the same gain being taxed twice: the FMV already taxed as perquisite becomes your cost of acquisition for capital gains (the rule formerly at Section 49(2AA)).
+
+### Point 1 in practice
+
+**RSUs** have no exercise price, so the entire FMV on the vesting/allotment date is a perquisite. Employers almost always **sell-to-cover**: they sell a portion of the vesting shares to fund the TDS and deliver the rest.
+
+**ESOPs** require you to actively exercise and pay the exercise price. At that moment you owe slab-rate tax on the spread, in cash, even though you have received no cash. For unlisted shares this is the classic trap.
+
+**ESPPs** are taxed on the discount at purchase: the difference between FMV and your discounted purchase price.
+
+### FMV determination
+
+| Share type | FMV for perquisite purposes |
+|---|---|
+| Listed on a recognised Indian stock exchange | Average of opening and closing price on the exercise/vest date |
+| Unlisted Indian company | Merchant banker valuation as on a date within 180 days prior |
+| Listed on a foreign exchange | Market price on that exchange, converted to INR at the prescribed rate |
+
+### Point 2 in practice: capital gains, FY 2026-27
+
+| Asset | Holding period for long-term | Short-term rate | Long-term rate |
+|---|---|---|---|
+| **Indian listed shares** (with STT) | > 12 months | **20%** | **12.5%** on gains above ₹1.25 lakh per year |
+| **Unlisted shares** (Indian private company) | > 24 months | Slab rate | **12.5%**, no indexation |
+| **Foreign listed shares** (US parent RSUs) | > 24 months | Slab rate | **12.5%**, no indexation |
+
+**The asymmetry that catches GCC employees:** RSUs in a US-listed parent are treated as **unlisted** for Indian holding-period purposes, because they are not listed on a *recognised Indian* stock exchange. You need **24 months**, not 12, to reach long-term treatment, and short-term gains are taxed at your **slab rate** (up to 30% plus surcharge and cess), not at 20%.
+
+---
+
+## 3.4 Foreign shares: the compliance layer
+
+If you hold shares in a foreign company at any point during the year (which describes most GCC employees), additional obligations attach.
+
+### Schedule FA
+Foreign assets must be disclosed in **Schedule FA** of your income tax return, **regardless of value**. There is no de-minimis threshold. This requires filing **ITR-2** or **ITR-3**; you cannot use ITR-1.
+
+Non-disclosure is not treated as a minor omission. The Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015 provides for a flat penalty of ₹10 lakh for failure to disclose foreign assets, independent of the tax involved. In practice, the department has run large-scale matching exercises against foreign-reported data and issued notices to salaried RSU holders.
+
+**What to disclose:** the shares themselves, any foreign bank or brokerage account (E*TRADE, Morgan Stanley, Fidelity, Schwab), peak balance during the period, and dividends received.
+
+**Calendar mismatch:** Schedule FA reports on a *calendar year* basis for most items while your return covers the *tax year* (April–March). Read the schedule's instructions rather than assuming.
+
+### Dividends
+Dividends on foreign shares are taxable in India as income from other sources at your slab rate. The US withholds tax at 25% on dividends paid to Indian residents under the India–US treaty (reduced from the statutory 30% by filing Form W-8BEN with your broker). You may claim **foreign tax credit** for the withheld amount by filing **Form 67** before filing your return.
+
+### Repatriation
+Sale proceeds must be repatriated in accordance with FEMA. The Liberalised Remittance Scheme cap of USD 250,000 per financial year applies to *outward* remittance; bringing proceeds home is not constrained by it. TCS on outward remittance under LRS was reduced to a flat **2%** for most categories from 1 April 2026.
+
+---
+
+## 3.5 The start-up deferral
+
+Employees of **DPIIT-recognised eligible start-ups** may defer payment of the perquisite tax on ESOPs. The deferral runs to the earliest of:
+
+- **48 months** from the end of the tax year in which the option was exercised, or
+- the date you **sell** the shares, or
+- the date you **leave** the company.
+
+This addresses the cash-flow problem directly: tax on illiquid shares becomes payable when liquidity arrives, or after four years, whichever is first. The employer must deduct and deposit the tax within 14 days of the earliest trigger.
+
+The eligibility criteria are narrow. Confirm DPIIT recognition and the specific eligibility certificate before assuming it applies.
+
+---
+
+## 3.6 What happens when you leave
+
+The clause structure that matters most, and the one least often read at signing.
+
+| Question | Typical answer | Why it matters |
+|---|---|---|
+| What happens to **unvested** equity? | Forfeited | This is the retention mechanism; it is why equity vests over four years |
+| How long to exercise **vested** ESOPs? | **90 days** | Requires cash for both exercise price and perquisite tax, on shares you cannot sell |
+| Are there **extended exercise windows**? | Some companies offer 5–10 years | Increasingly common at Indian startups; ask explicitly, it is a material term |
+| Is there a **buyback or secondary** programme? | Company-specific | The only realistic liquidity for unlisted ESOPs before an exit |
+| Are RSUs accelerated on **change of control**? | Sometimes, single or double trigger | Read the plan document, not the grant letter |
+| Does a **notice period** count toward vesting? | Usually yes, if you remain on the rolls | Can be worth an entire vesting tranche; check the date |
+
+**A recurring and expensive pattern:** an engineer resigns two weeks before a vesting date, forfeits a tranche worth several lakh rupees, and discovers it afterwards. Before resigning, pull your vesting schedule and check the next four dates.
+
+---
+
+## 3.7 Concentration risk
+
+An engineer at a listed technology company frequently holds a position where:
+
+- Their **salary** depends on the company
+- Their **vested equity** depends on the company
+- Their **unvested equity** depends on the company
+- Their **next job's marketability** depends partly on the company
+
+That is four correlated exposures to one entity. The general case for diversification is in [§12.8](/articles/personal-finance-india/investing#128-portfolio-construction); the specific application here is that equity compensation creates concentration automatically, and it takes a deliberate decision to unwind it.
+
+The mechanics of unwinding differ by instrument:
+
+- **RSUs** are already taxed as salary at vest. Selling immediately on vest realises zero additional capital gain: the sale price equals the cost basis, subject to small movements. Holding is therefore an active decision to buy the stock at that price.
+- **ESOPs in an unlisted company** cannot be unwound. The concentration is structural until a liquidity event.
+
+**Insider trading and trading windows:** if you have access to unpublished price-sensitive information, SEBI's Prohibition of Insider Trading Regulations, 2015 apply. Listed companies operate closed trading windows around results, maintain designated-person lists, and often require pre-clearance above a threshold. This constrains *when* you can sell, which is worth knowing before you plan around a sale.
+
+---
+
+## 3.8 Valuing an offer that includes equity
+
+A framework, not a recommendation:
+
+**For listed-company RSUs:**
+```
+Annual equity value ≈ (grant value) / (vesting years)
+```
+This is reasonably reliable. The share price will move, but the grant is denominated in a liquid, observable asset. Apply your marginal tax rate to get the post-tax figure; for most engineers at these levels, roughly 30% plus cess.
+
+**For unlisted-company ESOPs:**
+```
+Annual equity value = number of options × (plausible exit price − exercise price) / vesting years × P(exit)
+```
+Every term on the right is uncertain and the last one is usually far below 1. The honest treatment is to value it at a range, treat the low end as zero, and decide whether the offer works on cash alone.
+
+Questions that make the range narrower:
+1. Total shares outstanding, fully diluted
+2. Last round valuation, date, and whether it was a down round
+3. Total liquidation preference stack ahead of common
+4. Exercise price and expiry
+5. Post-termination exercise window
+6. Whether any secondary sale or buyback has ever occurred, and at what price
+
+A company that will not answer (1) and (2) is asking you to accept an unpriced instrument.

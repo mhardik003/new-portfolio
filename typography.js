@@ -47,10 +47,15 @@ module.exports = function typographyStyles({ theme }) {
 
         '--tw-prose-invert-body': theme('colors.zinc.400'),
         '--tw-prose-invert-headings': theme('colors.zinc.200'),
-        '--tw-prose-invert-links': theme('colors.zinc.950'),
-        '--tw-prose-invert-links-hover': theme('colors.zinc.950'),
-        '--tw-prose-invert-underline': theme('colors.zinc.950 / 0.3'),
-        '--tw-prose-invert-underline-hover': theme('colors.zinc.950'),
+        // The dark panel is `zinc-900`, so the inherited `zinc-950` link colour
+        // rendered links *darker* than the `zinc-400` body text around them
+        // (1.12:1). Teal is the site accent and mirrors the light-mode block
+        // above: one colour for link and hover, the same colour at 0.3 for the
+        // resting underline.
+        '--tw-prose-invert-links': theme('colors.teal.400'),
+        '--tw-prose-invert-links-hover': theme('colors.teal.400'),
+        '--tw-prose-invert-underline': theme('colors.teal.400 / 0.3'),
+        '--tw-prose-invert-underline-hover': theme('colors.teal.400'),
         '--tw-prose-invert-bold': theme('colors.zinc.200'),
         '--tw-prose-invert-counters': theme('colors.zinc.200'),
         '--tw-prose-invert-bullets': theme('colors.zinc.200'),
@@ -78,9 +83,36 @@ module.exports = function typographyStyles({ theme }) {
         },
 
         // Headings
+        //
+        // `h1` is styled here because the multi-chapter references (e.g.
+        // /articles/personal-finance-india) put their title in the MDX body,
+        // inside `Prose`. `ArticleLayout` instead renders the title as JSX
+        // *outside* `Prose`, so the upstream template never needed this rule —
+        // and without it Preflight's heading reset leaves an in-body `# Title`
+        // rendering as plain body text. Values track `ArticleLayout`'s h1 so
+        // both paths look like the same site.
+        h1: {
+          color: 'var(--tw-prose-headings)',
+          fontWeight: theme('fontWeight.bold'),
+          fontSize: theme('fontSize.4xl')[0],
+          // Must be set explicitly: the base rule above applies `lineHeight.7`
+          // (1.75rem) to everything, which is *smaller* than a 4xl/5xl glyph and
+          // makes a wrapped title overlap itself.
+          lineHeight: theme('lineHeight.tight'),
+          letterSpacing: theme('letterSpacing.tight'),
+          // The layout already provides the space above the title.
+          marginTop: 0,
+          marginBottom: theme('spacing.6'),
+          '@screen sm': {
+            fontSize: theme('fontSize.5xl')[0],
+          },
+        },
         'h2, h3': {
           color: 'var(--tw-prose-headings)',
           fontWeight: theme('fontWeight.semibold'),
+          // Anchor targets (the per-chapter <ChapterIndex> links) otherwise
+          // land flush against the top of the window.
+          scrollMarginTop: theme('spacing.16'),
         },
         h2: {
           fontSize: theme('fontSize.xl')[0],
@@ -226,11 +258,41 @@ module.exports = function typographyStyles({ theme }) {
         },
 
         // Tables
+        //
+        // `width: 100%` can never exceed its containing block, so the
+        // `overflow-x-auto` wrapper in `MdxTable` never engaged: instead of
+        // scrolling, columns collapsed toward min-content (~60px each for the
+        // 4–6 column tables on a 375px phone). `max-content` lets a wide table
+        // genuinely overflow and scroll; `min-width: 100%` keeps a narrow one
+        // filling its column.
         table: {
-          width: '100%',
+          width: 'max-content',
+          minWidth: '100%',
           tableLayout: 'auto',
           textAlign: 'left',
           fontSize: theme('fontSize.sm')[0],
+        },
+        // Without a per-column cap, `max-content` unwraps every cell onto a
+        // single line — and 39 of the book's 147 tables carry a 90–330
+        // character prose cell, one of which measured 1512px wide inside a
+        // 333px column. Capping the column keeps prose wrapping while the
+        // many-column tables still overflow. On desktop `min-width: 100%`
+        // wins and the excess is redistributed, so wide columns are unchanged.
+        // (`max-width` on a table cell is left undefined by CSS 2.1 but is
+        // honoured by Chromium, Gecko and WebKit; if a browser ignored it the
+        // only consequence is a wider scroll.)
+        'th, td': {
+          maxWidth: '24ch',
+        },
+        // A right-aligned GFM column (`---:`) is a numeric column, so keep its
+        // digits on a common width. remark-gfm has emitted both `align` and an
+        // inline `text-align` over its lifetime; match either.
+        ':is(th, td):is([align="right"], [style*="right"])': {
+          textAlign: 'right',
+          fontVariantNumeric: 'tabular-nums',
+        },
+        ':is(th, td):is([align="center"], [style*="center"])': {
+          textAlign: 'center',
         },
         thead: {
           borderBottomWidth: '1px',
@@ -274,6 +336,35 @@ module.exports = function typographyStyles({ theme }) {
         },
         ':is(tbody, tfoot) td:not(:last-child)': {
           paddingRight: theme('spacing.2'),
+        },
+        // When a table does overflow and scroll, the first column — which
+        // carries the row labels — slides off the left edge, leaving the
+        // remaining columns unidentifiable. Pinning it keeps the label in
+        // view. `position: sticky` has to sit on the cells themselves; a
+        // `<col>` cannot be made sticky, and neither can a column as such.
+        //
+        // The background is not decoration: without it the scrolling columns
+        // show through the pinned one. `--table-surface` is the panel colour,
+        // declared with its `dark:` variant on the `MdxTable` wrapper and
+        // inherited down to the cells.
+        ':is(th, td):first-child': {
+          position: 'sticky',
+          left: 0,
+          zIndex: 1,
+          backgroundColor: 'var(--table-surface)',
+        },
+        // `border-collapse: collapse` hands the row borders to the *table*,
+        // not the cells, and a sticky cell with a z-index paints above them —
+        // so the horizontal rules vanish inside the pinned column unless they
+        // are redrawn on the cell. Insets rather than real borders, so the
+        // cell keeps its width and the column does not shift by a pixel when
+        // it becomes sticky. `:not(:last-child)` mirrors the `tbody tr` rule
+        // above, which drops the border on the final row.
+        'thead th:first-child': {
+          boxShadow: 'inset 0 -1px 0 var(--tw-prose-th-borders)',
+        },
+        'tbody tr:not(:last-child) td:first-child': {
+          boxShadow: 'inset 0 -1px 0 var(--tw-prose-td-borders)',
         },
       },
     },

@@ -1,0 +1,231 @@
+export const metadata = {
+  title: `10. Credit Cards and CIBIL`,
+  description: `Indian card mechanics, and how a credit record is actually built.`,
+}
+
+# 10. Credit Cards and CIBIL
+
+*Indian card mechanics, and how a credit record is actually built.*
+
+---
+
+<ChapterIndex slug="credit-cards-cibil" />
+
+## 10.1 What a credit card is
+
+An **unsecured revolving loan** on a roughly 30-day cycle. Unsecured means nothing is pledged, which is why the rate is the highest of any mainstream borrowing in India. Revolving means the balance carries forward and re-borrows automatically unless you clear it.
+
+Two independent things are bundled into one product:
+
+1. **A payment instrument** with a free credit period, genuinely useful and free if used correctly.
+2. **A very expensive loan facility**: activated the moment you fail to pay the full statement amount.
+
+Most of the harm comes from people using (1) and unintentionally activating (2).
+
+---
+
+## 10.2 Starting with no credit history
+
+New borrowers (including new graduates and people returning from abroad) have no credit history, so lenders will not lend, so no history forms. Entry products that solve this:
+
+- **Secured credit card** against a fixed deposit. Limit is typically 80%–90% of the FD; the FD continues to earn interest. Approval is near-automatic since the bank holds the collateral
+- **Student credit card**
+- **Consumer durable loan**: a small, short EMI on an appliance or phone
+- **Being reported as a co-applicant** on a family loan, which does build your record (and your liability)
+
+---
+
+## 10.3 The billing cycle and the grace period
+
+```
+Statement cycle       │←──────── ~30 days ────────→│
+Purchases posted      │  ▲          ▲         ▲    │
+Statement generated   │                            │ ← statement date
+Payment due           │                            │←── ~15–20 days ──→│ due date
+```
+
+- A purchase made **the day after** a statement date sits for the whole next cycle plus the payment window, up to about **45–50 interest-free days**.
+- A purchase made **the day before** a statement date gets only the payment window, about **15–20 days**.
+
+**The grace period is conditional and all-or-nothing.** It applies only if you pay the **total amount due in full** by the due date. Pay ₹1 less than the full amount, and:
+
+- Interest is charged **retrospectively from each transaction date**, not from the due date
+- **New purchases lose the grace period entirely** and start accruing interest immediately
+- The grace period does not return until the balance is cleared in full
+
+This is the mechanism people mean when they say credit card debt is hard to escape. It is not a penalty rate; it is the withdrawal of a subsidy.
+
+---
+
+## 10.4 The arithmetic
+
+Indian card finance charges run **2.5%–4.0% per month**.
+
+| Monthly rate | Nominal APR | **Effective annual rate** |
+|---:|---:|---:|
+| 2.5% | 30.0% | **34.5%** |
+| 3.0% | 36.0% | **42.6%** |
+| 3.5% | 42.0% | **51.1%** |
+| 4.0% | 48.0% | **60.1%** |
+
+Plus **18% GST** on the interest and on every fee.
+
+### The minimum due
+
+The minimum amount due is typically **5% of the outstanding balance**. Paying it keeps your account current and protects your credit score, and does close to nothing to the debt.
+
+**₹1,00,000 outstanding at 3.5% per month, paying only the 5% minimum each month, with no new spending:**
+
+| After | Balance |
+|---:|---:|
+| 12 months | ~₹81,700 |
+| 24 months | ~₹66,700 |
+| 36 months | ~₹54,400 |
+
+Three years, roughly ₹1,40,800 paid, and ₹54,400 still owing. The minimum due is engineered so that interest consumes most of the payment.
+
+### Cash withdrawal
+
+Withdrawing cash on a credit card is the single most expensive routine transaction available to a retail customer in India:
+
+- **No grace period.** Interest accrues from the withdrawal date.
+- **Cash advance fee** of 2.5%–3% of the amount, minimum ₹300–₹500.
+- **GST at 18%** on the fee.
+
+### Other charges
+
+| Charge | Typical |
+|---|---|
+| Annual fee | ₹0–₹10,000, often waived on a spending threshold |
+| Late payment fee | Slab-based, ₹100–₹1,300 |
+| Over-limit fee | 2.5% of the excess |
+| **Foreign currency markup** | **3.5% of the transaction**, plus GST. Significant for engineers paying for cloud services, SaaS subscriptions or foreign travel |
+| Dynamic currency conversion | If a foreign merchant offers to bill you in INR, the exchange rate applied is usually poor. Decline it |
+| Rent payment via card | 1%–2% platform fee, frequently exceeding the reward earned |
+| EMI conversion | Interest of 13%–18% p.a. plus a processing fee. Cheaper than revolving, still expensive |
+
+---
+
+## 10.5 Rewards, and when they are real
+
+Reward rates in India typically run **0.5%–3.3%** in value terms, higher on co-branded and travel cards.
+
+The arithmetic is unambiguous: **any reward rate is dwarfed by any interest rate.**
+
+```
+Reward on ₹1,00,000 of spending at 2%      =  ₹2,000 gained
+Interest on ₹1,00,000 revolved for 1 year  =  ₹51,100 lost
+```
+
+A card earns you money only if the balance is cleared in full, every cycle, without exception. Rewards are a rebate on money you were going to spend; they are never a reason to spend.
+
+**Points worth checking before optimising for rewards:**
+- Redemption value per point varies enormously; 1 point is not 1 rupee
+- Points expire
+- Categories are frequently excluded: rent, fuel, wallet loads, insurance, education, government payments, EMI conversions
+- Milestone benefits require reaching a spending threshold, which distorts behaviour
+- The annual fee must be netted off
+
+---
+
+## 10.6 The Indian credit bureau system
+
+India has **four RBI-licensed credit information companies**:
+
+- **TransUnion CIBIL**: the most widely referenced; "CIBIL score" is used colloquially for credit score generally
+- **Experian**
+- **Equifax**
+- **CRIF High Mark**
+
+Lenders report to them when you apply for credit, when credit is sanctioned, and on each payment. Different lenders report to different bureaus, so **your scores will differ across bureaus.**
+
+### The score
+
+**Range: 300–900.** Broadly:
+
+| Band | Reading |
+|---|---|
+| 750–900 | Strong; best rates and quickest approvals |
+| 700–749 | Good |
+| 650–699 | Fair; approval likely, rate less favourable |
+| 550–649 | Weak |
+| 300–549 | Poor |
+| **NA / NH** | **No history**: a new borrower with no credit record |
+
+### What builds it
+
+Published weightings vary between sources; the ordering is consistent even where the percentages are not:
+
+| Factor | Approximate weight | What it measures |
+|---|---:|---|
+| **Payment history** | 30%–35% | On-time payment across all accounts. The dominant factor |
+| **Credit utilisation** | 25%–30% | Balance used as a proportion of total limit. **Below 30% is the conventional guidance** |
+| **Credit age and mix** | ~25% | Length of history; a mix of secured (loans) and unsecured (cards) credit |
+| **New enquiries** | ~20% | Hard enquiries from fresh applications. Several in a short period reads as distress |
+
+### Mechanics worth knowing
+
+- **Utilisation is measured on the statement date**, not on the due date. Paying in full every month still shows high utilisation if you routinely spend near your limit before the statement generates. Making a mid-cycle part payment reduces the reported figure.
+- **Do not close your oldest card.** Closing it shortens your credit age and reduces total available limit, raising utilisation on both counts.
+- **Accepting a limit increase lowers utilisation** at the same spending level.
+- **Hard vs soft enquiry:** applying for credit is a hard enquiry and affects the score. Checking your own report is a soft enquiry and does not.
+- **You are entitled to one free full credit report per bureau per calendar year** under RBI rules. Four bureaus, four free reports.
+- **Errors are common**: closed loans still showing open, accounts that are not yours, incorrect defaults. Both the bureau and the reporting lender have defined timelines to investigate disputes.
+- **Being an add-on cardholder** on someone else's card does not build your own history. A **secured card against a fixed deposit** does.
+
+**Three rules cover most of it:** do not pay interest, do not miss a payment, do not spend too much of your limit.
+
+---
+
+## 10.7 Credit card debt as a financial position
+
+Placed against the alternatives:
+
+```
+Guaranteed return from clearing card debt at 3.5%/month  ≈  51.1% effective, risk-free, tax-free
+Long-run historical equity return, annualised            ≈  12%, volatile, taxed
+EPF declared rate                                        =   8.25%
+```
+
+**No legitimate Indian investment returns 51% with certainty.** Repaying a revolving card balance therefore dominates every other use of the same rupee, with one qualification: **the emergency fund may take precedence**, because being without liquidity is what causes people to revolve a balance in the first place.
+
+The behavioural failure mode is **mental accounting** (see [§1.8](/articles/personal-finance-india/first-principles#18-humans-are-not-rational)): maintaining a ₹2 lakh "travel fund" earning 3% while revolving ₹80,000 at 51%. Money is fungible. The buckets are in your head, not in the arithmetic.
+
+---
+
+## 10.8 What the 2026 rules give the cardholder
+
+The Reserve Bank amended the credit card framework with effect from 2026. Two changes materially improve the borrower's position:
+
+### Three-day grace period before penalty
+Banks must allow **at least three days** past the due date before:
+- reporting the account as past due to credit bureaus, **and**
+- levying late payment charges
+
+Clear the dues within that window and the late fee is waived and the bureau is not informed.
+
+### No interest on unpaid fees and taxes
+Previously, an unpaid late fee (and the GST on it) was added to the outstanding balance and itself began accruing interest at card rates. **Under the amended rules, unpaid charges, levies and taxes cannot be added to the balance on which interest is computed.**
+
+This removes a compounding-on-penalties mechanism that could turn a ₹500 late fee into a materially larger sum.
+
+### Also in force
+
+- **Late payment charges apply only to the unpaid amount**, not the whole bill.
+- **Card network choice**: customers must be offered a choice of card network (Visa, Mastercard, RuPay, Diners) rather than having one imposed, for eligible portfolios.
+- **Card closure within 7 working days** of a valid request, with ₹500/day compensation for delay.
+- **Unsolicited cards and unrequested limit increases are prohibited**: explicit consent is required.
+- **Tokenisation** of card-on-file data at merchants is mandatory; merchants may not store raw card numbers.
+
+---
+
+## 10.9 Checklist
+
+- [ ] Pay the **total amount due**, never the minimum; set an auto-debit for the full statement amount
+- [ ] Know your **statement date** and your **due date**; they are different
+- [ ] Keep reported utilisation **below 30%**; make a mid-cycle payment if your spend is close to the limit
+- [ ] Never withdraw **cash** on a credit card
+- [ ] Pull your **free credit report** from all four bureaus once a year and dispute errors
+- [ ] Do not close your **oldest** card
+- [ ] Decline **dynamic currency conversion** abroad; check the 3.5% forex markup
+- [ ] Treat any revolving balance as the **highest-priority claim** on spare cash after the emergency fund

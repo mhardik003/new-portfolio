@@ -1,0 +1,167 @@
+export const metadata = {
+  title: `2. Decoding an Indian Offer Letter`,
+  description: `Why the number in your offer letter is not the number in your bank account.`,
+}
+
+# 2. Decoding an Indian Offer Letter
+
+*Why the number in your offer letter is not the number in your bank account.*
+
+---
+
+**A ₹18 lakh CTC offer typically produces around ₹14 lakh of annual in-hand pay, roughly 78%.** The missing ₹4 lakh is not one deduction. Part of it is the employer's own contributions, premiums and provisions — real cost to the company, never cash to you. Part of it reaches you, but into an account you cannot draw on for decades. The rest is tax.
+
+The practical rule: **compare offers on in-hand plus vested-equity value, never on CTC.** Two ₹20 lakh CTC offers can differ by well over ₹1 lakh a year in cash, purely through structuring.
+
+---
+
+<ChapterIndex slug="offer-letter" />
+
+## 2.1 The central confusion: CTC
+
+Indian offer letters quote **CTC (Cost To Company)**. This is the employer's total annual cost of employing you. It is not your salary, and a meaningful portion of it is money you will never receive as cash.
+
+```
+CTC  ≥  Gross salary  ≥  Taxable salary  ≥  In-hand pay
+```
+
+Each arrow drops a different set of items:
+
+| Step | What is removed |
+|---|---|
+| CTC → Gross | Employer PF, gratuity provision, insurance premiums, meal-card loading, sometimes notional perquisite values |
+| Gross → Taxable | Exempt allowances and reimbursements (old regime: HRA, LTA and more; new regime: a much shorter list) |
+| Taxable → In-hand | Employee PF, income tax (TDS), professional tax, any voluntary deductions |
+
+A worked line-by-line derivation is in **[§6](/articles/personal-finance-india/worked-example)**.
+
+---
+
+## 2.2 Every component, and what it really is
+
+### Cash components
+
+| Component | What it's for | Tax treatment | Notes |
+|---|---|---|---|
+| **Basic salary** | Your base wage — the fixed core of the package | Fully taxable | The anchor. PF, gratuity, HRA and most other components are computed as a percentage of it. Under the Labour Codes, Basic + DA must be ≥ 50% of total remuneration. |
+| **Dearness Allowance (DA)** | Compensating cost-of-living inflation | Fully taxable | Common in PSUs and government; rare in private tech. Where present, it is grouped with Basic for PF and gratuity. |
+| **House Rent Allowance (HRA)** | Covering your rent | Partly exempt | Partially exempt in the **old regime** if you actually pay rent. **Fully taxable in the new regime.** Typically set at 40%–50% of Basic. |
+| **Special allowance** | Nothing — it is the plug that makes CTC add up | Fully taxable | The residual bucket. Whatever is left after every other component is assigned lands here. |
+| **Leave Travel Allowance (LTA)** | Covering domestic holiday travel | Conditionally exempt | Old regime only; exempt against actual domestic travel tickets, twice in a block of four calendar years. |
+| **Conveyance / transport allowance** | Covering your daily commute | Taxable | The old blanket ₹1,600/month exemption was folded into the standard deduction. Still exempt for employees with specified disabilities. |
+| **Variable pay / performance bonus** | Tying part of your pay to performance | Fully taxable | Stated as a percentage of fixed pay or a rupee figure. **Read the payout history, not the target.** Frequently paid at 70–90% of target, sometimes at 0%. |
+| **Joining / signing bonus** | Compensating what you give up by leaving your last job | Fully taxable | Almost always carries a clawback; see [§2.5](#25-clauses-that-cost-money). |
+| **Retention bonus** | Paying you to still be there on a set date | Fully taxable | Paid at a future date conditional on still being employed. |
+| **Shift / on-call allowance** | Compensating unsocial hours and off-shift availability | Fully taxable | Common in support and SRE roles. |
+
+### Benefits and contributions inside CTC
+
+| Component | What it is | Do you ever see cash? | What to ask |
+|---|---|---|---|
+| **Employer PF contribution** | 12% of Basic, or 12% of ₹15,000 where the employer applies the statutory ceiling | In your EPF account, not your bank account | Which of the two it is — ask explicitly. At ₹75,000 Basic the difference is ₹7,200/month of employer contribution. |
+| **Gratuity provision** | 4.81% of Basic | Only if you complete 5 years (see [§7.8](/articles/personal-finance-india/epf-eps-form-11#78-withdrawals-and-advances)) | — |
+| **Group health insurance premium** | ₹8,000–₹25,000/yr | No; it buys cover, not cash | Sum insured per family; whether parents are covered and the top-up cost; whether pre-existing disease is covered from day one; room-rent limits |
+| **Group term life / accident premium** | ₹2,000–₹10,000/yr, buying a multiple of salary at zero cost to you | No | Cover multiple; whether it continues during the notice period |
+| **Employer NPS contribution** | Up to 14% of Basic+DA, if offered. Deductible in **both regimes** under Section 124(2) (formerly 80CCD(2)) — the single largest deduction still available in the new regime | In your NPS account, at age 60 | Whether it is offered; whether it is opt-in; whether it *reduces* other components or is added to CTC |
+| **Meal card loading** | Exempt up to ₹200/meal from FY 2026-27 | Yes, as restricted-purpose spending | Whether it is *added* to CTC or *carved out* of it |
+| **Relocation** | Reimbursement against bills is not a taxable perquisite; a lump-sum "relocation allowance" is fully taxable | Only against bills, and only up to what you spend | Whether the letter says reimbursement or allowance. The word decides the tax (see [§5](/articles/personal-finance-india/salary-structuring)) |
+| **"Perks" valued in CTC** | Cab, food, gym, laptop. Frequently inflated: a ₹50,000 "food and transport" line is real cost to the company and near-zero optionality for you | No | — |
+
+**The thing to check:** ask for the CTC broken into *fixed cash*, *variable cash*, *employer statutory contributions*, and *benefits-in-kind*. A recruiter who will not provide this breakdown is quoting a number designed to be compared favourably rather than accurately.
+
+---
+
+## 2.3 The Labour Codes changed your payslip
+
+**In force since 21 November 2025.** Four codes (the Code on Wages 2019, the Industrial Relations Code 2020, the Code on Social Security 2020, and the Occupational Safety, Health and Working Conditions Code 2020) consolidating 29 earlier laws.
+
+The provision that matters most for a salaried engineer is the **definition of "wages"** in the Code on Wages.
+
+### The 50% rule
+
+**Basic + DA + retaining allowance must together constitute at least 50% of total remuneration.** If excluded allowances exceed 50%, the excess is *deemed* to be wages for statutory purposes.
+
+For decades, Indian employers minimised Basic (often 30–35% of CTC) and inflated "special allowance", because PF, gratuity and bonus are all computed on Basic. The Codes closed that.
+
+### What it does, mechanically
+
+Take a ₹18 lakh CTC restructured from a 35% Basic to a 50% Basic:
+
+| | Old structure | New structure |
+|---|---:|---:|
+| Basic (annual) | ₹6,30,000 | ₹9,00,000 |
+| Employee PF @ 12% of Basic | ₹75,600 | ₹1,08,000 |
+| Employer PF @ 12% of Basic | ₹75,600 | ₹1,08,000 |
+| Gratuity accrual @ 4.81% | ₹30,303 | ₹43,290 |
+| **Monthly take-home effect** | n/a | **falls by ~₹2,700** |
+
+CTC is unchanged. Take-home falls. Retirement balances and gratuity entitlement rise.
+
+**This is not a pay cut, and it is not a benefit; it is a transfer from present cash to deferred, tax-favoured savings that you cannot access until specified events.** Whether that suits you depends entirely on your liquidity position. It is not optional.
+
+> **Status, August 2026:** the Codes are in force; central rules and state-level rules continue to be notified, and employers have implemented the wage definition on differing timelines. If your Basic is still below 50% of CTC, your employer's restructuring is pending, not exempt.
+
+---
+
+## 2.4 Offer archetypes in Indian tech
+
+Four archetypes cover most of the Indian market.
+
+| | **A. Large IT services** | **B. GCC of a foreign firm** | **C. Indian product / late-stage startup** | **D. Early-stage startup** |
+|---|---|---|---|---|
+| **Scale** | 100,000+ employees | 1,000–20,000 in India; parent listed abroad | 200–5,000 | Under 50 |
+| **Fixed** | ₹3.5–6 lakh at entry; structured progression bands | ₹15–35 lakh at entry for competitive teams | ₹12–30 lakh | ₹8–25 lakh, generally below market |
+| **Variable** | 5–10%, generally paid | 10–20% | 0–15% | None |
+| **Equity** | Rare below senior grades; occasionally listed-company RSUs | **RSUs in the foreign listed parent.** The dominant equity form in Indian tech, and it carries specific tax and compliance consequences (see [§3](/articles/personal-finance-india/equity-compensation)) | **ESOPs in an unlisted Indian company**: illiquid, may require cash to exercise, may never convert | A stated percentage; frequently the entire thesis of the offer |
+| **Benefits** | EPF, gratuity, group health, sometimes a transport fleet | Strong; frequently includes employer NPS, larger group health cover, parental cover | Variable; group health usually present, employer NPS uncommon | Minimal; group health may be absent |
+| **Watch for** | Service agreements and training bonds are more common here than elsewhere; notice periods of 90 days are standard | Foreign shares require Schedule FA disclosure in your return regardless of value | The equity is a genuine bet. Ask for total shares outstanding on a fully diluted basis, the last round's valuation and preference terms, the exercise window after leaving, and whether the company has ever conducted a secondary sale or buyback | You cannot evaluate the equity without knowing capital raised and at what terms. Dilution from future rounds will reduce your percentage |
+
+---
+
+## 2.5 Clauses that cost money
+
+These clauses are largely an Indian phenomenon, and they are where offers quietly differ from one another.
+
+### Joining bonus clawback
+Nearly universal. Typically: leave within 12–24 months and repay the **gross** amount, including the tax already deducted, which you must then recover from the tax department yourself. Check the period, the repayment basis (gross or net), and whether it is pro-rated.
+
+### Notice period
+30, 60 or 90 days. Ninety is standard at large firms. Check:
+- Whether the company permits **buyout**, and at what rate (usually gross salary for the un-served period)
+- Whether *your* next employer reimburses the buyout
+- Whether notice pay is calculated on Basic or on gross
+
+### Training bond / service agreement
+Common at large IT services firms for freshers: an obligation to serve a stated period (commonly 12–24 months) or pay a stipulated sum, sometimes backed by a signed bond or original certificates. Enforceability is contested and fact-specific; the practical friction is real regardless.
+
+### Retention bonus vesting
+Paid on a future date conditional on employment. Understand whether it is forfeited entirely on resignation before the date; it usually is.
+
+### Non-compete and non-solicit
+Post-employment non-competes are generally unenforceable in India under Section 27 of the Indian Contract Act, 1872, which voids agreements in restraint of trade. Non-solicitation and confidentiality clauses are treated differently and are more readily enforced.
+
+### Variable pay definition
+Read whether variable pay is:
+- **Guaranteed** for year one (sometimes offered to bridge an offer gap)
+- **Target** with company and individual multipliers
+- Pro-rated on exit, or forfeited entirely if you are not on the rolls on payout date; **the latter is common and is a real cost of resigning in the wrong month**
+
+---
+
+## 2.6 Negotiation
+
+The general principles hold in India, with adjustments.
+
+- **The market is reasonably efficient but employers differ enormously in approach.** Some reward negotiation; some publish bands and will not move. Lack of negotiation is a documented contributor to pay disparity.
+- **Some terms move more easily than others.** Base salary is usually the most constrained (it sets internal band consistency). Joining bonus, equity quantum, and joining date typically have more room. At a private company, the offer is largely a bet on equity in any case.
+- **Know the market data.** India-specific compensation data is available through Levels.fyi, Glassdoor India, AmbitionBox, and Blind, with the usual caveat that self-reported data skews high and skews toward the companies people brag about.
+- **Understand the difference between a recruiter and a hiring manager.** The recruiter administers a band; the manager can sometimes argue for an exception.
+- **Be honest with yourself about deal-breakers before you state them.** Lines in the sand are hard to erase.
+
+One India-specific point: **your previous CTC is frequently requested and used to anchor the offer.** You are not obliged to disclose it, though many firms make the offer conditional on documentary verification of the last drawn salary. Where verification is required, inflating it is a documented ground for revocation.
+
+---
+
+## 2.7 What the number does not settle
+
+Company success disproportionately affects your *next* offer, and success in technology is fleeting. Title, compensation and quality of work are three separate axes, and they are frequently traded against each other.

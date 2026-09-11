@@ -1,0 +1,1442 @@
+- generic [ref=f2e6]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Home" [ref=f2e7] [cursor=pointer]:
+                  - /url: /
+                - button "Menu" [ref=f2e9] [cursor=pointer]
+                - button "Toggle theme" [ref=f2e13] [cursor=pointer]
+  - main [ref=f2e16]:
+    - generic [ref=f2e21]:
+      - group [ref=f2e22]:
+        - generic "Contents — 18 chapters" [ref=f2e23] [cursor=pointer]
+      - generic [ref=f2e24]:
+        - generic [ref=f2e25]:
+          - heading "15. The Numbers Page" [level=1] [ref=f2e26]
+          - paragraph [ref=f2e27]:
+            - emphasis [ref=f2e28]: Every limit, rate and threshold in this document, in one place. All figures verified August 2026 and applicable to FY 2026-27 (Tax Year 2026-27) unless stated.
+          - separator [ref=f2e29]
+          - navigation "Sections in this chapter" [ref=f2e30]:
+            - paragraph [ref=f2e31]: In this chapter
+            - list [ref=f2e32]:
+              - listitem [ref=f2e33]:
+                - link "Income tax — new regime" [ref=f2e34] [cursor=pointer]:
+                  - /url: "#151-income-tax--new-regime"
+                  - generic [ref=f2e35]: "15.1"
+              - listitem [ref=f2e37]:
+                - link "Income tax — old regime" [ref=f2e38] [cursor=pointer]:
+                  - /url: "#152-income-tax--old-regime"
+                  - generic [ref=f2e39]: "15.2"
+              - listitem [ref=f2e41]:
+                - link "Surcharge — both regimes" [ref=f2e42] [cursor=pointer]:
+                  - /url: "#153-surcharge--both-regimes"
+                  - generic [ref=f2e43]: "15.3"
+              - listitem [ref=f2e45]:
+                - link "Deductions — old regime only, unless noted" [ref=f2e46] [cursor=pointer]:
+                  - /url: "#154-deductions--old-regime-only-unless-noted"
+                  - generic [ref=f2e47]: "15.4"
+              - listitem [ref=f2e49]:
+                - link "Allowances and perquisites — FY 2026-27" [ref=f2e50] [cursor=pointer]:
+                  - /url: "#155-allowances-and-perquisites--fy-2026-27"
+                  - generic [ref=f2e51]: "15.5"
+              - listitem [ref=f2e53]:
+                - link "EPF, EPS, gratuity" [ref=f2e54] [cursor=pointer]:
+                  - /url: "#156-epf-eps-gratuity"
+                  - generic [ref=f2e55]: "15.6"
+              - listitem [ref=f2e57]:
+                - link "NPS" [ref=f2e58] [cursor=pointer]:
+                  - /url: "#157-nps"
+                  - generic [ref=f2e59]: "15.7"
+              - listitem [ref=f2e61]:
+                - link "Capital gains and investment tax" [ref=f2e62] [cursor=pointer]:
+                  - /url: "#158-capital-gains-and-investment-tax"
+                  - generic [ref=f2e63]: "15.8"
+              - listitem [ref=f2e65]:
+                - link "Deposits, small savings and rates" [ref=f2e66] [cursor=pointer]:
+                  - /url: "#159-deposits-small-savings-and-rates"
+                  - generic [ref=f2e67]: "15.9"
+              - listitem [ref=f2e69]:
+                - link "Insurance" [ref=f2e70] [cursor=pointer]:
+                  - /url: "#1510-insurance"
+                  - generic [ref=f2e71]: "15.10"
+              - listitem [ref=f2e73]:
+                - link "Credit" [ref=f2e74] [cursor=pointer]:
+                  - /url: "#1511-credit"
+                  - generic [ref=f2e75]: "15.11"
+              - listitem [ref=f2e77]:
+                - link "Property" [ref=f2e78] [cursor=pointer]:
+                  - /url: "#1512-property"
+                  - generic [ref=f2e79]: "15.12"
+              - listitem [ref=f2e81]:
+                - link "Compliance calendar" [ref=f2e82] [cursor=pointer]:
+                  - /url: "#1513-compliance-calendar"
+                  - generic [ref=f2e83]: "15.13"
+              - listitem [ref=f2e85]:
+                - link "Compounding reference" [ref=f2e86] [cursor=pointer]:
+                  - /url: "#1514-compounding-reference"
+                  - generic [ref=f2e87]: "15.14"
+              - listitem [ref=f2e89]:
+                - link "Still moving — verify before relying" [ref=f2e90] [cursor=pointer]:
+                  - /url: "#1515-still-moving--verify-before-relying"
+                  - generic [ref=f2e91]: "15.15"
+              - listitem [ref=f2e93]:
+                - link "Glossary" [ref=f2e94] [cursor=pointer]:
+                  - /url: "#1516-glossary"
+                  - generic [ref=f2e95]: "15.16"
+              - listitem [ref=f2e97]:
+                - link "Sources" [ref=f2e98] [cursor=pointer]:
+                  - /url: "#1517-sources"
+                  - generic [ref=f2e99]: "15.17"
+              - listitem [ref=f2e101]:
+                - link "Disclaimer" [ref=f2e102] [cursor=pointer]:
+                  - /url: "#disclaimer"
+                  - generic [ref=f2e103]: ·
+          - heading "15.1 Income tax — new regime" [level=2] [ref=f2e105]
+          - table [ref=f2e107]:
+            - rowgroup [ref=f2e108]:
+              - row [ref=f2e109]:
+                - columnheader "Item" [ref=f2e110]
+                - columnheader "Value" [ref=f2e111]
+            - rowgroup [ref=f2e112]:
+              - row [ref=f2e113]:
+                - cell "Up to ₹4,00,000" [ref=f2e114]
+                - cell "Nil" [ref=f2e115]
+              - row [ref=f2e116]:
+                - cell "₹4,00,001 – ₹8,00,000" [ref=f2e117]
+                - cell "5%" [ref=f2e118]
+              - row [ref=f2e119]:
+                - cell "₹8,00,001 – ₹12,00,000" [ref=f2e120]
+                - cell "10%" [ref=f2e121]
+              - row [ref=f2e122]:
+                - cell "₹12,00,001 – ₹16,00,000" [ref=f2e123]
+                - cell "15%" [ref=f2e124]
+              - row [ref=f2e125]:
+                - cell "₹16,00,001 – ₹20,00,000" [ref=f2e126]
+                - cell "20%" [ref=f2e127]
+              - row [ref=f2e128]:
+                - cell "₹20,00,001 – ₹24,00,000" [ref=f2e129]
+                - cell "25%" [ref=f2e130]
+              - row [ref=f2e131]:
+                - cell "Above ₹24,00,000" [ref=f2e132]
+                - cell "30%" [ref=f2e133]
+              - row [ref=f2e134]:
+                - cell "Standard deduction (salaried)" [ref=f2e135]
+                - cell "₹75,000" [ref=f2e136]
+              - row [ref=f2e137]:
+                - cell "Rebate — Section 156 (formerly 87A)" [ref=f2e138]
+                - cell "Up to ₹60,000, for total income ≤ ₹12,00,000" [ref=f2e139]
+              - row [ref=f2e140]:
+                - cell "Effective zero-tax salary" [ref=f2e141]
+                - cell "₹12,75,000" [ref=f2e142]
+              - row [ref=f2e143]:
+                - cell "Marginal relief applies up to" [ref=f2e144]
+                - cell "~₹12,70,588 of total income" [ref=f2e145]
+              - row [ref=f2e146]:
+                - cell "Health & education cess" [ref=f2e147]
+                - cell "4%" [ref=f2e148]
+              - row [ref=f2e149]:
+                - cell "Maximum marginal rate" [ref=f2e150]
+                - cell "39.0%" [ref=f2e151]
+          - heading "15.2 Income tax — old regime" [level=2] [ref=f2e152]
+          - table [ref=f2e154]:
+            - rowgroup [ref=f2e155]:
+              - row [ref=f2e156]:
+                - columnheader "Item" [ref=f2e157]
+                - columnheader "Value" [ref=f2e158]
+            - rowgroup [ref=f2e159]:
+              - row [ref=f2e160]:
+                - cell "Up to ₹2,50,000" [ref=f2e161]
+                - cell "Nil" [ref=f2e162]
+              - row [ref=f2e163]:
+                - cell "₹2,50,001 – ₹5,00,000" [ref=f2e164]
+                - cell "5%" [ref=f2e165]
+              - row [ref=f2e166]:
+                - cell "₹5,00,001 – ₹10,00,000" [ref=f2e167]
+                - cell "20%" [ref=f2e168]
+              - row [ref=f2e169]:
+                - cell "Above ₹10,00,000" [ref=f2e170]
+                - cell "30%" [ref=f2e171]
+              - row [ref=f2e172]:
+                - cell "Standard deduction (salaried)" [ref=f2e173]
+                - cell "₹50,000" [ref=f2e174]
+              - row [ref=f2e175]:
+                - cell "Rebate — Section 156 (formerly 87A)" [ref=f2e176]
+                - cell "₹12,500, for total income ≤ ₹5,00,000" [ref=f2e177]
+              - row [ref=f2e178]:
+                - cell "Basic exemption — age 60–79" [ref=f2e179]
+                - cell "₹3,00,000" [ref=f2e180]
+              - row [ref=f2e181]:
+                - cell "Basic exemption — age 80+" [ref=f2e182]
+                - cell "₹5,00,000" [ref=f2e183]
+              - row [ref=f2e184]:
+                - cell "Cess" [ref=f2e185]
+                - cell "4%" [ref=f2e186]
+              - row [ref=f2e187]:
+                - cell "Maximum marginal rate" [ref=f2e188]
+                - cell "42.744%" [ref=f2e189]
+          - heading "15.3 Surcharge — both regimes" [level=2] [ref=f2e190]
+          - table [ref=f2e192]:
+            - rowgroup [ref=f2e193]:
+              - row [ref=f2e194]:
+                - columnheader "Total income" [ref=f2e195]
+                - columnheader "Old" [ref=f2e196]
+                - columnheader "New" [ref=f2e197]
+            - rowgroup [ref=f2e198]:
+              - row [ref=f2e199]:
+                - cell "₹50 lakh – ₹1 crore" [ref=f2e200]
+                - cell "10%" [ref=f2e201]
+                - cell "10%" [ref=f2e202]
+              - row [ref=f2e203]:
+                - cell "₹1 crore – ₹2 crore" [ref=f2e204]
+                - cell "15%" [ref=f2e205]
+                - cell "15%" [ref=f2e206]
+              - row [ref=f2e207]:
+                - cell "₹2 crore – ₹5 crore" [ref=f2e208]
+                - cell "25%" [ref=f2e209]
+                - cell "25%" [ref=f2e210]
+              - row [ref=f2e211]:
+                - cell "Above ₹5 crore" [ref=f2e212]
+                - cell "37%" [ref=f2e213]
+                - cell [ref=f2e214]:
+                  - strong [ref=f2e215]: 25%
+          - separator [ref=f2e216]
+          - heading "15.4 Deductions — old regime only, unless noted" [level=2] [ref=f2e217]
+          - table [ref=f2e219]:
+            - rowgroup [ref=f2e220]:
+              - row [ref=f2e221]:
+                - columnheader "Provision" [ref=f2e222]
+                - columnheader "New section" [ref=f2e223]
+                - columnheader "Old section" [ref=f2e224]
+                - columnheader "Limit" [ref=f2e225]
+            - rowgroup [ref=f2e226]:
+              - row [ref=f2e227]:
+                - cell "Life insurance, PF, PPF, ELSS, NSC, tuition, home loan principal, 5-yr tax-saver FD" [ref=f2e228]
+                - cell [ref=f2e229]:
+                  - strong [ref=f2e230]: "123"
+                - cell "80C" [ref=f2e231]
+                - cell "₹1,50,000" [ref=f2e232]
+              - row [ref=f2e233]:
+                - cell "NPS — own contribution" [ref=f2e234]
+                - cell [ref=f2e235]:
+                  - strong [ref=f2e236]: 124(1)
+                - cell "80CCD(1)" [ref=f2e237]
+                - cell "Within ₹1,50,000" [ref=f2e238]
+              - row [ref=f2e239]:
+                - cell "NPS — own, additional" [ref=f2e240]
+                - cell [ref=f2e241]:
+                  - strong [ref=f2e242]: 124(1B)
+                - cell "80CCD(1B)" [ref=f2e243]
+                - cell "₹50,000" [ref=f2e244]
+              - row [ref=f2e245]:
+                - cell [ref=f2e246]:
+                  - strong [ref=f2e247]: NPS — employer contribution
+                - cell [ref=f2e248]:
+                  - strong [ref=f2e249]: 124(2)
+                - cell "80CCD(2)" [ref=f2e250]
+                - cell [ref=f2e251]:
+                  - strong [ref=f2e252]: 14% of Basic+DA — BOTH regimes
+              - row [ref=f2e253]:
+                - cell "Health insurance — self, spouse, children" [ref=f2e254]
+                - cell [ref=f2e255]:
+                  - strong [ref=f2e256]: "126"
+                - cell "80D" [ref=f2e257]
+                - cell "₹25,000 (₹50,000 if senior)" [ref=f2e258]
+              - row [ref=f2e259]:
+                - cell "Health insurance — parents" [ref=f2e260]
+                - cell [ref=f2e261]:
+                  - strong [ref=f2e262]: "126"
+                - cell "80D" [ref=f2e263]
+                - cell "₹25,000 (₹50,000 if senior)" [ref=f2e264]
+              - row [ref=f2e265]:
+                - cell "Preventive health check-up" [ref=f2e266]
+                - cell [ref=f2e267]:
+                  - strong [ref=f2e268]: "126"
+                - cell "80D" [ref=f2e269]
+                - cell "₹5,000, within the above" [ref=f2e270]
+              - row [ref=f2e271]:
+                - cell "Education loan interest" [ref=f2e272]
+                - cell [ref=f2e273]:
+                  - strong [ref=f2e274]: "129"
+                - cell "80E" [ref=f2e275]
+                - cell "No cap, 8 years" [ref=f2e276]
+              - row [ref=f2e277]:
+                - cell "Donations" [ref=f2e278]
+                - cell [ref=f2e279]:
+                  - strong [ref=f2e280]: "133"
+                - cell "80G" [ref=f2e281]
+                - cell "Varies" [ref=f2e282]
+              - row [ref=f2e283]:
+                - cell "Rent paid, no HRA" [ref=f2e284]
+                - cell [ref=f2e285]:
+                  - strong [ref=f2e286]: "134"
+                - cell "80GG" [ref=f2e287]
+                - cell "Least of ₹5,000/mo, 25% of income, rent − 10% of income" [ref=f2e288]
+              - row [ref=f2e289]:
+                - cell "Savings interest" [ref=f2e290]
+                - cell [ref=f2e291]:
+                  - strong [ref=f2e292]: "153"
+                - cell "80TTA" [ref=f2e293]
+                - cell "₹10,000" [ref=f2e294]
+              - row [ref=f2e295]:
+                - cell "Deposit interest, 60+" [ref=f2e296]
+                - cell [ref=f2e297]:
+                  - strong [ref=f2e298]: "153"
+                - cell "80TTB" [ref=f2e299]
+                - cell "₹50,000" [ref=f2e300]
+              - row [ref=f2e301]:
+                - cell "Home loan interest — self-occupied" [ref=f2e302]
+                - cell [ref=f2e303]:
+                  - strong [ref=f2e304]: "22"
+                - cell "24(b)" [ref=f2e305]
+                - cell "₹2,00,000" [ref=f2e306]
+              - row [ref=f2e307]:
+                - cell "Home loan interest — let out" [ref=f2e308]
+                - cell [ref=f2e309]:
+                  - strong [ref=f2e310]: "22"
+                - cell "24(b)" [ref=f2e311]
+                - cell [ref=f2e312]:
+                  - text: No limit; loss set-off capped at ₹2,00,000 —
+                  - strong [ref=f2e313]: BOTH regimes
+              - row [ref=f2e314]:
+                - cell "Professional tax paid" [ref=f2e315]
+                - cell "—" [ref=f2e316]
+                - cell "—" [ref=f2e317]
+                - cell "As paid, max ₹2,500/yr" [ref=f2e318]
+          - separator [ref=f2e319]
+          - heading "15.5 Allowances and perquisites — FY 2026-27" [level=2] [ref=f2e320]
+          - table [ref=f2e322]:
+            - rowgroup [ref=f2e323]:
+              - row [ref=f2e324]:
+                - columnheader "Item" [ref=f2e325]
+                - columnheader "Limit" [ref=f2e326]
+                - columnheader "Regime" [ref=f2e327]
+            - rowgroup [ref=f2e328]:
+              - row [ref=f2e329]:
+                - cell "Meal vouchers / subsidised meals" [ref=f2e330]
+                - cell [ref=f2e331]:
+                  - strong [ref=f2e332]: ₹200 per meal
+                - cell "Both" [ref=f2e333]
+              - row [ref=f2e334]:
+                - cell "Non-cash gifts / vouchers" [ref=f2e335]
+                - cell [ref=f2e336]:
+                  - strong [ref=f2e337]: ₹15,000 per year
+                - cell "Both" [ref=f2e338]
+              - row [ref=f2e339]:
+                - cell "Children's education allowance" [ref=f2e340]
+                - cell [ref=f2e341]:
+                  - strong [ref=f2e342]: ₹3,000/month/child
+                  - text: ", max 2"
+                - cell "Both" [ref=f2e343]
+              - row [ref=f2e344]:
+                - cell "Children's hostel allowance" [ref=f2e345]
+                - cell [ref=f2e346]:
+                  - strong [ref=f2e347]: ₹9,000/month/child
+                  - text: ", max 2"
+                - cell "Both" [ref=f2e348]
+              - row [ref=f2e349]:
+                - cell "Employer medical loan — exemption ceiling" [ref=f2e350]
+                - cell [ref=f2e351]:
+                  - strong [ref=f2e352]: ₹2,00,000
+                - cell "Both" [ref=f2e353]
+              - row [ref=f2e354]:
+                - cell "Overseas medical treatment — income threshold" [ref=f2e355]
+                - cell [ref=f2e356]:
+                  - strong [ref=f2e357]: ₹8,00,000
+                - cell "Both" [ref=f2e358]
+              - row [ref=f2e359]:
+                - cell "Employer-provided cab / bus for commuting" [ref=f2e360]
+                - cell "Not a perquisite" [ref=f2e361]
+                - cell "Both" [ref=f2e362]
+              - row [ref=f2e363]:
+                - cell "Telephone / internet reimbursement against bills" [ref=f2e364]
+                - cell "No statutory cap" [ref=f2e365]
+                - cell "Both" [ref=f2e366]
+              - row [ref=f2e367]:
+                - cell "Relocation reimbursement against bills" [ref=f2e368]
+                - cell "Actuals" [ref=f2e369]
+                - cell "Both" [ref=f2e370]
+              - row [ref=f2e371]:
+                - cell "Interest-free employer loan — de minimis" [ref=f2e372]
+                - cell "₹20,000" [ref=f2e373]
+                - cell "Both" [ref=f2e374]
+              - row [ref=f2e375]:
+                - cell "Transport allowance — specified disability" [ref=f2e376]
+                - cell "₹3,200/month" [ref=f2e377]
+                - cell "Both" [ref=f2e378]
+              - row [ref=f2e379]:
+                - cell "Gratuity exemption — non-government" [ref=f2e380]
+                - cell "₹20,00,000 lifetime" [ref=f2e381]
+                - cell "Both" [ref=f2e382]
+              - row [ref=f2e383]:
+                - cell "Gratuity exemption — central government" [ref=f2e384]
+                - cell "₹25,00,000" [ref=f2e385]
+                - cell "Both" [ref=f2e386]
+              - row [ref=f2e387]:
+                - cell "Leave encashment on exit — non-government" [ref=f2e388]
+                - cell "₹25,00,000 lifetime" [ref=f2e389]
+                - cell "Both" [ref=f2e390]
+              - row [ref=f2e391]:
+                - cell "Voluntary retirement compensation" [ref=f2e392]
+                - cell "₹5,00,000" [ref=f2e393]
+                - cell "Both" [ref=f2e394]
+              - row [ref=f2e395]:
+                - cell "Employer PF + NPS + superannuation — aggregate cap" [ref=f2e396]
+                - cell "₹7,50,000/yr before perquisite tax" [ref=f2e397]
+                - cell "Both" [ref=f2e398]
+              - row [ref=f2e399]:
+                - cell [ref=f2e400]:
+                  - strong [ref=f2e401]: HRA — 50% of salary cities
+                - cell [ref=f2e402]:
+                  - text: Delhi, Mumbai, Kolkata, Chennai,
+                  - strong [ref=f2e403]: Bengaluru, Hyderabad, Pune, Ahmedabad
+                - cell "Old only" [ref=f2e404]
+              - row [ref=f2e405]:
+                - cell "HRA — all other cities" [ref=f2e406]
+                - cell "40% of salary" [ref=f2e407]
+                - cell "Old only" [ref=f2e408]
+              - row [ref=f2e409]:
+                - cell "Landlord PAN required above" [ref=f2e410]
+                - cell "₹1,00,000 annual rent" [ref=f2e411]
+                - cell "Old only" [ref=f2e412]
+              - row [ref=f2e413]:
+                - cell "LTA" [ref=f2e414]
+                - cell "Twice in the 2026–2029 block, domestic travel fare only" [ref=f2e415]
+                - cell "Old only" [ref=f2e416]
+          - separator [ref=f2e417]
+          - heading "15.6 EPF, EPS, gratuity" [level=2] [ref=f2e418]
+          - table [ref=f2e420]:
+            - rowgroup [ref=f2e421]:
+              - row [ref=f2e422]:
+                - columnheader "Item" [ref=f2e423]
+                - columnheader "Value" [ref=f2e424]
+            - rowgroup [ref=f2e425]:
+              - row [ref=f2e426]:
+                - cell "Employee contribution" [ref=f2e427]
+                - cell "12% of Basic + DA" [ref=f2e428]
+              - row [ref=f2e429]:
+                - cell "Employer contribution" [ref=f2e430]
+                - cell "12% of Basic + DA" [ref=f2e431]
+              - row [ref=f2e432]:
+                - cell "→ to EPS" [ref=f2e433]
+                - cell [ref=f2e434]:
+                  - text: 8.33%, capped at 8.33% of ₹15,000 =
+                  - strong [ref=f2e435]: ₹1,250/month
+              - row [ref=f2e436]:
+                - cell "→ to EPF" [ref=f2e437]
+                - cell "Remainder" [ref=f2e438]
+              - row [ref=f2e439]:
+                - cell "EDLI (employer)" [ref=f2e440]
+                - cell "0.50% of wages" [ref=f2e441]
+              - row [ref=f2e442]:
+                - cell "Administrative charges (employer)" [ref=f2e443]
+                - cell "0.50% of wages" [ref=f2e444]
+              - row [ref=f2e445]:
+                - cell [ref=f2e446]:
+                  - strong [ref=f2e447]: Statutory wage ceiling
+                - cell [ref=f2e448]:
+                  - strong [ref=f2e449]: ₹15,000/month
+                  - text: (unchanged since 1 Sep 2014)
+              - row [ref=f2e450]:
+                - cell [ref=f2e451]:
+                  - strong [ref=f2e452]: EPF interest rate, FY 2025-26
+                - cell [ref=f2e453]:
+                  - strong [ref=f2e454]: 8.25%
+              - row [ref=f2e455]:
+                - cell "FY 2026-27 rate" [ref=f2e456]
+                - cell "Not declared as of Aug 2026" [ref=f2e457]
+              - row [ref=f2e458]:
+                - cell "Interest credited for FY 2025-26 by" [ref=f2e459]
+                - cell "15 July 2026" [ref=f2e460]
+              - row [ref=f2e461]:
+                - cell "VPF — maximum employee contribution" [ref=f2e462]
+                - cell "100% of Basic + DA" [ref=f2e463]
+              - row [ref=f2e464]:
+                - cell [ref=f2e465]:
+                  - strong [ref=f2e466]: Employer obligation to match VPF
+                - cell [ref=f2e467]:
+                  - strong [ref=f2e468]: None
+              - row [ref=f2e469]:
+                - cell "Taxable-interest threshold — own contribution" [ref=f2e470]
+                - cell [ref=f2e471]:
+                  - strong [ref=f2e472]: ₹2,50,000/yr
+                  - text: (₹5,00,000 where employer contributes nothing)
+              - row [ref=f2e473]:
+                - cell "TDS on taxable PF interest" [ref=f2e474]
+                - cell "10% with PAN, 20% without" [ref=f2e475]
+              - row [ref=f2e476]:
+                - cell "Tax-free withdrawal after" [ref=f2e477]
+                - cell [ref=f2e478]:
+                  - strong [ref=f2e479]: 5 years
+                  - text: of continuous service
+              - row [ref=f2e480]:
+                - cell "TDS on early withdrawal — Section 392(7)" [ref=f2e481]
+                - cell "10% where amount ≥ ₹50,000" [ref=f2e482]
+              - row [ref=f2e483]:
+                - cell "EDLI maximum benefit" [ref=f2e484]
+                - cell "₹7,00,000" [ref=f2e485]
+              - row [ref=f2e486]:
+                - cell "EPS — minimum service for pension" [ref=f2e487]
+                - cell [ref=f2e488]:
+                  - strong [ref=f2e489]: 10 years
+              - row [ref=f2e490]:
+                - cell "EPS — pension formula" [ref=f2e491]
+                - cell "Pensionable Salary × Pensionable Service ÷ 70" [ref=f2e492]
+              - row [ref=f2e493]:
+                - cell "EPS — service bonus" [ref=f2e494]
+                - cell "+2 years where service ≥ 20 years" [ref=f2e495]
+              - row [ref=f2e496]:
+                - cell "EPS — normal pension age" [ref=f2e497]
+                - cell "58 (early from 50, deferred to 60)" [ref=f2e498]
+              - row [ref=f2e499]:
+                - cell "EPS — minimum pension" [ref=f2e500]
+                - cell "₹1,000/month" [ref=f2e501]
+              - row [ref=f2e502]:
+                - cell "Gratuity formula" [ref=f2e503]
+                - cell "(Basic + DA) × 15/26 × completed years" [ref=f2e504]
+              - row [ref=f2e505]:
+                - cell "Gratuity — minimum service" [ref=f2e506]
+                - cell "5 years (waived on death/disablement)" [ref=f2e507]
+              - row [ref=f2e508]:
+                - cell "Gratuity accrual shown in CTC" [ref=f2e509]
+                - cell "4.81% of Basic" [ref=f2e510]
+              - row [ref=f2e511]:
+                - cell [ref=f2e512]:
+                  - strong [ref=f2e513]: Labour Codes — Basic + DA minimum
+                - cell [ref=f2e514]:
+                  - strong [ref=f2e515]: 50% of total remuneration
+                  - text: (in force 21 Nov 2025)
+          - separator [ref=f2e516]
+          - heading "15.7 NPS" [level=2] [ref=f2e517]
+          - table [ref=f2e519]:
+            - rowgroup [ref=f2e520]:
+              - row [ref=f2e521]:
+                - columnheader "Item" [ref=f2e522]
+                - columnheader "Value" [ref=f2e523]
+            - rowgroup [ref=f2e524]:
+              - row [ref=f2e525]:
+                - cell "Tier I minimum to open" [ref=f2e526]
+                - cell "₹500" [ref=f2e527]
+              - row [ref=f2e528]:
+                - cell "Tier I minimum per year" [ref=f2e529]
+                - cell "₹1,000" [ref=f2e530]
+              - row [ref=f2e531]:
+                - cell "Tier II minimum to open" [ref=f2e532]
+                - cell "₹1,000" [ref=f2e533]
+              - row [ref=f2e534]:
+                - cell "Maximum equity (Class E)" [ref=f2e535]
+                - cell [ref=f2e536]:
+                  - strong [ref=f2e537]: 75%
+              - row [ref=f2e538]:
+                - cell "Maximum alternatives (Class A)" [ref=f2e539]
+                - cell "5%" [ref=f2e540]
+              - row [ref=f2e541]:
+                - cell "Auto choice — LC75 equity at age ≤35" [ref=f2e542]
+                - cell "75%, tapering from 36" [ref=f2e543]
+              - row [ref=f2e544]:
+                - cell "PFM fee" [ref=f2e545]
+                - cell "~0.03%–0.09%" [ref=f2e546]
+              - row [ref=f2e547]:
+                - cell [ref=f2e548]:
+                  - strong [ref=f2e549]: Exit at 60 — corpus ≤ ₹8 lakh
+                - cell "100% lump sum permitted" [ref=f2e550]
+              - row [ref=f2e551]:
+                - cell [ref=f2e552]:
+                  - strong [ref=f2e553]: Exit at 60 — corpus > ₹12 lakh, 15+ yrs
+                - cell "Up to 80% lump sum, 20% annuity" [ref=f2e554]
+              - row [ref=f2e555]:
+                - cell "Exit at 60 — otherwise" [ref=f2e556]
+                - cell "Up to 60% lump sum, 40% annuity" [ref=f2e557]
+              - row [ref=f2e558]:
+                - cell [ref=f2e559]:
+                  - strong [ref=f2e560]: Income-tax exemption on lump sum
+                - cell [ref=f2e561]:
+                  - strong [ref=f2e562]: 60%
+                  - text: — mismatch with the 80% rule
+              - row [ref=f2e563]:
+                - cell "Premature exit" [ref=f2e564]
+                - cell "20% lump sum, 80% annuity" [ref=f2e565]
+              - row [ref=f2e566]:
+                - cell "Partial withdrawal" [ref=f2e567]
+                - cell "25% of own contributions, after 3 years, max 3 times" [ref=f2e568]
+              - row [ref=f2e569]:
+                - cell "Annuity income" [ref=f2e570]
+                - cell "Fully taxable at slab" [ref=f2e571]
+              - row [ref=f2e572]:
+                - cell "Corpus on death" [ref=f2e573]
+                - cell "Fully exempt" [ref=f2e574]
+          - separator [ref=f2e575]
+          - heading "15.8 Capital gains and investment tax" [level=2] [ref=f2e576]
+          - table [ref=f2e578]:
+            - rowgroup [ref=f2e579]:
+              - row [ref=f2e580]:
+                - columnheader "Asset" [ref=f2e581]
+                - columnheader "Long-term after" [ref=f2e582]
+                - columnheader "STCG" [ref=f2e583]
+                - columnheader "LTCG" [ref=f2e584]
+            - rowgroup [ref=f2e585]:
+              - row [ref=f2e586]:
+                - cell "Listed Indian shares, equity MF" [ref=f2e587]
+                - cell "12 months" [ref=f2e588]
+                - cell "20%" [ref=f2e589]
+                - cell [ref=f2e590]:
+                  - strong [ref=f2e591]: 12.5%
+                  - text: above ₹1.25 lakh/yr
+              - row [ref=f2e592]:
+                - cell "Unlisted shares" [ref=f2e593]
+                - cell "24 months" [ref=f2e594]
+                - cell "Slab" [ref=f2e595]
+                - cell "12.5%" [ref=f2e596]
+              - row [ref=f2e597]:
+                - cell "Foreign listed shares" [ref=f2e598]
+                - cell "24 months" [ref=f2e599]
+                - cell "Slab" [ref=f2e600]
+                - cell "12.5%" [ref=f2e601]
+              - row [ref=f2e602]:
+                - cell "Debt MF bought on/after 1 Apr 2023" [ref=f2e603]
+                - cell "—" [ref=f2e604]
+                - cell "Slab" [ref=f2e605]
+                - cell "Slab" [ref=f2e606]
+              - row [ref=f2e607]:
+                - cell "Property" [ref=f2e608]
+                - cell "24 months" [ref=f2e609]
+                - cell "Slab" [ref=f2e610]
+                - cell "12.5% (grandfathering option for pre-23 Jul 2024 acquisitions)" [ref=f2e611]
+              - row [ref=f2e612]:
+                - cell "Physical / digital gold" [ref=f2e613]
+                - cell "24 months" [ref=f2e614]
+                - cell "Slab" [ref=f2e615]
+                - cell "12.5%" [ref=f2e616]
+              - row [ref=f2e617]:
+                - cell "Gold ETF" [ref=f2e618]
+                - cell "12 months" [ref=f2e619]
+                - cell "Slab" [ref=f2e620]
+                - cell "12.5%" [ref=f2e621]
+              - row [ref=f2e622]:
+                - cell [ref=f2e623]:
+                  - strong [ref=f2e624]: VDA / crypto
+                - cell "—" [ref=f2e625]
+                - cell [ref=f2e626]:
+                  - strong [ref=f2e627]: 30% flat
+                  - text: ", no set-off"
+                - cell [ref=f2e628]:
+                  - strong [ref=f2e629]: 30% flat
+              - row [ref=f2e630]:
+                - cell "Dividends" [ref=f2e631]
+                - cell "—" [ref=f2e632]
+                - cell "Slab" [ref=f2e633]
+                - cell "Slab" [ref=f2e634]
+              - row [ref=f2e635]:
+                - cell "Buyback proceeds (from FY 2026-27)" [ref=f2e636]
+                - cell "—" [ref=f2e637]
+                - cell "30% for individuals" [ref=f2e638]
+                - cell "—" [ref=f2e639]
+          - table [ref=f2e641]:
+            - rowgroup [ref=f2e642]:
+              - row [ref=f2e643]:
+                - columnheader "Other" [ref=f2e644]
+                - columnheader "Value" [ref=f2e645]
+            - rowgroup [ref=f2e646]:
+              - row [ref=f2e647]:
+                - cell "LTCG exemption — listed equity + equity MF combined" [ref=f2e648]
+                - cell "₹1,25,000/year" [ref=f2e649]
+              - row [ref=f2e650]:
+                - cell "TDS on VDA transfer — Section 194S" [ref=f2e651]
+                - cell "1% (above ₹50,000 / ₹10,000)" [ref=f2e652]
+              - row [ref=f2e653]:
+                - cell "TDS on dividends" [ref=f2e654]
+                - cell "10% above ₹10,000" [ref=f2e655]
+              - row [ref=f2e656]:
+                - cell "STT — options premium (from 1 Apr 2026)" [ref=f2e657]
+                - cell "0.15%" [ref=f2e658]
+              - row [ref=f2e659]:
+                - cell "STT — futures (from 1 Apr 2026)" [ref=f2e660]
+                - cell "0.05%" [ref=f2e661]
+              - row [ref=f2e662]:
+                - cell "TCS on LRS — education/medical (from 1 Apr 2026)" [ref=f2e663]
+                - cell "2%" [ref=f2e664]
+              - row [ref=f2e665]:
+                - cell "TCS on LRS — overseas tours (from 1 Apr 2026)" [ref=f2e666]
+                - cell "2% flat" [ref=f2e667]
+              - row [ref=f2e668]:
+                - cell "Advance tax threshold" [ref=f2e669]
+                - cell "₹10,000 of tax after TDS" [ref=f2e670]
+          - separator [ref=f2e671]
+          - heading "15.9 Deposits, small savings and rates" [level=2] [ref=f2e672]
+          - table [ref=f2e674]:
+            - rowgroup [ref=f2e675]:
+              - row [ref=f2e676]:
+                - columnheader "Item" [ref=f2e677]
+                - columnheader "Value (August 2026)" [ref=f2e678]
+            - rowgroup [ref=f2e679]:
+              - row [ref=f2e680]:
+                - cell [ref=f2e681]:
+                  - strong [ref=f2e682]: RBI repo rate
+                - cell [ref=f2e683]:
+                  - strong [ref=f2e684]: 5.25%
+                  - text: (unchanged at the August 2026 MPC; cut from 5.50% in Dec 2025)
+              - row [ref=f2e685]:
+                - cell "Standing Deposit Facility" [ref=f2e686]
+                - cell "5.00%" [ref=f2e687]
+              - row [ref=f2e688]:
+                - cell "MSF / Bank Rate" [ref=f2e689]
+                - cell "5.50%" [ref=f2e690]
+              - row [ref=f2e691]:
+                - cell [ref=f2e692]:
+                  - strong [ref=f2e693]: RBI CPI inflation projection, FY 2026-27
+                - cell [ref=f2e694]:
+                  - strong [ref=f2e695]: 5.0%
+              - row [ref=f2e696]:
+                - cell "Savings account rates" [ref=f2e697]
+                - cell "2.5%–7.5%" [ref=f2e698]
+              - row [ref=f2e699]:
+                - cell "Bank FD, 1 year" [ref=f2e700]
+                - cell "~6.25%–8.60%" [ref=f2e701]
+              - row [ref=f2e702]:
+                - cell "Liquid fund, 1-year return" [ref=f2e703]
+                - cell "~6.25%–7.0%" [ref=f2e704]
+              - row [ref=f2e705]:
+                - cell [ref=f2e706]:
+                  - strong [ref=f2e707]: DICGC deposit insurance
+                - cell [ref=f2e708]:
+                  - strong [ref=f2e709]: ₹5,00,000 per depositor per bank
+                  - text: (principal + interest)
+              - row [ref=f2e710]:
+                - cell "TDS threshold — bank interest" [ref=f2e711]
+                - cell "₹50,000 (₹1,00,000 for seniors)" [ref=f2e712]
+              - row [ref=f2e713]:
+                - cell "TDS threshold — NBFC interest" [ref=f2e714]
+                - cell "₹10,000" [ref=f2e715]
+              - row [ref=f2e716]:
+                - cell [ref=f2e717]:
+                  - strong [ref=f2e718]: PPF
+                - cell [ref=f2e719]:
+                  - strong [ref=f2e720]: 7.1%
+              - row [ref=f2e721]:
+                - cell "PPF annual limit" [ref=f2e722]
+                - cell "₹500 – ₹1,50,000" [ref=f2e723]
+              - row [ref=f2e724]:
+                - cell "PPF tenure" [ref=f2e725]
+                - cell "15 years, extendable in 5-year blocks" [ref=f2e726]
+              - row [ref=f2e727]:
+                - cell [ref=f2e728]:
+                  - strong [ref=f2e729]: SSY
+                - cell [ref=f2e730]:
+                  - strong [ref=f2e731]: 8.2%
+              - row [ref=f2e732]:
+                - cell [ref=f2e733]:
+                  - strong [ref=f2e734]: SCSS
+                - cell [ref=f2e735]:
+                  - strong [ref=f2e736]: 8.2%
+                  - text: ", maximum ₹30 lakh"
+              - row [ref=f2e737]:
+                - cell [ref=f2e738]:
+                  - strong [ref=f2e739]: NSC
+                - cell [ref=f2e740]:
+                  - strong [ref=f2e741]: 7.7%
+                  - text: ", 5 years"
+              - row [ref=f2e742]:
+                - cell "KVP" [ref=f2e743]
+                - cell "7.5%, matures in 115 months" [ref=f2e744]
+              - row [ref=f2e745]:
+                - cell "POMIS" [ref=f2e746]
+                - cell "7.4%" [ref=f2e747]
+              - row [ref=f2e748]:
+                - cell "Post Office TD — 1/2/3/5 year" [ref=f2e749]
+                - cell "6.9% / 7.0% / 7.1% / 7.5%" [ref=f2e750]
+              - row [ref=f2e751]:
+                - cell "Home loan rate" [ref=f2e752]
+                - cell "~7.25%–8.50%" [ref=f2e753]
+              - row [ref=f2e754]:
+                - cell "Personal loan rate" [ref=f2e755]
+                - cell "~11%–20%" [ref=f2e756]
+              - row [ref=f2e757]:
+                - cell "Credit card finance charge" [ref=f2e758]
+                - cell "2.5%–4.0%/month = 30%–48% APR" [ref=f2e759]
+              - row [ref=f2e760]:
+                - cell "Credit card forex markup" [ref=f2e761]
+                - cell "~3.5%" [ref=f2e762]
+          - separator [ref=f2e763]
+          - heading "15.10 Insurance" [level=2] [ref=f2e764]
+          - table [ref=f2e766]:
+            - rowgroup [ref=f2e767]:
+              - row [ref=f2e768]:
+                - columnheader "Item" [ref=f2e769]
+                - columnheader "Value" [ref=f2e770]
+            - rowgroup [ref=f2e771]:
+              - row [ref=f2e772]:
+                - cell "GST — individual life & health (from 22 Sep 2025)" [ref=f2e773]
+                - cell [ref=f2e774]:
+                  - strong [ref=f2e775]: 0%
+              - row [ref=f2e776]:
+                - cell "GST — group / employer-sponsored" [ref=f2e777]
+                - cell [ref=f2e778]:
+                  - strong [ref=f2e779]: 18%
+              - row [ref=f2e780]:
+                - cell "PED waiting period — IRDAI cap" [ref=f2e781]
+                - cell [ref=f2e782]:
+                  - strong [ref=f2e783]: 36 months
+              - row [ref=f2e784]:
+                - cell [ref=f2e785]:
+                  - strong [ref=f2e786]: Moratorium — claim cannot be contested for non-disclosure after
+                - cell [ref=f2e787]:
+                  - strong [ref=f2e788]: 60 months
+              - row [ref=f2e789]:
+                - cell "Cashless pre-authorisation decision" [ref=f2e790]
+                - cell [ref=f2e791]:
+                  - text: Within
+                  - strong [ref=f2e792]: 1 hour
+              - row [ref=f2e793]:
+                - cell "Discharge authorisation" [ref=f2e794]
+                - cell [ref=f2e795]:
+                  - text: Within
+                  - strong [ref=f2e796]: 3 hours
+              - row [ref=f2e797]:
+                - cell "Term cover benchmark" [ref=f2e798]
+                - cell "10–15× annual income" [ref=f2e799]
+              - row [ref=f2e800]:
+                - cell "Section 45, Insurance Act 1938 — life policy non-contestability" [ref=f2e801]
+                - cell [ref=f2e802]:
+                  - text: After
+                  - strong [ref=f2e803]: 3 years
+              - row [ref=f2e804]:
+                - cell "Section 126 (80D) maximum" [ref=f2e805]
+                - cell "₹1,00,000" [ref=f2e806]
+          - separator [ref=f2e807]
+          - heading "15.11 Credit" [level=2] [ref=f2e808]
+          - table [ref=f2e810]:
+            - rowgroup [ref=f2e811]:
+              - row [ref=f2e812]:
+                - columnheader "Item" [ref=f2e813]
+                - columnheader "Value" [ref=f2e814]
+            - rowgroup [ref=f2e815]:
+              - row [ref=f2e816]:
+                - cell "Credit score range" [ref=f2e817]
+                - cell "300–900" [ref=f2e818]
+              - row [ref=f2e819]:
+                - cell "Credit utilisation guidance" [ref=f2e820]
+                - cell "Below 30%" [ref=f2e821]
+              - row [ref=f2e822]:
+                - cell "Free credit reports per year" [ref=f2e823]
+                - cell "One per bureau × 4 bureaus" [ref=f2e824]
+              - row [ref=f2e825]:
+                - cell [ref=f2e826]:
+                  - strong [ref=f2e827]: RBI grace period before late fee / bureau reporting
+                - cell [ref=f2e828]:
+                  - strong [ref=f2e829]: 3 days
+              - row [ref=f2e830]:
+                - cell "Card closure timeline" [ref=f2e831]
+                - cell "7 working days; ₹500/day compensation for delay" [ref=f2e832]
+              - row [ref=f2e833]:
+                - cell "Interest on unpaid fees and taxes" [ref=f2e834]
+                - cell [ref=f2e835]:
+                  - strong [ref=f2e836]: Prohibited
+              - row [ref=f2e837]:
+                - cell "Credit card minimum due" [ref=f2e838]
+                - cell "Typically 5% of outstanding" [ref=f2e839]
+              - row [ref=f2e840]:
+                - cell "Cash advance fee" [ref=f2e841]
+                - cell "2.5%–3%, minimum ₹300–₹500" [ref=f2e842]
+          - separator [ref=f2e843]
+          - heading "15.12 Property" [level=2] [ref=f2e844]
+          - table [ref=f2e846]:
+            - rowgroup [ref=f2e847]:
+              - row [ref=f2e848]:
+                - columnheader "Item" [ref=f2e849]
+                - columnheader "Value" [ref=f2e850]
+            - rowgroup [ref=f2e851]:
+              - row [ref=f2e852]:
+                - cell "LTV — property up to ₹30 lakh" [ref=f2e853]
+                - cell "90%" [ref=f2e854]
+              - row [ref=f2e855]:
+                - cell "LTV — ₹30–75 lakh" [ref=f2e856]
+                - cell "80%" [ref=f2e857]
+              - row [ref=f2e858]:
+                - cell "LTV — above ₹75 lakh" [ref=f2e859]
+                - cell "75%" [ref=f2e860]
+              - row [ref=f2e861]:
+                - cell "FOIR ceiling" [ref=f2e862]
+                - cell "Typically 50%–60%" [ref=f2e863]
+              - row [ref=f2e864]:
+                - cell "Stamp duty" [ref=f2e865]
+                - cell "5%–7%, state-dependent" [ref=f2e866]
+              - row [ref=f2e867]:
+                - cell "Registration" [ref=f2e868]
+                - cell "~1%" [ref=f2e869]
+              - row [ref=f2e870]:
+                - cell "GST — under construction" [ref=f2e871]
+                - cell "5% (1% affordable)" [ref=f2e872]
+              - row [ref=f2e873]:
+                - cell "GST — ready to move with OC" [ref=f2e874]
+                - cell "Nil" [ref=f2e875]
+              - row [ref=f2e876]:
+                - cell "TDS on purchase above ₹50 lakh" [ref=f2e877]
+                - cell "1%" [ref=f2e878]
+              - row [ref=f2e879]:
+                - cell "Section 54EC bonds cap" [ref=f2e880]
+                - cell "₹50,00,000, 5-year lock-in" [ref=f2e881]
+              - row [ref=f2e882]:
+                - cell "Section 54 cap" [ref=f2e883]
+                - cell "₹10 crore" [ref=f2e884]
+              - row [ref=f2e885]:
+                - cell "Standard deduction on rental income" [ref=f2e886]
+                - cell "30%" [ref=f2e887]
+              - row [ref=f2e888]:
+                - cell "House property loss set-off cap" [ref=f2e889]
+                - cell "₹2,00,000/yr" [ref=f2e890]
+          - heading "Rental yields, Q2 2026" [level=3] [ref=f2e891]
+          - table [ref=f2e893]:
+            - rowgroup [ref=f2e894]:
+              - row [ref=f2e895]:
+                - columnheader "City" [ref=f2e896]
+                - columnheader "Gross yield" [ref=f2e897]
+            - rowgroup [ref=f2e898]:
+              - row [ref=f2e899]:
+                - cell "Hyderabad" [ref=f2e900]
+                - cell "5.5%" [ref=f2e901]
+              - row [ref=f2e902]:
+                - cell "Pune" [ref=f2e903]
+                - cell "4.35%" [ref=f2e904]
+              - row [ref=f2e905]:
+                - cell "Mumbai" [ref=f2e906]
+                - cell "4.15% (prime 2.5%–3.0%)" [ref=f2e907]
+              - row [ref=f2e908]:
+                - cell "Bengaluru" [ref=f2e909]
+                - cell "3.6%" [ref=f2e910]
+              - row [ref=f2e911]:
+                - cell "Delhi NCR" [ref=f2e912]
+                - cell "3.2%" [ref=f2e913]
+              - row [ref=f2e914]:
+                - cell "National average" [ref=f2e915]
+                - cell "5.16%" [ref=f2e916]
+          - separator [ref=f2e917]
+          - heading "15.13 Compliance calendar" [level=2] [ref=f2e918]
+          - table [ref=f2e920]:
+            - rowgroup [ref=f2e921]:
+              - row [ref=f2e922]:
+                - columnheader "Date" [ref=f2e923]
+                - columnheader "Item" [ref=f2e924]
+            - rowgroup [ref=f2e925]:
+              - row [ref=f2e926]:
+                - cell "15 June" [ref=f2e927]
+                - cell "Advance tax — 15%" [ref=f2e928]
+              - row [ref=f2e929]:
+                - cell "31 July" [ref=f2e930]
+                - cell "ITR-1, ITR-2 due" [ref=f2e931]
+              - row [ref=f2e932]:
+                - cell "31 August" [ref=f2e933]
+                - cell "ITR-3, ITR-4 due (changed for FY 2026-27)" [ref=f2e934]
+              - row [ref=f2e935]:
+                - cell "15 September" [ref=f2e936]
+                - cell "Advance tax — 45% cumulative" [ref=f2e937]
+              - row [ref=f2e938]:
+                - cell "31 October" [ref=f2e939]
+                - cell "Audit cases" [ref=f2e940]
+              - row [ref=f2e941]:
+                - cell "15 December" [ref=f2e942]
+                - cell "Advance tax — 75% cumulative" [ref=f2e943]
+              - row [ref=f2e944]:
+                - cell "15 March" [ref=f2e945]
+                - cell "Advance tax — 100%" [ref=f2e946]
+              - row [ref=f2e947]:
+                - cell "31 March" [ref=f2e948]
+                - cell "Revised return deadline; last date for tax-saving investments" [ref=f2e949]
+          - heading "Form numbers from FY 2026-27" [level=3] [ref=f2e950]
+          - table [ref=f2e952]:
+            - rowgroup [ref=f2e953]:
+              - row [ref=f2e954]:
+                - columnheader "Old" [ref=f2e955]
+                - columnheader "New" [ref=f2e956]
+            - rowgroup [ref=f2e957]:
+              - row [ref=f2e958]:
+                - cell "Form 16" [ref=f2e959]
+                - cell [ref=f2e960]:
+                  - strong [ref=f2e961]: Form 130
+              - row [ref=f2e962]:
+                - cell "Form 16A" [ref=f2e963]
+                - cell [ref=f2e964]:
+                  - strong [ref=f2e965]: Form 131
+              - row [ref=f2e966]:
+                - cell "Form 12BB" [ref=f2e967]
+                - cell [ref=f2e968]:
+                  - strong [ref=f2e969]: Form 124
+              - row [ref=f2e970]:
+                - cell "Form 26AS" [ref=f2e971]
+                - cell [ref=f2e972]:
+                  - strong [ref=f2e973]: Form 168
+              - row [ref=f2e974]:
+                - cell "Form 15G / 15H" [ref=f2e975]
+                - cell [ref=f2e976]:
+                  - strong [ref=f2e977]: Form 121
+          - separator [ref=f2e978]
+          - heading "15.14 Compounding reference" [level=2] [ref=f2e979]
+          - paragraph [ref=f2e980]:
+            - strong [ref=f2e981]: Multiple = (1 + r)ⁿ
+          - table [ref=f2e983]:
+            - rowgroup [ref=f2e984]:
+              - row [ref=f2e985]:
+                - columnheader "Years" [ref=f2e986]
+                - columnheader "7.1%" [ref=f2e987]
+                - columnheader "8.25%" [ref=f2e988]
+                - columnheader "12%" [ref=f2e989]
+            - rowgroup [ref=f2e990]:
+              - row [ref=f2e991]:
+                - cell "5" [ref=f2e992]
+                - cell "1.41×" [ref=f2e993]
+                - cell "1.49×" [ref=f2e994]
+                - cell "1.76×" [ref=f2e995]
+              - row [ref=f2e996]:
+                - cell "10" [ref=f2e997]
+                - cell "1.99×" [ref=f2e998]
+                - cell "2.21×" [ref=f2e999]
+                - cell "3.11×" [ref=f2e1000]
+              - row [ref=f2e1001]:
+                - cell "15" [ref=f2e1002]
+                - cell "2.80×" [ref=f2e1003]
+                - cell "3.28×" [ref=f2e1004]
+                - cell "5.47×" [ref=f2e1005]
+              - row [ref=f2e1006]:
+                - cell "20" [ref=f2e1007]
+                - cell "3.94×" [ref=f2e1008]
+                - cell "4.88×" [ref=f2e1009]
+                - cell "9.65×" [ref=f2e1010]
+              - row [ref=f2e1011]:
+                - cell "30" [ref=f2e1012]
+                - cell "7.81×" [ref=f2e1013]
+                - cell "10.79×" [ref=f2e1014]
+                - cell "29.96×" [ref=f2e1015]
+              - row [ref=f2e1016]:
+                - cell "40" [ref=f2e1017]
+                - cell "15.49×" [ref=f2e1018]
+                - cell "23.83×" [ref=f2e1019]
+                - cell "93.05×" [ref=f2e1020]
+          - paragraph [ref=f2e1021]:
+            - strong [ref=f2e1022]: "Rule of 72 — years to double:"
+            - text: 72 ÷ rate. At 7.1% → 10.1 yrs. At 8.25% → 8.7 yrs. At 12% → 6.0 yrs. At 42% → 1.7 yrs.
+          - paragraph [ref=f2e1023]:
+            - strong [ref=f2e1024]: "₹20,000/month SIP for 20 years:"
+            - text: ₹48 lakh contributed → ~₹2.00 crore at 12%; ~₹1.22 crore at 8.25%.
+          - separator [ref=f2e1025]
+          - heading "15.15 Still moving — verify before relying" [level=2] [ref=f2e1026]
+          - table [ref=f2e1028]:
+            - rowgroup [ref=f2e1029]:
+              - row [ref=f2e1030]:
+                - columnheader "Item" [ref=f2e1031]
+                - columnheader "Status, August 2026" [ref=f2e1032]
+            - rowgroup [ref=f2e1033]:
+              - row [ref=f2e1034]:
+                - cell [ref=f2e1035]:
+                  - strong [ref=f2e1036]: EPF wage ceiling
+                - cell [ref=f2e1037]:
+                  - text: ₹15,000 since 2014. Supreme Court directed a decision within four months in January 2026; reporting indicates Finance Ministry clearance for
+                  - strong [ref=f2e1038]: ₹25,000
+                  - text: ", likely effective around 1 April 2027."
+                  - strong [ref=f2e1039]: Not notified.
+              - row [ref=f2e1040]:
+                - cell [ref=f2e1041]:
+                  - strong [ref=f2e1042]: EPS-95 higher pension
+                - cell "Following the Supreme Court judgment of 4 November 2022, implementation continues to be litigated and administratively revised. Verify your own case against current EPFO circulars." [ref=f2e1043]
+              - row [ref=f2e1044]:
+                - cell [ref=f2e1045]:
+                  - strong [ref=f2e1046]: NPS 80% lump sum
+                - cell [ref=f2e1047]:
+                  - text: PFRDA permits 80% from 16 Dec 2025; the income-tax exemption still covers 60%.
+                  - strong [ref=f2e1048]: Unreconciled.
+              - row [ref=f2e1049]:
+                - cell [ref=f2e1050]:
+                  - strong [ref=f2e1051]: HRA 50% city expansion
+                - cell [ref=f2e1052]:
+                  - text: Reported as effected by the Income-tax Rules, 2026 from FY 2026-27, adding Bengaluru, Hyderabad, Pune and Ahmedabad. Some references still list only four metros.
+                  - strong [ref=f2e1053]: Confirm with payroll before claiming.
+              - row [ref=f2e1054]:
+                - cell [ref=f2e1055]:
+                  - strong [ref=f2e1056]: EPF interest rate, FY 2026-27
+                - cell "Not declared. Typically announced February–May of the following year." [ref=f2e1057]
+              - row [ref=f2e1058]:
+                - cell [ref=f2e1059]:
+                  - strong [ref=f2e1060]: Labour Codes state rules
+                - cell "Central rules in force; state rules continue to be notified, and employer implementation timelines vary." [ref=f2e1061]
+          - separator [ref=f2e1062]
+          - heading "15.16 Glossary" [level=2] [ref=f2e1063]
+          - table [ref=f2e1065]:
+            - rowgroup [ref=f2e1066]:
+              - row [ref=f2e1067]:
+                - columnheader "Term" [ref=f2e1068]
+                - columnheader "Meaning" [ref=f2e1069]
+            - rowgroup [ref=f2e1070]:
+              - row [ref=f2e1071]:
+                - cell [ref=f2e1072]:
+                  - strong [ref=f2e1073]: AMC
+                - cell "Asset Management Company — runs mutual fund schemes" [ref=f2e1074]
+              - row [ref=f2e1075]:
+                - cell [ref=f2e1076]:
+                  - strong [ref=f2e1077]: AMFI
+                - cell "Association of Mutual Funds in India — industry body" [ref=f2e1078]
+              - row [ref=f2e1079]:
+                - cell [ref=f2e1080]:
+                  - strong [ref=f2e1081]: APR / APY
+                - cell "Annual Percentage Rate (simple) / Annual Percentage Yield (compound)" [ref=f2e1082]
+              - row [ref=f2e1083]:
+                - cell [ref=f2e1084]:
+                  - strong [ref=f2e1085]: CAGR
+                - cell "Compound Annual Growth Rate" [ref=f2e1086]
+              - row [ref=f2e1087]:
+                - cell [ref=f2e1088]:
+                  - strong [ref=f2e1089]: CIBIL
+                - cell "TransUnion CIBIL — the most widely referenced Indian credit bureau" [ref=f2e1090]
+              - row [ref=f2e1091]:
+                - cell [ref=f2e1092]:
+                  - strong [ref=f2e1093]: CTC
+                - cell "Cost To Company — total annual employment cost, not your salary" [ref=f2e1094]
+              - row [ref=f2e1095]:
+                - cell [ref=f2e1096]:
+                  - strong [ref=f2e1097]: DA
+                - cell "Dearness Allowance — inflation-linked pay component" [ref=f2e1098]
+              - row [ref=f2e1099]:
+                - cell [ref=f2e1100]:
+                  - strong [ref=f2e1101]: DICGC
+                - cell "Deposit Insurance and Credit Guarantee Corporation" [ref=f2e1102]
+              - row [ref=f2e1103]:
+                - cell [ref=f2e1104]:
+                  - strong [ref=f2e1105]: EBLR
+                - cell "External Benchmark Lending Rate — repo-linked loan pricing" [ref=f2e1106]
+              - row [ref=f2e1107]:
+                - cell [ref=f2e1108]:
+                  - strong [ref=f2e1109]: EDLI
+                - cell "Employees' Deposit Linked Insurance" [ref=f2e1110]
+              - row [ref=f2e1111]:
+                - cell [ref=f2e1112]:
+                  - strong [ref=f2e1113]: EEE / EET
+                - cell "Exempt-Exempt-Exempt / Exempt-Exempt-Taxed" [ref=f2e1114]
+              - row [ref=f2e1115]:
+                - cell [ref=f2e1116]:
+                  - strong [ref=f2e1117]: ELSS
+                - cell "Equity Linked Savings Scheme — tax-saving equity fund, 3-year lock-in" [ref=f2e1118]
+              - row [ref=f2e1119]:
+                - cell [ref=f2e1120]:
+                  - strong [ref=f2e1121]: EPF / EPS / EPFO
+                - cell "Employees' Provident Fund / Pension Scheme / the administering body" [ref=f2e1122]
+              - row [ref=f2e1123]:
+                - cell [ref=f2e1124]:
+                  - strong [ref=f2e1125]: ESOP / RSU / ESPP
+                - cell "Employee Stock Option Plan / Restricted Stock Unit / Employee Stock Purchase Plan" [ref=f2e1126]
+              - row [ref=f2e1127]:
+                - cell [ref=f2e1128]:
+                  - strong [ref=f2e1129]: FOIR
+                - cell "Fixed Obligation to Income Ratio" [ref=f2e1130]
+              - row [ref=f2e1131]:
+                - cell [ref=f2e1132]:
+                  - strong [ref=f2e1133]: GCC
+                - cell "Global Capability Centre" [ref=f2e1134]
+              - row [ref=f2e1135]:
+                - cell [ref=f2e1136]:
+                  - strong [ref=f2e1137]: GMC / GTLI / GPA
+                - cell "Group Medical Coverage / Group Term Life Insurance / Group Personal Accident" [ref=f2e1138]
+              - row [ref=f2e1139]:
+                - cell [ref=f2e1140]:
+                  - strong [ref=f2e1141]: HRA
+                - cell "House Rent Allowance" [ref=f2e1142]
+              - row [ref=f2e1143]:
+                - cell [ref=f2e1144]:
+                  - strong [ref=f2e1145]: IRDAI
+                - cell "Insurance Regulatory and Development Authority of India" [ref=f2e1146]
+              - row [ref=f2e1147]:
+                - cell [ref=f2e1148]:
+                  - strong [ref=f2e1149]: LTA
+                - cell "Leave Travel Allowance" [ref=f2e1150]
+              - row [ref=f2e1151]:
+                - cell [ref=f2e1152]:
+                  - strong [ref=f2e1153]: LTCG / STCG
+                - cell "Long-Term / Short-Term Capital Gains" [ref=f2e1154]
+              - row [ref=f2e1155]:
+                - cell [ref=f2e1156]:
+                  - strong [ref=f2e1157]: LTV
+                - cell "Loan To Value" [ref=f2e1158]
+              - row [ref=f2e1159]:
+                - cell [ref=f2e1160]:
+                  - strong [ref=f2e1161]: NAV
+                - cell "Net Asset Value" [ref=f2e1162]
+              - row [ref=f2e1163]:
+                - cell [ref=f2e1164]:
+                  - strong [ref=f2e1165]: NPS / PFRDA / PRAN
+                - cell "National Pension System / its regulator / Permanent Retirement Account Number" [ref=f2e1166]
+              - row [ref=f2e1167]:
+                - cell [ref=f2e1168]:
+                  - strong [ref=f2e1169]: PED
+                - cell "Pre-Existing Disease" [ref=f2e1170]
+              - row [ref=f2e1171]:
+                - cell [ref=f2e1172]:
+                  - strong [ref=f2e1173]: PPF
+                - cell "Public Provident Fund" [ref=f2e1174]
+              - row [ref=f2e1175]:
+                - cell [ref=f2e1176]:
+                  - strong [ref=f2e1177]: RIA
+                - cell "Registered Investment Adviser (SEBI) — fee-only, fiduciary" [ref=f2e1178]
+              - row [ref=f2e1179]:
+                - cell [ref=f2e1180]:
+                  - strong [ref=f2e1181]: SEBI
+                - cell "Securities and Exchange Board of India" [ref=f2e1182]
+              - row [ref=f2e1183]:
+                - cell [ref=f2e1184]:
+                  - strong [ref=f2e1185]: SIP / STP / SWP
+                - cell "Systematic Investment / Transfer / Withdrawal Plan" [ref=f2e1186]
+              - row [ref=f2e1187]:
+                - cell [ref=f2e1188]:
+                  - strong [ref=f2e1189]: SSY / SCSS / NSC / KVP
+                - cell "Sukanya Samriddhi Yojana / Senior Citizen Savings Scheme / National Savings Certificate / Kisan Vikas Patra" [ref=f2e1190]
+              - row [ref=f2e1191]:
+                - cell [ref=f2e1192]:
+                  - strong [ref=f2e1193]: TDS / TCS
+                - cell "Tax Deducted at Source / Tax Collected at Source" [ref=f2e1194]
+              - row [ref=f2e1195]:
+                - cell [ref=f2e1196]:
+                  - strong [ref=f2e1197]: TER
+                - cell "Total Expense Ratio" [ref=f2e1198]
+              - row [ref=f2e1199]:
+                - cell [ref=f2e1200]:
+                  - strong [ref=f2e1201]: TRI / PRI
+                - cell "Total Return Index / Price Return Index" [ref=f2e1202]
+              - row [ref=f2e1203]:
+                - cell [ref=f2e1204]:
+                  - strong [ref=f2e1205]: UAN
+                - cell "Universal Account Number — your permanent EPF identifier" [ref=f2e1206]
+              - row [ref=f2e1207]:
+                - cell [ref=f2e1208]:
+                  - strong [ref=f2e1209]: VDA
+                - cell "Virtual Digital Asset — crypto and similar" [ref=f2e1210]
+              - row [ref=f2e1211]:
+                - cell [ref=f2e1212]:
+                  - strong [ref=f2e1213]: VPF
+                - cell "Voluntary Provident Fund" [ref=f2e1214]
+          - separator [ref=f2e1215]
+          - heading "15.17 Sources" [level=2] [ref=f2e1216]
+          - paragraph [ref=f2e1217]:
+            - strong [ref=f2e1218]: Source material
+          - list [ref=f2e1219]:
+            - listitem [ref=f2e1220]:
+              - text: "CS 007: Personal Finance for Engineers, Adam Nash & Stanford University —"
+              - link "cs007.blog" [ref=f2e1221] [cursor=pointer]:
+                - /url: http://cs007.blog
+          - paragraph [ref=f2e1222]:
+            - strong [ref=f2e1223]: Tax — Income-tax Act, 2025 and FY 2026-27
+          - list [ref=f2e1224]:
+            - listitem [ref=f2e1225]:
+              - link "Income Tax Changes From 1st April 2026 — ClearTax" [ref=f2e1226] [cursor=pointer]:
+                - /url: https://cleartax.in/s/income-tax-changes-from-april-2026
+            - listitem [ref=f2e1227]:
+              - link "Income Tax Slab Rates — ClearTax" [ref=f2e1228] [cursor=pointer]:
+                - /url: https://cleartax.in/c/income-tax-slab-rates
+            - listitem [ref=f2e1229]:
+              - 'link "Income Tax Act 2025 Section Numbers: Old vs New Mapping — ClearTax" [ref=f2e1230] [cursor=pointer]':
+                - /url: https://cleartax.in/s/income-tax-act-2025-section-numbers-old-vs-new
+            - listitem [ref=f2e1231]:
+              - link "FAQs on Interplay and Transition to the Income-tax Act, 2025 — Income Tax Department" [ref=f2e1232] [cursor=pointer]:
+                - /url: https://www.incometaxindia.gov.in/documents/81799/11848482/FAQs-on-Interplay-and-Transition.pdf
+            - listitem [ref=f2e1233]:
+              - link "Objective and scope of the New Act — Income Tax Department" [ref=f2e1234] [cursor=pointer]:
+                - /url: https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act
+            - listitem [ref=f2e1235]:
+              - link "Income Tax Act 2025 vs 1961 — Changes from April 1, 2026 — TaxGuru" [ref=f2e1236] [cursor=pointer]:
+                - /url: https://taxguru.in/income-tax/income-tax-act-2025-income-tax-act-1961-april-1-2026.html
+            - listitem [ref=f2e1237]:
+              - 'link "New tax regime 2026: how salary components and deductions change — Business Today" [ref=f2e1238] [cursor=pointer]':
+                - /url: https://www.businesstoday.in/personal-finance/tax/story/new-tax-regime-2026-how-salary-components-deductions-will-tweak-under-income-tax-act-2025-from-april-1-522845-2026-03-28
+            - listitem [ref=f2e1239]:
+              - 'link "New vs old tax regime AY 2026-27: break-even deductions — Upstox" [ref=f2e1240] [cursor=pointer]':
+                - /url: https://upstox.com/news/personal-finance/tax/new-tax-regime-vs-old-for-ay-2026-27-check-break-even-deductions-for-8-30-lakh-income/article-196663/
+            - listitem [ref=f2e1241]:
+              - link "Deductions allowed in the new tax regime 2026-27 — Tax Garden" [ref=f2e1242] [cursor=pointer]:
+                - /url: https://taxgarden.in/blog/deductions-allowed-new-tax-regime-section-115bac-ay-2026-27
+            - listitem [ref=f2e1243]:
+              - 'link "HRA exemption: 8 cities now qualify for 50% — TaxGuru" [ref=f2e1244] [cursor=pointer]':
+                - /url: https://taxguru.in/income-tax/hra-exemption-8-cities-qualify-50-percent-exemption-practical-guide.html
+            - listitem [ref=f2e1245]:
+              - link "Section 80D — ClearTax" [ref=f2e1246] [cursor=pointer]:
+                - /url: https://cleartax.in/s/medical-insurance
+            - listitem [ref=f2e1247]:
+              - link "Section 80E — ClearTax" [ref=f2e1248] [cursor=pointer]:
+                - /url: https://cleartax.in/s/section-80e-deduction-interest-education-loan
+          - paragraph [ref=f2e1249]:
+            - strong [ref=f2e1250]: EPF, EPS, gratuity, labour codes
+          - list [ref=f2e1251]:
+            - listitem [ref=f2e1252]:
+              - link "EPFO notifies 8.25% interest for FY 2025-26 — Akashvani News" [ref=f2e1253] [cursor=pointer]:
+                - /url: https://newsonair.gov.in/epfo-notifies-8-25-interest-rate-on-epf-deposits-for-fy-2025-26/
+            - listitem [ref=f2e1254]:
+              - link "EPFO to credit 8.25% interest by 15 July — Akashvani News" [ref=f2e1255] [cursor=pointer]:
+                - /url: https://newsonair.gov.in/epfo-to-credit-8-25-interest-for-fy-2025-26-by-july-15/
+            - listitem [ref=f2e1256]:
+              - link "Supreme Court directs Centre and EPFO on wage ceiling revision — Akashvani News" [ref=f2e1257] [cursor=pointer]:
+                - /url: https://www.newsonair.gov.in/supreme-court-directs-centre-epfo-to-decide-on-revision-of-epfs-wage-ceiling-within-four-months/
+            - listitem [ref=f2e1258]:
+              - link "EPF Form 11 — Paisabazaar" [ref=f2e1259] [cursor=pointer]:
+                - /url: https://www.paisabazaar.com/saving-schemes/epf-form-11/
+            - listitem [ref=f2e1260]:
+              - link "EPFO Para 26(6) joint declaration circular — United Consultancy" [ref=f2e1261] [cursor=pointer]:
+                - /url: https://unitedconsultancy.com/para-26_6-joint-declaration-new-circular/
+            - listitem [ref=f2e1262]:
+              - link "Taxation of interest on EPF contribution exceeding ₹2.5 lakh — ClearTax" [ref=f2e1263] [cursor=pointer]:
+                - /url: https://cleartax.in/s/epf-interest-taxation-exceeding-2-5-lakh
+            - listitem [ref=f2e1264]:
+              - link "TDS on EPF withdrawal — Section 392(7) — TDSMAN" [ref=f2e1265] [cursor=pointer]:
+                - /url: https://blog.tdsman.com/2026/04/tds-on-epf-withdrawal-section-3927-section-192a/
+            - listitem [ref=f2e1266]:
+              - link "Voluntary Provident Fund rules — BankBazaar" [ref=f2e1267] [cursor=pointer]:
+                - /url: https://www.bankbazaar.com/saving-schemes/vpf.html
+            - listitem [ref=f2e1268]:
+              - link "India's new labour codes in force — PayrollOrg" [ref=f2e1269] [cursor=pointer]:
+                - /url: https://payroll.org/news-resources/news/news-detail/2025/12/17/india-s-new-labour-codes-are-in-force-payroll-teams-must-act
+            - listitem [ref=f2e1270]:
+              - link "How new labour codes redefine wages — Paytm Money" [ref=f2e1271] [cursor=pointer]:
+                - /url: https://www.paytmmoney.com/blog/how-new-labour-codes-redefine-wages-and-impact-your-entire-pay-structure/
+            - listitem [ref=f2e1272]:
+              - link "India gratuity rules — India Briefing" [ref=f2e1273] [cursor=pointer]:
+                - /url: https://www.india-briefing.com/news/india-gratuity-rules-calculation-tax-compliance-6435.html/
+          - paragraph [ref=f2e1274]:
+            - strong [ref=f2e1275]: NPS
+          - list [ref=f2e1276]:
+            - listitem [ref=f2e1277]:
+              - link "PFRDA NPS Exit & Withdrawal (Amendment) Regulations, 2025 — GConnect" [ref=f2e1278] [cursor=pointer]:
+                - /url: https://www.gconnect.in/nps-2/pfrda-nps-exit-withdrawal-amendment-rules-2025.html
+            - listitem [ref=f2e1279]:
+              - link "New NPS exit rules notified — Upstox" [ref=f2e1280] [cursor=pointer]:
+                - /url: https://upstox.com/news/personal-finance/investing/new-nps-withdrawal-rules-notified-pfrda-cuts-mandatory-annuity-to-20-but-conditions-apply/article-186304/
+            - listitem [ref=f2e1281]:
+              - link "Returns under NPS — NPS Trust" [ref=f2e1282] [cursor=pointer]:
+                - /url: https://npstrust.org.in/weekly-snapshot-nps-schemes
+            - listitem [ref=f2e1283]:
+              - link "NPS tax benefits in the new tax regime — HDFC Pension" [ref=f2e1284] [cursor=pointer]:
+                - /url: https://www.hdfcpension.com/blog/new-tax-regime/
+          - paragraph [ref=f2e1285]:
+            - strong [ref=f2e1286]: Insurance
+          - list [ref=f2e1287]:
+            - listitem [ref=f2e1288]:
+              - link "Exemption of GST on all individual life and health insurance policies — Department of Financial Services, Ministry of Finance" [ref=f2e1289] [cursor=pointer]:
+                - /url: https://www.financialservices.gov.in/exemption-gst-all-individual-life-insurance-and-health-insurance-policies
+            - listitem [ref=f2e1290]:
+              - 'link "IRDAI Master Circular 2024: cashless, moratorium and PED rules — Oquilia" [ref=f2e1291] [cursor=pointer]':
+                - /url: https://www.oquilia.com/news/irdai-health-master-circular-2024-cashless-moratorium-rules
+            - listitem [ref=f2e1292]:
+              - link "IRDAI health insurance rules in India — Algates Insurance" [ref=f2e1293] [cursor=pointer]:
+                - /url: https://algatesinsurance.in/irdai-health-insurance-rules-in-india-guide/
+            - listitem [ref=f2e1294]:
+              - link "Group health insurance explained — Ditto" [ref=f2e1295] [cursor=pointer]:
+                - /url: https://joinditto.in/health-insurance/group-health-insurance/
+          - paragraph [ref=f2e1296]:
+            - strong [ref=f2e1297]: Credit
+          - list [ref=f2e1298]:
+            - listitem [ref=f2e1299]:
+              - link "RBI credit card rules 2026 — Finowings" [ref=f2e1300] [cursor=pointer]:
+                - /url: https://www.finowings.com/Credit-Cards/rbi-credit-card-rules
+            - listitem [ref=f2e1301]:
+              - link "RBI introduces 3-day grace period on credit card bills — India TV News" [ref=f2e1302] [cursor=pointer]:
+                - /url: https://www.indiatvnews.com/business/personal-finance/big-relief-for-credit-card-users-as-rbi-s-new-rule-provides-3-days-of-grace-period-on-bill-payment-details-2026-04-30-1039477
+            - listitem [ref=f2e1303]:
+              - link "How the CIBIL score is calculated — Paytm" [ref=f2e1304] [cursor=pointer]:
+                - /url: https://paytm.com/blog/credit-score/the-ultimate-breakdown-of-how-cibil-score-is-calculated/
+          - paragraph [ref=f2e1305]:
+            - strong [ref=f2e1306]: Investing, deposits, small savings, gold, crypto
+          - list [ref=f2e1307]:
+            - listitem [ref=f2e1308]:
+              - link "Nifty 50 historical returns — Bajaj AMC" [ref=f2e1309] [cursor=pointer]:
+                - /url: https://www.bajajamc.com/knowledge-centre/nifty-50-historical-returns
+            - listitem [ref=f2e1310]:
+              - link "Nifty 20-year CAGR falls below 10% — Finnovate" [ref=f2e1311] [cursor=pointer]:
+                - /url: https://www.finnovate.in/learn/blog/nifty-20-year-cagr-below-10-percent-history
+            - listitem [ref=f2e1312]:
+              - link "Direct vs regular Nifty index funds — Bajaj AMC" [ref=f2e1313] [cursor=pointer]:
+                - /url: https://www.bajajamc.com/knowledge-centre/direct-vs-regular-nifty-index-funds
+            - listitem [ref=f2e1314]:
+              - link "Average expense ratios, 500 Indian mutual funds — RupayWise" [ref=f2e1315] [cursor=pointer]:
+                - /url: https://rupaywise.com/data/expense-ratios
+            - listitem [ref=f2e1316]:
+              - link "Mutual fund taxation India 2026 — One Percent Club" [ref=f2e1317] [cursor=pointer]:
+                - /url: https://www.onepercentclub.io/blog/mutual-fund-taxation-india/
+            - listitem [ref=f2e1318]:
+              - link "Small savings rates July–September 2026 — Business Today" [ref=f2e1319] [cursor=pointer]:
+                - /url: https://www.businesstoday.in/personal-finance/investment/story/govt-keeps-small-savings-interest-rates-unchanged-for-july-september-quarter-check-latest-ppf-scss-ssy-rates-540090-2026-06-30
+            - listitem [ref=f2e1320]:
+              - 'link "Section 194A: TDS on interest — ClearTax" [ref=f2e1321] [cursor=pointer]':
+                - /url: https://cleartax.in/s/section-194a-tds-on-interest-other-than-interest-on-securities
+            - listitem [ref=f2e1322]:
+              - link "A guide to deposit insurance — DICGC" [ref=f2e1323] [cursor=pointer]:
+                - /url: https://www.dicgc.org.in/guide-to-deposit-insurance
+            - listitem [ref=f2e1324]:
+              - link "Capital gains tax on Sovereign Gold Bonds from 1 April 2026 — ClearTax" [ref=f2e1325] [cursor=pointer]:
+                - /url: https://cleartax.in/s/capital-gain-tax-on-sovereign-gold-bond-sgb
+            - listitem [ref=f2e1326]:
+              - link "Sovereign Gold Bond scheme discontinued for new issues — GoldenPi" [ref=f2e1327] [cursor=pointer]:
+                - /url: https://goldenpi.com/blog/bond-news/sovereign-gold-bond-scheme-discontinued-for-new-issues/
+            - listitem [ref=f2e1328]:
+              - link "Income tax on digital, physical and paper gold — ClearTax" [ref=f2e1329] [cursor=pointer]:
+                - /url: https://cleartax.in/s/tax-on-gold-in-india
+            - listitem [ref=f2e1330]:
+              - link "Crypto tax India 2026 — CoinDCX" [ref=f2e1331] [cursor=pointer]:
+                - /url: https://coindcx.com/blog/cryptocurrency/crypto-taxes-in-india/
+          - paragraph [ref=f2e1332]:
+            - strong [ref=f2e1333]: Equity compensation
+          - list [ref=f2e1334]:
+            - listitem [ref=f2e1335]:
+              - 'link "ESOP taxation in India: perquisite, capital gains and start-up deferral — Shahi & Co." [ref=f2e1336] [cursor=pointer]':
+                - /url: https://shahiandco.in/blog-esop-taxation.html
+            - listitem [ref=f2e1337]:
+              - link "ESOP vs RSU taxation in India — Finnovate" [ref=f2e1338] [cursor=pointer]:
+                - /url: https://www.finnovate.in/learn/blog/esop-vs-rsu-taxation-india
+          - paragraph [ref=f2e1339]:
+            - strong [ref=f2e1340]: Macro, property and distribution
+          - list [ref=f2e1341]:
+            - listitem [ref=f2e1342]:
+              - 'link "RBI MPC August 2026: repo rate unchanged at 5.25% — India Infoline" [ref=f2e1343] [cursor=pointer]':
+                - /url: https://www.indiainfoline.com/news/economy/rbi-policy-update-august-2026-repo-rate-unchanged-at-5-25-fy27-gdp-growth-raised-to-6-7-inflation-forecast-cut
+            - listitem [ref=f2e1344]:
+              - link "RBI keeps repo rate unchanged, retains neutral stance — SCC Times" [ref=f2e1345] [cursor=pointer]:
+                - /url: https://www.scconline.com/blog/post/2026/08/10/rbi-repo-rate-unchanged-august-2026-neutral-stance/
+            - listitem [ref=f2e1346]:
+              - link "Average rental yield in India 2026, city by city — RentVsBuyIndia" [ref=f2e1347] [cursor=pointer]:
+                - /url: https://www.rentvsbuyindia.com/content/average-rental-yield-india-2026/
+            - listitem [ref=f2e1348]:
+              - link "Highest rental yield in India 2026 — Sobha" [ref=f2e1349] [cursor=pointer]:
+                - /url: https://www.sobha.com/blog/best-cities-rental-yield-india-2026/
+            - listitem [ref=f2e1350]:
+              - link "SBI home loan interest rates, August 2026 — UrbanMoney" [ref=f2e1351] [cursor=pointer]:
+                - /url: https://www.urbanmoney.com/home-loan/state-bank-of-india/interest-rate
+            - listitem [ref=f2e1352]:
+              - 'link "World Inequality Report 2026: top 1% holds 40% of national wealth — The Wire" [ref=f2e1353] [cursor=pointer]':
+                - /url: https://m.thewire.in/article/political-economy/in-charts-world-inequality-report-2026
+            - listitem [ref=f2e1354]:
+              - link "World Inequality Report 2026, India highlights — PW" [ref=f2e1355] [cursor=pointer]:
+                - /url: https://www.pw.live/upsc/exams/world-inequality-report-2026
+            - listitem [ref=f2e1356]:
+              - link "Software engineer salary in India 2026 — Instahyre" [ref=f2e1357] [cursor=pointer]:
+                - /url: https://resources.instahyre.com/blog/software-engineer-salary-in-india/
+          - separator [ref=f2e1358]
+          - heading "Disclaimer" [level=2] [ref=f2e1359]
+          - paragraph [ref=f2e1360]:
+            - text: This document provides information and frameworks for education and further research. It is
+            - strong [ref=f2e1361]: not financial advice
+            - text: ", and it is not advice on any specific financial decision. Indian tax and pension rules change at least annually, and FY 2026-27 is the first year under an entirely new tax statute. Verify every figure against the current law and, where a decision is material, against a qualified professional, before acting on it."
+          - paragraph [ref=f2e1362]:
+            - text: Conceptual framing, topic ordering and several analytical devices derive from
+            - strong [ref=f2e1363]: "CS 007: Personal Finance for Engineers"
+            - text: by
+            - strong [ref=f2e1364]: Adam Nash & Stanford University
+            - text: ", published for non-commercial use at"
+            - link "cs007.blog" [ref=f2e1365] [cursor=pointer]:
+              - /url: http://cs007.blog
+            - text: .
+        - navigation "Chapter navigation" [ref=f2e1366]:
+          - link "Previous Goals, real estate & family" [ref=f2e1367] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/goals-and-real-estate
+            - generic [ref=f2e1368]: Previous
+            - generic [ref=f2e1369]: Goals, real estate & family
+          - link "Next Forms, schemes & links" [ref=f2e1370] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/forms-and-links
+            - generic [ref=f2e1371]: Next
+            - generic [ref=f2e1372]: Forms, schemes & links
+  - contentinfo [ref=f2e1373]:
+    - generic [ref=f2e1379]:
+      - paragraph [ref=f2e1380]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=f2e1381]: Last updated in August 2026.

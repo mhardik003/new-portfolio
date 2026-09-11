@@ -1,0 +1,220 @@
+export const metadata = {
+  title: `4. Old Regime vs New Regime: FY 2026-27`,
+  description: `Tax Year 2026-27. First year under the Income-tax Act, 2025.`,
+}
+
+# 4. Old Regime vs New Regime: FY 2026-27
+
+*Tax Year 2026-27. First year under the Income-tax Act, 2025.*
+
+---
+
+**The new regime is the default.** If you do nothing, you are taxed under it. The old regime must be actively opted into, and it only wins if your deductions are large enough to offset its higher rates.
+
+The Income-tax Act, 2025 replaced the Income-tax Act, 1961 on 1 April 2026, after 65 years. It is a restatement rather than a change of policy — rates, slabs and most substantive rules carried over — but the vocabulary moved. **Tax Year** replaces both **Previous Year** and **Assessment Year**, so what was "FY 2026-27, AY 2027-28" is now simply **Tax Year 2026-27**. **Form 16 became Form 130**, and the other form numbers moved with it. Sections were renumbered throughout, and are given here as "Section 123 (formerly 80C)"; the full form and section maps are in [§17](/articles/personal-finance-india/numbers) and [§18](/articles/personal-finance-india/forms-and-links). Both numbering systems stay in circulation for another year, because your Form 16 for FY 2025-26 reports a year governed by the old Act.
+
+---
+
+<ChapterIndex slug="tax-regimes" />
+
+## 4.1 The new regime: slabs for FY 2026-27
+
+Budget 2026 made **no changes** to slabs or the basic exemption limit. FY 2026-27 rates are identical to FY 2025-26.
+
+| Total income | Rate |
+|---|---:|
+| Up to ₹4,00,000 | Nil |
+| ₹4,00,001 – ₹8,00,000 | 5% |
+| ₹8,00,001 – ₹12,00,000 | 10% |
+| ₹12,00,001 – ₹16,00,000 | 15% |
+| ₹16,00,001 – ₹20,00,000 | 20% |
+| ₹20,00,001 – ₹24,00,000 | 25% |
+| Above ₹24,00,000 | 30% |
+
+**Plus:**
+- **Standard deduction for salaried:** ₹75,000
+- **Rebate under Section 156 (formerly 87A):** up to **₹60,000**, available where total income does not exceed ₹12,00,000
+- **Health and education cess:** 4% on tax plus surcharge
+
+### The ₹12.75 lakh figure
+
+This is where "salary up to ₹12.75 lakh is tax-free" comes from:
+
+<Ledger
+  rows={[
+    ['Gross salary', 1275000],
+    ['Standard deduction', -75000],
+    ['Total income', 1200000, 'subtotal'],
+    ['Tax computation', null, 'heading'],
+    ['₹0–4L @ 0%', 0, 'detail'],
+    ['₹4L–8L @ 5%', 20000, 'detail'],
+    ['₹8L–12L @ 10%', 40000, 'detail'],
+    ['Tax before rebate', 60000, 'subtotal'],
+    ['Rebate u/s 156', -60000],
+    ['Tax payable', 0, 'total'],
+  ]}
+/>
+
+The rebate is a **cliff**, not a taper: at ₹12,00,001 of total income it vanishes entirely.
+
+### Marginal relief
+
+Without a correction, earning ₹1 more than ₹12 lakh would cost ₹60,000 in tax, or ₹62,400 with cess. Marginal relief prevents that: **tax payable cannot exceed the amount by which total income exceeds ₹12,00,000.**
+
+| Total income | Tax before relief | Marginal relief | Tax after relief (+ 4% cess) |
+|---:|---:|---:|---:|
+| ₹12,00,000 | ₹60,000 | rebate → ₹0 | **₹0** |
+| ₹12,10,000 | ₹61,500 | capped at ₹10,000 | **₹10,400** |
+| ₹12,50,000 | ₹67,500 | capped at ₹50,000 | **₹52,000** |
+| ₹12,70,588 | ₹70,588 | capped at ₹70,588 | **₹73,412** |
+| ₹12,80,000 | ₹72,000 | none | **₹74,880** |
+
+Relief applies from ₹12,00,001 up to about **₹12,70,588** of total income, where the ordinary tax and the relief cap converge. Above that, normal slab tax applies.
+
+The cap applies to tax *before* cess, and the 4% cess is then charged on the capped figure. Every additional rupee earned inside the relief band therefore carries ₹1.04 of tax: **an effective marginal rate of 104%.** At the top of the band, ₹12,70,588 of total income attracts ₹73,412 of tax on the ₹70,588 by which it exceeds ₹12,00,000, leaving **₹2,824 less in hand than a total income of exactly ₹12,00,000**; income does not net more than ₹12,00,000 again until about ₹12,73,934.
+
+---
+
+## 4.2 The old regime: slabs for FY 2026-27
+
+| Total income | Rate |
+|---|---:|
+| Up to ₹2,50,000 | Nil |
+| ₹2,50,001 – ₹5,00,000 | 5% |
+| ₹5,00,001 – ₹10,00,000 | 20% |
+| Above ₹10,00,000 | 30% |
+
+**Plus:**
+- **Standard deduction for salaried:** ₹50,000
+- **Rebate under Section 156 (formerly 87A):** ₹12,500, where total income does not exceed ₹5,00,000
+- **Cess:** 4%
+
+Higher basic exemption thresholds apply for senior citizens (₹3,00,000, age 60–79) and super senior citizens (₹5,00,000, age 80+) under this regime.
+
+---
+
+## 4.3 Surcharge
+
+Applies to both regimes on tax, before cess.
+
+| Total income | Old regime | New regime |
+|---|---:|---:|
+| Up to ₹50 lakh | Nil | Nil |
+| ₹50 lakh – ₹1 crore | 10% | 10% |
+| ₹1 crore – ₹2 crore | 15% | 15% |
+| ₹2 crore – ₹5 crore | 25% | 25% |
+| Above ₹5 crore | **37%** | **25%** |
+
+The new regime **caps surcharge at 25%**, taking the maximum marginal rate from 42.744% (old) to **39%** (new) at the top.
+
+Marginal relief applies at each surcharge threshold on the same principle as the rebate. New-regime tax on a total income of exactly ₹50,00,000 is ₹10,80,000 with no surcharge; at ₹50,01,000 the 10% surcharge would add ₹1,08,030, so relief caps the total at **₹10,81,000** — the tax at the threshold plus the ₹1,000 of excess. The cap binds up to a total income of about **₹51,61,194**.
+
+---
+
+## 4.4 What survives in the new regime
+
+This is the operative question for most salaried engineers. The new regime is not "no deductions"; it is "a short, specific list."
+
+### Available in the new regime
+
+| Item | Provision | Limit |
+|---|---|---|
+| **Standard deduction** | Section 19 | ₹75,000 |
+| **Employer's NPS contribution** | Section 124(2) (formerly 80CCD(2)) | **14% of Basic + DA** |
+| **Employer's EPF contribution** | Schedule II | Up to 12% of salary; combined employer contributions to PF + NPS + superannuation above ₹7.5 lakh/yr are taxable |
+| **Gratuity on exit** | Section 19 (formerly 10(10)) | ₹20 lakh lifetime, non-government |
+| **Leave encashment on retirement** | Section 19 (formerly 10(10AA)) | ₹25 lakh lifetime, non-government |
+| **Home loan interest: let-out property** | Section 22 (formerly 24(b)) | **No limit**, but set-off of house property loss against other income is capped at ₹2 lakh |
+| **Employer-provided perquisites and reimbursements** | Section 17 and Rules | Meal cards, cab facility, telephone/internet against bills, relocation reimbursement, gift vouchers, children's education and hostel allowance; see [§5](/articles/personal-finance-india/salary-structuring) |
+| **Retirement corpus exemptions** | Schedule II | EPF maturity after 5 years, PPF, SSY |
+| **Voluntary retirement compensation** | formerly 10(10C) | ₹5 lakh |
+| **Agniveer Corpus Fund** | formerly 80CCH | Full |
+
+### Not available in the new regime
+
+- **Section 123 (80C)**: the ₹1.5 lakh basket: EPF employee contribution, PPF, ELSS, life insurance premium, tuition fees, 5-year tax-saver FD, NSC, home loan principal
+- **Section 124(1) and 124(1B)**: your *own* NPS contributions, including the additional ₹50,000
+- **Section 126 (80D)**: health insurance premium
+- **Section 129 (80E)**: education loan interest
+- **Section 133 (80G)**: donations
+- **Section 153 (80TTA/80TTB)**: savings account and deposit interest
+- **HRA exemption**
+- **LTA exemption**
+- **Home loan interest on self-occupied property** (the ₹2 lakh under old Section 24(b))
+- **Professional tax paid**
+
+---
+
+## 4.5 The break-even calculation
+
+The old regime generally wins only for people who simultaneously pay significant rent in a metro *and* have a home loan, *or* who carry large education loan interest. For an early-career engineer renting a flat with no home loan, the new regime usually wins, often by a wide margin.
+
+For any individual the question is arithmetic: whether your deductions exceed the point at which the old regime's higher rates are offset.
+
+### Worked from first principles
+
+Take a gross salary of **₹16,36,710**.
+
+**Under the new regime:**
+
+<Ledger
+  rows={[
+    ['Gross', 1636710],
+    ['Standard deduction', -75000],
+    ['Total income', 1561710, 'subtotal'],
+    ['Tax computation', null, 'heading'],
+    ['₹4L–8L @ 5%', 20000, 'detail'],
+    ['₹8L–12L @ 10%', 40000, 'detail'],
+    ['₹12L–15.62L @ 15%', 54257, 'detail'],
+    ['Tax before cess', 114257, 'subtotal'],
+    ['Cess @ 4%', 4570],
+    ['Tax payable', 118827, 'total'],
+  ]}
+/>
+
+**To match this under the old regime**, we need old-regime tax before cess of ₹1,14,257. Working backwards through the old slabs:
+
+<Ledger
+  rows={[
+    ['Old-regime tax reaches ₹1,12,500 at total income of', 1000000],
+    ['Remaining ₹1,757 at 30% → further income of', 5857],
+    ['Required total income', 1005857, 'total'],
+  ]}
+/>
+
+So total deductions must be:
+```
+₹16,36,710 − ₹10,05,857 = ₹6,30,853
+```
+
+**Break-even ≈ ₹6.31 lakh of total deductions**, of which ₹50,000 is the standard deduction, so **₹5.81 lakh of *other* deductions** are needed before the old regime wins at this income level.
+
+Published break-even tables circulate for every income level; they disagree with each other and with this method, mostly over whether the standard deduction sits inside the figure and whether marginal relief was applied. Compute your own rather than relying on one.
+
+### What ₹5.8 lakh of deductions actually requires
+
+For a salaried engineer, the realistic maximum stack under the old regime:
+
+| Deduction | Maximum | Realistic for most |
+|---|---:|---:|
+| Section 123 (80C) | ₹1,50,000 | ₹1,50,000, often filled by EPF alone |
+| Section 124(1B) (80CCD(1B)): NPS | ₹50,000 | ₹50,000 if you contribute |
+| Section 126 (80D): health insurance | ₹75,000 (self ₹25k + senior parents ₹50k) | ₹25,000–₹75,000 |
+| HRA exemption | Formula-driven | ₹2,00,000–₹4,00,000 in a metro on real rent |
+| Section 22 (24(b)): home loan interest, self-occupied | ₹2,00,000 | ₹2,00,000 if you have a loan |
+| Section 129 (80E): education loan interest | No cap | Varies |
+| Professional tax | ₹2,400 | ₹2,400 |
+
+---
+
+## 4.6 Choosing and switching
+
+| | Salaried, no business income | With business or professional income |
+|---|---|---|
+| Default | New regime | New regime |
+| Can you switch? | **Yes, every year**, at the time of filing | **Once only.** Having opted out of the new regime and returned to it, you cannot opt out again |
+| How | Simply file under the chosen regime by the due date | Form 10-IEA (under the old Act's numbering; the successor form under the 2025 Act) |
+
+**Your employer's declaration is not your final choice.** In January or February your employer will ask you to declare a regime so it can compute TDS. If your circumstances change, you can still file under the other regime and claim a refund or pay the balance. The declaration determines cash flow during the year, not your legal position.
+
+**A practical consequence:** if you declare the new regime to your employer and later discover you had enough deductions for the old regime, you can still switch when filing. The reverse also holds. Excess TDS comes back as a refund.

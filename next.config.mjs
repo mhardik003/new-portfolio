@@ -1,4 +1,5 @@
 import rehypePrism from '@mapbox/rehype-prism'
+import rehypeSlug from 'rehype-slug'
 import nextMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 
@@ -39,7 +40,10 @@ const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypePrism],
+    // rehypeSlug gives every heading a github-slugger `id`, which is what the
+    // per-chapter `<ChapterIndex>` links point at. `scripts/gen-sections.mjs`
+    // replays the same slugger to generate those hrefs — keep them in step.
+    rehypePlugins: [rehypeSlug, rehypePrism],
   },
 })
 

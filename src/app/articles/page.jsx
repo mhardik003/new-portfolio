@@ -7,7 +7,8 @@ function Article({ article }) {
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">
       <Card className="md:col-span-3">
-        <Card.Title href={article.url}>
+        {/* Articles without an external `url` are rendered in-site from their MDX. */}
+        <Card.Title href={article.url ?? `/articles/${article.slug}`}>
           {article.title}
         </Card.Title>
         <Card.Eyebrow

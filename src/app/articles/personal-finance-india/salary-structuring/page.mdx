@@ -1,0 +1,261 @@
+export const metadata = {
+  title: `5. Salary Structuring, Allowances and Perquisites`,
+  description: `What is exempt, what is a taxable perquisite, and what changed for FY 2026-27.`,
+}
+
+# 5. Salary Structuring, Allowances and Perquisites
+
+*What is exempt, what is a taxable perquisite, and what changed for FY 2026-27.*
+
+---
+
+**The new regime did not remove employer-side benefits, only employee-side deductions.** With two exceptions — the standard deduction, and interest on a let-out property — everything that survives in both regimes is something your employer provides or reimburses against a bill, and everything confined to the old regime is something you pay for yourself and then deduct. The Income-tax Rules, 2026 then raised several of the employer-side ceilings, the children's education and hostel allowances by a factor of thirty.
+
+The locus of tax efficiency has therefore moved from your investment choices to your salary structure. Under the old regime the decisions that reduced your tax bill were yours, and were taken during the year. Under the new regime they were taken before you signed, by whoever chose the components in your offer letter.
+
+The sections below state the treatment of each component. **[§5.11](#511-which-of-these-survive-in-the-new-regime)** has both lists in full.
+
+---
+
+<ChapterIndex slug="salary-structuring" />
+
+## 5.1 The three categories
+
+Everything your employer gives you falls into one of three buckets, and the tax treatment differs sharply:
+
+| Category | Definition | Tax treatment |
+|---|---|---|
+| **Allowance** | A fixed cash sum paid to you, whether or not you spend it | Taxable unless a specific exemption applies. Most exemptions require *actual expenditure*. |
+| **Reimbursement** | Repayment of an expense you incurred, against a bill | Not taxable if genuinely incurred for the specified purpose and supported by documentation |
+| **Perquisite** | A benefit in kind: something provided, not paid | Taxable at a value determined by the Rules, unless specifically excluded |
+
+**The single most useful distinction in Indian salary structuring:** the same rupee is treated differently depending on whether it is called an *allowance* or a *reimbursement*.
+
+- "Relocation **allowance** of ₹1,00,000" → fully taxable at slab rate
+- "Relocation **reimbursement** up to ₹1,00,000 against bills" → not taxable
+
+If your offer letter uses the word "allowance" for something you expected to be tax-free, that is worth raising before you sign.
+
+---
+
+## 5.2 What changed for FY 2026-27
+
+The Income-tax Act, 2025 and the Income-tax Rules, 2026 raised several perquisite limits that had been frozen since the 1990s.
+
+| Item | Old limit | **FY 2026-27** |
+|---|---:|---:|
+| Free / subsidised meals at office or via meal vouchers | ₹50 per meal | **₹200 per meal** |
+| Non-cash gifts, vouchers, hampers | ₹5,000 per year | **₹15,000 per year** |
+| Children's education allowance | ₹100 per month per child | **₹3,000 per month per child** |
+| Children's hostel allowance | ₹300 per month per child | **₹9,000 per month per child** |
+| Employer medical loan: exemption ceiling | ₹20,000 | **₹2,00,000** |
+| Overseas medical treatment: income threshold for exemption | ₹2,00,000 | **₹8,00,000** |
+| HRA: cities at 50% of salary | 4 (Delhi, Mumbai, Kolkata, Chennai) | **8** (adds Bengaluru, Hyderabad, Pune, Ahmedabad) |
+
+> **Verify before relying on the HRA change.** The expansion from four to eight cities is reported consistently across tax portals as being effected by the Income-tax Rules, 2026 with effect from FY 2026-27, but some references still list only the original four metros. Confirm against the notified Rules or with your employer's payroll before claiming 50% for Bengaluru, Hyderabad, Pune or Ahmedabad. For FY 2025-26 returns, the old four-metro rule applies.
+
+---
+
+## 5.3 House Rent Allowance (HRA)
+
+**Old regime only. Fully taxable in the new regime.**
+
+The exemption is the **least of three**:
+
+<Ledger
+  rows={[
+    ['1. Actual HRA received'],
+    ['2. Rent paid, less 10% of salary'],
+    ['3. 50% of salary in the eight metro cities, 40% of salary everywhere else'],
+    { label: 'Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, Pune, Ahmedabad', variant: 'detail' },
+  ]}
+/>
+
+"Salary" here means **Basic + DA + any commission on turnover**.
+
+### Worked example
+
+Bengaluru. Basic ₹9,00,000/yr. HRA ₹3,60,000/yr. Rent paid ₹30,000/month = ₹3,60,000/yr.
+
+<Ledger
+  rows={[
+    ['1. Actual HRA received', 360000],
+    { label: '2. Rent paid, less 10% of salary', amount: 270000, note: 'least' },
+    { label: '₹3,60,000 rent − ₹90,000, being 10% of salary', variant: 'detail' },
+    ['3. 50% of salary (Bengaluru, FY 2026-27)', 450000],
+    ['Exemption', 270000, 'result'],
+    ['Taxable HRA', 90000, 'total'],
+  ]}
+/>
+
+Note how the second condition binds: paying rent equal to your HRA does not make your HRA fully exempt, because 10% of salary is always subtracted.
+
+### Documentation
+
+| Annual rent | Requirement |
+|---|---|
+| Any amount | Rent receipts |
+| Above ₹1,00,000 | **Landlord's PAN** mandatory |
+| Above ₹1,00,000 | Rent agreement generally required by employers |
+| From FY 2026-27 | **Form 124** (replacing Form 12BB) requires disclosure of your **relationship with the landlord** |
+
+That last point is a deliberate anti-abuse measure. Paying rent to a parent is legally permissible (the parent must actually own the property and must declare the rental income), but it is now explicitly disclosed and is a known audit trigger. Paying rent to a spouse is generally not accepted.
+
+### If you receive no HRA
+
+**Section 134 (formerly 80GG)** allows a deduction for rent paid where no HRA is received: the least of ₹5,000/month, 25% of total income, or rent paid minus 10% of total income. Old regime only. Not available if you, your spouse, or your minor child own residential property at the place of work.
+
+---
+
+## 5.4 Leave Travel Allowance (LTA)
+
+**Old regime only.**
+
+- Exempt against **actual travel expenditure** on tickets for domestic travel only. International travel does not qualify.
+- Covers you, spouse, children, and dependent parents/siblings.
+- Covers **travel fare only**, not hotels, food, local transport or sightseeing.
+- Claimable **twice in a block of four calendar years**. The current block is **2026–2029**.
+- One unclaimed journey can be carried into the first year of the next block.
+- Air travel is restricted to economy class on the shortest route; rail to first-class AC.
+
+Unclaimed LTA is paid out as fully taxable salary.
+
+---
+
+## 5.5 Relocation
+
+This is the component most often mis-structured.
+
+| Form | Taxable? |
+|---|---|
+| **Reimbursement of actual relocation expenses against bills** | **Not taxable** |
+| **Lump-sum "relocation allowance"** with no bill requirement | **Fully taxable** at slab rate |
+
+**What is covered by a genuine reimbursement:**
+- Packing, moving and transportation of household goods
+- Transit insurance on goods
+- Travel fare for you and your family to the new location
+- Temporary accommodation for a reasonable initial period (commonly 15–30 days)
+- Brokerage on securing new accommodation, where the employer's policy covers it
+- Car transportation
+
+**What is not:**
+- Any surplus paid to you that you keep
+- Ongoing rent after the temporary period (that is HRA territory)
+- Loss on sale of assets at the old location
+
+**Available in both regimes**, because this is a reimbursement of employer-directed expenditure, not a Chapter VI-A deduction.
+
+**Practical points:** keep every invoice; ask whether your employer's vendor bills the company directly (cleanest); and check whether the relocation carries its own clawback (many do).
+
+---
+
+## 5.6 Transport, cab and conveyance
+
+A frequently-confused set of three different things.
+
+| Arrangement | Treatment |
+|---|---|
+| **Employer-provided cab or bus between home and office** | **Not a taxable perquisite.** Employer-arranged transport for commuting is excluded from perquisite valuation. Available in both regimes. |
+| **Transport / conveyance allowance in cash** | **Taxable.** The blanket ₹1,600/month exemption was withdrawn when the standard deduction was introduced. |
+| **Conveyance reimbursement for official travel** | **Not taxable** against actual bills for travel in the performance of duties (client visits, official trips), not the daily commute. |
+| **Transport allowance for employees with specified disabilities** | Exempt up to **₹3,200/month**; this exemption survives in **both** regimes |
+| **Employer-owned car provided to you** | Taxable perquisite valued under the Rules; the value depends on engine capacity, whether a driver is provided, and whether use is official, personal or both |
+
+The upshot: **a company cab is worth more after tax than the equivalent cash.** ₹8,000/month of cab facility costs you nothing; ₹8,000/month of transport allowance costs you ₹2,400–₹2,900 in tax at a 30% marginal rate.
+
+---
+
+## 5.7 Meal cards and food
+
+- Free or subsidised meals provided at the workplace, or through **non-transferable electronic meal vouchers** usable only at eating establishments, are exempt up to **₹200 per meal** from FY 2026-27 (previously ₹50).
+- Assuming two meals per working day over roughly 22 working days, that is around **₹8,800/month**, against roughly ₹2,200/month under the old limit.
+- Tea, coffee and non-alcoholic beverages during working hours are exempt without limit.
+- Cash paid in lieu of meals is fully taxable.
+- **Available in both regimes.**
+
+This is now a materially larger benefit than it was, and Indian employers are actively restructuring meal-card components upward in response.
+
+---
+
+## 5.8 Telephone and internet
+
+- Reimbursement of **telephone, mobile and broadband bills for official use** is not a taxable perquisite, under the perquisite valuation rules.
+- The requirement is **actual bills in your name** submitted to the employer. A fixed monthly "telephone allowance" with no bill requirement is taxable.
+- There is no statutory rupee cap, but the amount must be reasonable relative to your role. Employers typically set internal limits of ₹1,000–₹3,000/month.
+- **Available in both regimes.**
+
+---
+
+## 5.9 Children's education and hostel
+
+| Item | FY 2026-27 exemption |
+|---|---|
+| Children's education allowance | **₹3,000 per month per child**, maximum 2 children |
+| Children's hostel expenditure allowance | **₹9,000 per month per child**, maximum 2 children |
+
+Combined, that is up to **₹2,88,000 per year** for two children in hostels, against ₹9,600 under the old limits. This is one of the largest proportional increases in the new Rules.
+
+Separately, and only in the **old regime**, **tuition fees** paid for up to two children qualify within the ₹1.5 lakh Section 123 (80C) basket.
+
+---
+
+## 5.10 Gifts, vouchers and other items
+
+| Item | Treatment FY 2026-27 |
+|---|---|
+| **Non-cash gifts, vouchers, hampers** | Exempt up to **₹15,000 per year** (was ₹5,000). Cash gifts are fully taxable regardless of amount. |
+| **Uniform allowance** | Exempt against actual expenditure on a uniform required to be worn on duty |
+| **Books and periodicals reimbursement** | Not taxable against bills for professional books, journals, and (as employers commonly apply it) technical courses and certifications |
+| **Professional development / certification** | Not taxable where the employer pays or reimburses training directly connected to your duties |
+| **Laptop, phone, equipment provided for use** | Not a taxable perquisite while owned by the employer. If transferred to you, valued at written-down value under the Rules; computers depreciate at 50% per year on WDV for this purpose |
+| **Employer-provided accommodation** | Taxable perquisite, valued by population of the city and whether the property is owned or leased by the employer |
+| **Interest-free or concessional employer loan** | Taxable perquisite measured against SBI's lending rate. Exempt where the total of all such loans does not exceed ₹20,000, and for medical treatment of specified diseases up to **₹2,00,000** from FY 2026-27 |
+| **Employer's contribution to EPF, NPS, superannuation** | Exempt individually, but the **aggregate above ₹7,50,000 per year is a taxable perquisite**, as is the annual accretion on the excess |
+| **Group health / term life / accident premium paid by employer** | Not a taxable perquisite |
+| **Leave encashment during service** | Fully taxable |
+| **Leave encashment at retirement or resignation** | Exempt up to **₹25,00,000** lifetime, non-government employees |
+| **Gratuity** | Exempt up to **₹20,00,000** lifetime, non-government employees |
+
+---
+
+## 5.11 Which of these survive in the new regime
+
+This is the practical summary most people want.
+
+### Survives in **both** regimes
+
+- Standard deduction (₹75,000 new / ₹50,000 old)
+- Employer's NPS contribution: up to 14% of Basic+DA
+- Employer-provided cab / bus for commuting
+- Meal vouchers up to ₹200/meal
+- Telephone and internet reimbursement against bills
+- Relocation reimbursement against bills
+- Children's education (₹3,000/month/child) and hostel (₹9,000/month/child) allowance
+- Gift vouchers up to ₹15,000/year
+- Uniform, books and periodicals, professional development against bills
+- Transport allowance for employees with specified disabilities (₹3,200/month)
+- Gratuity (₹20 lakh) and leave encashment on exit (₹25 lakh)
+- Employer's EPF contribution, within the ₹7.5 lakh aggregate cap
+- Home loan interest on a **let-out** property
+
+### Old regime **only**
+
+- HRA exemption
+- LTA exemption
+- Section 123 (80C): ₹1.5 lakh basket
+- Section 124(1)/(1B): your own NPS contributions
+- Section 126 (80D): health insurance
+- Section 129 (80E): education loan interest
+- Section 133 (80G): donations
+- Section 153 (80TTA/80TTB): deposit interest
+- Home loan interest on a **self-occupied** property (₹2 lakh)
+- Professional tax paid
+
+---
+
+## 5.12 What the increases are worth
+
+Meal vouchers, gift vouchers, children's education and hostel allowance together moved from a combined ceiling of roughly ₹22,000 a year to roughly ₹4,00,000 a year for an employee with two children in hostels. For an engineer without children, the meaningful increase is meal vouchers: roughly ₹79,000 a year of newly-exempt value, worth about ₹24,000 in tax at a 30% marginal rate.
+
+None of it is claimable in your return. Every item in the "both regimes" list is a line someone in payroll has to put on your payslip, and headroom your employer has not used is worth nothing to you. Whether your employer restructures to use these headroom limits is a payroll decision, not a tax one. It is a reasonable thing to ask HR about.

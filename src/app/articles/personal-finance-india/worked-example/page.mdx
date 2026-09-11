@@ -1,0 +1,269 @@
+export const metadata = {
+  title: `6. Worked Example: ₹18 Lakh CTC, End to End`,
+  description: `One offer letter, structured under the Labour Codes, taxed under both regimes, reduced to a monthly bank credit.`,
+}
+
+# 6. Worked Example: ₹18 Lakh CTC, End to End
+
+*One offer letter, structured under the Labour Codes, taxed under both regimes, reduced to a monthly bank credit.*
+
+---
+
+**A ₹18,00,000 CTC in Bengaluru, taxed under the new regime, credits ₹14,07,483 to a bank account over the year — 78.2% of the headline figure.** The missing 21.8% is not one thing: roughly a third of it is tax, and the rest is your own money, held in EPF and gratuity where you cannot spend it. The steps below derive that figure, and then vary the structure to show what moves it.
+
+---
+
+<ChapterIndex slug="worked-example" />
+
+## The setup
+
+- **CTC:** ₹18,00,000
+- **Location:** Bengaluru
+- **Rent paid:** ₹30,000/month
+- **Regime:** computed both ways
+- **Year:** FY 2026-27 (Tax Year 2026-27)
+- **Employer pays PF on full Basic** (not restricted to the ₹15,000 ceiling)
+- **No employer NPS** in the base case; a variant with NPS follows
+
+All figures are annual unless stated.
+
+---
+
+## Step 1: CTC breakdown
+
+Under the Code on Wages, **Basic + DA must be at least 50% of remuneration**. So Basic is set at ₹9,00,000.
+
+| Component | Amount | Cash to you? |
+|---|---:|---|
+| Basic salary | ₹9,00,000 | Yes |
+| House Rent Allowance (40% of Basic) | ₹3,60,000 | Yes |
+| Special allowance (residual) | ₹3,76,710 | Yes |
+| **Gross salary** | **₹16,36,710** | |
+| Employer PF contribution (12% of Basic) | ₹1,08,000 | No: goes to EPF |
+| Gratuity provision (4.81% of Basic) | ₹43,290 | No: payable at 5 years |
+| Group health + term life + accident premium | ₹12,000 | No: buys cover |
+| **Total CTC** | **₹18,00,000** | |
+
+**First observation: ₹1,63,290 of the ₹18,00,000 (just over 9%) never appears as cash in any month.** It is real value, but it is not spendable.
+
+---
+
+## Step 2: New regime tax
+
+Under the new regime, HRA is fully taxable and there are no Chapter VI-A deductions to claim. The employer's PF contribution is not taxable (well within the ₹7.5 lakh aggregate cap); the gratuity provision is not taxable now; the insurance premium is not a perquisite.
+
+<Ledger
+  rows={[
+    ['Gross salary', 1636710],
+    ['Standard deduction', -75000],
+    ['Total income', 1561710, 'subtotal'],
+    ['Tax computation', null, 'heading'],
+    ['₹0 – ₹4,00,000 @ 0%', 0, 'detail'],
+    ['₹4,00,000 – ₹8,00,000 @ 5%', 20000, 'detail'],
+    ['₹8,00,000 – ₹12,00,000 @ 10%', 40000, 'detail'],
+    ['₹12,00,000 – ₹15,61,710 @ 15%', 54257, 'detail'],
+    ['Tax before cess', 114257, 'subtotal'],
+    ['Rebate u/s 156: not available (income > ₹12L)', 0],
+    ['Health & education cess @ 4%', 4570],
+    ['Total tax', 118827, 'total'],
+  ]}
+/>
+
+Monthly TDS ≈ **₹9,902**
+
+---
+
+## Step 3: Old regime tax
+
+To make the comparison fair, assume this person actually uses the old regime's deductions:
+
+**HRA exemption**: Bengaluru, at 50% of salary for FY 2026-27:
+
+<Ledger
+  title="Least of three"
+  rows={[
+    ['Actual HRA received', 360000],
+    {
+      label: 'Rent paid − 10% of Basic = ₹3,60,000 − ₹90,000',
+      amount: 270000,
+      note: 'least',
+    },
+    ['50% of Basic', 450000],
+    ['HRA exemption', 270000, 'result'],
+  ]}
+/>
+
+**Full deduction stack:**
+
+| Deduction | Amount |
+|---|---:|
+| Standard deduction | ₹50,000 |
+| HRA exemption | ₹2,70,000 |
+| Section 123 (80C): EPF ₹1,08,000 + ELSS ₹42,000 | ₹1,50,000 |
+| Section 124(1B) (80CCD(1B)): NPS | ₹50,000 |
+| Section 126 (80D): health insurance | ₹25,000 |
+| Professional tax paid | ₹2,400 |
+| **Total** | **₹5,47,400** |
+
+<Ledger
+  title="Old regime"
+  rows={[
+    ['Gross salary', 1636710],
+    ['Deductions', -547400],
+    ['Total income', 1089310, 'subtotal'],
+    ['Tax computation', null, 'heading'],
+    ['₹0 – ₹2,50,000 @ 0%', 0, 'detail'],
+    ['₹2,50,000 – ₹5,00,000 @ 5%', 12500, 'detail'],
+    ['₹5,00,000 – ₹10,00,000 @ 20%', 100000, 'detail'],
+    ['₹10,00,000 – ₹10,89,310 @ 30%', 26793, 'detail'],
+    ['Tax before cess', 139293, 'subtotal'],
+    ['Cess @ 4%', 5572],
+    ['Total tax', 144865, 'total'],
+  ]}
+/>
+
+---
+
+## Step 4: The comparison
+
+| | New regime | Old regime |
+|---|---:|---:|
+| Total income | ₹15,61,710 | ₹10,89,310 |
+| Tax payable | **₹1,18,827** | **₹1,44,865** |
+| Extra cash you must lock away to get there | ₹0 | ₹92,000 (ELSS ₹42,000 + NPS ₹50,000) |
+
+**The new regime is ₹26,038 cheaper**, and it does not require locking ₹92,000 into three-year and until-age-60 instruments.
+
+### The break-even, computed
+
+How much would this person need in deductions for the old regime to draw level?
+
+<Ledger
+  rows={[
+    ['Match new-regime tax before cess of', 114257],
+    ['Old-regime tax reaches ₹1,12,500 at total income of', 1000000],
+    ['Remaining ₹1,757 at 30% → further income of', 5857],
+    ['Required total income', 1005857, 'subtotal'],
+    ['Deductions required = ₹16,36,710 − ₹10,05,857', 630853, 'total'],
+  ]}
+/>
+
+**₹6.31 lakh of total deductions**, versus the ₹5.47 lakh actually available. The gap of ₹83,000 would need to come from somewhere: a home loan (up to ₹2 lakh of interest under Section 22), senior-citizen parents' health insurance (a further ₹50,000 under Section 126), or education loan interest under Section 129.
+
+**The general pattern for an early-career engineer:** without a home loan, the old regime rarely wins.
+
+---
+
+## Step 5: Monthly in-hand (new regime)
+
+| Line | Monthly |
+|---|---:|
+| Basic | ₹75,000 |
+| HRA | ₹30,000 |
+| Special allowance | ₹31,393 |
+| **Gross monthly** | **₹1,36,393** |
+| Less: Employee PF (12% of Basic) | −₹9,000 |
+| Less: TDS | −₹9,902 |
+| Less: Professional tax (Karnataka) | −₹200 |
+| **NET CREDIT TO BANK** | **₹1,17,291** |
+
+**Annual in-hand: ₹14,07,483** — gross ₹16,36,710 less employee PF, tax and professional tax. **That is 78.2% of the ₹18,00,000 CTC.**
+
+### Where the other 21.8% went
+
+| Destination | Annual | Is it lost? |
+|---|---:|---|
+| Income tax + cess | ₹1,18,827 | Yes |
+| Professional tax | ₹2,400 | Yes |
+| Employee PF | ₹1,08,000 | No: your money, in EPF at 8.25% |
+| Employer PF | ₹1,08,000 | No: your money, in EPF at 8.25% |
+| Gratuity provision | ₹43,290 | Only if you leave before 5 years |
+| Insurance premium | ₹12,000 | No: buys cover worth far more |
+| **Total** | **₹3,92,517** | |
+
+**₹2,71,290 of that ₹3,92,517 (69% of it) is still yours.** It is simply illiquid. The genuinely lost portion is the ₹1,21,227 of tax.
+
+This is the number to compare across offers: not CTC, and not even in-hand alone, but **in-hand + employer statutory contributions + realistic equity value**.
+
+---
+
+## Step 6: Variant: what employer NPS does
+
+Suppose the employer offers NPS under Section 124(2) at 10% of Basic, restructured *within* the same ₹18 lakh CTC (which is how most Indian employers implement it: the special allowance shrinks).
+
+| Component | Base case | With employer NPS |
+|---|---:|---:|
+| Basic | ₹9,00,000 | ₹9,00,000 |
+| HRA | ₹3,60,000 | ₹3,60,000 |
+| Special allowance | ₹3,76,710 | ₹2,86,710 |
+| **Gross taxable salary** | **₹16,36,710** | **₹15,46,710** |
+| Employer NPS (10% of Basic) | n/a | ₹90,000 |
+| Employer PF | ₹1,08,000 | ₹1,08,000 |
+| Gratuity + insurance | ₹55,290 | ₹55,290 |
+| **CTC** | **₹18,00,000** | **₹18,00,000** |
+
+<Ledger
+  title="With employer NPS"
+  rows={[
+    ['Gross taxable salary', 1546710],
+    ['Standard deduction', -75000],
+    ['Total income', 1471710, 'subtotal'],
+    ['Tax computation', null, 'heading'],
+    ['₹4L–8L @ 5%', 20000, 'detail'],
+    ['₹8L–12L @ 10%', 40000, 'detail'],
+    ['₹12L–14.72L @ 15%', 40757, 'detail'],
+    ['Tax before cess', 100757, 'subtotal'],
+    ['Cess @ 4%', 4030],
+    ['Total tax', 104787, 'total'],
+  ]}
+/>
+
+| | Without NPS | With employer NPS |
+|---|---:|---:|
+| Tax | ₹1,18,827 | **₹1,04,787** |
+| **Tax saved** | | **₹14,040** |
+| Monthly in-hand | ₹1,17,291 | ₹1,10,961 |
+| Cash diverted to NPS | ₹0 | ₹90,000 |
+
+**Section 124(2) is the only significant deduction still available in the new regime.** It is capped at 14% of Basic + DA; at this Basic, that would be ₹1,26,000, saving roughly ₹19,600 in tax.
+
+The trade-off is stated plainly: **₹90,000 of spendable cash becomes ₹90,000 locked until age 60, and you save ₹14,040 in tax for making the swap.** Whether that is worthwhile depends on whether you would have saved that ₹90,000 anyway, and on how much you value liquidity, not on the tax figure alone.
+
+---
+
+## Step 7: The same CTC, structured badly
+
+For contrast: the same ₹18,00,000 under a **pre-Labour-Code structure** with Basic at 35% of CTC.
+
+| Component | 35% Basic (old style) | 50% Basic (Labour Codes) |
+|---|---:|---:|
+| Basic | ₹6,30,000 | ₹9,00,000 |
+| HRA (40% of Basic) | ₹2,52,000 | ₹3,60,000 |
+| Special allowance | ₹8,00,097 | ₹3,76,710 |
+| Gross salary | ₹16,82,097 | ₹16,36,710 |
+| Employer PF | ₹75,600 | ₹1,08,000 |
+| Gratuity provision | ₹30,303 | ₹43,290 |
+| Insurance | ₹12,000 | ₹12,000 |
+| **CTC** | **₹18,00,000** | **₹18,00,000** |
+| Employee PF (monthly) | ₹6,300 | ₹9,000 |
+| **Monthly in-hand (new regime, approx.)** | **₹1,23,152** | **₹1,17,291** |
+| **Annual to EPF (both sides)** | **₹1,51,200** | **₹2,16,000** |
+
+Monthly cash falls by **₹5,861**. Annual EPF accumulation rises by **₹64,800**. Gratuity entitlement rises by about 43%.
+
+That is the Labour Codes in one table: **same CTC, less cash now, materially more deferred savings.** It is not optional, and it is worth understanding before concluding that your take-home "went down for no reason."
+
+---
+
+## What to take from this
+
+1. **CTC overstates your income by roughly 17–22%** at this level, before tax: 17.9% under the 35%-Basic structure of Step 7, 21.8% under the 50%-Basic structure of Steps 1–5.
+2. **Most of the gap is not lost**: about two-thirds of it is your own money sitting in EPF and gratuity.
+3. **The new regime wins for the default early-career case**: renting, no home loan, ordinary deductions.
+4. **Employer NPS is the one lever that still works** under the new regime, and it converts cash into a locked retirement asset rather than creating value from nothing.
+5. **Structure matters as much as quantum.** The same ₹18 lakh produces different cash, different EPF, and different gratuity depending on how it is split.
+
+---
+
+This example uses one set of assumptions. To run it on your own CTC, basic percentage, rent and deductions, use the [salary calculators](/articles/personal-finance-india/calculator).
+

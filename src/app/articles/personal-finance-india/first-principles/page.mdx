@@ -1,0 +1,250 @@
+export const metadata = {
+  title: `1. First Principles`,
+  description: `The mechanics that hold regardless of jurisdiction, with Indian numbers substituted.`,
+}
+
+# 1. First Principles
+
+*The mechanics that hold regardless of jurisdiction, with Indian numbers substituted.*
+
+---
+
+<ChapterIndex slug="first-principles" />
+
+## 1.1 Compounding
+
+A ₹20,000 monthly SIP for 20 years at 12% turns **₹48 lakh of contributions into roughly ₹2.00 crore**. The same ₹48 lakh contributed at 8.25% produces roughly **₹1.22 crore**. Same money in, same discipline, ₹78 lakh of difference, arising entirely from the rate.
+
+That is compounding, and it is the mechanism by which every other decision in this document either helps or hurts you. It is worth stating precisely rather than rhetorically.
+
+If a sum grows at rate *r* per period for *n* periods, its multiple is:
+
+```
+multiple = (1 + r) ^ n
+```
+
+In a spreadsheet: `=POWER(1+rate, years)`.
+
+The rate sits in the base and time sits in the exponent, which is why those two dominate every other variable in this document.
+
+### What Indian rates actually produce
+
+| Years | At 7.1% (PPF) | At 8.25% (EPF) | At 12% (equity index, long-run) |
+|---:|---:|---:|---:|
+| 5 | 1.41× | 1.49× | 1.76× |
+| 10 | 1.99× | 2.21× | 3.11× |
+| 15 | 2.80× | 3.28× | 5.47× |
+| 20 | 3.94× | 4.88× | 9.65× |
+| 30 | 7.83× | 10.79× | 29.96× |
+| 40 | 15.54× | 23.83× | 93.05× |
+
+The 12% figure is not a promise. The Nifty 50 Total Return Index delivered a 20-year annualised return of **12.44%** for the period ending 27 February 2026, and the 20-year CAGR has historically ranged between roughly 8.7% and 13.2%. It has also spent multi-year stretches below zero. Twelve percent is a long-run historical anchor, not an entitlement.
+
+### The Rule of 72
+
+Divide 72 by the annual compound rate to approximate the years required to double.
+
+| Rate | Years to double |
+|---:|---:|
+| 7.1% (PPF) | ~10.1 |
+| 8.25% (EPF) | ~8.7 |
+| 12% (equity, long-run) | ~6.0 |
+| 42% (credit card revolving) | ~1.7 |
+
+That last row is the one to hold on to. The same arithmetic that builds a retirement corpus over four decades destroys a balance sheet over eighteen months when the sign flips.
+
+### Why starting early dominates
+
+Because the exponent is time, contributions made early are multiplied by a larger factor than contributions made late. In most retirement models, money saved between ages 25 and 35 produces more terminal wealth than everything saved between 35 and 65.
+
+The ₹78 lakh above is a difference of rate; this is a difference of timing. At 12%, ₹20,000 a month from 25 to 35 — ₹24 lakh of contributions, then nothing further — is worth roughly **₹16.7 crore** at 65. ₹20,000 a month from 35 to 65, ₹72 lakh of contributions, is worth roughly **₹7.1 crore**. Three times the money, started ten years later, finishes at under half. Both figures are nominal rupees forty years out; the ratio between them is the point, not the level.
+
+---
+
+## 1.2 APR is not APY
+
+**APR** — *annual percentage rate* — is the periodic rate multiplied out over a year, with compounding ignored. **APY** — *annual percentage yield*, also called the *effective annual rate* — is what that same periodic rate actually produces once interest starts earning interest within the year.
+
+Two loans quoting the same headline rate can therefore cost different amounts, because the quoted figure may or may not include that within-year compounding.
+
+```
+APR = periodic rate × number of periods per year        (simple)
+APY = (1 + periodic rate) ^ periods − 1                 (compound)
+```
+
+A credit card charging **3.5% per month** quotes an APR of **42%**. Its APY — the rate you actually pay — is:
+
+```
+(1.035)^12 − 1 = 51.1%
+```
+
+Nine percentage points that do not appear in the advertisement.
+
+**Where this bites in India specifically:**
+
+- **Credit cards** quote a monthly rate. Multiply by 12 for APR, compound for the real number.
+- **Fixed deposits** quote an annual rate but compound quarterly. A 7.00% FD compounded quarterly yields `(1 + 0.07/4)^4 − 1 = 7.19%` effective.
+- **Home loans** quote an annual rate applied monthly on a reducing balance. The *effective* cost is close to the quoted rate, but see §11 for what the total interest outflow actually looks like.
+- **"Flat rate" personal loans and auto loans**: occasionally still advertised; they compute interest on the original principal for the entire tenure, not the reducing balance. A "6% flat" loan over 3 years has an effective reducing-balance rate of roughly 11%. Always ask whether a quoted rate is flat or reducing.
+
+---
+
+## 1.3 Savings rate
+
+```
+Savings = Income − Spending
+```
+
+This single line dominates everything downstream, and the commonly-quoted targets (10%, 15%) have no mathematical basis: 10% is round-number preference, 15% is back-solved from a set of American assumptions about working life, returns, wage inflation, and an 80% income replacement goal.
+
+The structurally interesting point is that **saving helps twice**:
+
+1. It increases the capital available to compound.
+2. It lowers the lifestyle that the eventual corpus must sustain, which lowers the target itself.
+
+The second effect is the one people miss. Someone spending ₹6 lakh a year needs a far smaller corpus than someone spending ₹18 lakh a year, and the difference is not linear in effort.
+
+### India-specific pressures on savings rate
+
+| Pressure | Mechanism |
+|---|---|
+| **Forced savings already exist** | EPF removes 12% of Basic+DA before you see it, and the Labour Codes raised Basic. Your *measured* savings rate is higher than your *voluntary* one. Count it. |
+| **Variable pay is not salary** | A 10–20% variable component paid annually is routinely spent before it arrives. If it lands and is not spent, it is a large one-shot addition to savings rate. |
+| **Family obligations** | Indian household finance frequently includes transfers to parents or siblings that Western frameworks do not model. These are real, recurring, and belong in the budget as a fixed line, not as an irregular surprise. |
+| **Lifestyle is sticky, income is not** | Tech compensation in India rose steeply through 2021–22 and flattened after. Expenses established at peak income do not retreat on their own. |
+| **Weddings** | Frequently the largest single discretionary outflow in an Indian engineer's twenties or thirties, and often partly funded by others. It belongs in the goals framework (§14), not the monthly budget. |
+
+---
+
+## 1.4 Liquidity
+
+**Liquidity is how fast you can convert an asset into spendable cash without moving its price against you.**
+
+Put plainly: *liquidity is the only thing that matters when you need to pay for something.* You cannot settle a hospital bill with an appreciating flat.
+
+Two independent properties are routinely conflated:
+
+- **Safety**: will the value hold?
+- **Liquidity**: can you get to it?
+
+They are not the same. A 5-year tax-saving FD is safe and *illiquid*; it cannot be broken at all before maturity. Shares in a listed company are liquid and volatile. Unlisted ESOPs in a private company are neither safe nor liquid.
+
+### The Indian liquidity ladder
+
+| Instrument | Time to cash | Notes |
+|---|---|---|
+| Savings account | Instant | 2.5%–7.5% p.a. depending on bank and balance slab |
+| Sweep-in / flexi FD | Instant | Auto-breaks in units; earns FD rate on the swept portion |
+| Liquid mutual fund | T+1; up to ₹50,000/day instant redemption | ~6.25%–7% recent 1-year returns |
+| Bank FD | Same day, with penalty | Premature withdrawal penalty typically 0.5%–1% |
+| Equity mutual fund | T+2 to T+3 | Plus exit load if within the load period |
+| EPF | Weeks; only on permitted grounds | Advances allowed for specified purposes only |
+| PPF | 15-year lock-in | Partial withdrawal from year 7; loan from year 3 |
+| NPS Tier I | Age 60 | Partial withdrawal of up to 25% of *own* contributions after 3 years, specified grounds only |
+| ELSS | 3-year lock-in per instalment | Each SIP instalment locks separately |
+| Tax-saving FD | 5-year lock-in | Cannot be broken |
+| Unlisted ESOPs | Until a liquidity event | May never occur |
+| Residential property | Months | Plus 5–8% transaction cost on exit |
+
+Note that several of the highest-return, most tax-favoured Indian instruments are also the most illiquid. That is not a coincidence; it is the price of the tax treatment.
+
+---
+
+## 1.5 The emergency fund
+
+The practical expression of the need for liquidity.
+
+- **Purpose:** protect long-term assets and plans from short-term shocks, so that a job loss or a medical event does not force you to sell equity at a bad price or borrow at 42%.
+- **Standard sizing:** 3–6 months of *expenses* (not income). Sized from the impact of losing employment; Indian tech hiring cycles have not been reliably short since 2022, and senior roles take longer to replace than junior ones.
+- **Where it lives:** liquidity and safety dominate. Return is not the objective and optimising for it defeats the purpose.
+- **Discipline:** first goal to fill, first to refill after use, and not to be tapped for planned expenses. A wedding is not an emergency; a wedding is a goal with a known date.
+
+This is a deliberate, useful application of *mental accounting* — treating fungible money as ring-fenced buckets — normally a bias but here harnessed on purpose.
+
+---
+
+## 1.6 Net worth and the personal balance sheet
+
+```
+Net worth = Assets − Liabilities
+```
+
+Distinct from cash flow, and routinely confused with it. A high salary is cash flow. Net worth is a stock.
+
+**Assets**: anything with economic value:
+
+- *Financial*: bank balances, FDs, mutual funds, stocks, bonds, EPF, PPF, NPS, gold ETFs
+- *Real*: property, physical gold, vehicles (depreciating)
+- *Receivable*: money genuinely owed to you
+
+**Liabilities**: financial obligations:
+
+- Home loan, education loan, auto loan, personal loan
+- Credit card outstanding
+- Tax liability accrued but unpaid, including, for engineers, **the perquisite tax due on RSUs that have vested but not been sold**
+
+Two useful variants:
+
+- **Total net worth**: everything.
+- **Liquid net worth**: excludes the primary residence and its mortgage, plus other illiquid holdings. Often the more honest number for someone whose flat is 80% of the balance sheet.
+
+### The Indian additions
+
+Three items belong on an Indian engineer's balance sheet that a US template omits:
+
+1. **EPF and EPS balances.** Visible in the EPFO member passbook against your UAN. EPS is a pension entitlement, not a withdrawable balance; carry it separately.
+2. **Unvested equity is not an asset.** Vested-but-unsold equity is, at its post-tax value. Unvested equity is a conditional future claim.
+3. **Gold.** Frequently held physically, frequently inherited, frequently uncounted. It is an asset. Value it at market less making charges lost.
+
+---
+
+## 1.7 The personal income statement
+
+The flow counterpart to the balance sheet: income, expenses and savings over a defined period.
+
+- **Best source for income:** your payslip. Not your offer letter; the offer letter states CTC, which includes money you never touch (see §2).
+- **Best source for expenses:** the last three months of bank and card statements, averaged. Do not construct a budget from intention; construct it from evidence, then decide what to change.
+- **Do not forget annual and irregular items:** insurance premiums, festival spending, travel home, professional certifications, advance tax instalments if you have non-salary income.
+
+### Budgeting
+
+A budget is a breakdown of spending by category. One durable framework is Elizabeth Warren's **Needs / Wants / Savings-and-Debt**, popularised as 50/30/20, with the explicit caveat that those three numbers are unlikely to be yours.
+
+- **Needs**: keeping a roof over your head, staying safe, healthy, and able to work.
+- **Wants**: all other consumption.
+- **Savings and debt**: debt repayment above the minimum, emergency fund, long-term goals.
+
+Two empirical findings worth knowing:
+
+- The act of constructing a budget by itself reduces spending, independent of whether the budget is followed.
+- A category budget can function as a licence to spend up to it. A ₹15,000 monthly clothing allocation tends to produce ₹15,000 of clothing spending: the label converts available money into assigned money. That is **mental accounting** running against you rather than for you.
+
+---
+
+## 1.8 Humans are not rational
+
+This material transfers without modification. The mechanisms are human, not jurisdictional.
+
+| Bias | Mechanism | How it shows up for an Indian engineer |
+|---|---|---|
+| **Anchoring** | Estimates are dragged toward an available reference point | Refusing to sell a stock "until it gets back to what I paid." The purchase price is information about the past, not the future. |
+| **Mental accounting** | Money is fungible; humans bucket it anyway | Running a ₹2 lakh "travel fund" at 3% while carrying a ₹80,000 credit card balance at 42%. |
+| **Confirmation bias** | Selectively seeking supporting evidence | Reading only bullish coverage of a stock you already own. |
+| **Hindsight bias** | Overestimating past predictability | "Obviously that IPO was going to fall." It was not obvious; you are reconstructing. |
+| **Gambler's fallacy** | Seeing pattern in independent events | "The index has fallen four days running, it's due for a bounce." Days are close to independent. |
+| **Herd behaviour** | Mimicking the group | Every colleague buying the same small-cap fund, the same city's property, the same token. Crowd psychology contributes to bubbles, and it is easier to be wrong with everyone than right alone. |
+| **Overconfidence** | Competence in one domain leaking into another | The most India-specific hazard on this list. Being excellent at distributed systems produces no edge in equity selection, but reliably produces the belief that it does. |
+| **Recency and availability bias** | Overweighting recent and easily-recalled data | Checking portfolio value daily. Studies consistently show frequent price-checking increases trading and worsens returns. |
+| **Loss aversion** | Losses hurt roughly 2–3× more than equivalent gains please | Holding a losing position to avoid realising the loss; refusing to switch out of a poorly-performing fund because switching makes the loss "real." |
+
+The useful conclusion: **it is fine not to be rational.** Humans are *predictably* irrational, which means the flaws can be engineered around. Reduce the frequency at which you look. Write down the rule before the moment arrives. And automate the decisions you would make badly under pressure.
+
+### Automation
+
+The single highest-leverage structural change: move money before you see it.
+
+- Standing instruction from salary account to investments on the day after payday.
+- Auto-debit SIPs dated 1st–3rd of the month.
+- Increase the SIP amount when salary increases, before the increment reaches your spending.
+
+Opt-out beats opt-in; automatic escalation beats manual escalation. Money not seen is less likely to be spent. EPF already works this way, which is precisely why it accumulates.

@@ -1,14 +1,155 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import groupCard from '@/images/articles/iiit-blog/group-card.webp'
+import sellLeetcode from '@/images/articles/iiit-blog/sell-leetcode.webp'
+import sellKeyboard from '@/images/articles/iiit-blog/sell-keyboard.webp'
+import sellAirpods from '@/images/articles/iiit-blog/sell-airpods.webp'
+import sellRcb from '@/images/articles/iiit-blog/sell-rcb.webp'
+import theClick from '@/images/articles/iiit-blog/the-click.webp'
+import newCommunity from '@/images/articles/iiit-blog/new-community.webp'
 
 export const article = {
   author: 'Hardik Mittal',
   date: '2025-07-11',
   title: `The IIIT Blog`,
   description: `My experiences and thoughts about the IIITH community`,
-  url: 'https://www.notion.so/mhardik003/The-IIIT-blog-22dd8dc5aac3801ca171cccfb067cf37',
 }
 
 export const metadata = {
   title: article.title,
   description: article.description,
 }
+
+{/*
+  Takes `children` only. The Spotlight template's idiom here is
+  `(props) => <ArticleLayout article={article} {...props} />`, but MDX spreads
+  the page's props into the layout — including `searchParams`. Forwarding that
+  into `ArticleLayout` (a client component) serializes a dynamic API across the
+  boundary and drops the route out of static prerendering: it builds as `ƒ`
+  instead of `○`, with no error. Every other route on this site is static.
+*/}
+
+export default ({ children }) => (
+  <ArticleLayout article={article}>{children}</ArticleLayout>
+)
+
+*~ 11th July afternoon*
+
+Hi, so for those of you who don't know me, I am Hardik, a UG2k21 dual degree CLD student. I had been interested in tech and entrepreneurship from the first year of college, learnt from many sources, made connections with CIE people, got some mentors to help me in case I ever wanted to build something. Thought and ideated about a LOT of ideas, but due to some or the other problems, all the ideas never seemed good enough to put my 100% into and thus nothing as such materialised.
+
+During one of these ideation sessions, Arjun Mihika and I were sitting in Kadamb and I was telling about this idea where the problem with Olx type models is the issue of trustability amongst people, like I am very sure there is so much random waste stuff people have at homes that they want to get away with, but dont want to throw either and ofc on the other spectrum of it is the very likely probability that a person in a small proximity of distance would be looking for the exact same thing. So the idea for Olx was perfect to capture that, but due to the trust issue, there is always the reluctance to buy something 2nd hand from a person you do not know at all. Thus, my small addition to the idea was that we can make Olx groups for societies and communities, that they can only see about things being sold between the group of people they know or atleast trust to be living in the same society as you do. The idea seemed good, but while deciding the revenue model we realised, that technically a whatsapp group can solve this problem.
+
+So just to do a pilot study of making a whatsapp group about this, and observing what problems people would face, which we can then work on to make a revenue model around solving those problems.
+
+And thus in that corner of Kadamb at a table during dinner, the IIIT community was made.
+
+Initially, I just put **Buy Sell Rent@IIITH**, **Lost and Found @IIITH**, **Spam@IIITH** and added a dp for Buy Sell Rent
+
+<Figure
+  src={groupCard}
+  alt="WhatsApp group card for Buy Sell Rent @ IIITH, showing 1,024 members"
+  narrow
+/>
+
+and shared the link in different batch groups, seniors, juniors, ours.
+
+And waited.
+
+My friend texts me, "Bro I have these extra AA batteries I want to sell, can you put it in the group?". I asked him to start the convo himself because someone had to, and he did and then after then the momentum started building, with the randomest, funniest things being sold.
+
+We shared the community link, midway through the meal. Every 30 seconds, 20-30 people joining from all batches. By the time we were finished there were around 200 participants already. We reach back to OBH and the groups are already a little active.
+
+Over the next week a lot more people had joined, the fun parts to watch were, where one person from a friend group, in the next few hours all the other people from their friend group were also in xD. After this, growth stagnated a bit for around a month with around 700-800 people in the community and around 500 people in the groups. We realised that some people just do not know that this community exists in college, and thus we shared the links again and followed by another boost in numbers reaching around 1500-1600 members. This is when I had to make **Buy Sell Rent - 2 @IIITH**, **Lost and found 2 @ IIITH**. Realised how much people actually lose things xD.
+
+While I was pretty sure that this was going good, I wanted to check if it is just something special about our IIIT community that it is thriving or is it actually a good problem to solve. I asked my friends in other colleges to try the same. None of them worked out. *Yes, it was something about our IIIT community*, one of the best facts about the small size of IIIT, literally knowing almost all faces on campus and thus the trust. Everyone in the community had grown so comfortable with each other that people started to sell much more different type of things over time. The trust kept on building. Whereas, other colleges, no one wanted to try to open up.
+
+Again members stagnated but now the community was strong enough so I didn't have to worry about it collapsing. Then the next batch of freshers came and the community reached around 1900 members.
+
+New groups started to pop out from recommendations of people
+
+- **The Lets' Groups** - Let's talk cricket, Let's talk football, Let's talk spirituality, Let's talk Food!, Let's talk Movies, Let's talk F1, Let's talk Music, Let's Talk Gym!🏋️, Let's Talk Running🏃 and 10 more. Yes, it is cute that people are opening about things and will be able to make more friends, but didn't notice much activity in any of those groups ever.
+- **Cab Sharing @ IIITH** - Copied from the previous Facebook IIIT groups. Loved the *normal distribution* in the number of messages just after endsems and back when the sem started. Otherwise, round the year - almost dry. The problem with this group was during these peak times, the inflow of messages was a lot to keep track of who is going where at what time to find someone who you can share a cab with. OSDG came up with a website to solve this issue where anyone can register the source destination and time and someone else can just search and it showed the matching results for a window of time. The idea seemed nice, but I knew in the long run it might not work. The problem? WhatsApp was just too convenient, that extra effort of opening a website, logging in, was puffff. Added the link to the website in the group description, a few people registered on the website at that time but after that week, the activity died out. The group's activity? Remained constant.
+- **Grocery OrderPooling** - asked by a senior to be made, to skip paying delivery costs for zepto/instamart/blinkit, by ordering together and passing that free delivery threshold. always saw only his message in the group when he ordered. guess people are not comfortable enough to share things from instamart together xD (or could be just the distance between the hostels, reducing the probability to 1/3rd)
+- **Mess Buy Sell @ IIITH, Mess Buy Sell - 2 @ IIITH** - Initially named by mistake as Mess Buy Sell Rent @ IIITH until pointed out by someone. This was one of the best examples of fastest growth/change and adaptability I have seen in a community to something so new but so well. In the earlier IIIT mess system the students had to swipe their id cards or put fingerprints to get plates in the mess. But then after a revamp of the system where a group of freshers made an awesome website, where now we had to scan QRs to avail the meals. This made sharing of meals so much easier among students (especially with the functionality in the website to change your QR anytime). Just in 1st week of implementation of this system, messages started to come in the Buy Sell Rent Groups, of people selling their meals. In the start, a little mocked but then came to become more common as it somehow worked. Grew to an extent that 50% of the messages on the buy sell rent group were of people selling their mess meals. Vinkesh texted and asked to make a new group for this asap. Made this group and it grew full in no time. It actually became a pretty helpful thing, especially for people like 5th years who had mess exemption and of course for friends changing plans for friends hehe. This group alone made much more students to join the community.
+
+  A rather unplanned yet a new trend that emerged was, adding a tick to your sell order, once sold, to reduce the number of false hits, later got mildly adopted into the buy sell rent group as well. Although this was majorly necessary for the mess buy sell rent due to good number of messages and at peak times (during mess hours)
+
+  **Some cute statistics** - lowest prices on all Yuktahar meals, lowest ratio of `buying orders / selling orders` was for the breakfast meals, highest ratio of `buying orders / selling orders` on Kadamb biryani day.
+
+  Also, thanks to this group, the community was also saved. (stick on to later to know why)
+
+- **Plant Adoption :)** - Bipasha, I and the whole mental health volunteers team decided to do a plant adoption drive. The idea was good but we know that a problem will occur once the holidays start. We thought we shall convince college to give us a small space where students can just keep their plants during the summers and collect back later, but it never materialised, plus the idea of misplacing your plant or someone else taking it didn't sound good. We kept on delaying of this execution until the summer of 2025, until students started leaving and asking us what to do with the plant. This is when Bipasha made this group for others who are on campus and know how to take care of plants and can take care of them until the person came back from holidays.
+- **Buy Sell Rent - 2, Buy Sell Rent - 3** : Extensions of buy sell rent groups since the limit for a group was also 1024, and people joined multiple groups and thus 3 groups.
+
+  Very fun trend to see was during coldplay concert in 2025, students sold soooo many tickets over there xD. another one was people get combo offers from restaurants and then selling the other half on the group.
+
+Some funny buys and sells -
+
+<FigureGrid>
+  <Figure
+    src={sellLeetcode}
+    alt="Group chat: someone asks for a free alternative to LeetCode, gets told Neetcode, then another message requests sharing a LeetCode subscription"
+  />
+  <Figure
+    src={sellAirpods}
+    alt="Listing for replica AirPods Pro 2 at 3k negotiable, followed by the seller dropping the price to 2k"
+  />
+  <Figure
+    src={sellKeyboard}
+    alt="Listing for an HP wireless keyboard and mouse at 900, above the linked MRP of 1675, with the reply 'Effect of offline OAs'"
+  />
+  <Figure
+    src={sellRcb}
+    alt="A listing reading '[SELL] RCB for $2 billion' quoting a news post about the team's potential sale, with a reply about waiting for a lower valuation"
+  />
+</FigureGrid>
+
+- **Flat and Flatmates @ IIITH** - Not a very active group, given it is not related to students but alumnis.
+- **Jobs | Internships | Freelancing @IIITH, Jobs | Internships | Freelancing - 2 @IIITH** - Had made a TON of connections on linkedin during intern season, just for the fun of it. no insta during the semester meant scrolling linkedin during boredom, which is where I started getting posts about internships from local startups and companies. Made a group and started sharing updates there which the community also responded to nicely. Really happy for those who actually got something from these \<3.
+- **Infra | Science, Tech, Finance, Entrepreneurship etc**. - A similar group was in another not so open community, but I loved the discussions over there. Made this for all the students to discuss whatever thoughts they have in mind. Love the discussions that happen there.
+
+After a month we realised there is a small issue. We were trying to merge a few other standalone groups from College in the community which were nice and have a lot of activity like **Shutterbugs@IIITH** (the photography sharing group), **Share@Music** (music club's group), but weren't able to. On learning, we got to know that we can't do this because upon merging them, the unique number of members in the community will exceed 2048, which isn't allowed by WhatsApp. The max limit to unique members in the community is 2048. There was no hurry to merge the groups but I knew this is gonna be a problem since not all the students of the college are in the community yet and it won't accommodate all of them this way. Over the few weeks, the increase in numbers was slow, so I forgot about the problem.
+
+Around 2025 start, people started texting that they weren't able to join groups. The issue was the same, the community had got full. Although a major chunk of students of the college were in the community since the strength itself was ~2500. But I knew a next batch of students is also going to come soon and they wouldn't be able to join the community at all.
+
+For the time being, (i accept not the best thing to do), I started removing seniors who graduated back in july last year, so that the current students who are in college, who actually can get help out from these groups, can get access to the groups (no senior would come to sell something to hyderabad). Managed to remove around 80-90 people, who I knew were seniors. But knew, this wasn't a sustainable idea either since the size of batches were increasing each year.
+
+That is when the ideation started again, whether to use discord or telegram or teams or making our own hosted app. Nothing materialised because we knew that things can't be the same on any other problem, since people are sooo used to opening whatsapp for every other tasks, the slight glance to the group is enough to get some activity, while opening another app for this thing is a big wall to cross each time. One of the ideas that we were actually considering because that sounded the most viable was making another afresh community and share the link of it to people. But it would just have been a little messy and complex and not scalable or durable over time.
+
+**PS :** Thanks to all of those who helped in ideation and giving ideas \<3.
+
+**FINALLY**, why this blog came to idea in the first place. Last week (today is July 11 2025), I got 5-6 messages from some interns during the summer to be added to mess buy sell, was a little busy and I knew I won't be able to add them so I didn't give it much of a thought. Until one night, I came back to room from lab and thought about it. For the time being I thought, the ideal solution was to make another group for all of them to join and sending an announcement on the community that please join this group if you are on campus as of now and you can share your meals there. While talking on the group, someone asked why can't they be added to the community if the other buy sell rent group had 500ish members but the limit of the group of 1024. Meanwhile I was explaining to the other person that it is not about the group but about the community. You can't join the community since the community is full and thus you can't join the group either. This is when someone suggested to separate that group from that community.
+
+<Figure
+  src={theClick}
+  alt="The WhatsApp thread where someone explains that a group inside a full community cannot accept new members, and suggests removing the group from the community"
+/>
+
+AND\
+THERE\
+IT\
+FINALLY\
+CLICKED.
+
+It still didn't sound the bestest of the option but I knew this would work out. I made another community, separated all the groups from the previous community which weren't full and were in the 2's or 3's (mess buy sell, buy sell, lost and found, internships) and added them back to the new community.
+
+The result?
+
+<Figure
+  src={newCommunity}
+  alt="WhatsApp Web showing the groups removed from the old community on one side and the new community's group list on the other"
+/>
+
+The new community now had 1313 members, so there was well enough capacity for others to join and stay connected to the community.
+
+**Why it struck as the best viable idea?**
+
+- If we make another community, students will have to join the groups of that community separately, thus having too many redundant groups too.
+- Now I didn't have to remove the seniors, which felt nice as they still were part of the IIIT community
+- Although ofc I am not sure about it but this is how the communities will be made following into the future if this pattern is followed. Now the IIITH community has a mix of students who were there together at a time in the campus. The newer batches were the ones who joined the new groups like Buy sell rent - 3, Mess buy sell - 2 etc. Thus the previous og groups will just have seniors and their known juniors. The newer ones will have the same pattern but for the lower batches. Thus on a community level, the people who we actually saw around in the college, still shall remain with us together in this tightknit safe community. Hopefully people continue to message here even after they graduate \<3
+  - Thus now after every 2 years a new community can be just made and the previous communities are just a space for a whole batch of batches of people who were in college at a time.
+
+---
+
+I tried my best to keep everyone happy, listen to suggestions, keep the community a safe happy place. OFCOURSE, this blog, this community, these memories wouldn't be here without the IIIT COMMUNITY ❤️. Over time I just realised, places dont matter at all, it's the people who we make memories with and I feel being part of this community people made so much more memories. I know this is just a hyped up version from my head, but to me this community was my little startup of which I really am proud.
+
+Thank you IIITH for being such a comfortable homely place even after all those Quora posts.

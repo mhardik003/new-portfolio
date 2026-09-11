@@ -1,0 +1,561 @@
+- generic [ref=f3e6]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Home" [ref=f3e7] [cursor=pointer]:
+                  - /url: /
+                - button "Menu" [ref=f3e9] [cursor=pointer]
+                - button "Toggle theme" [ref=f3e13] [cursor=pointer]
+  - main [ref=f3e16]:
+    - generic [ref=f3e22]:
+      - group [ref=f3e23]:
+        - generic "Contents (16 chapters)" [ref=f3e24] [cursor=pointer]
+      - generic [ref=f3e25]:
+        - generic [ref=f3e26]:
+          - heading "Personal Finance for Engineers in India" [level=1] [ref=f3e27]
+          - paragraph [ref=f3e28]:
+            - emphasis [ref=f3e29]:
+              - text: A structured reference, current as of
+              - strong [ref=f3e30]: 12 August 2026
+              - text: (Financial Year 2026-27, the first year under the new
+              - strong [ref=f3e31]: Income-tax Act, 2025
+              - text: ).
+          - separator [ref=f3e32]
+          - heading "What this is, and why it exists" [level=2] [ref=f3e33]
+          - paragraph [ref=f3e34]: "A structured reference on money for salaried engineers in India: how compensation, tax, provident fund, pension, insurance, credit and investing actually work, stated as rules and numbers rather than opinions."
+          - paragraph [ref=f3e35]: It exists because Indian engineering education produces excellent engineers and says nothing about what happens after the offer letter. At 21 or 22 you are handed the largest sum of money you have ever controlled, along with a payslip carrying a dozen line items nobody explains. The first real decisions (tax regime, PF, insurance, where the monthly investment goes) all fall due inside your first ninety days, which is precisely when you know least about them.
+          - paragraph [ref=f3e36]:
+            - text: None of this is secret. It is badly
+            - emphasis [ref=f3e37]: distributed
+            - text: . It sits in EPFO circulars, gazette notifications, SEBI regulations and PFRDA amendments, and everywhere else it has been rewritten into blog posts that contradict one another and mostly predate the current statute. Nobody in the chain has the job of telling you, either. HR administers policy rather than advising on it; banks, distributors and agents are sellers and are paid as sellers; your parents' instincts were formed around different instruments, a different inflation rate and a different tax code.
+          - paragraph [ref=f3e38]: So the aim is narrow. Collect the actual rules in one place, in the order an engineer meets them, with the arithmetic worked rather than asserted, and keep it short enough to read in an afternoon.
+          - paragraph [ref=f3e39]:
+            - text: The
+            - emphasis [ref=f3e40]: principles
+            - text: of personal finance are universal; compounding does not care which passport you hold. The
+            - emphasis [ref=f3e41]: instruments
+            - text: are not. A 401(k) is not an EPF account. A Roth IRA has no Indian equivalent at all. FICO is not CIBIL. The US mortgage-interest deduction works nothing like Section 24(b), which was itself renumbered to Section 22 four months ago. This book keeps the universal skeleton and rebuilds every organ around Indian law.
+          - paragraph [ref=f3e42]:
+            - strong [ref=f3e43]: "Who it is for:"
+            - text: salaried engineers in India. It is most valuable in the first few years, when the decisions are cheapest to get right, though the reference chapters apply at any stage. If you are self-employed, on a foreign payroll, or an NRI, the principles hold but several of the specific rules do not.
+          - paragraph [ref=f3e44]:
+            - strong [ref=f3e45]: "Attribution:"
+            - text: the conceptual framing, topic ordering and several analytical devices derive from
+            - emphasis [ref=f3e46]: Personal Finance for Engineers
+            - text: (CS 007) by Adam Nash & Stanford University, published for non-commercial use at
+            - link "cs007.blog" [ref=f3e47] [cursor=pointer]:
+              - /url: http://cs007.blog
+            - text: .
+          - separator [ref=f3e48]
+          - heading "Contents" [level=2] [ref=f3e49]
+          - paragraph [ref=f3e50]: Sixteen chapters, a calculator and two reference pages, ordered the way an Indian engineer actually encounters these things, not the way a textbook organises them.
+          - 'heading "Part I: The ground rules" [level=3] [ref=f3e51]'
+          - paragraph [ref=f3e52]:
+            - strong [ref=f3e53]:
+              - link "1. First principles" [ref=f3e54] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/first-principles
+            - text: Compounding, the Rule of 72, APR versus APY, savings rate, liquidity, the personal balance sheet and income statement, and the cognitive biases that reliably defeat all of the above.
+          - 'heading "Part II: Getting paid" [level=3] [ref=f3e55]'
+          - paragraph [ref=f3e56]:
+            - strong [ref=f3e57]:
+              - link "2. Decoding an Indian offer letter" [ref=f3e58] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/offer-letter
+            - text: CTC versus gross versus in-hand. Every component and which ones are real cash. The Labour Codes' 50%-basic rule and what it did to your take-home. Joining bonuses, clawbacks, notice periods, and what is actually negotiable.
+          - paragraph [ref=f3e59]:
+            - strong [ref=f3e60]:
+              - link "3. Equity compensation" [ref=f3e61] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/equity-compensation
+            - text: ESOPs, RSUs, ESPPs. The two-point taxation model. Foreign parent shares and Schedule FA. The deferral available to employees of eligible DPIIT-recognised start-ups. What happens to unvested equity when you leave.
+          - 'heading "Part III: Tax" [level=3] [ref=f3e62]'
+          - paragraph [ref=f3e63]:
+            - strong [ref=f3e64]:
+              - link "4. Old regime vs new regime, FY 2026-27" [ref=f3e65] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/tax-regimes
+            - text: Both slab tables, the ₹60,000 rebate, marginal relief, surcharge, cess. The break-even calculation done from first principles. The Income-tax Act 2025 renumbering map.
+          - paragraph [ref=f3e66]:
+            - strong [ref=f3e67]:
+              - link "5. Salary structuring, allowances and perquisites" [ref=f3e68] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/salary-structuring
+            - text: HRA, LTA, relocation, company cab, meal cards, telephone and internet, children's education and hostel allowance, gift vouchers, uniform, books. The raised FY 2026-27 limits. Which of these survive in the new regime, and which do not.
+          - paragraph [ref=f3e69]:
+            - strong [ref=f3e70]:
+              - 'link "6. Worked example: ₹18 lakh CTC, end to end" [ref=f3e71] [cursor=pointer]':
+                - /url: /articles/personal-finance-india/worked-example
+            - text: One salary, structured under the Labour Codes, taxed under both regimes, reduced to a monthly in-hand figure with every deduction shown.
+          - paragraph [ref=f3e72]:
+            - strong [ref=f3e73]:
+              - link "Salary calculators" [ref=f3e74] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/calculator
+            - text: "The same arithmetic, run on your numbers: CTC to in-hand under both regimes, the break-even deduction total, an EPF projection and gratuity."
+          - generic [ref=f3e75]:
+            - heading "Tax Regime Break-even Explorer" [level=3] [ref=f3e76]
+            - paragraph [ref=f3e77]: FY 2026-27 slabs. Standard deduction is applied for you — ₹75,000 in the new regime, ₹50,000 in the old.
+            - generic [ref=f3e78]:
+              - generic [ref=f3e79]:
+                - generic [ref=f3e80]: "Gross salary (annual): ₹15.0L"
+                - 'slider "Gross salary (annual): ₹15.0L" [ref=f3e81]': "1500000"
+              - generic [ref=f3e82]:
+                - generic [ref=f3e83]: "Old-regime deductions (80C, HRA, 80D…): ₹2.0L"
+                - 'slider "Old-regime deductions (80C, HRA, 80D…): ₹2.0L" [ref=f3e84]': "200000"
+            - generic [ref=f3e87]:
+              - paragraph [ref=f3e88]:
+                - text: At ₹15.0L gross with ₹2.0L of declared deductions, the
+                - strong [ref=f3e89]: new regime
+                - text: saves you
+                - generic [ref=f3e90]: ₹97,500
+                - text: in tax.
+              - paragraph [ref=f3e91]: The old regime only catches up past roughly ₹5,44,000 of declared deductions at this salary.
+          - 'heading "Part IV: The mandatory savings layer" [level=3] [ref=f3e92]'
+          - paragraph [ref=f3e93]:
+            - strong [ref=f3e94]:
+              - link "7. EPF, EPS, Form 11, VPF and gratuity" [ref=f3e95] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/epf-eps-form-11
+            - text: "The full mechanics of provident fund. What Form 11 actually does, and what it does not. The Para 26(6) joint declaration: the real mechanism for contributing above the wage ceiling. Why VPF is never matched. Taxation of PF interest above ₹2.5 lakh. The five-year rule. EPS pension arithmetic."
+          - paragraph [ref=f3e96]:
+            - strong [ref=f3e97]:
+              - link "8. NPS" [ref=f3e98] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/nps
+            - text: Tier I and Tier II. Asset classes E, C, G and A. Auto versus active choice. The three deduction sections and which survive in the new regime. The December 2025 exit amendment and the tax mismatch it created.
+          - 'heading "Part V: Protection" [level=3] [ref=f3e99]'
+          - paragraph [ref=f3e100]:
+            - strong [ref=f3e101]:
+              - link "9. Insurance" [ref=f3e102] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/insurance
+            - text: "What your offer letter's group cover actually gives you and where it stops. Term life mechanics and sizing. Health insurance mechanics: sum insured, room rent limits, waiting periods, co-pay, restoration, super top-up, portability. Personal accident cover. The GST change of September 2025. Section 126 (formerly 80D)."
+          - 'heading "Part VI: Debt and credit" [level=3] [ref=f3e103]'
+          - paragraph [ref=f3e104]:
+            - strong [ref=f3e105]:
+              - link "10. Credit cards and CIBIL" [ref=f3e106] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/credit-cards-cibil
+            - text: Billing cycle and grace period, why revolving is arithmetically brutal, the RBI rules that changed in 2026, how a CIBIL score is constructed, and the rewards-versus-interest arithmetic.
+          - paragraph [ref=f3e107]:
+            - strong [ref=f3e108]:
+              - link "11. Loans and getting out of debt" [ref=f3e109] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/loans-and-debt
+            - text: Education, personal, auto and home loans. Amortisation shown with real numbers. Secured versus unsecured. Avalanche versus snowball. Prepayment mechanics and when banks charge for it.
+          - 'heading "Part VII: Investing" [level=3] [ref=f3e110]'
+          - paragraph [ref=f3e111]:
+            - strong [ref=f3e112]:
+              - link "12. Investing" [ref=f3e113] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/investing
+            - text: Asset classes and their historical behaviour. Mutual fund categories. Direct versus regular plans and what the difference costs over twenty years. Index funds and ETFs. SIP mechanics. Complete FY 2026-27 taxation. Diversification and rebalancing.
+          - paragraph [ref=f3e114]:
+            - strong [ref=f3e115]:
+              - link "13. Fixed income, small savings and gold" [ref=f3e116] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/fixed-income-and-gold
+            - text: Fixed and recurring deposits, DICGC cover, TDS thresholds. PPF, NSC, SSY, SCSS and current rates. Bonds. Gold after the discontinuation of Sovereign Gold Bonds. Crypto and other Virtual Digital Assets.
+          - 'heading "Part VIII: Goals and life" [level=3] [ref=f3e117]'
+          - paragraph [ref=f3e118]:
+            - strong [ref=f3e119]:
+              - link "14. Goals, real estate and family" [ref=f3e120] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/goals-and-real-estate
+            - text: Emergency funds, projecting a goal, rent versus buy with Indian rental yields, home loan tax treatment, joint finances, nomination versus will.
+          - heading "Reference" [level=3] [ref=f3e121]
+          - paragraph [ref=f3e122]:
+            - strong [ref=f3e123]:
+              - link "15. The numbers page" [ref=f3e124] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/numbers
+            - text: Every limit, rate, threshold and deadline referenced anywhere in this document, in one table, with the date each was last verified. Plus a glossary and full source list.
+          - paragraph [ref=f3e125]:
+            - strong [ref=f3e126]:
+              - link "16. Forms, schemes and official links" [ref=f3e127] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/forms-and-links
+            - text: "Every portal and form in one place: where to activate your UAN, file EPF e-nomination, open NPS, pull all four credit reports, check a RERA registration, verify an advisor, and complain to the right regulator. Plus the old → new form number map and a one-time setup checklist."
+          - paragraph [ref=f3e128]: If you would rather have the argument for spending an afternoon on this before you start reading it, the rest of this page is that argument.
+          - separator [ref=f3e129]
+          - heading "One question, ₹86,400 a year" [level=2] [ref=f3e130]
+          - generic [ref=f3e135]:
+            - heading "The Overlooked ₹86,400 Gap" [level=4] [ref=f3e136]
+            - generic [ref=f3e137]:
+              - paragraph [ref=f3e138]: "There is a question you can put to your employer's payroll team that takes about fifteen seconds to ask:"
+              - blockquote [ref=f3e139]:
+                - paragraph [ref=f3e140]:
+                  - emphasis [ref=f3e141]: "\"Does the company contribute PF on my full Basic, or does it restrict to the ₹15,000 statutory ceiling?\""
+              - paragraph [ref=f3e142]:
+                - text: At a Basic of ₹75,000 a month, the two possible answers are
+                - strong [ref=f3e143]: ₹7,750
+                - text: and
+                - strong [ref=f3e144]: ₹550
+                - text: of employer contribution. The gap is
+                - strong [ref=f3e145]: ₹86,400 a year
+                - text: — employer money, in your name, in an account that has paid 8.25% for four consecutive years. Both answers are perfectly legal. Neither appears anywhere on your CTC breakup, so nothing in your offer letter tells you which one you are getting.
+              - paragraph [ref=f3e146]: Most engineers never ask. Not out of carelessness — the question is only obvious once you know the ceiling exists, and nobody is paid to tell you.
+          - paragraph [ref=f3e147]: That is the shape of almost everything in this document.
+          - separator [ref=f3e148]
+          - heading "The same shape, a dozen times over" [level=2] [ref=f3e149]
+          - paragraph [ref=f3e150]: Every row below is a single moment. None takes more than a few minutes. Each has a default that is chosen for you if you say nothing, and the default is rarely the branch that favours you.
+          - table [ref=f3e152]:
+            - rowgroup [ref=f3e153]:
+              - row [ref=f3e154]:
+                - columnheader "The moment" [ref=f3e155]
+                - columnheader "The wrong branch costs" [ref=f3e156]
+            - rowgroup [ref=f3e157]:
+              - row [ref=f3e158]:
+                - cell [ref=f3e159]:
+                  - text: Ticking
+                  - strong [ref=f3e160]: regular
+                  - text: instead of
+                  - strong [ref=f3e161]: direct
+                  - text: on a mutual fund form
+                - cell [ref=f3e162]:
+                  - strong [ref=f3e163]: ~₹17 lakh
+                  - text: "over 20 years on a ₹20,000 SIP: identical fund, identical manager, identical holdings ("
+                  - link "§12.4" [ref=f3e164] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/investing
+                  - text: )
+              - row [ref=f3e165]:
+                - cell "Not asking about PF on full Basic before signing" [ref=f3e166]
+                - cell [ref=f3e167]:
+                  - strong [ref=f3e168]: ₹86,400 a year
+                  - text: of employer contribution at a ₹75,000 Basic (
+                  - link "§7.2" [ref=f3e169] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+              - row [ref=f3e170]:
+                - cell "Parking a 20-year goal at 8.25% instead of a long-horizon 12%" [ref=f3e171]
+                - cell [ref=f3e172]:
+                  - strong [ref=f3e173]: ₹78 lakh
+                  - text: "on the same ₹48 lakh contributed: ₹2.00 crore against ₹1.22 crore ("
+                  - link "§1.1" [ref=f3e174] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/first-principles
+                  - text: )
+              - row [ref=f3e175]:
+                - cell [ref=f3e176]:
+                  - text: Paying the
+                  - emphasis [ref=f3e177]: minimum due
+                  - text: on a card instead of the full amount
+                - cell [ref=f3e178]:
+                  - text: ₹1,00,000 revolved becomes
+                  - strong [ref=f3e179]: ₹1,40,800 paid and ₹54,400 still owing
+                  - text: after three years (
+                  - link "§10.3" [ref=f3e180] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/credit-cards-cibil
+                  - text: )
+              - row [ref=f3e181]:
+                - cell "Resigning at 4 years 11 months" [ref=f3e182]
+                - cell [ref=f3e183]:
+                  - text: The
+                  - strong [ref=f3e184]: entire gratuity
+                  - text: ", forfeited: ₹43,290 a year of accrued CTC at a ₹9 lakh Basic ("
+                  - link "§7.10" [ref=f3e185] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+              - row [ref=f3e186]:
+                - cell "Withdrawing PF between jobs instead of transferring it" [ref=f3e187]
+                - cell [ref=f3e188]:
+                  - text: Resets the 5-year clock, making the withdrawal
+                  - strong [ref=f3e189]: taxable
+                  - text: ", and resets the 10-year EPS clock ("
+                  - link "§7.7" [ref=f3e190] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+              - row [ref=f3e191]:
+                - cell [ref=f3e192]:
+                  - text: Letting the bank apply a home-loan prepayment to the
+                  - strong [ref=f3e193]: EMI
+                - cell [ref=f3e194]:
+                  - text: Reducing the
+                  - strong [ref=f3e195]: tenure
+                  - text: instead saves substantially more interest. Most lenders default to the other one (
+                  - link "§11.6" [ref=f3e196] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/loans-and-debt
+                  - text: )
+              - row [ref=f3e197]:
+                - cell "Choosing a 20-year tenure over 15 on a ₹50 lakh home loan" [ref=f3e198]
+                - cell [ref=f3e199]:
+                  - strong [ref=f3e200]: ₹14,36,160
+                  - text: of additional interest, for ₹5,962 a month of relief (
+                  - link "§11.3" [ref=f3e201] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/loans-and-debt
+                  - text: )
+              - row [ref=f3e202]:
+                - cell [ref=f3e203]:
+                  - text: Never asking whether your employer offers
+                  - strong [ref=f3e204]: NPS as a payroll component
+                - cell [ref=f3e205]:
+                  - text: Up to
+                  - strong [ref=f3e206]: ₹39,312 a year
+                  - text: in tax at a ₹9 lakh Basic, and it is the only significant deduction that survives in the new regime (
+                  - link "§8.4" [ref=f3e207] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/nps
+                  - text: )
+          - paragraph [ref=f3e208]:
+            - text: None of this is about earning more, picking better stocks, or working harder. Not one row rewards effort. Each rewards
+            - strong [ref=f3e209]: knowing that a second branch exists
+            - text: ", at the one moment the branch is available."
+          - generic [ref=f3e211]:
+            - heading "The Cost of Delayed Investing" [level=3] [ref=f3e212]
+            - generic [ref=f3e213]:
+              - generic [ref=f3e214]:
+                - generic [ref=f3e215]: "Monthly Contribution: ₹10,000"
+                - slider [ref=f3e216]: "10000"
+              - generic [ref=f3e217]:
+                - generic [ref=f3e218]: "Time Horizon: 20 Years"
+                - slider [ref=f3e219]: "20"
+            - paragraph [ref=f3e222]:
+              - text: Over 20 years, the 5% difference in return creates a gap of
+              - strong [ref=f3e223]: ₹47,51,825
+              - text: . Modest return differences compound exponentially over time.
+          - heading "Why the timing carries most of the value" [level=3] [ref=f3e224]
+          - paragraph [ref=f3e225]: The rows above are not evenly valuable across a career. Almost every one of them has a window, and the window closes.
+          - list [ref=f3e226]:
+            - listitem [ref=f3e227]:
+              - text: Compounding is an exponential in
+              - emphasis [ref=f3e228]: time
+              - text: ", so money saved between 25 and 35 produces more terminal wealth in most retirement models than everything saved between 35 and 65."
+            - listitem [ref=f3e229]: A prepayment in year 2 of a 20-year loan removes far more total interest than the same rupee in year 15, because that is when the outstanding principal is largest.
+            - listitem [ref=f3e230]: Health insurance waiting periods run from the date you buy the policy, not the date you need it.
+            - listitem [ref=f3e231]:
+              - text: The excluded-employee route out of EPF is available at your
+              - strong [ref=f3e232]: first
+              - text: job and never again; membership is sticky (
+              - link "§7.5" [ref=f3e233] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/epf-eps-form-11
+              - text: ).
+            - listitem [ref=f3e234]: ELSS locks each instalment for three years; the ₹1.25 lakh long-term capital gains exemption resets annually and does not carry forward. Both are clocks, not amounts.
+          - paragraph [ref=f3e235]: "None of that is recoverable later by trying harder. Which is the awkward argument for reading this at 23 rather than 33: the material is worth the most precisely when it feels least urgent."
+          - separator [ref=f3e236]
+          - heading "None of this is a loophole" [level=2] [ref=f3e237]
+          - paragraph [ref=f3e238]: Nothing in this document is aggressive, grey-area, or dependent on an advisor. Every mechanism in it is a published rule that has usually been sitting there for years.
+          - paragraph [ref=f3e239]:
+            - text: Paragraph 26(6) of the EPF Scheme has permitted contributions above the wage ceiling since
+            - strong [ref=f3e240]: "1952"
+            - text: . Direct plans have existed since
+            - strong [ref=f3e241]: "2013"
+            - text: . The ₹1.25 lakh annual exemption on long-term equity gains has an annual-reset structure that makes harvesting mechanical arithmetic rather than a strategy. Employer NPS under Section 124(2) is simply a payroll component your company either offers or does not.
+          - paragraph [ref=f3e242]: The reason so little of it gets used is not secrecy. It is that the Indian financial system documents itself in circulars, gazette notifications and FAQ pages, and every default inside it is set to whichever branch requires no action from your employer, your bank, or your fund house.
+          - table [ref=f3e244]:
+            - rowgroup [ref=f3e245]:
+              - row [ref=f3e246]:
+                - columnheader "What you get by default" [ref=f3e247]
+                - columnheader "What is also there, if you go and get it" [ref=f3e248]
+            - rowgroup [ref=f3e249]:
+              - row [ref=f3e250]:
+                - cell "Employer PF on the ₹15,000 ceiling" [ref=f3e251]
+                - cell [ref=f3e252]:
+                  - text: PF on your full Basic, via a
+                  - strong [ref=f3e253]: Para 26(6) joint declaration
+                  - text: (
+                  - link "§7.6" [ref=f3e254] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+              - row [ref=f3e255]:
+                - cell "Regular mutual fund plans, sold to you by a distributor" [ref=f3e256]
+                - cell [ref=f3e257]:
+                  - strong [ref=f3e258]: Direct plans
+                  - text: ": same portfolio, roughly 0.65% a year cheaper ("
+                  - link "§12.4" [ref=f3e259] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/investing
+                  - text: )
+              - row [ref=f3e260]:
+                - cell "Meal cards structured at the old ₹50-per-meal ceiling" [ref=f3e261]
+                - cell [ref=f3e262]:
+                  - strong [ref=f3e263]: ₹200 per meal
+                  - text: "from FY 2026-27: around ₹79,000 a year of newly exempt value ("
+                  - link "§5.7" [ref=f3e264] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/salary-structuring
+                  - text: )
+              - row [ref=f3e265]:
+                - cell [ref=f3e266]:
+                  - text: A relocation
+                  - strong [ref=f3e267]: allowance
+                  - text: ", fully taxable"
+                - cell [ref=f3e268]:
+                  - text: A relocation
+                  - strong [ref=f3e269]: reimbursement
+                  - text: "against bills, not taxable: the same rupee, a different word ("
+                  - link "§5.5" [ref=f3e270] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/salary-structuring
+                  - text: )
+              - row [ref=f3e271]:
+                - cell "No nomination on your EPF, demat account or fund folios" [ref=f3e272]
+                - cell [ref=f3e273]:
+                  - text: Ten minutes of forms that spare your family succession proceedings (
+                  - link "§7.4" [ref=f3e274] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+              - row [ref=f3e275]:
+                - cell "Whichever tax regime payroll assumes for you" [ref=f3e276]
+                - cell [ref=f3e277]:
+                  - text: The one that actually wins at
+                  - emphasis [ref=f3e278]: your
+                  - text: deduction level, computed rather than guessed (
+                  - link "§4.6" [ref=f3e279] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/tax-regimes
+                  - text: )
+              - row [ref=f3e280]:
+                - cell "Old PF sitting dormant under a previous Member ID" [ref=f3e281]
+                - cell [ref=f3e282]:
+                  - text: A transfer that keeps the 5-year and 10-year clocks running (
+                  - link "§7.4" [ref=f3e283] [cursor=pointer]:
+                    - /url: /articles/personal-finance-india/epf-eps-form-11
+                  - text: )
+          - paragraph [ref=f3e284]:
+            - text: The one-time setup checklist (every portal, form and account worth opening once) is at
+            - link "§16" [ref=f3e285] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/forms-and-links
+            - text: .
+          - separator [ref=f3e286]
+          - heading "What this is not" [level=2] [ref=f3e287]
+          - paragraph [ref=f3e288]:
+            - text: This document states
+            - strong [ref=f3e289]: how things work
+            - text: . It does not tell you what to do.
+          - paragraph [ref=f3e290]: "There are no recommended allocations here, no \"best\" funds, no verdict on whether you should rent or buy. Those answers depend on facts a document cannot know: what you pay in rent, whether your parents depend on your income, how secure your team is, whether there is a wedding in two years, whether you have the stomach to keep a SIP running through a 30% drawdown."
+          - paragraph [ref=f3e291]:
+            - text: "What it gives you instead is the raw material for that judgement: the thresholds, the formulas, the section numbers, the deadlines, and the trade-offs stated in"
+            - strong [ref=f3e292]: both
+            - text: directions, so you can weigh them against circumstances only you know. The ₹86,400 above is a real number; whether the locked-until-retirement account it lands in is the right place for your next ₹86,400 is a question about you, not about the EPF Act. This supplies the constraints. You supply the circumstances.
+          - paragraph [ref=f3e293]: Where a widely-repeated belief is factually wrong, this document says so and states the actual rule. There are several such cases, and two of them concern your provident fund.
+          - separator [ref=f3e294]
+          - heading "Why this year is different" [level=2] [ref=f3e295]
+          - paragraph [ref=f3e296]: If you have read anything about Indian personal finance written before April 2026, a meaningful fraction of it is now citing dead law.
+          - table [ref=f3e298]:
+            - rowgroup [ref=f3e299]:
+              - row [ref=f3e300]:
+                - columnheader "What changed" [ref=f3e301]
+                - columnheader "When" [ref=f3e302]
+                - columnheader "Effect" [ref=f3e303]
+            - rowgroup [ref=f3e304]:
+              - row [ref=f3e305]:
+                - cell [ref=f3e306]:
+                  - strong [ref=f3e307]: Income-tax Act, 2025
+                  - text: replaced the Income-tax Act, 1961
+                - cell "1 April 2026" [ref=f3e308]
+                - cell "819 sections became 536. Section numbers changed throughout." [ref=f3e309]
+              - row [ref=f3e310]:
+                - cell [ref=f3e311]:
+                  - strong [ref=f3e312]: "\"Tax Year\""
+                  - text: replaced "Previous Year" and "Assessment Year"
+                - cell "1 April 2026" [ref=f3e313]
+                - cell "One term instead of two. FY 2026-27 is simply Tax Year 2026-27." [ref=f3e314]
+              - row [ref=f3e315]:
+                - cell [ref=f3e316]:
+                  - strong [ref=f3e317]: Form numbers changed
+                - cell "FY 2026-27 onward" [ref=f3e318]
+                - cell [ref=f3e319]:
+                  - text: Form 16 →
+                  - strong [ref=f3e320]: Form 130
+                  - text: . Form 26AS →
+                  - strong [ref=f3e321]: Form 168
+                  - text: . Form 12BB →
+                  - strong [ref=f3e322]: Form 124
+                  - text: . Form 15G/15H →
+                  - strong [ref=f3e323]: Form 121
+                  - text: .
+              - row [ref=f3e324]:
+                - cell [ref=f3e325]:
+                  - strong [ref=f3e326]: Four Labour Codes came into force
+                - cell "21 November 2025" [ref=f3e327]
+                - cell "Basic + DA must be ≥ 50% of remuneration. This changes your payslip." [ref=f3e328]
+              - row [ref=f3e329]:
+                - cell [ref=f3e330]:
+                  - strong [ref=f3e331]: Perquisite limits raised
+                  - text: after decades frozen
+                - cell "FY 2026-27" [ref=f3e332]
+                - cell "Meal vouchers ₹50 → ₹200/meal. Gift vouchers ₹5,000 → ₹15,000/yr." [ref=f3e333]
+              - row [ref=f3e334]:
+                - cell [ref=f3e335]:
+                  - strong [ref=f3e336]: GST on individual life & health insurance
+                  - text: cut to zero
+                - cell "22 September 2025" [ref=f3e337]
+                - cell "Individual policies 18% → 0%. Group policies still 18%." [ref=f3e338]
+              - row [ref=f3e339]:
+                - cell [ref=f3e340]:
+                  - strong [ref=f3e341]: NPS exit rules amended
+                - cell "16 December 2025" [ref=f3e342]
+                - cell "Lump sum at exit raised from 60% to 80%, but the tax law has not caught up." [ref=f3e343]
+          - paragraph [ref=f3e344]:
+            - text: Section numbers in this document are given in the form
+            - strong [ref=f3e345]: "\"Section 123 (formerly 80C)\""
+            - text: so that you can match both the new law and any older material you encounter. Note that your Form 16 for FY 2025-26 (the one you used to file in July 2026) still carries the
+            - emphasis [ref=f3e346]: old
+            - text: numbers. The new numbering first appears on Form 130 for FY 2026-27.
+          - separator [ref=f3e347]
+          - heading "Where you actually stand" [level=2] [ref=f3e348]
+          - paragraph [ref=f3e349]: Before any of the mechanics, one piece of context, because engineers systematically misjudge it.
+          - paragraph [ref=f3e350]:
+            - text: According to the
+            - strong [ref=f3e351]: World Inequality Report 2026
+            - text: ", published by the World Inequality Lab:"
+          - list [ref=f3e352]:
+            - listitem [ref=f3e353]:
+              - text: India's
+              - strong [ref=f3e354]: top 1%
+              - text: holds roughly
+              - strong [ref=f3e355]: 40%
+              - text: of national wealth.
+            - listitem [ref=f3e356]:
+              - text: The
+              - strong [ref=f3e357]: top 10%
+              - text: holds roughly
+              - strong [ref=f3e358]: 65%
+              - text: of national wealth, and receives about
+              - strong [ref=f3e359]: 58%
+              - text: of national income.
+            - listitem [ref=f3e360]:
+              - text: The
+              - strong [ref=f3e361]: bottom 50%
+              - text: receives about
+              - strong [ref=f3e362]: 15%
+              - text: of national income.
+            - listitem [ref=f3e363]:
+              - text: Average income per adult is roughly
+              - strong [ref=f3e364]: ₹6.5 lakh per year
+              - text: and average wealth roughly
+              - strong [ref=f3e365]: ₹29.4 lakh
+              - text: ", both measured at purchasing power parity, and both are"
+              - emphasis [ref=f3e366]: averages
+              - text: ", which in a distribution this skewed sit far above the median."
+          - paragraph [ref=f3e367]:
+            - text: Set against that, entry-level engineering compensation in India in 2026 spans roughly
+            - strong [ref=f3e368]: ₹3.5–6 lakh
+            - text: at large IT services firms,
+            - strong [ref=f3e369]: ₹8–15 lakh
+            - text: at mid-tier product companies, and
+            - strong [ref=f3e370]: ₹15–35 lakh
+            - text: at global capability centres and top-tier product companies. The spread between the bottom quartile and top quartile of campus offers is close to eightfold.
+          - paragraph [ref=f3e371]: "Two consequences follow, and they pull in opposite directions:"
+          - list [ref=f3e372]:
+            - listitem [ref=f3e373]:
+              - strong [ref=f3e374]: A salaried engineering job in India places you far up the national income distribution very early.
+              - text: The decisions you make in your twenties therefore involve real sums, and errors compound for forty years.
+            - listitem [ref=f3e375]:
+              - strong [ref=f3e376]: Your peer group is not the population.
+              - text: If you calibrate spending against colleagues, you are calibrating against roughly the top 1–2% of the country. That is a legitimate choice; it is not a neutral one, and it is worth knowing you are making it.
+          - paragraph [ref=f3e377]: This point is sharper in India than almost anywhere else, because the Indian distribution is considerably more unequal than the ones such comparisons are usually drawn from.
+          - separator [ref=f3e378]
+          - heading "A note on accuracy and expiry" [level=2] [ref=f3e379]
+          - paragraph [ref=f3e380]:
+            - text: Every figure here was verified against public sources in
+            - strong [ref=f3e381]: August 2026
+            - text: ". Indian tax and pension rules change at least annually: Union Budget in February, small-savings rates quarterly, EPF interest rate around March, and, this year, an entirely new tax statute."
+          - paragraph [ref=f3e382]:
+            - text: Three things are
+            - strong [ref=f3e383]: actively in flux
+            - text: "as of August 2026 and are flagged wherever they appear:"
+          - list [ref=f3e384]:
+            - listitem [ref=f3e385]:
+              - text: The
+              - strong [ref=f3e386]: EPF wage ceiling
+              - text: (₹15,000 since 2014) is under revision. The Supreme Court directed a decision within four months in January 2026; reporting suggests ₹25,000 with an effective date around April 2027. Not yet notified.
+            - listitem [ref=f3e387]:
+              - strong [ref=f3e388]: EPS-95 higher pension
+              - text: implementation continues to generate litigation and administrative revision following the Supreme Court judgment of 4 November 2022.
+            - listitem [ref=f3e389]:
+              - strong [ref=f3e390]: NPS exit
+              - text: now permits an 80% lump sum under PFRDA regulations, while the income-tax exemption still covers only 60%. The two have not been reconciled.
+          - paragraph [ref=f3e391]: Do not treat any number here as current beyond the next Union Budget without re-checking it.
+        - navigation "Chapter navigation" [ref=f3e392]:
+          - link "Next First principles" [ref=f3e393] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/first-principles
+            - generic [ref=f3e394]: Next
+            - generic [ref=f3e395]: First principles
+  - contentinfo [ref=f3e396]:
+    - generic [ref=f3e402]:
+      - paragraph [ref=f3e403]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=f3e404]: Last updated in August 2026.

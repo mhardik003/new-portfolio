@@ -1,0 +1,980 @@
+- generic [ref=e6]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Home" [ref=e7] [cursor=pointer]:
+                  - /url: /
+                - navigation [ref=e8]:
+                  - list [ref=e9]:
+                    - listitem [ref=e10]:
+                      - link "About" [ref=e11] [cursor=pointer]:
+                        - /url: /about
+                    - listitem [ref=e12]:
+                      - link "Experience" [ref=e13] [cursor=pointer]:
+                        - /url: /work
+                    - listitem [ref=e14]:
+                      - link "Publications" [ref=e15] [cursor=pointer]:
+                        - /url: /publications
+                    - listitem [ref=e16]:
+                      - link "Projects" [ref=e17] [cursor=pointer]:
+                        - /url: /projects
+                    - listitem [ref=e18]:
+                      - link "Blog" [ref=e19] [cursor=pointer]:
+                        - /url: /articles
+                    - listitem [ref=e20]:
+                      - link "Contact" [ref=e21] [cursor=pointer]:
+                        - /url: /contact
+                - button "Toggle theme" [ref=e23] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e31]:
+      - navigation "Chapters" [ref=e32]:
+        - paragraph [ref=e33]: Personal Finance for Engineers in India
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - paragraph [ref=e36]: Overview
+            - link "Start here" [ref=e37] [cursor=pointer]:
+              - /url: /articles/personal-finance-india
+              - generic [ref=e38]: "00"
+          - listitem [ref=e40]:
+            - paragraph [ref=e41]: The ground rules
+            - link "First principles" [ref=e42] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+              - generic [ref=e43]: "01"
+          - listitem [ref=e45]:
+            - paragraph [ref=e46]: Getting paid
+            - link "Decoding an offer letter" [ref=e47] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/offer-letter
+              - generic [ref=e48]: "02"
+          - listitem [ref=e50]:
+            - link "Equity compensation" [ref=e51] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/equity-compensation
+              - generic [ref=e52]: "03"
+          - listitem [ref=e54]:
+            - paragraph [ref=e55]: Tax
+            - link "Old regime vs new regime" [ref=e56] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/tax-regimes
+              - generic [ref=e57]: "04"
+          - listitem [ref=e59]:
+            - link "Allowances & perquisites" [ref=e60] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/salary-structuring
+              - generic [ref=e61]: "05"
+          - listitem [ref=e63]:
+            - 'link "Worked example: ₹18L CTC" [ref=e64] [cursor=pointer]':
+              - /url: /articles/personal-finance-india/worked-example
+              - generic [ref=e65]: "06"
+          - listitem [ref=e67]:
+            - link "Salary calculators" [ref=e68] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/calculator
+              - generic [ref=e69]: ·
+          - listitem [ref=e71]:
+            - paragraph [ref=e72]: Mandatory savings
+            - link "EPF, EPS, Form 11, gratuity" [ref=e73] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/epf-eps-form-11
+              - generic [ref=e74]: "07"
+          - listitem [ref=e76]:
+            - link "NPS" [ref=e77] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/nps
+              - generic [ref=e78]: "08"
+          - listitem [ref=e80]:
+            - paragraph [ref=e81]: Protection
+            - link "Insurance" [ref=e82] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/insurance
+              - generic [ref=e83]: "09"
+          - listitem [ref=e85]:
+            - paragraph [ref=e86]: Debt & credit
+            - link "Credit cards & CIBIL" [ref=e87] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/credit-cards-cibil
+              - generic [ref=e88]: "10"
+          - listitem [ref=e90]:
+            - link "Loans & getting out of debt" [ref=e91] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/loans-and-debt
+              - generic [ref=e92]: "11"
+          - listitem [ref=e94]:
+            - paragraph [ref=e95]: Investing
+            - link "Investing" [ref=e96] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/investing
+              - generic [ref=e97]: "12"
+          - listitem [ref=e99]:
+            - link "Fixed income, gold & crypto" [ref=e100] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/fixed-income-and-gold
+              - generic [ref=e101]: "13"
+          - listitem [ref=e103]:
+            - paragraph [ref=e104]: Goals
+            - link "Goals, real estate & family" [ref=e105] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/goals-and-real-estate
+              - generic [ref=e106]: "14"
+          - listitem [ref=e108]:
+            - paragraph [ref=e109]: Reference
+            - link "The numbers page" [ref=e110] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/numbers
+              - generic [ref=e111]: "15"
+          - listitem [ref=e113]:
+            - link "Forms, schemes & links" [ref=e114] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/forms-and-links
+              - generic [ref=e115]: "16"
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - heading "14. Goals, Real Estate and Family" [level=1] [ref=e119]
+          - paragraph [ref=e120]:
+            - emphasis [ref=e121]: Indian goals, Indian property economics and Indian succession law.
+          - separator [ref=e122]
+          - navigation "Sections in this chapter" [ref=e123]:
+            - paragraph [ref=e124]: In this chapter
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "What a financial plan is" [ref=e127] [cursor=pointer]:
+                  - /url: "#141-what-a-financial-plan-is"
+                  - generic [ref=e128]: "14.1"
+              - listitem [ref=e130]:
+                - link "Financial advice in India" [ref=e131] [cursor=pointer]:
+                  - /url: "#142-financial-advice-in-india"
+                  - generic [ref=e132]: "14.2"
+              - listitem [ref=e134]:
+                - link "Projecting a goal" [ref=e135] [cursor=pointer]:
+                  - /url: "#143-projecting-a-goal"
+                  - generic [ref=e136]: "14.3"
+              - listitem [ref=e138]:
+                - link "The common goals" [ref=e139] [cursor=pointer]:
+                  - /url: "#144-the-common-goals"
+                  - generic [ref=e140]: "14.4"
+              - listitem [ref=e142]:
+                - link "Real estate — the decision" [ref=e143] [cursor=pointer]:
+                  - /url: "#145-real-estate--the-decision"
+                  - generic [ref=e144]: "14.5"
+              - listitem [ref=e146]:
+                - link "The costs of buying in India" [ref=e147] [cursor=pointer]:
+                  - /url: "#146-the-costs-of-buying-in-india"
+                  - generic [ref=e148]: "14.6"
+              - listitem [ref=e150]:
+                - link "Home loan eligibility" [ref=e151] [cursor=pointer]:
+                  - /url: "#147-home-loan-eligibility"
+                  - generic [ref=e152]: "14.7"
+              - listitem [ref=e154]:
+                - link "Property and tax" [ref=e155] [cursor=pointer]:
+                  - /url: "#148-property-and-tax"
+                  - generic [ref=e156]: "14.8"
+              - listitem [ref=e158]:
+                - link "Rent versus buy, with Indian numbers" [ref=e159] [cursor=pointer]:
+                  - /url: "#149-rent-versus-buy-with-indian-numbers"
+                  - generic [ref=e160]: "14.9"
+              - listitem [ref=e162]:
+                - link "Rental property as an investment" [ref=e163] [cursor=pointer]:
+                  - /url: "#1410-rental-property-as-an-investment"
+                  - generic [ref=e164]: "14.10"
+              - listitem [ref=e166]:
+                - link "Planning with a partner" [ref=e167] [cursor=pointer]:
+                  - /url: "#1411-planning-with-a-partner"
+                  - generic [ref=e168]: "14.11"
+              - listitem [ref=e170]:
+                - link "Nomination is not inheritance" [ref=e171] [cursor=pointer]:
+                  - /url: "#1412-nomination-is-not-inheritance"
+                  - generic [ref=e172]: "14.12"
+              - listitem [ref=e174]:
+                - link "Checklist" [ref=e175] [cursor=pointer]:
+                  - /url: "#1413-checklist"
+                  - generic [ref=e176]: "14.13"
+          - heading "14.1 What a financial plan is" [level=2] [ref=e178]
+          - paragraph [ref=e179]:
+            - text: "The CFP Board's definition:"
+            - emphasis [ref=e180]: "\"the process of determining whether and how an individual can meet life goals through the proper management of financial resources.\""
+          - paragraph [ref=e181]: "Its components:"
+          - list [ref=e182]:
+            - listitem [ref=e183]: Net worth
+            - listitem [ref=e184]: Cash flow analysis
+            - listitem [ref=e185]: Retirement strategy
+            - listitem [ref=e186]: Risk and insurance
+            - listitem [ref=e187]: Investment strategy
+            - listitem [ref=e188]: Tax strategy
+            - listitem [ref=e189]: Estate plan
+          - paragraph [ref=e190]:
+            - strong [ref=e191]: "Why it needs to be explicit:"
+            - text: people spend more than they need to when they lack a specific reason to save. Short-term rewards compete against long-term payoffs, and the long-term payoff needs time to build. Writing the plan down measurably increases the likelihood of following it — and it becomes essential the moment more than one person is involved.
+          - separator [ref=e192]
+          - heading "14.2 Financial advice in India" [level=2] [ref=e193]
+          - paragraph [ref=e194]:
+            - text: The standard warning —
+            - emphasis [ref=e195]: the term "financial advisor" can be used by anyone; be extremely wary
+            - text: — applies with force in India, where the regulatory categories are distinct and the incentives differ sharply.
+          - table [ref=e197]:
+            - rowgroup [ref=e198]:
+              - row [ref=e199]:
+                - columnheader "Category" [ref=e200]
+                - columnheader "Regulator" [ref=e201]
+                - columnheader "How they are paid" [ref=e202]
+                - columnheader "Duty owed" [ref=e203]
+            - rowgroup [ref=e204]:
+              - row [ref=e205]:
+                - cell [ref=e206]:
+                  - strong [ref=e207]: SEBI Registered Investment Adviser (RIA)
+                - cell "SEBI" [ref=e208]
+                - cell [ref=e209]:
+                  - strong [ref=e210]: Fee-only
+                  - text: ", paid by you. Prohibited from earning commission on products they advise on"
+                - cell [ref=e211]:
+                  - strong [ref=e212]: Fiduciary
+              - row [ref=e213]:
+                - cell [ref=e214]:
+                  - strong [ref=e215]: SEBI Registered Portfolio Manager
+                - cell "SEBI" [ref=e216]
+                - cell "Fee on assets managed; minimum investment of ₹50 lakh" [ref=e217]
+                - cell "Fiduciary within the mandate" [ref=e218]
+              - row [ref=e219]:
+                - cell [ref=e220]:
+                  - strong [ref=e221]: Mutual Fund Distributor (ARN holder)
+                - cell "AMFI / SEBI" [ref=e222]
+                - cell [ref=e223]:
+                  - strong [ref=e224]: Commission from the AMC
+                  - text: ", embedded in the regular-plan expense ratio"
+                - cell "Suitability, not fiduciary" [ref=e225]
+              - row [ref=e226]:
+                - cell [ref=e227]:
+                  - strong [ref=e228]: Insurance agent / broker
+                - cell "IRDAI" [ref=e229]
+                - cell [ref=e230]:
+                  - strong [ref=e231]: Commission from the insurer
+                  - text: ", which is highest on the most expensive products"
+                - cell "Suitability" [ref=e232]
+              - row [ref=e233]:
+                - cell [ref=e234]:
+                  - strong [ref=e235]: Bank "relationship manager" / "wealth manager"
+                - cell "Bank's own" [ref=e236]
+                - cell "Salary plus internal sales targets on the bank's distributed products" [ref=e237]
+                - cell "To the employer" [ref=e238]
+          - paragraph [ref=e239]:
+            - strong [ref=e240]: "Two things follow directly from that table:"
+          - list [ref=e241]:
+            - listitem [ref=e242]:
+              - strong [ref=e243]: A "free" advisor is paid by someone.
+              - text: If not by you, then by the product manufacturer, and the commission is highest on the products that cost you most — which is why endowment policies and ULIPs are sold far more often than term insurance.
+            - listitem [ref=e244]:
+              - strong [ref=e245]: Only a SEBI RIA is legally required to act in your interest
+              - text: ", and only a fee-only RIA has no product-linked incentive."
+              - strong [ref=e246]: CFP
+              - text: and
+              - strong [ref=e247]: CFA
+              - text: are credentials, not regulatory registrations; a CFP may or may not be an RIA.
+          - paragraph [ref=e248]: "There is countervailing evidence: advisors demonstrably help people avoid behavioural errors, with Vanguard estimating that value at around 150 basis points a year. That value is real. It is also entirely separable from product commission."
+          - paragraph [ref=e249]:
+            - strong [ref=e250]: Verify an RIA registration
+            - text: on the SEBI website before engaging one.
+          - separator [ref=e251]
+          - heading "14.3 Projecting a goal" [level=2] [ref=e252]
+          - paragraph [ref=e253]: "The mechanics are the same regardless of the goal:"
+          - code [ref=e255]: 1. Define the target amount, in today's rupees 2. Inflate it to the target date 3. Choose a realistic return for that time horizon 4. Solve for the required monthly contribution
+          - heading "Inflation assumptions for India" [level=3] [ref=e256]
+          - table [ref=e258]:
+            - rowgroup [ref=e259]:
+              - row [ref=e260]:
+                - columnheader "Category" [ref=e261]
+                - columnheader "Approximate long-run inflation" [ref=e262]
+            - rowgroup [ref=e263]:
+              - row [ref=e264]:
+                - cell "General (CPI)" [ref=e265]
+                - cell [ref=e266]:
+                  - text: RBI projects
+                  - strong [ref=e267]: 5.0% for FY 2026-27
+              - row [ref=e268]:
+                - cell "Education" [ref=e269]
+                - cell "Generally cited as running above general inflation" [ref=e270]
+              - row [ref=e271]:
+                - cell "Healthcare" [ref=e272]
+                - cell "Consistently cited as running well above general inflation" [ref=e273]
+              - row [ref=e274]:
+                - cell "Property, metro" [ref=e275]
+                - cell "Highly variable by city and micro-market" [ref=e276]
+          - paragraph [ref=e277]: Use general CPI for undifferentiated spending, and higher figures for education and healthcare specifically.
+          - heading "Return assumptions by horizon" [level=3] [ref=e278]
+          - paragraph [ref=e279]: "The horizon should determine the asset, not the reverse:"
+          - table [ref=e281]:
+            - rowgroup [ref=e282]:
+              - row [ref=e283]:
+                - columnheader "Horizon" [ref=e284]
+                - columnheader "Character of the goal" [ref=e285]
+                - columnheader "Where the money can sit" [ref=e286]
+            - rowgroup [ref=e287]:
+              - row [ref=e288]:
+                - cell [ref=e289]:
+                  - strong [ref=e290]: Under 1 year
+                - cell "Emergency fund, insurance premiums, a planned trip" [ref=e291]
+                - cell "Savings, sweep-in FD, liquid fund" [ref=e292]
+              - row [ref=e293]:
+                - cell [ref=e294]:
+                  - strong [ref=e295]: 1–3 years
+                - cell "Car, wedding, house down payment near-term" [ref=e296]
+                - cell "FD, short-duration debt, arbitrage funds" [ref=e297]
+              - row [ref=e298]:
+                - cell [ref=e299]:
+                  - strong [ref=e300]: 3–7 years
+                - cell "House down payment, higher education" [ref=e301]
+                - cell "Hybrid; a modest equity component" [ref=e302]
+              - row [ref=e303]:
+                - cell [ref=e304]:
+                  - strong [ref=e305]: 7+ years
+                - cell "Children's education, retirement" [ref=e306]
+                - cell "Equity-dominated" [ref=e307]
+          - paragraph [ref=e308]:
+            - strong [ref=e309]: "The rule underlying this:"
+            - text: money you will need on a fixed date within three years should not be exposed to equity, because the historical record shows multi-year negative periods. Money you will not need for a decade should not sit in cash, because inflation is a certainty and volatility is not a loss until you sell.
+          - heading "The formula" [level=3] [ref=e310]
+          - code [ref=e312]: FV × i Monthly SIP = ───────────────────── ((1+i)^n − 1) × (1+i)
+          - paragraph [ref=e313]:
+            - text: where
+            - code [ref=e314]: i
+            - text: is the monthly return and
+            - code [ref=e315]: "n"
+            - text: the number of months.
+            - code [ref=e316]: PMT()
+            - text: in a spreadsheet.
+          - paragraph [ref=e317]:
+            - strong [ref=e318]: "Worked:"
+            - text: a ₹40 lakh target in 10 years at 12% requires roughly
+            - strong [ref=e319]: ₹17,400 a month
+            - text: . The same target in 5 years requires roughly
+            - strong [ref=e320]: ₹48,800 a month
+            - text: — because compounding has had less time to do the work, so contributions must do more of it.
+          - separator [ref=e321]
+          - heading "14.4 The common goals" [level=2] [ref=e322]
+          - heading "Emergency fund" [level=3] [ref=e323]
+          - paragraph [ref=e324]:
+            - text: Covered in
+            - link "§1.5" [ref=e325] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+            - text: . 3–6 months of expenses, liquid and safe, first to fill and first to refill.
+          - heading "Wedding" [level=3] [ref=e326]
+          - paragraph [ref=e327]:
+            - text: Frequently the largest discretionary outflow in an Indian engineer's twenties or thirties, often part-funded by family, and almost always on a known date. That makes it a
+            - strong [ref=e328]: short-to-medium-term goal with a hard deadline
+            - text: — which rules out equity in the final couple of years. The most common error is running the wedding fund in equity until three months before.
+          - heading "Car" [level=3] [ref=e329]
+          - paragraph [ref=e330]:
+            - text: A
+            - strong [ref=e331]: depreciating asset
+            - text: . It belongs on the balance sheet at falling value, and the total cost of ownership — insurance, fuel, maintenance, parking — typically exceeds the EMI over the holding period.
+          - heading "Supporting parents" [level=3] [ref=e332]
+          - paragraph [ref=e333]:
+            - text: Recurring transfers to parents are a standard feature of Indian household finance and are absent from Western templates. They belong in the budget as a
+            - strong [ref=e334]: fixed line
+            - text: ", and their likely growth — particularly healthcare — belongs in long-term projections. Health insurance for parents is addressed in"
+            - link "§9.5" [ref=e335] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/insurance
+            - text: .
+          - heading "Children's education" [level=3] [ref=e336]
+          - paragraph [ref=e337]:
+            - text: "The pattern is consistent across countries: education costs have risen faster than general inflation, and"
+            - strong [ref=e338]: the time frame is short
+            - text: . You have 40–50 years to fund retirement; you have 18 for a child's undergraduate degree, which is not long enough for compounding to do most of the work.
+          - paragraph [ref=e339]:
+            - text: India has no equivalent of the US 529 plan. The available vehicles are the ordinary ones — equity mutual funds for the long horizon, plus
+            - strong [ref=e340]: SSY at 8.2% EEE
+            - text: for a girl child, which is the only education-linked instrument with a tax advantage.
+          - heading "Retirement" [level=3] [ref=e341]
+          - paragraph [ref=e342]: "It decomposes into four interrelated problems: projecting income over 40+ years, replacing income for 30+ years, tax efficiency, and planning for more than one person."
+          - paragraph [ref=e343]:
+            - strong [ref=e344]: The 4% rule
+            - text: "— withdrawing 4% of the initial corpus in year one and adjusting for inflation thereafter — is the standard first approximation. It derives from US historical data on a US portfolio with US inflation. Applying it to India requires stating the differences:"
+          - list [ref=e345]:
+            - listitem [ref=e346]:
+              - strong [ref=e347]: Inflation has been structurally higher in India
+              - text: than in the US over the relevant history.
+            - listitem [ref=e348]:
+              - strong [ref=e349]: The Indian equity data series is much shorter
+              - text: ", so the statistical confidence is correspondingly lower."
+            - listitem [ref=e350]:
+              - strong [ref=e351]: There is no universal state pension.
+              - text: EPS pays a few thousand rupees a month (see
+              - link "§7.9" [ref=e352] [cursor=pointer]:
+                - /url: /articles/personal-finance-india/epf-eps-form-11
+              - text: ). There is no Social Security equivalent.
+            - listitem [ref=e353]:
+              - strong [ref=e354]: Healthcare costs in retirement are borne privately
+              - text: ", and health insurance premiums rise steeply with age."
+          - paragraph [ref=e355]: "The 4% rule is therefore a starting point for the arithmetic, not a conclusion. The underlying identity is unchanged and is worth stating plainly:"
+          - code [ref=e357]: Corpus required = annual expenses in retirement ÷ safe withdrawal rate
+          - paragraph [ref=e358]:
+            - text: At 4%, that is 25× annual expenses. At 3.5%, roughly 29×.
+            - strong [ref=e359]: The single largest lever is not the withdrawal rate — it is the annual expense figure
+            - text: ", which is why savings rate helps twice (see"
+            - link "§1.3" [ref=e360] [cursor=pointer]:
+              - /url: /articles/personal-finance-india/first-principles
+            - text: ).
+          - paragraph [ref=e361]:
+            - strong [ref=e362]: Asset location
+            - text: "matters alongside asset allocation: which instruments to hold in tax-exempt wrappers (EPF, PPF), which in tax-deferred ones (NPS), and which in taxable accounts."
+          - separator [ref=e363]
+          - heading "14.5 Real estate — the decision" [level=2] [ref=e364]
+          - paragraph [ref=e365]: The largest financial commitment most Indian households make, with the highest transaction costs and the strongest emotions attached.
+          - heading "Why people buy" [level=3] [ref=e366]
+          - list [ref=e367]:
+            - listitem [ref=e368]: They need somewhere to live
+            - listitem [ref=e369]: They want control over where they live for a long period
+            - listitem [ref=e370]: Emotional attachment to ownership — in India, frequently reinforced by family expectation
+            - listitem [ref=e371]: They believe it is a good investment
+          - heading "Why people rent" [level=3] [ref=e372]
+          - list [ref=e373]:
+            - listitem [ref=e374]: Flexibility of location
+            - listitem [ref=e375]: Reluctance to make a long-term financial and geographic commitment
+            - listitem [ref=e376]: Insufficient capital for a down payment
+            - listitem [ref=e377]: Simpler cash flow management
+          - separator [ref=e378]
+          - heading "14.6 The costs of buying in India" [level=2] [ref=e379]
+          - heading "At purchase" [level=3] [ref=e380]
+          - table [ref=e382]:
+            - rowgroup [ref=e383]:
+              - row [ref=e384]:
+                - columnheader "Cost" [ref=e385]
+                - columnheader "Typical" [ref=e386]
+            - rowgroup [ref=e387]:
+              - row [ref=e388]:
+                - cell [ref=e389]:
+                  - strong [ref=e390]: Down payment
+                - cell "10%–25% (see LTV limits below)" [ref=e391]
+              - row [ref=e392]:
+                - cell [ref=e393]:
+                  - strong [ref=e394]: Stamp duty
+                - cell [ref=e395]:
+                  - strong [ref=e396]: 5%–7% of the agreement value
+                  - text: ", varies by state; several states offer a concession for women buyers"
+              - row [ref=e397]:
+                - cell [ref=e398]:
+                  - strong [ref=e399]: Registration charge
+                - cell "~1%" [ref=e400]
+              - row [ref=e401]:
+                - cell [ref=e402]:
+                  - strong [ref=e403]: GST — under-construction
+                - cell [ref=e404]:
+                  - strong [ref=e405]: 5%
+                  - text: (1% for affordable housing)
+              - row [ref=e406]:
+                - cell [ref=e407]:
+                  - strong [ref=e408]: GST — ready-to-move with completion certificate
+                - cell [ref=e409]:
+                  - strong [ref=e410]: Nil
+              - row [ref=e411]:
+                - cell [ref=e412]:
+                  - strong [ref=e413]: Brokerage
+                - cell "1%–2%, where a broker is involved" [ref=e414]
+              - row [ref=e415]:
+                - cell [ref=e416]:
+                  - strong [ref=e417]: Legal and technical due diligence
+                - cell "₹15,000–₹50,000" [ref=e418]
+              - row [ref=e419]:
+                - cell [ref=e420]:
+                  - strong [ref=e421]: Home loan processing fee
+                - cell "0.25%–1% of the loan" [ref=e422]
+          - paragraph [ref=e423]:
+            - strong [ref=e424]: Stamp duty and registration alone run to 6%–8% of the property value
+            - text: ", and are payable in cash on top of the down payment. This is the most consistently underestimated line in an Indian property purchase."
+          - heading "Ongoing" [level=3] [ref=e425]
+          - table [ref=e427]:
+            - rowgroup [ref=e428]:
+              - row [ref=e429]:
+                - columnheader "Cost" [ref=e430]
+                - columnheader "Typical" [ref=e431]
+            - rowgroup [ref=e432]:
+              - row [ref=e433]:
+                - cell "Property tax" [ref=e434]
+                - cell "Municipal, varies widely; generally modest relative to the US" [ref=e435]
+              - row [ref=e436]:
+                - cell [ref=e437]:
+                  - strong [ref=e438]: Society maintenance / CAM
+                - cell "₹2–₹6 per sq ft per month in metros — for a 1,200 sq ft flat, ₹2,400–₹7,200 a month" [ref=e439]
+              - row [ref=e440]:
+                - cell "Home insurance" [ref=e441]
+                - cell "Low; structure cover is inexpensive" [ref=e442]
+              - row [ref=e443]:
+                - cell [ref=e444]:
+                  - strong [ref=e445]: Maintenance and repairs
+                - cell "Commonly estimated at ~1% of property value a year" [ref=e446]
+              - row [ref=e447]:
+                - cell [ref=e448]:
+                  - strong [ref=e449]: Sinking fund / corpus contributions
+                - cell "Society-levied, periodic" [ref=e450]
+          - heading "At sale" [level=3] [ref=e451]
+          - table [ref=e453]:
+            - rowgroup [ref=e454]:
+              - row [ref=e455]:
+                - columnheader "Cost" [ref=e456]
+                - columnheader "Typical" [ref=e457]
+            - rowgroup [ref=e458]:
+              - row [ref=e459]:
+                - cell "Brokerage" [ref=e460]
+                - cell "1%–2%" [ref=e461]
+              - row [ref=e462]:
+                - cell [ref=e463]:
+                  - strong [ref=e464]: Capital gains tax
+                - cell "See §14.8" [ref=e465]
+              - row [ref=e466]:
+                - cell [ref=e467]:
+                  - strong [ref=e468]: TDS deducted by the buyer
+                - cell "1% of consideration under Section 194-IA (formerly) where the value exceeds ₹50 lakh" [ref=e469]
+          - separator [ref=e470]
+          - heading "14.7 Home loan eligibility" [level=2] [ref=e471]
+          - paragraph [ref=e472]: "Banks assess two things:"
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - strong [ref=e475]: Do you have the down payment?
+              - text: — the asset test
+            - listitem [ref=e476]:
+              - strong [ref=e477]: Will your income cover the EMI?
+              - text: — the cash flow test
+          - heading "Loan-to-value limits" [level=3] [ref=e478]
+          - paragraph [ref=e479]: "RBI norms cap LTV by loan size:"
+          - table [ref=e481]:
+            - rowgroup [ref=e482]:
+              - row [ref=e483]:
+                - columnheader "Property value" [ref=e484]
+                - columnheader "Maximum LTV" [ref=e485]
+                - columnheader "Minimum down payment" [ref=e486]
+            - rowgroup [ref=e487]:
+              - row [ref=e488]:
+                - cell "Up to ₹30 lakh" [ref=e489]
+                - cell "90%" [ref=e490]
+                - cell "10%" [ref=e491]
+              - row [ref=e492]:
+                - cell "₹30–75 lakh" [ref=e493]
+                - cell "80%" [ref=e494]
+                - cell "20%" [ref=e495]
+              - row [ref=e496]:
+                - cell "Above ₹75 lakh" [ref=e497]
+                - cell "75%" [ref=e498]
+                - cell "25%" [ref=e499]
+          - paragraph [ref=e500]:
+            - strong [ref=e501]: Stamp duty and registration are excluded from the property value for LTV purposes
+            - text: ", so they must be funded entirely from your own capital."
+          - heading "FOIR" [level=3] [ref=e502]
+          - paragraph [ref=e503]:
+            - text: Lenders apply a
+            - strong [ref=e504]: Fixed Obligation to Income Ratio
+            - text: — total EMIs, including the proposed one, as a proportion of net monthly income. Typical ceilings are
+            - strong [ref=e505]: 50%–60%
+            - text: ", tightening at lower incomes and loosening at higher ones. Existing EMIs, including a car loan and any credit card minimum, reduce the amount you can borrow."
+          - paragraph [ref=e506]:
+            - text: Your
+            - strong [ref=e507]: credit score directly determines your rate.
+            - text: Lenders reserve their best pricing — currently around 7.25%–7.50% — for applicants scoring 750 or above.
+          - paragraph [ref=e508]:
+            - strong [ref=e509]: Shop within a short window.
+            - text: Multiple loan applications generate multiple hard enquiries; concentrating them into a two-week period limits the impact on your score.
+          - separator [ref=e510]
+          - heading "14.8 Property and tax" [level=2] [ref=e511]
+          - heading "While you own" [level=3] [ref=e512]
+          - table [ref=e514]:
+            - rowgroup [ref=e515]:
+              - row [ref=e516]:
+                - columnheader "Situation" [ref=e517]
+                - columnheader "Old regime" [ref=e518]
+                - columnheader "New regime" [ref=e519]
+            - rowgroup [ref=e520]:
+              - row [ref=e521]:
+                - cell "Self-occupied — interest under Section 22 (formerly 24(b))" [ref=e522]
+                - cell "Up to ₹2,00,000/yr" [ref=e523]
+                - cell [ref=e524]:
+                  - strong [ref=e525]: Not available
+              - row [ref=e526]:
+                - cell "Self-occupied — principal under Section 123 (formerly 80C)" [ref=e527]
+                - cell "Within ₹1,50,000" [ref=e528]
+                - cell [ref=e529]:
+                  - strong [ref=e530]: Not available
+              - row [ref=e531]:
+                - cell "Let out — interest" [ref=e532]
+                - cell [ref=e533]:
+                  - strong [ref=e534]: No limit
+                  - text: ; loss set-off against other income capped at ₹2,00,000/yr
+                - cell "Same" [ref=e535]
+              - row [ref=e536]:
+                - cell "Let out — standard deduction on rental income" [ref=e537]
+                - cell "30% of net annual value" [ref=e538]
+                - cell "Same" [ref=e539]
+          - paragraph [ref=e540]:
+            - strong [ref=e541]: Rental income
+            - text: is taxable after municipal taxes paid and the 30% standard deduction.
+          - heading "When you sell" [level=3] [ref=e542]
+          - table [ref=e544]:
+            - rowgroup [ref=e545]:
+              - row [ref=e546]:
+                - columnheader "Holding period" [ref=e547]
+                - columnheader "Treatment" [ref=e548]
+            - rowgroup [ref=e549]:
+              - row [ref=e550]:
+                - cell [ref=e551]:
+                  - strong [ref=e552]: Up to 24 months
+                - cell [ref=e553]:
+                  - text: Short-term capital gain, taxed at
+                  - strong [ref=e554]: slab rate
+              - row [ref=e555]:
+                - cell [ref=e556]:
+                  - strong [ref=e557]: Over 24 months
+                - cell [ref=e558]:
+                  - text: Long-term capital gain, taxed at
+                  - strong [ref=e559]: 12.5% without indexation
+          - paragraph [ref=e560]:
+            - strong [ref=e561]: "Grandfathering:"
+            - text: for land or buildings acquired
+            - strong [ref=e562]: before 23 July 2024
+            - text: ", a resident individual or HUF may compute tax as the"
+            - strong [ref=e563]: lower of
+            - text: 12.5% without indexation and 20% with indexation.
+          - paragraph [ref=e564]:
+            - strong [ref=e565]: "Exemptions on reinvestment:"
+          - table [ref=e567]:
+            - rowgroup [ref=e568]:
+              - row [ref=e569]:
+                - columnheader "Provision" [ref=e570]
+                - columnheader "What it allows" [ref=e571]
+            - rowgroup [ref=e572]:
+              - row [ref=e573]:
+                - cell [ref=e574]:
+                  - strong [ref=e575]: Section 54
+                  - text: (formerly)
+                - cell "LTCG on a residential house reinvested in another residential house — purchase within 1 year before or 2 years after, or construction within 3 years. Capped at ₹10 crore" [ref=e576]
+              - row [ref=e577]:
+                - cell [ref=e578]:
+                  - strong [ref=e579]: Section 54F
+                  - text: (formerly)
+                - cell [ref=e580]:
+                  - text: LTCG on
+                  - strong [ref=e581]: any other
+                  - text: long-term asset reinvested in a residential house, subject to conditions on other property owned
+              - row [ref=e582]:
+                - cell [ref=e583]:
+                  - strong [ref=e584]: Section 54EC
+                  - text: (formerly)
+                - cell [ref=e585]:
+                  - text: LTCG on land or building invested in specified bonds (NHAI, REC, PFC, IRFC) within 6 months.
+                  - strong [ref=e586]: Capped at ₹50 lakh
+                  - text: ", 5-year lock-in"
+              - row [ref=e587]:
+                - cell [ref=e588]:
+                  - strong [ref=e589]: Capital Gains Account Scheme
+                - cell "Where reinvestment has not occurred by the return filing date, park the gain in a designated bank account to preserve the exemption" [ref=e590]
+          - separator [ref=e591]
+          - heading "14.9 Rent versus buy, with Indian numbers" [level=2] [ref=e592]
+          - paragraph [ref=e593]:
+            - text: The financial comparison turns on
+            - strong [ref=e594]: rental yield
+            - text: — annual rent as a percentage of property value — and its inverse, the
+            - strong [ref=e595]: price-to-rent ratio
+            - text: .
+          - heading "Gross rental yields, Q2 2026" [level=3] [ref=e596]
+          - table [ref=e598]:
+            - rowgroup [ref=e599]:
+              - row [ref=e600]:
+                - columnheader "City" [ref=e601]
+                - columnheader "Gross yield" [ref=e602]
+                - columnheader "Price-to-rent" [ref=e603]
+            - rowgroup [ref=e604]:
+              - row [ref=e605]:
+                - cell [ref=e606]:
+                  - strong [ref=e607]: Hyderabad
+                - cell "5.5%" [ref=e608]
+                - cell "~18×" [ref=e609]
+              - row [ref=e610]:
+                - cell [ref=e611]:
+                  - strong [ref=e612]: Pune
+                - cell "4.35%" [ref=e613]
+                - cell "~23×" [ref=e614]
+              - row [ref=e615]:
+                - cell [ref=e616]:
+                  - strong [ref=e617]: Mumbai
+                - cell "4.15% (prime areas 2.5%–3.0%)" [ref=e618]
+                - cell "~24× (prime 33×+)" [ref=e619]
+              - row [ref=e620]:
+                - cell [ref=e621]:
+                  - strong [ref=e622]: Bengaluru
+                - cell "3.6%" [ref=e623]
+                - cell "~28×" [ref=e624]
+              - row [ref=e625]:
+                - cell [ref=e626]:
+                  - strong [ref=e627]: Delhi NCR
+                - cell "3.2%" [ref=e628]
+                - cell "~31×" [ref=e629]
+              - row [ref=e630]:
+                - cell [ref=e631]:
+                  - strong [ref=e632]: National average
+                - cell [ref=e633]:
+                  - strong [ref=e634]: 5.16%
+                - cell "~19×" [ref=e635]
+          - heading "What the numbers imply" [level=3] [ref=e636]
+          - paragraph [ref=e637]: "Compare the rental yield against the mortgage rate and against alternative returns:"
+          - code [ref=e639]: Home loan rate ~7.25% – 8.50% Gross rental yield, major tech cities 3.2% – 5.5% Net rental yield (after maintenance, property tax, vacancy) roughly 1–2 percentage points lower
+          - paragraph [ref=e640]:
+            - strong [ref=e641]: In Bengaluru, Delhi NCR and prime Mumbai, the cost of borrowing exceeds the gross rental yield by a wide margin.
+            - text: The purchase is therefore financed by expected capital appreciation, not by the property's income. That may prove correct; it is a distinct bet from "renting is throwing money away."
+          - paragraph [ref=e642]:
+            - text: "A common framing:"
+            - strong [ref=e643]: below roughly 4% yield (above ~25× price-to-rent), renting and investing the difference has historically built more wealth; above roughly 5% yield (below ~20×), buying becomes financially competitive.
+            - text: That is a heuristic, not a law, and it is silent on everything non-financial.
+          - heading "The financial case for renting" [level=3] [ref=e644]
+          - list [ref=e645]:
+            - listitem [ref=e646]:
+              - strong [ref=e647]: Liquidity
+              - text: — capital is not locked in a down payment and forced principal repayments
+            - listitem [ref=e648]:
+              - strong [ref=e649]: Location flexibility
+              - text: — a fixed location can materially constrain career options in a country where tech employment concentrates in a handful of cities
+            - listitem [ref=e650]:
+              - strong [ref=e651]: Diversification
+              - text: — a house is typically 5–15× annual income concentrated in one asset, one city, one micro-market
+            - listitem [ref=e652]:
+              - strong [ref=e653]: No geographic market risk
+              - text: — some Indian micro-markets have appreciated enormously; others have been flat for a decade
+            - listitem [ref=e654]:
+              - strong [ref=e655]: Maintenance is the owner's problem
+            - listitem [ref=e656]:
+              - strong [ref=e657]: Competitive market
+              - text: — rents broadly track wage inflation, with competition between landlords
+          - heading "The financial case for owning" [level=3] [ref=e658]
+          - list [ref=e659]:
+            - listitem [ref=e660]:
+              - strong [ref=e661]: Leverage
+              - text: — most of the investment is made with a loan at 5×–10× leverage, and the gains accrue to you, not the bank
+            - listitem [ref=e662]:
+              - strong [ref=e663]: Forced saving
+              - text: — the down payment cannot easily be spent, and principal repayment is a monthly savings commitment.
+              - strong [ref=e664]: this, rather than appreciation, is the primary reason real estate builds wealth for most people
+            - listitem [ref=e665]:
+              - strong [ref=e666]: Tax advantages
+              - text: — Section 22 and Section 123, in the old regime
+            - listitem [ref=e667]:
+              - strong [ref=e668]: Long-run positive real return
+              - text: ", with lower volatility than equities across most long-run studies"
+            - listitem [ref=e669]:
+              - strong [ref=e670]: Control
+              - text: — you decide what to improve and when
+            - listitem [ref=e671]:
+              - strong [ref=e672]: Optional rental income
+              - text: later, which rises with inflation
+            - listitem [ref=e673]:
+              - strong [ref=e674]: Long holding periods
+              - text: — people hold homes far longer than they hold financial assets, which gives compounding more time and removes the temptation to trade
+          - heading "The non-financial factors" [level=3] [ref=e675]
+          - paragraph [ref=e676]: "These frequently dominate the financial arithmetic: high transaction costs make short holding periods risky; a fixed location limits career opportunity; community and schools matter; for most people it is the single largest investment they will make; and many people hold strong beliefs about it that are not financial in origin."
+          - paragraph [ref=e677]:
+            - text: In India, add
+            - strong [ref=e678]: family expectation
+            - text: ", which is a real input into the decision even though it does not appear in any spreadsheet."
+          - separator [ref=e679]
+          - heading "14.10 Rental property as an investment" [level=2] [ref=e680]
+          - code [ref=e682]: Capitalisation rate = net operating income ÷ market value
+          - paragraph [ref=e683]:
+            - strong [ref=e684]: "Why people are drawn to it:"
+            - text: most fixed costs are incurred up front while rental income rises with inflation; paying off the mortgage leaves an asset producing inflation-adjusted income; it is tangible and comprehensible in a way that financial markets are not; and it carries some of the psychological satisfactions of owning a business.
+          - paragraph [ref=e685]:
+            - strong [ref=e686]: "What it actually involves:"
+          - list [ref=e687]:
+            - listitem [ref=e688]:
+              - strong [ref=e689]: Time.
+              - text: It is a second job, with unpredictable demands.
+            - listitem [ref=e690]:
+              - strong [ref=e691]: Cash flow.
+              - text: It is easy to own something profitable over twenty years and cash-flow negative for the first five.
+            - listitem [ref=e692]:
+              - strong [ref=e693]: Vacancy.
+              - text: Expensive and unpredictable.
+            - listitem [ref=e694]:
+              - strong [ref=e695]: Tenants.
+              - text: Finding them, managing them, replacing them.
+            - listitem [ref=e696]:
+              - strong [ref=e697]: Legal exposure.
+              - text: Tenancy law varies by state; eviction can be slow and expensive. India's Model Tenancy Act, 2021 has been adopted by only some states.
+          - paragraph [ref=e698]: "Tax treatment is more business-like: rental income less municipal taxes less a 30% standard deduction, plus full interest deduction, with the set-off of house property loss against other income capped at ₹2 lakh a year."
+          - paragraph [ref=e699]:
+            - strong [ref=e700]: REITs
+            - text: offer exposure to commercial real estate through a listed, liquid instrument. Several are listed in India. Distributions have a mixed tax character depending on the component (interest, dividend, or return of capital), which makes their taxation more complex than that of equity.
+          - separator [ref=e701]
+          - heading "14.11 Planning with a partner" [level=2] [ref=e702]
+          - paragraph [ref=e703]: Financial planning is hard alone and considerably harder jointly, because two people bring different timelines, priorities and possibilities. Money is among the most commonly cited sources of relationship breakdown.
+          - heading "Account structures" [level=3] [ref=e704]
+          - paragraph [ref=e705]: "Three structures are common, and none of them solves the underlying problem:"
+          - table [ref=e707]:
+            - rowgroup [ref=e708]:
+              - row [ref=e709]:
+                - columnheader "Structure" [ref=e710]
+                - columnheader "How it works" [ref=e711]
+            - rowgroup [ref=e712]:
+              - row [ref=e713]:
+                - cell [ref=e714]:
+                  - strong [ref=e715]: One account
+                - cell "Fully shared" [ref=e716]
+              - row [ref=e717]:
+                - cell [ref=e718]:
+                  - strong [ref=e719]: Two accounts
+                - cell "Separate, with coordination on bill payment" [ref=e720]
+              - row [ref=e721]:
+                - cell [ref=e722]:
+                  - strong [ref=e723]: Three accounts
+                - cell "Two personal plus one joint for shared expenses" [ref=e724]
+          - paragraph [ref=e725]:
+            - strong [ref=e726]: The core issue is communication and values, not account architecture.
+            - text: "A useful convention that costs nothing: agree a rupee threshold above which any expenditure is discussed first."
+          - heading "What stays individual in India" [level=3] [ref=e727]
+          - list [ref=e728]:
+            - listitem [ref=e729]:
+              - strong [ref=e730]: EPF, EPS and NPS accounts are individual.
+              - text: They cannot be jointly held.
+            - listitem [ref=e731]:
+              - strong [ref=e732]: Equity compensation is individual.
+            - listitem [ref=e733]:
+              - strong [ref=e734]: PPF accounts are individual
+              - text: ", and the ₹1.5 lakh annual limit applies per individual — a couple can hold two."
+            - listitem [ref=e735]:
+              - text: Bank accounts, demat accounts and mutual fund folios
+              - strong [ref=e736]: can
+              - text: be joint.
+          - heading "Joint liability" [level=3] [ref=e737]
+          - paragraph [ref=e738]:
+            - strong [ref=e739]: Being a co-borrower on a loan means joint and several liability for the whole amount
+            - text: ", not half of it. Co-signing for anyone — spouse, parent, sibling, friend — makes their default your default, and their missed payment appears on your credit report."
+          - paragraph [ref=e740]:
+            - text: Where a couple co-owns and co-borrows on a home loan,
+            - strong [ref=e741]: each may claim the full Section 22 and Section 123 limits independently
+            - text: ", which is one of the few genuine tax advantages of joint ownership."
+          - heading "Clubbing of income" [level=3] [ref=e742]
+          - paragraph [ref=e743]:
+            - text: Income from assets you
+            - strong [ref=e744]: gift
+            - text: to your spouse, or to a minor child, is generally
+            - strong [ref=e745]: clubbed back into your income
+            - text: for tax purposes. Transferring investments to a lower-earning spouse does not shift the tax liability. Assets given to a
+            - strong [ref=e746]: major child
+            - text: or to parents are not subject to clubbing.
+          - separator [ref=e747]
+          - heading "14.12 Nomination is not inheritance" [level=2] [ref=e748]
+          - paragraph [ref=e749]: The most consequential misunderstanding in Indian personal finance, and one that only surfaces at the worst possible moment.
+          - blockquote [ref=e750]:
+            - paragraph [ref=e751]:
+              - strong [ref=e752]: A nominee is a trustee, not an owner.
+          - paragraph [ref=e753]:
+            - text: A nomination determines
+            - strong [ref=e754]: who the institution may pay
+            - text: . It does not determine
+            - strong [ref=e755]: who is legally entitled to keep
+            - text: the money. The nominee receives the asset and holds it for the legal heirs as determined by succession law or by a will.
+          - paragraph [ref=e756]: There are limited statutory exceptions — notably for certain insurance nominations to specified close relatives, and for shares under the Companies Act — where the nominee's position is stronger. The general rule holds for bank accounts, mutual funds, EPF and most other assets.
+          - heading "What follows" [level=3] [ref=e757]
+          - table [ref=e759]:
+            - rowgroup [ref=e760]:
+              - row [ref=e761]:
+                - columnheader "Asset" [ref=e762]
+                - columnheader "Nominate where?" [ref=e763]
+            - rowgroup [ref=e764]:
+              - row [ref=e765]:
+                - cell "Bank accounts" [ref=e766]
+                - cell "Each bank" [ref=e767]
+              - row [ref=e768]:
+                - cell "Fixed deposits" [ref=e769]
+                - cell "Each deposit" [ref=e770]
+              - row [ref=e771]:
+                - cell [ref=e772]:
+                  - strong [ref=e773]: EPF, EPS, EDLI
+                - cell "EPFO e-nomination — covers all three" [ref=e774]
+              - row [ref=e775]:
+                - cell [ref=e776]:
+                  - strong [ref=e777]: NPS
+                - cell "On the PRAN" [ref=e778]
+              - row [ref=e779]:
+                - cell "Mutual funds" [ref=e780]
+                - cell "Each folio, or across folios via the registrar" [ref=e781]
+              - row [ref=e782]:
+                - cell "Demat account" [ref=e783]
+                - cell "With the depository participant" [ref=e784]
+              - row [ref=e785]:
+                - cell "Insurance policies" [ref=e786]
+                - cell "Each policy" [ref=e787]
+              - row [ref=e788]:
+                - cell "PPF" [ref=e789]
+                - cell "At the post office or bank" [ref=e790]
+          - heading "Succession without a will" [level=3] [ref=e791]
+          - paragraph [ref=e792]: "If you die intestate, distribution follows statute:"
+          - list [ref=e793]:
+            - listitem [ref=e794]:
+              - strong [ref=e795]: Hindus, Buddhists, Jains, Sikhs
+              - text: — the Hindu Succession Act, 1956
+            - listitem [ref=e796]:
+              - strong [ref=e797]: Muslims
+              - text: — personal law
+            - listitem [ref=e798]:
+              - strong [ref=e799]: Christians, Parsis and others
+              - text: — the Indian Succession Act, 1925
+            - listitem [ref=e800]:
+              - strong [ref=e801]: Anyone
+              - text: who married under the Special Marriage Act, 1954 — the Indian Succession Act
+          - paragraph [ref=e802]: These outcomes may differ substantially from what you would have chosen.
+          - heading "A will" [level=3] [ref=e803]
+          - list [ref=e804]:
+            - listitem [ref=e805]:
+              - text: Must be in writing, signed by you, and attested by
+              - strong [ref=e806]: two witnesses
+              - text: who are not beneficiaries.
+            - listitem [ref=e807]:
+              - strong [ref=e808]: Registration is optional
+              - text: in India, but registering it reduces the scope for later dispute.
+            - listitem [ref=e809]: Can be changed or revoked at any time while you are of sound mind.
+            - listitem [ref=e810]:
+              - strong [ref=e811]: Probate
+              - text: is required in certain jurisdictions and circumstances.
+          - paragraph [ref=e812]: A simple will costs very little and resolves an enormous amount. Most Indian engineers do not have one, and the most common reason given — "I do not have enough assets to need one" — is usually already untrue by the time it is said, once EPF, NPS, equity and a flat are counted.
+          - separator [ref=e813]
+          - heading "14.13 Checklist" [level=2] [ref=e814]
+          - list [ref=e815]:
+            - listitem [ref=e816]:
+              - checkbox [disabled] [ref=e817]
+              - text: Write down each goal with a
+              - strong [ref=e818]: target amount and a date
+            - listitem [ref=e819]:
+              - checkbox [disabled] [ref=e820]
+              - text: Match the
+              - strong [ref=e821]: asset to the horizon
+              - text: — nothing needed within three years should sit in equity
+            - listitem [ref=e822]:
+              - checkbox [disabled] [ref=e823]
+              - text: Verify any advisor's
+              - strong [ref=e824]: SEBI RIA registration
+              - text: ", and establish who pays them"
+            - listitem [ref=e825]:
+              - checkbox [disabled] [ref=e826]
+              - text: If comparing rent versus buy, compute the
+              - strong [ref=e827]: rental yield
+              - text: for your specific micro-market, not the city average
+            - listitem [ref=e828]:
+              - checkbox [disabled] [ref=e829]
+              - text: Include
+              - strong [ref=e830]: stamp duty, registration and GST
+              - text: in any purchase calculation — 6%–8% before you begin
+            - listitem [ref=e831]:
+              - checkbox [disabled] [ref=e832]
+              - text: Note that a self-occupied home loan carries
+              - strong [ref=e833]: no tax benefit in the new regime
+            - listitem [ref=e834]:
+              - checkbox [disabled] [ref=e835]
+              - text: File a
+              - strong [ref=e836]: nomination
+              - text: on every account, policy, folio, PRAN and EPF record
+            - listitem [ref=e837]:
+              - checkbox [disabled] [ref=e838]
+              - text: Understand that a
+              - strong [ref=e839]: nominee is a trustee, not an heir
+            - listitem [ref=e840]:
+              - checkbox [disabled] [ref=e841]
+              - strong [ref=e842]: Write a will
+            - listitem [ref=e843]:
+              - checkbox [disabled] [ref=e844]
+              - text: If you have a partner, agree the
+              - strong [ref=e845]: threshold above which expenditure is discussed
+        - navigation "Chapter navigation" [ref=e846]:
+          - link "Previous Fixed income, gold & crypto" [ref=e847] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/fixed-income-and-gold
+            - generic [ref=e848]: Previous
+            - generic [ref=e849]: Fixed income, gold & crypto
+          - link "Next The numbers page" [ref=e850] [cursor=pointer]:
+            - /url: /articles/personal-finance-india/numbers
+            - generic [ref=e851]: Next
+            - generic [ref=e852]: The numbers page
+  - contentinfo [ref=e853]:
+    - generic [ref=e859]:
+      - paragraph [ref=e860]: © 2026 Hardik Mittal. All rights reserved.
+      - paragraph [ref=e861]: Last updated in August 2026.
